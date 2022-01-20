@@ -1,0 +1,154 @@
+\documentclass[11pt,a4paper,twoside]{book}
+\usepackage[top=30mm, bottom=30mm, inner=30mm, outer=30mm, footskip = 15mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[greek,english]{babel}
+\usepackage{alphabeta}
+
+\usepackage{setspace}
+\doublespacing
+% Colors:
+% Blue-ish: 8FC2FF
+% Yellow-ish: FFE599
+% Red-ish: FF9999
+% Brown-ish: E5C07B
+% Blue/Green-ish: 397880
+
+\setcounter{secnumdepth}{3}
+\usepackage{listings}
+\usepackage{color}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{subcaption}
+\usepackage{balance}
+\usepackage{stfloats}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{stfloats}
+\usepackage{pdflscape}
+\usepackage{pgfplots}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{dashrule}
+\usepackage{pgfplots}
+\usepackage{subcaption}
+\pgfplotsset{compat=1.8}
+\usepgfplotslibrary{statistics}
+\usetikzlibrary{calc}
+\usepackage{gnuplot-lua-tikz}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\newcommand*{\addheight}[2][.5ex]{%
+  \raisebox{0pt}[\dimexpr\height+(#1)\relax]{#2}%
+}
+
+\definecolor{transfertoserver}{HTML}{D7191C}
+\definecolor{database}{HTML}{FDAE61}
+\definecolor{transfertoclient}{HTML}{ABDDA4}
+\definecolor{rendering}{HTML}{2B83BA}
+
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\renewcommand\thealgorithm{\Roman{algorithm}}
+
+% Italics for theorems
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\renewcommand\thetheorem{\Roman{theorem}}
+
+% Normal for all the rest
+\newtheorem{lemma}{Lemma}
+\renewcommand\thelemma{\Roman{lemma}}
+\newtheorem{corollary}{Corollary}
+\renewcommand\thecorollary{\Roman{corollary}}
+\theoremstyle{definition}
+\newtheorem{problem}{Problem}
+\renewcommand\theproblem{\Roman{problem}}
+\newtheorem{definition}{Definition}
+\renewcommand\thedefinition{\Roman{definition}}
+\newtheorem{remark}{Remark}
+\renewcommand\theremark{\Roman{remark}}
+\newtheorem{proposition}{Proposition}
+\renewcommand\theproposition{\Roman{proposition}}
+\newtheorem{objective}{Objective}
+\renewcommand\theobjective{\Roman{objective}}
+\newtheorem{operation}{Operation}
+\renewcommand\theoperation{\Roman{operation}}
+
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{keyword}{rgb}{0.5,0.5,0.5}
+\definecolor{greenCode}{rgb}{0, 0.6, 0}
+
+\lstdefinelanguage{HTTP}{
+  keywords={GET},
+  ndkeywords={PUT},
+  comment=[s]{PO}{T},
+  morecomment=[s]{D}{LETE}
+}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  language={HTTP},
+  breaklines=true,
+  frame=tb,
+  captionpos=b,
+  keywordstyle=\bfseries\color{greenCode},
+  ndkeywordstyle=\bfseries\color{red},
+  commentstyle=\bfseries\color{magenta},
+  stringstyle=\bfseries\color{black},
+  xleftmargin={0.75cm},
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  numbers=left,
+  numberstyle=\small\color{black},
+}
+
+\lstset{escapechar=@,style=customc}
+
+%\ifCLASSINFOpdf
+   %\usepackage[pdftex]{graphicx}
+%\else
+%\fi
+
+\usepackage{flushend} % Equalize last page
+\usepackage[colorinlistoftodos]{todonotes}
+
+% BOXES
+\usepackage{environ}
+\NewEnviron{gg_box}{%
+  \begin{tcolorbox}[colback=black!5, colframe=white!80!, breakable]
+  %\begin{tcolorbox}[colback=white!10, colframe=black!30!, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\NewEnviron{bw_box}{%
+  \begin{tcolorbox}[colback=white!10, colframe=black!80!, arc=0pt,outer arc=0pt, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\NewEnviron{gw_box}{%
+  \begin{tcolorbox}[colback=white!10, colframe=black!10!, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+\NewEnviron{bg_box}{%
+  \begin{tcolorbox}[colback=black!10, colframe=black!80!, arc=0pt,outer arc=0pt, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+

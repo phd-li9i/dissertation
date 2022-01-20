@@ -1,0 +1,87 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'roadmap.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%%
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{527.2bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.30474971)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/roadmap.pdf}}%
+    \put(0.72685888,0.72382407){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.60318665,0.81790601){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.91274659,0.73141132){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.80500759,0.81562983){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.72230653,1.10015184){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.57587253,1.18361163){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.22534143,0.50227627){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(-0.02807284,0.65402134){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.70134901,0.38695002){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.57767678,0.48103196){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.89785888,0.39150237){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.79011988,0.47572088){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.16995448,0.06069812){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.02503794,0.14719281){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.45902883,0.06069812){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
+    \put(0.32701062,0.15705624){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
+    \put(0.43716237,1.21823985){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Παρατήρηση }}}%
+    \put(0.43716237,1.18687917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σφάλματων }}}%
+    \put(0.43716237,1.15551854){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{εκτίμησης}}}%
+    \put(0.43716237,1.12415788){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{στάσης}}}%
+    \put(0.40074355,0.9490289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Παρατηρήσεις}}}%
+    \put(0.40074355,0.91766825){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ευαισθησίας λύσης }}}%
+    \put(0.40074355,0.88630761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε παραμέτρους }}}%
+    \put(0.40074355,0.85494694){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{και θόρυβο}}}%
+    \put(0.40074355,0.8235863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{λόγω αντιστοιχιών}}}%
+    \put(0.70057663,0.63643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
+    \put(0.70057663,0.60507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
+    \put(0.00531108,1.005747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
+    \put(0.59408194,0.714603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{B}}}%
+    \put(0.02959029,0.51652826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γ}}}%
+    \put(0.61077390,0.38239197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ}}}%
+    \put(0.05386950,0.01){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε}}}%
+    \put(0.19596358,0.35150237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
+  \end{picture}%
+\endgroup%
