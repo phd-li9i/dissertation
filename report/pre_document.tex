@@ -152,3 +152,33 @@
 }
 
 
+
+% Redefines cleardoublepage so as to remove headers/footers
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+\hbox{}
+\vspace*{\fill}
+\begin{center}
+%This page intentionally left
+\end{center}
+\vspace{\fill}
+\thispagestyle{empty}
+\newpage
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\raggedbottom
+
+% allows a break to occur anywhere
+\allowdisplaybreaks
+
+% insert blank page . . .
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+%. . . by calling \afterpage{\blankpage}

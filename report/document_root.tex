@@ -1,9 +1,23 @@
 \input{pre_document.tex}
 
 \begin{document}
+\selectlanguage{greek}
 
-\begin{figure}\hspace{-2cm}
-  \input{./figures/roadmap.pdf_tex}
-\end{figure}
+% Front page
+\input{./parts/00/01.title_page.tex}
+\input{./parts/00/02.filler.tex}
+\input{./parts/00/03.abstract.tex}
+\input{./parts/00/04.filler.tex}
+
+% ΕΙΣΑΓΩΓΗ ---------------------------------------------------------------------
+\part{Εισαγωγή}
+  \input{parts/01/chapters.tex}
+
+% ΟΙ ΜΕΘΟΔΟΙ -------------------------------------------------------------------
+\part{Προβλήματα---Λύσεις---Συμβολές}
+
+% ΣΥΜΠΕΡΑΣΜΑΤΑ -----------------------------------------------------------------
+\part{Συμπεράσματα}
+
 
 \end{document}

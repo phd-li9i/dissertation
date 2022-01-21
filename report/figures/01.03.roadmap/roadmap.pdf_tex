@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,1.30474971)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/roadmap.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/01.03.roadmap/roadmap.pdf}}%
     \put(0.72685888,0.72382407){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
     \put(0.60318665,0.81790601){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
     \put(0.91274659,0.73141132){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
