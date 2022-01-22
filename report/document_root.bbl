@@ -1,0 +1,93 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{ynt/global}
+    \entry{thrun2005probabilistic}{book}{}
+      \name{author}{3}{}{%
+        {{hash=5112ea130eadef0764fce0145b8b9f91}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{hash=98f4ab1bc2ac191d8f8a0651315ce9c0}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={Wolfram},
+           given_i={W\bibinitperiod}}}%
+        {{hash=93b0c4a7857a82a8f94e256475887c74}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={Dieter},
+           given_i={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, Mass.}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{cb3e97dbc1e8d4a631a5b656776c23d3}
+      \strng{fullhash}{cb3e97dbc1e8d4a631a5b656776c23d3}
+      \field{labelalpha}{TBF05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Probablistic robotics is a growing area in the subject, concerned with perception and control in the face of uncertainty and giving robots a level of robustness in real-world situations. This book introduces techniques and algorithms in the field.}
+      \field{isbn}{0262201623 9780262201629}
+      \field{title}{{Probabilistic robotics}}
+      \field{year}{2005}
+      \verb{url}
+      \verb http://www.amazon.de/gp/product/0262201623/102-8479661-9831324?v=glance%7B%5C&%7Dn=283155%7B%5C&%7Dn=507846%7B%5C&%7Ds=books%7B%5C&%7Dv=glance
+      \endverb
+      \keyw{SLAM localisation mapping robot topoi}
+    \endentry
+    \entry{liddell_scott}{book}{}
+      \name{author}{3}{}{%
+        {{hash=23541aa862395e1eb3d1b29b23231e2e}{%
+           family={Liddell},
+           family_i={L\bibinitperiod},
+           given={Henry.\bibnamedelimi G.},
+           given_i={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=03950826d69fe6afcf2bf1bb1d6d94c0}{%
+           family={Scott},
+           family_i={S\bibinitperiod},
+           given={Robert},
+           given_i={R\bibinitperiod}}}%
+        {{hash=0d6a7c47db88a04c11f8e8c40cfa175d}{%
+           family={Κωνσταντινίδου},
+           family_i={Κ\bibinitperiod},
+           given={Α.},
+           given_i={Α\bibinitperiod}}}%
+      }
+      \strng{namehash}{e886f374a396e7725d9572e84e7b8d74}
+      \strng{fullhash}{e886f374a396e7725d9572e84e7b8d74}
+      \field{labelalpha}{LSΚ07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Επιτομή του μεγάλου λεξικού της ελληνικής γλώσσης}
+      \field{year}{2007}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

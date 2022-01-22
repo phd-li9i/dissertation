@@ -13,10 +13,27 @@
 % Brown-ish: E5C07B
 % Blue/Green-ish: 397880
 
+%% greek in text but english in bibliography
+%% https://tex.stackexchange.com/questions/161934/while-writing-in-greek-i-need-to-keep-citations-and-bibliography-in-english/542844
+%\usepackage{biblatex}
+%\declarerobustcommand{\lcitep}[1]{%
+  %\textlatin{\citep{#1}}%
+%}
+%\makeatletter
+%\g@addto@macro{\bibsection}{\selectlanguage{english}}
+%\makeatother
+
+\usepackage[backend=biber,style=alphabetic,sorting=ynt,babel=other,bibencoding=utf8, language=autobib]{biblatex}
+\addbibresource{./parts/bibliography/bibliography.bib}
+\makeatletter
+\apptocmd\select@@language{\blx@langstrings}
+\makeatother
+
+
 \setcounter{secnumdepth}{3}
 \usepackage{listings}
 \usepackage{color}
-\usepackage[hidelinks]{hyperref}
+\usepackage[hidelinks,unicode]{hyperref}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsthm}
