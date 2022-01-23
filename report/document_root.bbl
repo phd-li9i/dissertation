@@ -87,6 +87,47 @@
       \field{title}{Επιτομή του μεγάλου λεξικού της ελληνικής γλώσσης}
       \field{year}{2007}
     \endentry
+    \entry{Beer2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=40291ec0e42a0cfc1ec41868a46e663a}{%
+           family={Beer},
+           family_i={B\bibinitperiod},
+           given={Jenay\bibnamedelima M},
+           given_i={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6e092599cd2ebfb6ecfd16bf9223fc11}{%
+           family={Fisk},
+           family_i={F\bibinitperiod},
+           given={Arthur\bibnamedelima D},
+           given_i={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9e97fd311b90d127d2b1d86f145ba42b}{%
+           family={Rogers},
+           family_i={R\bibinitperiod},
+           given={Wendy\bibnamedelima A},
+           given_i={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{19c9b07fb7dd2a228e389722910b34d0}
+      \strng{fullhash}{19c9b07fb7dd2a228e389722910b34d0}
+      \field{labelalpha}{BFR14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2163-0364}
+      \field{journaltitle}{Journal of Human-Robot Interaction}
+      \field{month}{06}
+      \field{number}{2}
+      \field{title}{{Toward a Framework for Levels of Robot Autonomy in Human-Robot Interaction}}
+      \field{volume}{3}
+      \field{year}{2014}
+      \field{pages}{74}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5898/JHRI.3.2.Beer
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=3109833
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

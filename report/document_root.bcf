@@ -2047,6 +2047,7 @@
   <bcf:section number="0">
     <bcf:citekey order="1">thrun2005probabilistic</bcf:citekey>
     <bcf:citekey order="2">liddell_scott</bcf:citekey>
+    <bcf:citekey order="3">Beer2014</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>
