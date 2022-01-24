@@ -1,17 +1,17 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
-[1] Config.pm:343> INFO - Logfile is 'document_root.blg'
-[78] biber:287> INFO - === Sun Jan 23, 2022, 20:12:41
-[265] Biber.pm:348> INFO - Reading 'document_root.bcf'
-[478] Biber.pm:742> INFO - Found 3 citekeys in bib section 0
-[487] Biber.pm:3151> INFO - Processing section 0
-[532] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
-[543] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[552] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
-[586] Utils.pm:147> WARN - ISBN '0262201623 9780262201629' in entry 'thrun2005probabilistic' is invalid - run biber with '--validate_datamodel' for details.
-[684] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[684] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[685] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[685] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[691] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
-[714] bbl.pm:615> INFO - Output to document_root.bbl
-[714] Biber.pm:109> INFO - WARNINGS: 1
+[0] Config.pm:343> INFO - Logfile is 'document_root.blg'
+[104] biber:287> INFO - === Mon Jan 24, 2022, 18:21:48
+[225] Biber.pm:348> INFO - Reading 'document_root.bcf'
+[424] Biber.pm:742> INFO - Found 7 citekeys in bib section 0
+[433] Biber.pm:3151> INFO - Processing section 0
+[475] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
+[507] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[533] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
+[568] Utils.pm:147> WARN - ISBN '0262201623 9780262201629' in entry 'thrun2005probabilistic' is invalid - run biber with '--validate_datamodel' for details.
+[842] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[843] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[843] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[843] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[857] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
+[914] bbl.pm:615> INFO - Output to document_root.bbl
+[914] Biber.pm:109> INFO - WARNINGS: 1

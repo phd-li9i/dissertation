@@ -87,6 +87,55 @@
       \field{title}{Επιτομή του μεγάλου λεξικού της ελληνικής γλώσσης}
       \field{year}{2007}
     \endentry
+    \entry{Oliver2012}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=a1082882a20d3d3b1da1a12093206b2d}{%
+           family={Oliver},
+           family_i={O\bibinitperiod},
+           given={Ayrton},
+           given_i={A\bibinitperiod}}}%
+        {{hash=2878f22766ae693397392f9c1721eee6}{%
+           family={Kang},
+           family_i={K\bibinitperiod},
+           given={Steven},
+           given_i={S\bibinitperiod}}}%
+        {{hash=f1a922d33ab39f91a306a869951b3b07}{%
+           family={Wünsche},
+           family_i={W\bibinitperiod},
+           given={Burkhard\bibnamedelima C.},
+           given_i={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=af6af157d4e97bbc1a7007be77b37473}{%
+           family={MacDonald},
+           family_i={M\bibinitperiod},
+           given={Bruce},
+           given_i={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM Press}%
+      }
+      \strng{namehash}{df1921c7ee7d494019fa64765b3c5e53}
+      \strng{fullhash}{5a1760d33323fbbb6cb97719976efcbf}
+      \field{labelalpha}{Oli+12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th Conference on Image and Vision Computing New Zealand - IVCNZ '12}
+      \field{isbn}{9781450314732}
+      \field{title}{{Using the Kinect as a navigation sensor for mobile robotics}}
+      \field{year}{2012}
+      \field{pages}{509\bibrangedash 514}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/2425836.2425932
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?doid=2425836.2425932
+      \endverb
+    \endentry
     \entry{Beer2014}{article}{}
       \name{author}{3}{}{%
         {{hash=40291ec0e42a0cfc1ec41868a46e663a}{%
@@ -126,6 +175,139 @@
       \endverb
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?id=3109833
+      \endverb
+    \endentry
+    \entry{Mallick2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0bd010628444ac98e4c6a1b69ae547ee}{%
+           family={Mallick},
+           family_i={M\bibinitperiod},
+           given={Tanwi},
+           given_i={T\bibinitperiod}}}%
+        {{hash=6c9ccf9b5a0bb1b2ffd7865694ce2022}{%
+           family={Das},
+           family_i={D\bibinitperiod},
+           given={Partha\bibnamedelima Pratim},
+           given_i={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ba352f34795acda28c9653328dbd9481}{%
+           family={Majumdar},
+           family_i={M\bibinitperiod},
+           given={Arun\bibnamedelima Kumar},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{13436a414ad174a9b37ad453b6cadac1}
+      \strng{fullhash}{13436a414ad174a9b37ad453b6cadac1}
+      \field{labelalpha}{MDM14}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1530-437X}
+      \field{journaltitle}{IEEE Sensors Journal}
+      \field{month}{06}
+      \field{number}{6}
+      \field{title}{{Characterizations of Noise in Kinect Depth Images: A Review}}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{pages}{1731\bibrangedash 1740}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JSEN.2014.2309987
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/6756961/
+      \endverb
+    \endentry
+    \entry{Qi2020}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8cd1a63d9fe27801b69862223283a0c5}{%
+           family={Qi},
+           family_i={Q\bibinitperiod},
+           given={Xianyu},
+           given_i={X\bibinitperiod}}}%
+        {{hash=f27ec46ccd272a021fd78bdac92dd490}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Wei},
+           given_i={W\bibinitperiod}}}%
+        {{hash=79367480ba2c773106e8e389c4105b8a}{%
+           family={Yuan},
+           family_i={Y\bibinitperiod},
+           given={Mei},
+           given_i={M\bibinitperiod}}}%
+        {{hash=408eb9bf4366e999165b41e1be99f4d3}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Yuliang},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=9f04f7aa3dda09871a10c5c0200a324b}{%
+           family={Li},
+           family_i={L\bibinitperiod},
+           given={Mingbo},
+           given_i={M\bibinitperiod}}}%
+        {{hash=a75064e9d24547948436c7845ed40d80}{%
+           family={Xue},
+           family_i={X\bibinitperiod},
+           given={Lin},
+           given_i={L\bibinitperiod}}}%
+        {{hash=3d5a0376ce0d74bbf15d2f808133d040}{%
+           family={Sun},
+           family_i={S\bibinitperiod},
+           given={Yingpin},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef79c8101888eb4df61b06f17bb4fe10}
+      \strng{fullhash}{683c4b91c45193946cd421926e300900}
+      \field{labelalpha}{Qi+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article proposes a semantic grid mapping method for domestic robot navigation. Occupancy grid maps are sufficient for mobile robots to complete point-to-point navigation tasks in 2-D small-scale environments. However, when used in the real domestic scene, grid maps are lack of semantic information for end users to specify navigation tasks conveniently. Semantic grid maps, enhancing the occupancy grid map with the semantics of objects and rooms, endowing the robots with the capacity of robust navigation skills and human-friendly operation modes, are thus proposed to overcome this limitation. In our method, an object semantic grid map is built with low-cost sonar and binocular stereovision sensors by correctly fusing the occupancy grid map and object point clouds. Topological spaces of each object are defined to make robots autonomously select navigation destinations. Based on the domestic common sense of the relationship between rooms and objects, topological segmentation is used to get room semantics. Our method is evaluated in a real homelike environment, and the results show that the generated map is at a satisfactory precision and feasible for a domestic mobile robot to complete navigation tasks commanded in natural language with a high success rate.}
+      \field{issn}{1729-8814}
+      \field{journaltitle}{International Journal of Advanced Robotic Systems}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Building semantic grid maps for domestic robot navigation}}
+      \field{volume}{17}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1177/1729881419900066
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/1729881419900066
+      \endverb
+    \endentry
+    \entry{Panigrahi2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c337569492b959b1aceebf9494051ff2}{%
+           family={Panigrahi},
+           family_i={P\bibinitperiod},
+           given={Prabin\bibnamedelima Kumar},
+           given_i={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b0a8fe5956f0c48665e82565d4bb58d4}{%
+           family={Bisoy},
+           family_i={B\bibinitperiod},
+           given={Sukant\bibnamedelima Kishoro},
+           given_i={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{adacab4eb2c32fb788d84176af5f792c}
+      \strng{fullhash}{adacab4eb2c32fb788d84176af5f792c}
+      \field{labelalpha}{PB21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13191578}
+      \field{journaltitle}{Journal of King Saud University - Computer and Information Sciences}
+      \field{month}{03}
+      \field{title}{{Localization strategies for autonomous mobile robots: A review}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1016/j.jksuci.2021.02.015
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1319157821000550
       \endverb
     \endentry
   \endsortlist

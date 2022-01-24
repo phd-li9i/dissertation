@@ -1,8 +1,15 @@
+\listfiles
 \documentclass[11pt,a4paper,twoside]{book}
 \usepackage[top=30mm, bottom=30mm, inner=30mm, outer=30mm, footskip = 15mm]{geometry}
-\usepackage[utf8]{inputenc}
-\usepackage[greek,english]{babel}
-\usepackage{alphabeta}
+%\usepackage[utf8]{inputenc}
+%\usepackage[greek,english]{babel}
+%\usepackage{alphabeta}
+
+\usepackage{fontspec,xgreek,polyglossia}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{CMU Serif} % choose a font that supports greek characters
+\setdefaultlanguage{english}
+\setotherlanguage[variant=modern]{greek}
 
 \usepackage{setspace}
 \doublespacing
@@ -96,6 +103,15 @@
 \newtheorem{remark}{Παρατήρηση}
 \renewcommand\theremark{\Roman{remark}}
 \newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Παραδοχή}
+\renewcommand\theassumption{\Roman{assumption}}
+\newtheorem{scope}{Πεδίο Εφαρμογής}
+\renewcommand\thescope{\Roman{scope}}
+\newtheorem{innercustomscope}{Πεδίο Εφαρμογής}
+\newenvironment{customscope}[1]
+  {\renewcommand\theinnercustomscope{#1}\innercustomscope}
+  {\endinnercustomscope}
+
 \renewcommand\theproposition{\Roman{proposition}}
 \newtheorem{objective}{Objective}
 \renewcommand\theobjective{\Roman{objective}}
@@ -144,6 +160,7 @@
 
 % BOXES
 \usepackage{environ}
+\usepackage[many]{tcolorbox}
 \NewEnviron{gg_box}{%
   \begin{tcolorbox}[colback=black!5, colframe=white!80!, breakable]
   %\begin{tcolorbox}[colback=white!10, colframe=black!30!, breakable]
