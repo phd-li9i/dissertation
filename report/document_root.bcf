@@ -2047,13 +2047,34 @@
   <bcf:section number="0">
     <bcf:citekey order="1">thrun2005probabilistic</bcf:citekey>
     <bcf:citekey order="2">liddell_scott</bcf:citekey>
-    <bcf:citekey order="3">Beer2014</bcf:citekey>
-    <bcf:citekey order="4">Panigrahi2021</bcf:citekey>
-    <bcf:citekey order="5">Qi2020</bcf:citekey>
-    <bcf:citekey order="6">Qi2020</bcf:citekey>
-    <bcf:citekey order="7">Mallick2014</bcf:citekey>
-    <bcf:citekey order="8">Oliver2012</bcf:citekey>
-    <bcf:citekey order="9">Oliver2012</bcf:citekey>
+    <bcf:citekey order="3">Wang2019</bcf:citekey>
+    <bcf:citekey order="4">Williford2018</bcf:citekey>
+    <bcf:citekey order="5">Vasconez2019</bcf:citekey>
+    <bcf:citekey order="5">Noguchi2011</bcf:citekey>
+    <bcf:citekey order="6">Sheetz2020</bcf:citekey>
+    <bcf:citekey order="7">Dikmen2016</bcf:citekey>
+    <bcf:citekey order="7">Lima2018</bcf:citekey>
+    <bcf:citekey order="7">Simpson2019</bcf:citekey>
+    <bcf:citekey order="8">Dimitriou2021</bcf:citekey>
+    <bcf:citekey order="9">Khan2020</bcf:citekey>
+    <bcf:citekey order="10">security_robots</bcf:citekey>
+    <bcf:citekey order="10">hotel_robots</bcf:citekey>
+    <bcf:citekey order="10">Chen2021</bcf:citekey>
+    <bcf:citekey order="10">Nicholson2008</bcf:citekey>
+    <bcf:citekey order="11">Beer2014</bcf:citekey>
+    <bcf:citekey order="12">Panigrahi2021</bcf:citekey>
+    <bcf:citekey order="13">Qi2020</bcf:citekey>
+    <bcf:citekey order="14">Qi2020</bcf:citekey>
+    <bcf:citekey order="15">Mallick2014</bcf:citekey>
+    <bcf:citekey order="16">Oliver2012</bcf:citekey>
+    <bcf:citekey order="17">Oliver2012</bcf:citekey>
+    <bcf:citekey order="18">Sighencea2021</bcf:citekey>
+    <bcf:citekey order="19">statista1</bcf:citekey>
+    <bcf:citekey order="20">statista2</bcf:citekey>
+    <bcf:citekey order="21">Sighencea2021</bcf:citekey>
+    <bcf:citekey order="22">statista1</bcf:citekey>
+    <bcf:citekey order="23">statista2</bcf:citekey>
+    <bcf:citekey order="24">Vasiljevic2016a</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>

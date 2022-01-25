@@ -1,0 +1,90 @@
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'lidar_share.eps' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%%
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{433.74998474bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.49797975)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength]{./figures/01.01.mobile_robotics/lidar_share.eps}}%
+    \put(0.26241602,0.30536661){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$36\%$\end{tabular}}}}%
+    \put(0.14360555,0.33932541){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$22\%$\end{tabular}}}}%
+    \put(0.11389864,0.24169083){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$18\%$\end{tabular}}}}%
+    \put(0.18232845,0.18126119){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$15\%$\end{tabular}}}}%
+    \put(0.25753001,0.18574643){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$9\%$\end{tabular}}}}%
+    \put(0.11757925,0.08393125){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}lidar\end{tabular}}}}%
+    \put(0.26574208,0.08393125){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}camera\end{tabular}}}}%
+    \put(0.11757925,0.05107822){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Άλλοι\end{tabular}}}}%
+    \put(0.26574208,0.05107822){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}radar\end{tabular}}}}%
+    \put(0.11757925,0.01822519){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}sonar\end{tabular}}}}%
+    \put(0.48256428,0.02305475){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2014\end{tabular}}}}%
+    \put(0.58198792,0.02305475){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2022\end{tabular}}}}%
+    \put(0.43112336,0.03827089){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}0\end{tabular}}}}%
+    \put(0.43112336,0.11481844){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}200\end{tabular}}}}%
+    \put(0.43112336,0.1913487){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}400\end{tabular}}}}%
+    \put(0.43112336,0.26789625){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}600\end{tabular}}}}%
+    \put(0.43112336,0.34442652){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}800\end{tabular}}}}%
+    \put(0.7487032,0.01959653){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.81221329,0.01959653){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0.87574066,0.01959653){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0.93925075,0.01959653){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0.74697409,0.07025936){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}radar \end{tabular}}}}%
+    \put(0.74697409,0.14115273){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}GNSS \end{tabular}}}}%
+    \put(0.74697409,0.21204611){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}camera \end{tabular}}}}%
+    \put(0.74697409,0.28293948){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}imu \end{tabular}}}}%
+    \put(0.74697409,0.35383286){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}lidar \end{tabular}}}}%
+    \put(0.40461097,0.49682998){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Παγκόσμιες πωλήσεις\end{tabular}}}}%
+    \put(0.40461097,0.46109513){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}αισθητήρων lidar\end{tabular}}}}%
+    \put(0.76080694,0.49855909){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Παγκόσμια αγορά\end{tabular}}}}%
+    \put(0.76080694,0.46282423){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} αισθητήρων 2027\end{tabular}}}}%
+    \put(0.03285303,0.49510087){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Παγκόσμια αγορά αισθητήρων\end{tabular}}}}%
+    \put(0.03285303,0.45936602){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}στην αυτοκινητοβιομηχανία\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

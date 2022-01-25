@@ -51,7 +51,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Probablistic robotics is a growing area in the subject, concerned with perception and control in the face of uncertainty and giving robots a level of robustness in real-world situations. This book introduces techniques and algorithms in the field.}
-      \field{isbn}{0262201623 9780262201629}
+      \field{isbn}{9780262201629}
       \field{title}{{Probabilistic robotics}}
       \field{year}{2005}
       \verb{url}
@@ -86,6 +86,75 @@
       \field{labeltitlesource}{title}
       \field{title}{Επιτομή του μεγάλου λεξικού της ελληνικής γλώσσης}
       \field{year}{2007}
+    \endentry
+    \entry{Nicholson2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=48f58cb80cda3e8fd2bbc8ed803b750a}{%
+           family={Nicholson},
+           family_i={N\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           given_i={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=6d1edd4b3f1d3f3e4c40147698f1f6e5}{%
+           family={Healey},
+           family_i={H\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb5466aa4834f507685da24b23b72ba7}
+      \strng{fullhash}{fb5466aa4834f507685da24b23b72ba7}
+      \field{labelalpha}{NH08}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{AUVs have proved their usefulness in recent years and continue to do so. This paper is a review of the current state of the art of AUVs. Present AUV capabilities are reviewed through a discussion of feasible present-day AUV missions. The state of key AUV design features and sensor technologies is also addressed, identifying those areas most critical to continued future progress in AUV development.}
+      \field{issn}{00253324}
+      \field{journaltitle}{Marine Technology Society Journal}
+      \field{number}{1}
+      \field{title}{{The present state of Autonomous Underwater Vehicle (AUV) applications and technologies}}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{pages}{44\bibrangedash 51}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.4031/002533208786861272
+      \endverb
+    \endentry
+    \entry{Noguchi2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9acd59beb36e0a404f8c91c4d3c96460}{%
+           family={Noguchi},
+           family_i={N\bibinitperiod},
+           given={Noboru},
+           given_i={N\bibinitperiod}}}%
+        {{hash=2035c80f8be79ece1d804d7525814c01}{%
+           family={Barawid},
+           family_i={B\bibinitperiod},
+           given={Oscar\bibnamedelima C.},
+           given_i={O\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c4018a7aa369bca3e70e9548871ef24}
+      \strng{fullhash}{6c4018a7aa369bca3e70e9548871ef24}
+      \field{labelalpha}{NB11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{14746670}
+      \field{journaltitle}{IFAC Proceedings Volumes}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Robot Farming System Using Multiple Robot Tractors in Japan Agriculture}}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{pages}{633\bibrangedash 637}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3182/20110828-6-IT-1002.03838
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1474667016436815
+      \endverb
     \endentry
     \entry{Oliver2012}{inproceedings}{}
       \name{author}{4}{}{%
@@ -218,6 +287,433 @@
       \verb http://ieeexplore.ieee.org/document/6756961/
       \endverb
     \endentry
+    \entry{Dikmen2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=706380850dcd0c62ee891814177e1783}{%
+           family={Dikmen},
+           family_i={D\bibinitperiod},
+           given={Murat},
+           given_i={M\bibinitperiod}}}%
+        {{hash=4ff902bdc4f10b0f96ce971e53b713b4}{%
+           family={Burns},
+           family_i={B\bibinitperiod},
+           given={Catherine\bibnamedelima M.},
+           given_i={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{71260f7d3cd49c447b2001c7fd03b945}
+      \strng{fullhash}{71260f7d3cd49c447b2001c7fd03b945}
+      \field{labelalpha}{DB16}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 8th International Conference on Automotive User Interfaces and Interactive Vehicular Applications}
+      \field{isbn}{9781450345330}
+      \field{month}{10}
+      \field{title}{{Autonomous Driving in the Real World}}
+      \field{year}{2016}
+      \field{pages}{225\bibrangedash 228}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1145/3003715.3005465
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/3003715.3005465
+      \endverb
+    \endentry
+    \entry{Vasiljevic2016a}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d292195918a2dcee100b2de16538ad5a}{%
+           family={Vasiljević},
+           family_i={V\bibinitperiod},
+           given={Goran},
+           given_i={G\bibinitperiod}}}%
+        {{hash=56f8900de9a7162d61c542c5c4b87736}{%
+           family={Miklić},
+           family_i={M\bibinitperiod},
+           given={Damjan},
+           given_i={D\bibinitperiod}}}%
+        {{hash=66a7fcb1cb4c984f5fb4e03ac2cf1531}{%
+           family={Draganjac},
+           family_i={D\bibinitperiod},
+           given={Ivica},
+           given_i={I\bibinitperiod}}}%
+        {{hash=9ef411b388aef1a38f1625fad9ef0fcb}{%
+           family={Kovačić},
+           family_i={K\bibinitperiod},
+           given={Zdenko},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=6166c05fca2514ff64618f80696c51e8}{%
+           family={Lista},
+           family_i={L\bibinitperiod},
+           given={Paolo},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{289719e21ab2c252253c80a8342d35e3}
+      \strng{fullhash}{daa4a0b48f0d2e45d201529936dc327a}
+      \field{labelalpha}{Vas+16}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{07365845}
+      \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
+      \field{month}{12}
+      \field{title}{{High-accuracy vehicle localization for autonomous warehousing}}
+      \field{volume}{42}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.rcim.2016.05.001
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0736584515300314
+      \endverb
+    \endentry
+    \entry{Lima2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c8e1cb7731c5ceb90d6b4e6fa93dacb7}{%
+           family={Lima},
+           family_i={L\bibinitperiod},
+           given={Pedro\bibnamedelima F.},
+           given_i={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fe48a174523d9712ab34366a0d3b6ed2}{%
+           family={{Collares\bibnamedelimb Pereira}},
+           family_i={C\bibinitperiod},
+           given={Gonçalo},
+           given_i={G\bibinitperiod}}}%
+        {{hash=0e2704e5ad73432758d577ce9379d680}{%
+           family={Mårtensson},
+           family_i={M\bibinitperiod},
+           given={Jonas},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f004c20b74b2610041b20d83945e9d08}{%
+           family={Wahlberg},
+           family_i={W\bibinitperiod},
+           given={Bo},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5845a3bfe11d3ba710b8eb0d9b4c2c97}
+      \strng{fullhash}{802dbdd8c191a47a961e95d0e85ddacb}
+      \field{labelalpha}{Lim+18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09670661}
+      \field{journaltitle}{Control Engineering Practice}
+      \field{month}{12}
+      \field{title}{{Experimental validation of model predictive control stability for autonomous driving}}
+      \field{volume}{81}
+      \field{year}{2018}
+      \field{pages}{244\bibrangedash 255}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.conengprac.2018.09.021
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0967066118305926
+      \endverb
+    \endentry
+    \entry{Williford2018}{incollection}{}
+      \name{author}{16}{}{%
+        {{hash=c803152d2efe905e12364660fee11e24}{%
+           family={Williford},
+           family_i={W\bibinitperiod},
+           given={Kenneth\bibnamedelima H.},
+           given_i={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=51fd1f4a0d782ef5bc65b3efb7d1564c}{%
+           family={Farley},
+           family_i={F\bibinitperiod},
+           given={Kenneth\bibnamedelima A.},
+           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e4c3df37cf6bda647bf6f57010ef2883}{%
+           family={Stack},
+           family_i={S\bibinitperiod},
+           given={Kathryn\bibnamedelima M.},
+           given_i={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=653d2db11cdb53c21b3b5fdc3d1f5754}{%
+           family={Allwood},
+           family_i={A\bibinitperiod},
+           given={Abigail\bibnamedelima C.},
+           given_i={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4dac40810bf78b35ead0611f24c3b228}{%
+           family={Beaty},
+           family_i={B\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=b9a3485b86942f1aa329686e20f7381e}{%
+           family={Beegle},
+           family_i={B\bibinitperiod},
+           given={Luther\bibnamedelima W.},
+           given_i={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=df496ff0bb51eb8921019c1a552e676e}{%
+           family={Bhartia},
+           family_i={B\bibinitperiod},
+           given={Rohit},
+           given_i={R\bibinitperiod}}}%
+        {{hash=4b7f28e43c9e5199cbf6876b8db7bfed}{%
+           family={Brown},
+           family_i={B\bibinitperiod},
+           given={Adrian\bibnamedelima J.},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=29167dd3047f583201e5ec68f1021b76}{%
+           family={{de\bibnamedelimb la\bibnamedelimb Torre\bibnamedelimb Juarez}},
+           family_i={d\bibinitperiod},
+           given={Manuel},
+           given_i={M\bibinitperiod}}}%
+        {{hash=fa677f1491ef6de4b1e28ef8542a4f7b}{%
+           family={Hamran},
+           family_i={H\bibinitperiod},
+           given={Svein-Erik},
+           given_i={S\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=9620d273bf141e68a26335b7afb5a28e}{%
+           family={Hecht},
+           family_i={H\bibinitperiod},
+           given={Michael\bibnamedelima H.},
+           given_i={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7a7c3ea950eca5ab042ad9b0e5706700}{%
+           family={Hurowitz},
+           family_i={H\bibinitperiod},
+           given={Joel\bibnamedelima A.},
+           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b04b952321358982bbba8147ef8c826e}{%
+           family={Rodriguez-Manfredi},
+           family_i={R\bibinithyphendelim M\bibinitperiod},
+           given={Jose\bibnamedelima A.},
+           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ad3f7a04206f5740f972e86e88efa297}{%
+           family={Maurice},
+           family_i={M\bibinitperiod},
+           given={Sylvestre},
+           given_i={S\bibinitperiod}}}%
+        {{hash=409a0cfc4c156d30d5921c699eb8a707}{%
+           family={Milkovich},
+           family_i={M\bibinitperiod},
+           given={Sarah},
+           given_i={S\bibinitperiod}}}%
+        {{hash=f022e994bb97b529c1b70b9b2a938ee0}{%
+           family={Wiens},
+           family_i={W\bibinitperiod},
+           given={Roger\bibnamedelima C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7078f6071f3b38f24915f7ff2b4524e4}
+      \strng{fullhash}{fbfd078a7ccd27b4def203cf567da5ae}
+      \field{labelalpha}{Wil+18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{From Habitability to Life on Mars}
+      \field{title}{{The NASA Mars 2020 Rover Mission and the Search for Extraterrestrial Life}}
+      \field{year}{2018}
+      \field{pages}{275\bibrangedash 308}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-809935-3.00010-4
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128099353000104
+      \endverb
+    \endentry
+    \entry{Simpson2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b794436b761e5ef147b18643d27e2931}{%
+           family={Simpson},
+           family_i={S\bibinitperiod},
+           given={Jesse\bibnamedelima R.},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c40fcc849b3a9588898cdca7f16e7aeb}{%
+           family={Mishra},
+           family_i={M\bibinitperiod},
+           given={Sabyasachee},
+           given_i={S\bibinitperiod}}}%
+        {{hash=68c66d52d1ca621d4d174ce17211ba46}{%
+           family={Talebian},
+           family_i={T\bibinitperiod},
+           given={Ahmadreza},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c89833c6c95158490d8f0505e0a0ba05}{%
+           family={Golias},
+           family_i={G\bibinitperiod},
+           given={Mihalis\bibnamedelima M.},
+           given_i={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{759ace033519b913a053a9ca6407470f}
+      \strng{fullhash}{927fb9a4903a406bbaf46b3484790c07}
+      \field{labelalpha}{Sim+19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{07398859}
+      \field{journaltitle}{Research in Transportation Economics}
+      \field{month}{09}
+      \field{title}{{An estimation of the future adoption rate of autonomous trucks by freight organizations}}
+      \field{volume}{76}
+      \field{year}{2019}
+      \field{pages}{100737}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.retrec.2019.100737
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0739885919302495
+      \endverb
+    \endentry
+    \entry{Vasconez2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a35e444ae3d0bf6cd1906d9abc198556}{%
+           family={Vasconez},
+           family_i={V\bibinitperiod},
+           given={Juan\bibnamedelima P.},
+           given_i={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=3bdc2f97cec02b4a7a87a98b192ad256}{%
+           family={Kantor},
+           family_i={K\bibinitperiod},
+           given={George\bibnamedelima A.},
+           given_i={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=86cf925e2428d3ca05bbb12714f039df}{%
+           family={{Auat\bibnamedelimb Cheein}},
+           family_i={A\bibinitperiod},
+           given={Fernando\bibnamedelima A.},
+           given_i={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{60fe837d48aed2c4dae84de1015f9004}
+      \strng{fullhash}{60fe837d48aed2c4dae84de1015f9004}
+      \field{labelalpha}{VKA19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15375110}
+      \field{journaltitle}{Biosystems Engineering}
+      \field{month}{03}
+      \field{title}{{Human–robot interaction in agriculture: A survey and current challenges}}
+      \field{volume}{179}
+      \field{year}{2019}
+      \field{pages}{35\bibrangedash 48}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.biosystemseng.2018.12.005
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1537511017309625
+      \endverb
+    \endentry
+    \entry{Wang2019}{article}{}
+      \name{author}{7}{}{%
+        {{hash=2126ff11704e4078717686170cbb1b15}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{hash=ed9ded3cfa50f36214441c24522b47be}{%
+           family={Gao},
+           family_i={G\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{hash=4b67e70eb94d1ab7b8a6e2ac5523f832}{%
+           family={Váncza},
+           family_i={V\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=9c4821bc671c3abfac1920a25335050f}{%
+           family={Krüger},
+           family_i={K\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=161cf40b5cface1d5e5ca43d6d308ddd}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={X.V.},
+           given_i={X\bibinitperiod}}}%
+        {{hash=3a35d6f18b3d04bd533fb94f41a9e5d6}{%
+           family={Makris},
+           family_i={M\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=a1eb31522e3faae98625d4cab8efd23f}{%
+           family={Chryssolouris},
+           family_i={C\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fc56c5166e0f81010c10bd467c2d737}
+      \strng{fullhash}{3a6e655a60c05b587e592211c2d732b0}
+      \field{labelalpha}{Wan+19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00078506}
+      \field{journaltitle}{CIRP Annals}
+      \field{number}{2}
+      \field{title}{{Symbiotic human-robot collaborative assembly}}
+      \field{volume}{68}
+      \field{year}{2019}
+      \field{pages}{701\bibrangedash 726}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/j.cirp.2019.05.002
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0007850619301593
+      \endverb
+    \endentry
+    \entry{Khan2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4fb4f470d85945b0c46532401d0a73d5}{%
+           family={Khan},
+           family_i={K\bibinitperiod},
+           given={Zeashan\bibnamedelima Hameed},
+           given_i={Z\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fb4fe0840dda13d998f399db196a4fc4}{%
+           family={Siddique},
+           family_i={S\bibinitperiod},
+           given={Afifa},
+           given_i={A\bibinitperiod}}}%
+        {{hash=28050ff65e0623b9c2e301918e50bdb9}{%
+           family={Lee},
+           family_i={L\bibinitperiod},
+           given={Chang\bibnamedelima Won},
+           given_i={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9795ec0435a6b7ed82e8bb47ee97d18d}
+      \strng{fullhash}{9795ec0435a6b7ed82e8bb47ee97d18d}
+      \field{labelalpha}{KSL20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes the evolving role of robotics in healthcare and allied areas with special concerns relating to the management and control of the spread of the novel coronavirus disease 2019 (COVID-19). The prime utilization of such robots is to minimize person-to-person contact and to ensure cleaning, sterilization and support in hospitals and similar facilities such as quarantine. This will result in minimizing the life threat to medical staff and doctors taking an active role in the management of theCOVID-19 pandemic. The intention of the present research is to highlight the importance of medical robotics in general and then to connect its utilization with the perspective of COVID-19 management so that the hospital management can direct themselves to maximize the use of medical robots for various medical procedures. This is despite the popularity of telemedicine, which is also effective in similar situations. In essence, the recent achievement of the Korean and Chinese health sectors in obtaining active control of the COVID-19 pandemic was not possible without the use of state of the art medical technology.}
+      \field{issn}{1660-4601}
+      \field{journaltitle}{International Journal of Environmental Research and Public Health}
+      \field{month}{05}
+      \field{number}{11}
+      \field{title}{{Robotics Utilization for Healthcare Digitization in Global COVID-19 Management}}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{pages}{3819}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijerph17113819
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1660-4601/17/11/3819
+      \endverb
+    \endentry
     \entry{Qi2020}{article}{}
       \name{author}{7}{}{%
         {{hash=8cd1a63d9fe27801b69862223283a0c5}{%
@@ -278,6 +774,209 @@
       \verb http://journals.sagepub.com/doi/10.1177/1729881419900066
       \endverb
     \endentry
+    \entry{Sheetz2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5cf011002f09d708c147e3f559d07796}{%
+           family={Sheetz},
+           family_i={S\bibinitperiod},
+           given={Kyle\bibnamedelima H.},
+           given_i={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=bcf662efd8122a620d2442425e0f5ff1}{%
+           family={Claflin},
+           family_i={C\bibinitperiod},
+           given={Jake},
+           given_i={J\bibinitperiod}}}%
+        {{hash=c0e27cf751c282782783f75af73665fc}{%
+           family={Dimick},
+           family_i={D\bibinitperiod},
+           given={Justin\bibnamedelima B.},
+           given_i={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0df0361286ca677e6352836d7d7d99bd}
+      \strng{fullhash}{0df0361286ca677e6352836d7d7d99bd}
+      \field{labelalpha}{SCD20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2574-3805}
+      \field{journaltitle}{JAMA Network Open}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Trends in the Adoption of Robotic Surgery for Common Surgical Procedures}}
+      \field{volume}{3}
+      \field{year}{2020}
+      \field{pages}{e1918911}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1001/jamanetworkopen.2019.18911
+      \endverb
+      \verb{url}
+      \verb https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2758472
+      \endverb
+    \endentry
+    \entry{Chen2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=90ea174e8cf93b1be0a5f0d29098868d}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={Cheng},
+           given_i={C\bibinitperiod}}}%
+        {{hash=104185e051f8b6213c2f71b493476058}{%
+           family={Demir},
+           family_i={D\bibinitperiod},
+           given={Emrah},
+           given_i={E\bibinitperiod}}}%
+        {{hash=fed5caf84a516c72d99ab5164b478c7d}{%
+           family={Huang},
+           family_i={H\bibinitperiod},
+           given={Yuan},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=20eef773958b4aaa69d9e25ceade8379}{%
+           family={Qiu},
+           family_i={Q\bibinitperiod},
+           given={Rongzu},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d357aff345017efe6e8db21b221a4ce}
+      \strng{fullhash}{3024b2f95db4a561c6f9f8e76f7d88b2}
+      \field{labelalpha}{Che+21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13665545}
+      \field{journaltitle}{Transportation Research Part E: Logistics and Transportation Review}
+      \field{month}{02}
+      \field{title}{{The adoption of self-driving delivery robots in last mile logistics}}
+      \field{volume}{146}
+      \field{year}{2021}
+      \field{pages}{102214}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.tre.2020.102214
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1366554520308565
+      \endverb
+    \endentry
+    \entry{Dimitriou2021}{inproceedings}{}
+      \name{author}{18}{}{%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=87ad3b6ab215e6c089217399b010fba2}{%
+           family={Megalou},
+           family_i={M\bibinitperiod},
+           given={Spyros},
+           given_i={S\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b2fccd3c45e2a353277f651943170154}{%
+           family={Chatzistefanou},
+           family_i={C\bibinitperiod},
+           given={Aristidis\bibnamedelima R.},
+           given_i={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0ad1d5d9738e76ea8c586f746f168553}{%
+           family={Malama},
+           family_i={M\bibinitperiod},
+           given={Andreana},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=79ac9d0cca2c1baa73deb40e78abf219}{%
+           family={Panayiotou},
+           family_i={P\bibinitperiod},
+           given={Konstantinos},
+           given_i={K\bibinitperiod}}}%
+        {{hash=303b4efbed33cc2d1d66b8c0357f39d3}{%
+           family={Giannelos},
+           family_i={G\bibinitperiod},
+           given={Evaggelos},
+           given_i={E\bibinitperiod}}}%
+        {{hash=f9d0b61ed49cd94f111f0e97c72b7562}{%
+           family={Vasiliadis},
+           family_i={V\bibinitperiod},
+           given={Thodoris},
+           given_i={T\bibinitperiod}}}%
+        {{hash=7301b2b886fd2cd4d3dab45e8df23141}{%
+           family={Mouroutsos},
+           family_i={M\bibinitperiod},
+           given={Ioannis},
+           given_i={I\bibinitperiod}}}%
+        {{hash=b5c2dbfee870b6c2f0e55975e88db778}{%
+           family={Karanikas},
+           family_i={K\bibinitperiod},
+           given={Ioannis},
+           given_i={I\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c924253288923e3b0760c5e6a424823e}{%
+           family={Sahalos},
+           family_i={S\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+        {{hash=49b1b913082bf56687596f50d53dc828}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b53de7fee58cfaf9691c2f47ce4e12bb}{%
+           family={Bletsas},
+           family_i={B\bibinitperiod},
+           given={Aggelos},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a4f106364794e858f5829655a2187ea1}
+      \strng{fullhash}{8c2a633f420b59005a11eb6587d29d1e}
+      \field{labelalpha}{Dim+21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 6th International Conference on Smart and Sustainable Technologies (SpliTech)}
+      \field{isbn}{978-953-290-112-2}
+      \field{month}{09}
+      \field{title}{{Autonomous Robots, Drones and Repeaters for Fast, Reliable, Low-Cost RFID Inventorying {\&} Localization}}
+      \field{year}{2021}
+      \field{pages}{01\bibrangedash 06}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/SpliTech52315.2021.9566425
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9566425/
+      \endverb
+    \endentry
     \entry{Panigrahi2021}{article}{}
       \name{author}{2}{}{%
         {{hash=c337569492b959b1aceebf9494051ff2}{%
@@ -308,6 +1007,116 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S1319157821000550
+      \endverb
+    \endentry
+    \entry{Sighencea2021}{article}{}
+      \name{author}{3}{}{%
+        {{hash=60015f56e14c8591bf67c682539e9b77}{%
+           family={Sighencea},
+           family_i={S\bibinitperiod},
+           given={Bogdan\bibnamedelima Ilie},
+           given_i={B\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=743b2ea7c4d45ddb36bcc0219fe5ad81}{%
+           family={Stanciu},
+           family_i={S\bibinitperiod},
+           given={Rareș\bibnamedelima Ion},
+           given_i={R\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=ae829af3b8e8502a1744aac73070d13b}{%
+           family={Căleanu},
+           family_i={C\bibinitperiod},
+           given={Cătălin\bibnamedelima Daniel},
+           given_i={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9c673dd8f97ae00371c35cc2a0b323e}
+      \strng{fullhash}{b9c673dd8f97ae00371c35cc2a0b323e}
+      \field{labelalpha}{SSC21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Pedestrian trajectory prediction is one of the main concerns of computer vision problems in the automotive industry, especially in the field of advanced driver assistance systems. The ability to anticipate the next movements of pedestrians on the street is a key task in many areas, e.g., self-driving auto vehicles, mobile robots or advanced surveillance systems, and they still represent a technological challenge. The performance of state-of-the-art pedestrian trajectory prediction methods currently benefits from the advancements in sensors and associated signal processing technologies. The current paper reviews the most recent deep learning-based solutions for the problem of pedestrian trajectory prediction along with employed sensors and afferent processing methodologies, and it performs an overview of the available datasets, performance metrics used in the evaluation process, and practical applications. Finally, the current work exposes the research gaps from the literature and outlines potential new research directions.}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{{A Review of Deep Learning-Based Methods for Pedestrian Trajectory Prediction}}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{pages}{7543}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s21227543
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/1424-8220/21/22/7543
+      \endverb
+    \endentry
+    \entry{security_robots}{url}{}
+      \name{author}{1}{}{%
+        {{hash=a7705383b0511735716148754f4cea48}{%
+           family={smprobotics},
+           family_i={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{a7705383b0511735716148754f4cea48}
+      \strng{fullhash}{a7705383b0511735716148754f4cea48}
+      \field{labelalpha}{smp21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{year}{2021}
+      \verb{url}
+      \verb https://smprobotics.com/security_robot
+      \endverb
+    \endentry
+    \entry{hotel_robots}{url}{}
+      \name{author}{1}{}{%
+        {{hash=160c85e2f5ff2b46ebd8ffd5bf08a415}{%
+           family={revfine},
+           family_i={r\bibinitperiod}}}%
+      }
+      \strng{namehash}{160c85e2f5ff2b46ebd8ffd5bf08a415}
+      \strng{fullhash}{160c85e2f5ff2b46ebd8ffd5bf08a415}
+      \field{labelalpha}{rev22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{year}{2022}
+      \verb{url}
+      \verb https://www.revfine.com/hotel-robots/
+      \endverb
+    \endentry
+    \entry{statista1}{url}{}
+      \name{author}{1}{}{%
+        {{hash=80e3a2e814cb584b6a0d81f1154b2336}{%
+           family={statista.com},
+           family_i={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{fullhash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \field{labelalpha}{sta}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://www.statista.com/statistics/430086/automotive-sales-of-automotive-lidar-systems-worldwide/
+      \endverb
+    \endentry
+    \entry{statista2}{url}{}
+      \name{author}{1}{}{%
+        {{hash=80e3a2e814cb584b6a0d81f1154b2336}{%
+           family={statista.com},
+           family_i={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \strng{fullhash}{80e3a2e814cb584b6a0d81f1154b2336}
+      \field{labelalpha}{sta}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \verb{url}
+      \verb https://www.statista.com/statistics/880147/global-robotic-vehicle-sensors-market-size-by-segment/
       \endverb
     \endentry
   \endsortlist
