@@ -377,6 +377,47 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0736584515300314
       \endverb
     \endentry
+    \entry{Cooper2018a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d612dc661847b3d3fd6f13ea4361423b}{%
+           family={Cooper},
+           family_i={C\bibinitperiod},
+           given={Matthew},
+           given_i={M\bibinitperiod}}}%
+        {{hash=bcd3a20bba0376e17f6edce84367ee2d}{%
+           family={Raquet},
+           family_i={R\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+        {{hash=608f56c6afe75556d46ab0a2dee5f4a1}{%
+           family={Patton},
+           family_i={P\bibinitperiod},
+           given={Rick},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0e713f9e377f6f171c39eed82be96e2}
+      \strng{fullhash}{c0e713f9e377f6f171c39eed82be96e2}
+      \field{labelalpha}{CRP18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2304-6732}
+      \field{journaltitle}{Photonics}
+      \field{month}{05}
+      \field{number}{2}
+      \field{title}{{Range Information Characterization of the Hokuyo UST-20LX LIDAR Sensor}}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{pages}{12}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/photonics5020012
+      \endverb
+      \verb{url}
+      \verb http://www.mdpi.com/2304-6732/5/2/12
+      \endverb
+    \endentry
     \entry{Lima2018}{article}{}
       \name{author}{4}{}{%
         {{hash=c8e1cb7731c5ceb90d6b4e6fa93dacb7}{%
