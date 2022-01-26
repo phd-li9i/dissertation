@@ -20,34 +20,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.1}Εκτιμητέο διάνυσμα κατάστασης}{11}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Ο αισθητήρας lidar δισδιάστατων μετρήσεων}{12}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Τα δύο κύρια προβλήματα εκτίμησης στάσης}{12}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Το φίλτρο σωματιδίων}{13}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Ευθυγράμμιση σαρώσεων lidar}{13}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Ο αισθητήρας lidar δισδιάστατων μετρήσεων}{15}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Τα προβλήματα εύρεσης στάσης}{13}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.5}Ευθυγράμμιση σαρώσεων lidar}{16}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Το λειτουργικό σύστημα ρομπότ ROS}{13}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.6}Ευθυγράμμιση σαρώσεων lidar με εικονικές σαρώσεις}{18}{subsection.1.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Παραδοχές}{13}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.7}Το λειτουργικό σύστημα ρομπότ ROS}{18}{subsection.1.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Οδικός χάρτης}{15}{chapter.2}
+\contentsline {section}{\numberline {1.3}Παραδοχές}{18}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Οδικός χάρτης}{15}{section.2.1}
+\contentsline {chapter}{\numberline {2}Οδικός χάρτης}{19}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Επισκόπηση των ερευνητικών περιοχών}{17}{chapter.3}
+\contentsline {section}{\numberline {2.1}Οδικός χάρτης}{19}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Επισκόπηση ερευνητικών περιοχών}{17}{section.3.1}
+\contentsline {chapter}{\numberline {3}Επισκόπηση των ερευνητικών περιοχών}{21}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Συμβολές και Διάρθρωση της διατριβής}{19}{chapter.4}
+\contentsline {section}{\numberline {3.1}Επισκόπηση ερευνητικών περιοχών}{21}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Συμβολές της διατριβής}{19}{section.4.1}
+\contentsline {chapter}{\numberline {4}Συμβολές και Διάρθρωση της διατριβής}{23}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Διάρθρωση}{19}{section.4.2}
+\contentsline {section}{\numberline {4.1}Συμβολές της διατριβής}{23}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Προβλήματα---Λύσεις---Συμβολές}{21}{part.2}
+\contentsline {section}{\numberline {4.2}Διάρθρωση}{23}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Συμπεράσματα}{23}{part.3}
+\contentsline {part}{II\hspace {1em}Προβλήματα---Λύσεις---Συμβολές}{25}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textgreek {Αναφορές}}{25}{chapter*.9}
+\contentsline {part}{III\hspace {1em}Συμπεράσματα}{27}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\textgreek {Αναφορές}}{29}{chapter*.12}

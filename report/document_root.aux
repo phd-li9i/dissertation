@@ -85,33 +85,51 @@
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.2}Απαραίτητες έννοιες}{11}{section.1.2}}
 \newlabel{section:01_01_02}{{1.2}{11}{Απαραίτητες έννοιες}{section.1.2}{}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Εκτιμητέο διάνυσμα κατάστασης}{11}{subsection.1.2.1}}
-\abx@aux@cite{Cooper2018a}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Το διάνυσμα κατάστασης (στάση) $\bm  {p} = [x,y,\theta ]^\top $ ενός επίγειου οχήματος στο οριζόντιο επίπεδο\relax }}{12}{figure.caption.6}}
 \newlabel{fig:pose_figure}{{1.5}{12}{\small Το διάνυσμα κατάστασης (στάση) $\bm {p} = [x,y,\theta ]^\top $ ενός επίγειου οχήματος στο οριζόντιο επίπεδο\relax }{figure.caption.6}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Ο αισθητήρας lidar δισδιάστατων μετρήσεων}{12}{subsection.1.2.2}}
-\newlabel{def:lidar}{{II}{12}{}{definition.2}{}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Κάτοψη του τοπικού συστήματος αναφοράς ενός τυπικού αισθητήρα αποστάσεων τύπου lidar. Ο αισθητήρας είναι τοποθετημένος στο $O(0,0)$ και ο προσανατολισμός του είναι αυτός του θετικού $x$ άξονα. Το γωνιακό πεδίο οράσεώς του είναι $\lambda $\relax }}{13}{figure.caption.7}}
-\newlabel{fig:laser}{{1.6}{13}{\small Κάτοψη του τοπικού συστήματος αναφοράς ενός τυπικού αισθητήρα αποστάσεων τύπου lidar. Ο αισθητήρας είναι τοποθετημένος στο $O(0,0)$ και ο προσανατολισμός του είναι αυτός του θετικού $x$ άξονα. Το γωνιακό πεδίο οράσεώς του είναι $\lambda $\relax }{figure.caption.7}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Τα δύο κύρια προβλήματα εκτίμησης στάσης}{12}{subsection.1.2.2}}
+\abx@aux@cite{Maybeck1979}
+\abx@aux@cite{Thrun2002a}
+\abx@aux@cite{Gustafsson2002}
+\abx@aux@cite{Dellaert}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Το πρόβλημα της εκτίμησης της στάσης ενός ρομπότ βάσει καθολικής αβεβαιότητας της στάσης του. Το ρομπότ βρίσκεται στη θέση που σημειώνεται με πράσινο. Οι κουκίδες που σημειώνονται με πορτοκαλί δείχνουν υποθέσεις προς εξέταση για την εκτίμηση της στάσης του\relax }}{13}{figure.caption.7}}
+\newlabel{fig:global_localisation}{{1.6}{13}{\small Το πρόβλημα της εκτίμησης της στάσης ενός ρομπότ βάσει καθολικής αβεβαιότητας της στάσης του. Το ρομπότ βρίσκεται στη θέση που σημειώνεται με πράσινο. Οι κουκίδες που σημειώνονται με πορτοκαλί δείχνουν υποθέσεις προς εξέταση για την εκτίμηση της στάσης του\relax }{figure.caption.7}{}}
 \@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Το φίλτρο σωματιδίων}{13}{subsection.1.2.3}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Ευθυγράμμιση σαρώσεων lidar}{13}{subsection.1.2.4}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.5}Τα προβλήματα εύρεσης στάσης}{13}{subsection.1.2.5}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.6}Το λειτουργικό σύστημα ρομπότ ROS}{13}{subsection.1.2.6}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.3}Παραδοχές}{13}{section.1.3}}
-\newlabel{section:01_01_03}{{1.3}{13}{Παραδοχές}{section.1.3}{}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {2}Οδικός χάρτης}{15}{chapter.2}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Αρχικοποίηση κατανομής σωματιδίων δεδομένης εκτίμησης για την αρχική στάση. Η πληροφορία προσανατολισμού παραλείπεται για λόγους ευανάγνωσης. Στην αρχική φάση το φίλτρο δεν έχει συγκλίνει και συνεπώς η διακύμανσή του συνόλου υποθέσεων στάσης είναι η μέγιστη\relax }}{14}{figure.caption.8}}
+\newlabel{fig:pf_init}{{1.7}{14}{\small Αρχικοποίηση κατανομής σωματιδίων δεδομένης εκτίμησης για την αρχική στάση. Η πληροφορία προσανατολισμού παραλείπεται για λόγους ευανάγνωσης. Στην αρχική φάση το φίλτρο δεν έχει συγκλίνει και συνεπώς η διακύμανσή του συνόλου υποθέσεων στάσης είναι η μέγιστη\relax }{figure.caption.8}{}}
+\newlabel{eq:pf_posterior}{{1.2}{14}{Το φίλτρο σωματιδίων}{equation.1.2.2}{}}
+\abx@aux@cite{Cooper2018a}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Ο αισθητήρας lidar δισδιάστατων μετρήσεων}{15}{subsection.1.2.4}}
+\newlabel{def:lidar}{{II}{15}{}{definition.2}{}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Κάτοψη του τοπικού συστήματος αναφοράς ενός τυπικού αισθητήρα αποστάσεων τύπου 2D lidar. Ο αισθητήρας είναι τοποθετημένος στο $O(0,0)$ και ο προσανατολισμός του είναι αυτός του θετικού $x$ άξονα. Το γωνιακό πεδίο οράσεώς του είναι $\lambda $\relax }}{16}{figure.caption.9}}
+\newlabel{fig:laser}{{1.8}{16}{\small Κάτοψη του τοπικού συστήματος αναφοράς ενός τυπικού αισθητήρα αποστάσεων τύπου 2D lidar. Ο αισθητήρας είναι τοποθετημένος στο $O(0,0)$ και ο προσανατολισμός του είναι αυτός του θετικού $x$ άξονα. Το γωνιακό πεδίο οράσεώς του είναι $\lambda $\relax }{figure.caption.9}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.5}Ευθυγράμμιση σαρώσεων lidar}{16}{subsection.1.2.5}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces \relax \fontsize  {10}{12}\selectfont  \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \def \leftmargin \leftmargini \parsep 4.5\p@ plus2\p@ minus\p@ \topsep 9\p@ plus3\p@ minus5\p@ \itemsep 4.5\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 6\p@ plus2\p@ minus2\p@ \parsep 3\p@ plus2\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip Η ευθυγράμμιση των μετρήσεων 2D lidar $\bm  {z}(\bm  {p})$ και $\bm  {z}^\prime (\bm  {p}^\prime )$ (\relax $\@@underline {\hbox {s}}\mathsurround \z@ $\relax can-\relax $\@@underline {\hbox {m}}\mathsurround \z@ $\relax atching) παράγει την εκτίμηση $\bm  {p}^\prime $ από την $\bm  {p}$\relax }}{17}{figure.caption.10}}
+\newlabel{fig:sm_principle}{{1.9}{17}{\small Η ευθυγράμμιση των μετρήσεων 2D lidar $\bm {z}(\bm {p})$ και $\bm {z}^\prime (\bm {p}^\prime )$ (\underline {s}can-\underline {m}atching) παράγει την εκτίμηση $\bm {p}^\prime $ από την $\bm {p}$\relax }{figure.caption.10}{}}
+\abx@aux@cite{Gutmann}
+\abx@aux@cite{Chieh-ChihWang}
+\abx@aux@cite{Lacroix2002a}
+\abx@aux@cite{Montesano2008a}
+\abx@aux@cite{Schulz}
+\newlabel{eq:sm_def}{{1.4}{18}{}{equation.1.2.4}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.6}Ευθυγράμμιση σαρώσεων lidar με εικονικές σαρώσεις}{18}{subsection.1.2.6}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.7}Το λειτουργικό σύστημα ρομπότ ROS}{18}{subsection.1.2.7}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1.3}Παραδοχές}{18}{section.1.3}}
+\newlabel{section:01_01_03}{{1.3}{18}{Παραδοχές}{section.1.3}{}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {2}Οδικός χάρτης}{19}{chapter.2}}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {2.1}Οδικός χάρτης}{15}{section.2.1}}
-\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Ο οδικός χάρτης της διατριβής\relax }}{16}{figure.caption.8}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {3}Επισκόπηση των ερευνητικών περιοχών}{17}{chapter.3}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {2.1}Οδικός χάρτης}{19}{section.2.1}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Ο οδικός χάρτης της διατριβής\relax }}{20}{figure.caption.11}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {3}Επισκόπηση των ερευνητικών περιοχών}{21}{chapter.3}}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3.1}Επισκόπηση ερευνητικών περιοχών}{17}{section.3.1}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {4}Συμβολές και Διάρθρωση της διατριβής}{19}{chapter.4}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3.1}Επισκόπηση ερευνητικών περιοχών}{21}{section.3.1}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\numberline {4}Συμβολές και Διάρθρωση της διατριβής}{23}{chapter.4}}
 \@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.1}Συμβολές της διατριβής}{19}{section.4.1}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.2}Διάρθρωση}{19}{section.4.2}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {part}{II\hspace  {1em}Προβλήματα---Λύσεις---Συμβολές}{21}{part.2}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {part}{III\hspace  {1em}Συμπεράσματα}{23}{part.3}}
-\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\textgreek {Αναφορές}}{25}{chapter*.9}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.1}Συμβολές της διατριβής}{23}{section.4.1}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4.2}Διάρθρωση}{23}{section.4.2}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {part}{II\hspace  {1em}Προβλήματα---Λύσεις---Συμβολές}{25}{part.2}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {part}{III\hspace  {1em}Συμπεράσματα}{27}{part.3}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {chapter}{\textgreek {Αναφορές}}{29}{chapter*.12}}
