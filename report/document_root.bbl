@@ -1449,6 +1449,93 @@
       \verb http://ieeexplore.ieee.org/document/810068/
       \endverb
     \endentry
+    \entry{Hahnel}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d2a5b2a1fbadee07841f2950d05d6bfc}{%
+           family={Hahnel},
+           family_i={H\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=33f960734163cca595a2898e40ead972}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{aea64d396a63047b48effc82b9e8c06f}
+      \strng{fullhash}{db4348599e047ff1f88a93fb7b4ddc5b}
+      \field{labelalpha}{Hah+}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2003) (Cat. No.03CH37453)}
+      \field{isbn}{0-7803-7860-1}
+      \field{title}{{An efficient fastslam algorithm for generating maps of large-scale cyclic environments from raw laser range measurements}}
+      \field{volume}{1}
+      \field{pages}{206\bibrangedash 211}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2003.1250629
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1250629/
+      \endverb
+    \endentry
+    \entry{Minguez}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
+           family={Minguez},
+           family_i={M\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=08979e8d4e4b2e4b73f91370357f4ebf}{%
+           family={Montesano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{hash=62999d6be283a87b369ad13b77285346}{%
+           family={Montano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7e65e4c0b95d62d2cc8153e1eae98292}
+      \strng{fullhash}{7e65e4c0b95d62d2cc8153e1eae98292}
+      \field{labelalpha}{MMM}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
+      \field{isbn}{0-7803-8463-6}
+      \field{title}{{An architecture for sensor-based navigation in realistic dynamic and troublesome scenarios}}
+      \field{volume}{3}
+      \field{pages}{2750\bibrangedash 2756}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2004.1389825
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1389825/
+      \endverb
+    \endentry
     \entry{Schulz}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=282064c750cc530a9f17e2eb6d736320}{%

@@ -2081,10 +2081,12 @@
     <bcf:citekey order="27">Dellaert</bcf:citekey>
     <bcf:citekey order="28">Cooper2018a</bcf:citekey>
     <bcf:citekey order="29">Gutmann</bcf:citekey>
-    <bcf:citekey order="30">Chieh-ChihWang</bcf:citekey>
-    <bcf:citekey order="31">Lacroix2002a</bcf:citekey>
-    <bcf:citekey order="32">Montesano2008a</bcf:citekey>
-    <bcf:citekey order="33">Schulz</bcf:citekey>
+    <bcf:citekey order="29">Hahnel</bcf:citekey>
+    <bcf:citekey order="29">Chieh-ChihWang</bcf:citekey>
+    <bcf:citekey order="30">Lacroix2002a</bcf:citekey>
+    <bcf:citekey order="30">Minguez</bcf:citekey>
+    <bcf:citekey order="30">Montesano2008a</bcf:citekey>
+    <bcf:citekey order="31">Schulz</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>
