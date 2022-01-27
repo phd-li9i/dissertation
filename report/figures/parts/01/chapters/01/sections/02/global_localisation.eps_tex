@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'pf_init.eps' (pdf, eps, ps)
+%% Accompanies image file 'global_localisation.eps' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -53,6 +53,6 @@
   \begin{picture}(1,0.75773201)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength]{./figures/01.01.concepts/pf_init.eps}}%
+    \put(0,0){\includegraphics[width=\unitlength]{./figures/parts/01/chapters/01/sections/02/global_localisation.eps}}%
   \end{picture}%
 \endgroup%

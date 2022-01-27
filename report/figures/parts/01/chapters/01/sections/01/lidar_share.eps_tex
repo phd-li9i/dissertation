@@ -53,7 +53,7 @@
   \begin{picture}(1,0.49797975)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength]{./figures/01.01.mobile_robotics/lidar_share.eps}}%
+    \put(0,0){\includegraphics[width=\unitlength]{./figures/parts/01/chapters/01/sections/01/lidar_share.eps}}%
     \put(0.26241602,0.30536661){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$36\%$\end{tabular}}}}%
     \put(0.14360555,0.33932541){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$22\%$\end{tabular}}}}%
     \put(0.11389864,0.24169083){\color[rgb]{1,1,1}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$18\%$\end{tabular}}}}%
