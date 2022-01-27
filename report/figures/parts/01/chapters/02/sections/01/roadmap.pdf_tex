@@ -75,13 +75,13 @@
     \put(0.40074355,0.88630761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε παραμέτρους }}}%
     \put(0.40074355,0.85494694){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{και θόρυβο}}}%
     \put(0.40074355,0.8235863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{λόγω αντιστοιχιών}}}%
-    \put(0.70057663,0.63643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
-    \put(0.70057663,0.60507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
-    \put(0.00531108,1.005747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
-    \put(0.59408194,0.714603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{B}}}%
-    \put(0.02959029,0.51652826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γ}}}%
-    \put(0.61077390,0.38239197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ}}}%
-    \put(0.05386950,0.01){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε}}}%
-    \put(0.19596358,0.35150237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
+    \put(0.70057663,0.65643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
+    \put(0.70057663,0.62507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
+    \put(0.00531108,1.023747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{A}}}%
+    \put(0.59408194,0.731603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{B}}}%
+    \put(0.02959029,0.53182826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γ}}}%
+    \put(0.61077390,0.3989197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ}}}%
+    \put(0.05386950,0.027){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε}}}%
+    \put(0.19596358,0.37150237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
   \end{picture}%
 \endgroup%
