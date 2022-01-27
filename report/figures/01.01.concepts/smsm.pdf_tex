@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'sm.eps' (pdf, eps, ps)
+%% Accompanies image file 'smsm.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{267.79650879bp}%
+    \setlength{\unitlength}{189.75bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,16 +50,16 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.70505711)%
+  \begin{picture}(1,0.53142087)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
-    \put(0,0){\includegraphics[width=\unitlength]{./figures/01.01.concepts/sm.eps}}%
-    \put(0.52671697,0.37019942){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textcolor{magenta}{sm}\end{tabular}}}}%
-    \put(0.03500792,0.53823745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{z}$\end{tabular}}}}%
-    \put(0.03500792,0.22856962){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{z}^\prime$\end{tabular}}}}%
-    \put(0.23385294,0.44741463){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}$\end{tabular}}}}%
-    \put(0.23385294,-0.03130686){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}^\prime = $ ?\end{tabular}}}}%
-    \put(0.85439114,0.25257279){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}$\end{tabular}}}}%
-    \put(0.87999241,0.09413919){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}^\prime \approx \textcolor{magenta}{\bm{q}}^{-1} \cdot \bm{p}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/01.01.concepts/smsm.pdf}}%
+    \put(0.47932806,0.32463564){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}smsm\end{tabular}}}}%
+    \put(0.33517787,0.38787674){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}$\end{tabular}}}}%
+    \put(0.37865613,0.30696765){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hat{\bm{p}}$\end{tabular}}}}%
+    \put(0.91225296,0.38182931){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hat{\bm{p}}^\prime \approx \bm{p}$\end{tabular}}}}%
+    \put(0.03873518,0.02057233){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_V$\end{tabular}}}}%
+    \put(0.28379447,0.0255249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_R$\end{tabular}}}}%
+    \put(0.8083004,0.0255249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_V^\prime \approx \mathcal{S}_R$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
