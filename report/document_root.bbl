@@ -19,6 +19,42 @@
 
 \refsection{0}
   \sortlist[entry]{ynt/global}
+    \entry{Lozano-Perez1979}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b9f59c0e4dda6bc1e541769e84d04a84}{%
+           family={Lozano-Pérez},
+           family_i={L\bibinithyphendelim P\bibinitperiod},
+           given={Tomás},
+           given_i={T\bibinitperiod}}}%
+        {{hash=7b8eb357e6cfc069cb717e723d53efc8}{%
+           family={Wesley},
+           family_i={W\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c64be9e07c627edca069e819637793d}
+      \strng{fullhash}{1c64be9e07c627edca069e819637793d}
+      \field{labelalpha}{LW79}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Communications of the ACM}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{{An algorithm for planning collision-free paths among polyhedral obstacles}}
+      \field{volume}{22}
+      \field{year}{1979}
+      \field{pages}{560\bibrangedash 570}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/359156.359164
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/359156.359164
+      \endverb
+    \endentry
     \entry{Maybeck1979}{incollection}{}
       \name{author}{1}{}{%
         {{hash=430bf2290f9271e497941e475652d39d}{%
@@ -39,6 +75,239 @@
       \field{title}{{Stochastic models, estimation, and control - Introduction}}
       \field{volume}{1}
       \field{year}{1979}
+    \endentry
+    \entry{Borenstein1991}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=11666d205dfc9887173a5a86bfcced72}{%
+           family={Koren},
+           family_i={K\bibinitperiod},
+           given={Y.},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f2289950c49b2876dad2dcbab43e0b5}
+      \strng{fullhash}{3f2289950c49b2876dad2dcbab43e0b5}
+      \field{labelalpha}{BK91}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1042296X}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{month}{06}
+      \field{number}{3}
+      \field{title}{{The vector field histogram-fast obstacle avoidance for mobile robots}}
+      \field{volume}{7}
+      \field{year}{1991}
+      \field{pages}{278\bibrangedash 288}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/70.88137
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/88137/
+      \endverb
+    \endentry
+    \entry{Latombe1991}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f1b7494703264d3e562759a836f6d716}{%
+           family={Latombe},
+           family_i={L\bibinitperiod},
+           given={Jean-Claude},
+           given_i={J\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1b7494703264d3e562759a836f6d716}
+      \strng{fullhash}{f1b7494703264d3e562759a836f6d716}
+      \field{labelalpha}{Lat91}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4615-4022-9}
+      \field{title}{{Robot Motion Planning}}
+      \field{year}{1991}
+    \endentry
+    \entry{Kavraki1996}{article}{}
+      \name{author}{4}{}{%
+        {{hash=62fd90f080e94e64f3c268b1234d68d5}{%
+           family={Kavraki},
+           family_i={K\bibinitperiod},
+           given={L.E.},
+           given_i={L\bibinitperiod}}}%
+        {{hash=a9568bc01940d12cabd6fa28e718ec94}{%
+           family={Svestka},
+           family_i={S\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{hash=d8b2d569c379a4acd8684c5771f56ce4}{%
+           family={Latombe},
+           family_i={L\bibinitperiod},
+           given={J.-C.},
+           given_i={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=cfe512c053c9d14f4f37be4f14c9c693}{%
+           family={Overmars},
+           family_i={O\bibinitperiod},
+           given={M.H.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{83deb2857ef8d179c15d040ed6410225}
+      \strng{fullhash}{3513ba884e73495c5b646e8fbe23f765}
+      \field{labelalpha}{Kav+96}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1042296X}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{4}
+      \field{title}{{Probabilistic roadmaps for path planning in high-dimensional configuration spaces}}
+      \field{volume}{12}
+      \field{year}{1996}
+      \field{pages}{566\bibrangedash 580}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/70.508439
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/508439/
+      \endverb
+    \endentry
+    \entry{Fox1997}{article}{}
+      \name{author}{3}{}{%
+        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=33f960734163cca595a2898e40ead972}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4940deb2a73604fb420d8ed01814e690}
+      \strng{fullhash}{4940deb2a73604fb420d8ed01814e690}
+      \field{labelalpha}{FBT97}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{10709932}
+      \field{journaltitle}{IEEE Robotics {\&} Automation Magazine}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{{The dynamic window approach to collision avoidance}}
+      \field{volume}{4}
+      \field{year}{1997}
+      \field{pages}{23\bibrangedash 33}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/100.580977
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/580977/
+      \endverb
+    \endentry
+    \entry{Lavalle1998}{report}{}
+      \name{author}{1}{}{%
+        {{hash=baf146ecfffaae5667ad774102de14df}{%
+           family={Lavalle},
+           family_i={L\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{baf146ecfffaae5667ad774102de14df}
+      \strng{fullhash}{baf146ecfffaae5667ad774102de14df}
+      \field{labelalpha}{Lav98}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Rapidly-exploring random trees : a new tool for path planning}}
+      \field{type}{techreport}
+      \field{year}{1998}
+      \field{pages}{4}
+      \range{pages}{1}
+    \endentry
+    \entry{Bohlin2000}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=32fad560b3877db62916e648b5494848}{%
+           family={Bohlin},
+           family_i={B\bibinitperiod},
+           given={R.},
+           given_i={R\bibinitperiod}}}%
+        {{hash=62fd90f080e94e64f3c268b1234d68d5}{%
+           family={Kavraki},
+           family_i={K\bibinitperiod},
+           given={L.E.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{181ba3f1c5177292cd350cbc8e7bc53f}
+      \strng{fullhash}{181ba3f1c5177292cd350cbc8e7bc53f}
+      \field{labelalpha}{BK00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)}
+      \field{isbn}{0-7803-5886-4}
+      \field{title}{{Path planning using lazy PRM}}
+      \field{year}{2000}
+      \field{pages}{521\bibrangedash 528 vol.1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2000.844107
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/844107/
+      \endverb
+    \endentry
+    \entry{Ge2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ed54b95f09bf9c036e4066c07a4d94ab}{%
+           family={Ge},
+           family_i={G\bibinitperiod},
+           given={S.S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=e8b212e21f6008d9d0c00b00dd8270d0}{%
+           family={Cui},
+           family_i={C\bibinitperiod},
+           given={Y.J.},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5380e1d25fb578960781c60eb91d1e3}
+      \strng{fullhash}{f5380e1d25fb578960781c60eb91d1e3}
+      \field{labelalpha}{GC00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1042296X}
+      \field{journaltitle}{IEEE Transactions on Robotics and Automation}
+      \field{number}{5}
+      \field{title}{{New potential functions for mobile robot path planning}}
+      \field{volume}{16}
+      \field{year}{2000}
+      \field{pages}{615\bibrangedash 620}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/70.880813
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/880813/
+      \endverb
     \endentry
     \entry{Gustafsson2002}{article}{}
       \name{author}{7}{}{%
@@ -181,6 +450,66 @@
       \field{volume}{1}
       \field{year}{2002}
     \endentry
+    \entry{Minguez2004a}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
+           family={Minguez},
+           family_i={M\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=56a3981d06c1e112894b6d538c40f924}{%
+           family={Osuna},
+           family_i={O\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=62999d6be283a87b369ad13b77285346}{%
+           family={Montano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f93cbd4ce8e322a7282664a030d2a0dd}
+      \strng{fullhash}{f93cbd4ce8e322a7282664a030d2a0dd}
+      \field{labelalpha}{MOM04}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Conference on Robotics and Automation, 2004. Proceedings. ICRA '04. 2004}
+      \field{isbn}{0-7803-8232-3}
+      \field{title}{{A "divide and conquer" strategy based on situations to achieve reactive collision avoidance in troublesome scenarios}}
+      \field{year}{2004}
+      \field{pages}{3855\bibrangedash 3862 Vol.4}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2004.1308869
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1308869/
+      \endverb
+    \endentry
+    \entry{MikhailPivtoraiko2005}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=f1312babb90dd86d70020972b2d566be}{%
+           family={{Mikhail\bibnamedelimb Pivtoraiko}},
+           family_i={M\bibinitperiod},
+           given={Alonzo\bibnamedelima Kelly},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1312babb90dd86d70020972b2d566be}
+      \strng{fullhash}{f1312babb90dd86d70020972b2d566be}
+      \field{labelalpha}{Mik05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 8th International Symposium on Artificial Intelligence, Robotics and Automation in Space}
+      \field{title}{{Efficient constrained path planning via search in state lattices}}
+      \field{year}{2005}
+    \endentry
     \entry{thrun2005probabilistic}{book}{}
       \name{author}{3}{}{%
         {{hash=5112ea130eadef0764fce0145b8b9f91}{%
@@ -221,6 +550,195 @@
       \endverb
       \keyw{SLAM localisation mapping robot topoi}
     \endentry
+    \entry{Tovar2005}{incollection}{}
+      \name{author}{3}{}{%
+        {{hash=b6e87445f9a8071231631c04cd449e3b}{%
+           family={Tovar},
+           family_i={T\bibinitperiod},
+           given={Benjamín},
+           given_i={B\bibinitperiod}}}%
+        {{hash=d40803875bcf244b0572e1f9ee5b6dd2}{%
+           family={Guilamo},
+           family_i={G\bibinitperiod},
+           given={Luis},
+           given_i={L\bibinitperiod}}}%
+        {{hash=7609ef2ccbff57c2216589e9c48db2d5}{%
+           family={LaValle},
+           family_i={L\bibinitperiod},
+           given={Steven\bibnamedelima M.},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4366988028e02ae11361b50d5d2f2f6a}
+      \strng{fullhash}{4366988028e02ae11361b50d5d2f2f6a}
+      \field{labelalpha}{TGL05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Gap Navigation Trees: Minimal Representation for Visibility-based Tasks}}
+      \field{year}{2005}
+      \field{pages}{425\bibrangedash 440}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/10991541_29
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/10991541%7B%5C_%7D29
+      \endverb
+    \endentry
+    \entry{Garrido2006}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e7888556c49abd52cdd48c4c614a1580}{%
+           family={Garrido},
+           family_i={G\bibinitperiod},
+           given={Santiago},
+           given_i={S\bibinitperiod}}}%
+        {{hash=49e172853022ca2987ee55afc89a9286}{%
+           family={Moreno},
+           family_i={M\bibinitperiod},
+           given={Luis},
+           given_i={L\bibinitperiod}}}%
+        {{hash=48da516dc932c975c011b50368815358}{%
+           family={Abderrahim},
+           family_i={A\bibinitperiod},
+           given={Mohamed},
+           given_i={M\bibinitperiod}}}%
+        {{hash=f5a4185d44a170fe13a22053063aa226}{%
+           family={Martin},
+           family_i={M\bibinitperiod},
+           given={Fernando},
+           given_i={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f5db90452dfe6aca5617d78c5edc15b5}
+      \strng{fullhash}{94a8b80ada477202303ef95bc3e28232}
+      \field{labelalpha}{Gar+06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2006 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{1-4244-0258-1}
+      \field{month}{10}
+      \field{title}{{Path Planning for Mobile Robot Navigation using Voronoi Diagram and Fast Marching}}
+      \field{year}{2006}
+      \field{pages}{2376\bibrangedash 2381}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2006.282649
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4058742/
+      \endverb
+    \endentry
+    \entry{Bhattacharya2007}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a1b2a017c3a3679224ad6a540f66a6d1}{%
+           family={Bhattacharya},
+           family_i={B\bibinitperiod},
+           given={Priyadarshi},
+           given_i={P\bibinitperiod}}}%
+        {{hash=6e2e073e8a9544fb5ebd815dcd70d1dc}{%
+           family={Gavrilova},
+           family_i={G\bibinitperiod},
+           given={Marina\bibnamedelima L.},
+           given_i={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2e3f3aae9f1f4cb228dc9880ec27d4c0}
+      \strng{fullhash}{2e3f3aae9f1f4cb228dc9880ec27d4c0}
+      \field{labelalpha}{BG07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{4th International Symposium on Voronoi Diagrams in Science and Engineering (ISVD 2007)}
+      \field{isbn}{0-7695-2869-4}
+      \field{month}{07}
+      \field{title}{{Voronoi diagram in optimal path planning}}
+      \field{year}{2007}
+      \field{pages}{38\bibrangedash 47}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ISVD.2007.43
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4276103/
+      \endverb
+    \endentry
+    \entry{Ghosh2007}{book}{}
+      \name{author}{1}{}{%
+        {{hash=09caf0d69e2ca342e578bc5e72df6b12}{%
+           family={Ghosh},
+           family_i={G\bibinitperiod},
+           given={Subir\bibnamedelima Kumar},
+           given_i={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{09caf0d69e2ca342e578bc5e72df6b12}
+      \strng{fullhash}{09caf0d69e2ca342e578bc5e72df6b12}
+      \field{labelalpha}{Gho07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780511543340}
+      \field{title}{{Visibility Algorithms in the Plane}}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1017/CBO9780511543340
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9780511543340/type/book
+      \endverb
+    \endentry
+    \entry{Kurniawati2007}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=2bf76a81789275cfc46befe0850cea36}{%
+           family={Kurniawati},
+           family_i={K\bibinitperiod},
+           given={Hanna},
+           given_i={H\bibinitperiod}}}%
+        {{hash=5afc4a0adc50e4a476a43958827a0ba4}{%
+           family={Fraichard},
+           family_i={F\bibinitperiod},
+           given={Thierry},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e4f9d5e86fd25c865af02a71f84aa5b0}
+      \strng{fullhash}{e4f9d5e86fd25c865af02a71f84aa5b0}
+      \field{labelalpha}{KF07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Conference on Intelligent Robots and Systems}
+      \field{isbn}{1424409128}
+      \field{month}{10}
+      \field{title}{{From path to trajectory deformation}}
+      \field{year}{2007}
+      \field{pages}{159\bibrangedash 164}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2007.4399235
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4399235/
+      \endverb
+    \endentry
     \entry{liddell_scott}{book}{}
       \name{author}{3}{}{%
         {{hash=23541aa862395e1eb3d1b29b23231e2e}{%
@@ -248,6 +766,48 @@
       \field{labeltitlesource}{title}
       \field{title}{Επιτομή του μεγάλου λεξικού της ελληνικής γλώσσης}
       \field{year}{2007}
+    \endentry
+    \entry{Martin2007}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=57bc537bd128f039244577bb94d3a441}{%
+           family={Martin},
+           family_i={M\bibinitperiod},
+           given={Sean\bibnamedelima R.},
+           given_i={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=97bc6446c91ecbc0c857ebfc3be64962}{%
+           family={Wright},
+           family_i={W\bibinitperiod},
+           given={Steve\bibnamedelima E.},
+           given_i={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=bdf76d8f0a5cac674e1c8d815a21a08c}{%
+           family={Sheppard},
+           family_i={S\bibinitperiod},
+           given={John\bibnamedelima W.},
+           given_i={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{bb12d9f205f963b5d17cee6c301ac7e3}
+      \strng{fullhash}{bb12d9f205f963b5d17cee6c301ac7e3}
+      \field{labelalpha}{MWS07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2007 IEEE International Conference on Automation Science and Engineering}
+      \field{isbn}{978-1-4244-1153-5}
+      \field{month}{09}
+      \field{title}{{Offline and Online Evolutionary Bi-Directional RRT Algorithms for Efficient Re-Planning in Dynamic Environments}}
+      \field{year}{2007}
+      \field{pages}{1131\bibrangedash 1136}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/COASE.2007.4341761
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4341761/
+      \endverb
     \endentry
     \entry{Montesano2008a}{article}{}
       \name{author}{3}{}{%
@@ -321,6 +881,184 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.4031/002533208786861272
+      \endverb
+    \endentry
+    \entry{Guitton2009}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b4d6d43e02baf54ac070b8d185570330}{%
+           family={Guitton},
+           family_i={G\bibinitperiod},
+           given={Julien},
+           given_i={J\bibinitperiod}}}%
+        {{hash=05563a4c1c186989b731ba3d86746a85}{%
+           family={Farges},
+           family_i={F\bibinitperiod},
+           given={Jean-Loup},
+           given_i={J\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=4a0c0821a0200d3f23713aa8ea5278dc}{%
+           family={Chatila},
+           family_i={C\bibinitperiod},
+           given={Raja},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8a7c1012cd601e5297c202a814d1cb98}
+      \strng{fullhash}{8a7c1012cd601e5297c202a814d1cb98}
+      \field{labelalpha}{GFC09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{978-1-4244-3803-7}
+      \field{month}{10}
+      \field{title}{{Cell-RRT: Decomposing the environment for better plan}}
+      \field{year}{2009}
+      \field{pages}{5776\bibrangedash 5781}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2009.5354106
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/5354106/
+      \endverb
+    \endentry
+    \entry{Ng2009}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0f0708fd876f5a7329c5fc0ab4e6cf57}{%
+           family={Ng},
+           family_i={N\bibinitperiod},
+           given={Morgan\bibnamedelimb Quigley;\bibnamedelimb Ken\bibnamedelimb Conley;\bibnamedelimb Brian\bibnamedelimb Gerkey;\bibnamedelimb Josh\bibnamedelimb Faust;\bibnamedelimb Tully\bibnamedelimb Foote;\bibnamedelimb Jeremy\bibnamedelimb Leibs;\bibnamedelimb Rob\bibnamedelimb Wheeler;\bibnamedelimb Andrew\bibnamedelima Y.},
+           given_i={M\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f0708fd876f5a7329c5fc0ab4e6cf57}
+      \strng{fullhash}{0f0708fd876f5a7329c5fc0ab4e6cf57}
+      \field{labelalpha}{Ng09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ROS: an open-source Robot Operating System}}
+      \field{year}{2009}
+    \endentry
+    \entry{Jaillet2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fa588db0baeae82dd148fd47ff728b4f}{%
+           family={Jaillet},
+           family_i={J\bibinitperiod},
+           given={Léonard},
+           given_i={L\bibinitperiod}}}%
+        {{hash=87fe8d09b7342631af6b479a958b8cc3}{%
+           family={Cortés},
+           family_i={C\bibinitperiod},
+           given={Juan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=8e32c8278821e724ad6e1d0c25728a84}{%
+           family={Siméon},
+           family_i={S\bibinitperiod},
+           given={T},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{db2251f9f4ca4373905e81e39f8e0f7b}
+      \strng{fullhash}{db2251f9f4ca4373905e81e39f8e0f7b}
+      \field{labelalpha}{JCS10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-3098}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{month}{08}
+      \field{number}{4}
+      \field{title}{{Sampling-Based Path Planning on Configuration-Space Costmaps}}
+      \field{volume}{26}
+      \field{year}{2010}
+      \field{pages}{635\bibrangedash 646}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TRO.2010.2049527
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/5477164/
+      \endverb
+    \endentry
+    \entry{Karaman2010}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=760fda219f7cf0035f440825edce189f}{%
+           family={Karaman},
+           family_i={K\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=6a4fb9449e79280dad7201bef5cfae68}{%
+           family={Frazzoli},
+           family_i={F\bibinitperiod},
+           given={E.},
+           given_i={E\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Robotics: Science}%
+        {Systems Foundation}%
+      }
+      \strng{namehash}{9f7fd80b4a976e5ea6a93d782c5db552}
+      \strng{fullhash}{9f7fd80b4a976e5ea6a93d782c5db552}
+      \field{labelalpha}{KF10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Robotics: Science and Systems VI}
+      \field{isbn}{9780262516815}
+      \field{month}{06}
+      \field{title}{{Incremental Sampling-based Algorithms for Optimal Motion Planning}}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.15607/RSS.2010.VI.034
+      \endverb
+      \verb{url}
+      \verb http://www.roboticsproceedings.org/rss06/p34.pdf
+      \endverb
+    \endentry
+    \entry{Kim2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=807c87b59780f85f3efd5ec200b9a0d1}{%
+           family={Kim},
+           family_i={K\bibinitperiod},
+           given={Jungtae},
+           given_i={J\bibinitperiod}}}%
+        {{hash=7136312856d3737ba117aebef71dd528}{%
+           family={Kim},
+           family_i={K\bibinitperiod},
+           given={Munsang},
+           given_i={M\bibinitperiod}}}%
+        {{hash=826a485a12c6138d205cb62fc5afec78}{%
+           family={Kim},
+           family_i={K\bibinitperiod},
+           given={Daijin},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d466deda5369a82b4fce41575cae6e9}
+      \strng{fullhash}{7d466deda5369a82b4fce41575cae6e9}
+      \field{labelalpha}{KKK11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0169-1864}
+      \field{journaltitle}{Advanced Robotics}
+      \field{month}{01}
+      \field{number}{18}
+      \field{title}{{Variants of the Quantized Visibility Graph for Efficient Path Planning}}
+      \field{volume}{25}
+      \field{year}{2011}
+      \field{pages}{2341\bibrangedash 2360}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1163/016918611X603855
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1163/016918611X603855
       \endverb
     \endentry
     \entry{Noguchi2011}{article}{}
@@ -406,6 +1144,142 @@
       \endverb
       \verb{url}
       \verb http://dl.acm.org/citation.cfm?doid=2425836.2425932
+      \endverb
+    \endentry
+    \entry{ChristophRoesmann}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=8457618a7a886baa2ad1cdb9ce240c46}{%
+           family={Rösmann},
+           family_i={R\bibinitperiod},
+           given={Christoph},
+           given_i={C\bibinitperiod}}}%
+        {{hash=9107de219df941ae5d0b97b6d5cba3ba}{%
+           family={Feiten},
+           family_i={F\bibinitperiod},
+           given={Wendelin},
+           given_i={W\bibinitperiod}}}%
+        {{hash=173e52bca39b018a29b6ed020c128766}{%
+           family={Wösch},
+           family_i={W\bibinitperiod},
+           given={Thomas},
+           given_i={T\bibinitperiod}}}%
+        {{hash=348647b52565b282f58ebc760dbaef0f}{%
+           family={Hoffmann},
+           family_i={H\bibinitperiod},
+           given={Frank},
+           given_i={F\bibinitperiod}}}%
+        {{hash=802ba9269c0073c577b138e7404347cd}{%
+           family={Bertram},
+           family_i={B\bibinitperiod},
+           given={Torsten},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{00ad2ae09387a0e3ad86c708380d9862}
+      \strng{fullhash}{4134905e97aae51a6bc07f0c52bc78e3}
+      \field{labelalpha}{Rös+12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{7th German Conference on Robotics, ROBOTIK 2012}
+      \field{title}{{Trajectory modification considering dynamic constraints of autonomous robots}}
+      \field{year}{2012}
+      \field{pages}{74\bibrangedash 79}
+      \range{pages}{6}
+      \keyw{Autonomous robots,Dynamics,Kinematics,Timed elastic band,Trajectory modification}
+    \endentry
+    \entry{Ghosh2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b01b23761d827fe7a0d62398b9aa13a3}{%
+           family={Ghosh},
+           family_i={G\bibinitperiod},
+           given={Subir\bibnamedelima K.},
+           given_i={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=654870cd69429184c809ec33b98c29d3}{%
+           family={Goswami},
+           family_i={G\bibinitperiod},
+           given={Partha\bibnamedelima P.},
+           given_i={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ecd666c38be27287cc12c354b937f36}
+      \strng{fullhash}{1ecd666c38be27287cc12c354b937f36}
+      \field{labelalpha}{GG13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this survey article, we present open problems and conjectures on visibility graphs of points, segments, and polygons along with necessary backgrounds for understanding them.}
+      \field{issn}{0360-0300}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{11}
+      \field{number}{2}
+      \field{title}{{Unsolved problems in visibility graphs of points, segments, and polygons}}
+      \field{volume}{46}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 29}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1145/2543581.2543589
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/10.1145/2543581.2543589
+      \endverb
+    \endentry
+    \entry{Ok2013}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=981d44932d40554631878162e372f121}{%
+           family={Ok},
+           family_i={O\bibinitperiod},
+           given={Kyel},
+           given_i={K\bibinitperiod}}}%
+        {{hash=ec066d923f16141c9ac1314c4f6ab632}{%
+           family={Ansari},
+           family_i={A\bibinitperiod},
+           given={Sameer},
+           given_i={S\bibinitperiod}}}%
+        {{hash=830b520596f7eba32654c48abc10da0a}{%
+           family={Gallagher},
+           family_i={G\bibinitperiod},
+           given={Billy},
+           given_i={B\bibinitperiod}}}%
+        {{hash=3fe771f333e2ac7a445ed4ffc9e68162}{%
+           family={Sica},
+           family_i={S\bibinitperiod},
+           given={William},
+           given_i={W\bibinitperiod}}}%
+        {{hash=44074d3cb57c174a8b15ccc9a576ac0d}{%
+           family={Dellaert},
+           family_i={D\bibinitperiod},
+           given={Frank},
+           given_i={F\bibinitperiod}}}%
+        {{hash=bea76e6f0bb1d4014aa9c82e6d26c63a}{%
+           family={Stilman},
+           family_i={S\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a5da3c2e87f8550a507e77df79e8ea4c}
+      \strng{fullhash}{bdfb8e761c12252b3f158503ef23734d}
+      \field{labelalpha}{Ok+13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{978-1-4673-5643-5}
+      \field{month}{05}
+      \field{title}{{Path planning with uncertainty: Voronoi Uncertainty Fields}}
+      \field{year}{2013}
+      \field{pages}{4596\bibrangedash 4601}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICRA.2013.6631230
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/6631230/
       \endverb
     \endentry
     \entry{Beer2014}{article}{}
@@ -530,6 +1404,28 @@
       \verb https://dl.acm.org/doi/10.1145/3003715.3005465
       \endverb
     \endentry
+    \entry{Park2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=1456eb68a779adb738f7079fb3819afe}{%
+           family={Park},
+           family_i={P\bibinitperiod},
+           given={Jong\bibnamedelima Jin},
+           given_i={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Michigan, Horace H. Rackham School of Graduate Studies}%
+      }
+      \strng{namehash}{1456eb68a779adb738f7079fb3819afe}
+      \strng{fullhash}{1456eb68a779adb738f7079fb3819afe}
+      \field{labelalpha}{Par16}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Graceful Navigation for Mobile Robots in Dynamic and Uncertain Environments}}
+      \field{type}{phdthesis}
+      \field{year}{2016}
+    \endentry
     \entry{Vasiljevic2016a}{article}{}
       \name{author}{5}{}{%
         {{hash=d292195918a2dcee100b2de16538ad5a}{%
@@ -578,6 +1474,90 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0736584515300314
+      \endverb
+    \endentry
+    \entry{Gandhi2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f055f4907dc202953a27c95dcd85bd5e}{%
+           family={Gandhi},
+           family_i={G\bibinitperiod},
+           given={Dhiraj},
+           given_i={D\bibinitperiod}}}%
+        {{hash=9d4b78f1220fe5cab8395d811fc9c5b2}{%
+           family={Pinto},
+           family_i={P\bibinitperiod},
+           given={Lerrel},
+           given_i={L\bibinitperiod}}}%
+        {{hash=83dd9d464c9f0ea982254939a7f021d8}{%
+           family={Gupta},
+           family_i={G\bibinitperiod},
+           given={Abhinav},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{59b15a892048d654c7bcfb0cc217ef21}
+      \strng{fullhash}{59b15a892048d654c7bcfb0cc217ef21}
+      \field{labelalpha}{GPG17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{isbn}{978-1-5386-2682-5}
+      \field{month}{09}
+      \field{title}{{Learning to fly by crashing}}
+      \field{year}{2017}
+      \field{pages}{3948\bibrangedash 3955}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS.2017.8206247
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/8206247/
+      \endverb
+    \endentry
+    \entry{Rosmann2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=35ddad8c21afb9a84b04afae8f173b28}{%
+           family={Rosmann},
+           family_i={R\bibinitperiod},
+           given={Christoph},
+           given_i={C\bibinitperiod}}}%
+        {{hash=348647b52565b282f58ebc760dbaef0f}{%
+           family={Hoffmann},
+           family_i={H\bibinitperiod},
+           given={Frank},
+           given_i={F\bibinitperiod}}}%
+        {{hash=802ba9269c0073c577b138e7404347cd}{%
+           family={Bertram},
+           family_i={B\bibinitperiod},
+           given={Torsten},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5de9bb00d822166429225178881f5e97}
+      \strng{fullhash}{5de9bb00d822166429225178881f5e97}
+      \field{labelalpha}{RHB17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{isbn}{978-1-5386-2682-5}
+      \field{month}{09}
+      \field{title}{{Kinodynamic trajectory optimization and control for car-like robots}}
+      \field{year}{2017}
+      \field{pages}{5681\bibrangedash 5686}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2017.8206458
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/8206458/
       \endverb
     \endentry
     \entry{Cooper2018a}{article}{}
@@ -771,6 +1751,37 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128099353000104
       \endverb
     \endentry
+    \entry{Kowalczyk2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b0c604df8a9ffae634d0c885722e2554}{%
+           family={Kowalczyk},
+           family_i={K\bibinitperiod},
+           given={Wojciech},
+           given_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b0c604df8a9ffae634d0c885722e2554}
+      \strng{fullhash}{b0c604df8a9ffae634d0c885722e2554}
+      \field{labelalpha}{Kow19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{03}
+      \field{number}{3-4}
+      \field{title}{{Rapid Navigation Function Control for Two-Wheeled Mobile Robots}}
+      \field{volume}{93}
+      \field{year}{2019}
+      \field{pages}{687\bibrangedash 697}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s10846-018-0879-4
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10846-018-0879-4
+      \endverb
+    \endentry
     \entry{Simpson2019}{article}{}
       \name{author}{4}{}{%
         {{hash=b794436b761e5ef147b18643d27e2931}{%
@@ -941,7 +1952,6 @@
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{This paper describes the evolving role of robotics in healthcare and allied areas with special concerns relating to the management and control of the spread of the novel coronavirus disease 2019 (COVID-19). The prime utilization of such robots is to minimize person-to-person contact and to ensure cleaning, sterilization and support in hospitals and similar facilities such as quarantine. This will result in minimizing the life threat to medical staff and doctors taking an active role in the management of theCOVID-19 pandemic. The intention of the present research is to highlight the importance of medical robotics in general and then to connect its utilization with the perspective of COVID-19 management so that the hospital management can direct themselves to maximize the use of medical robots for various medical procedures. This is despite the popularity of telemedicine, which is also effective in similar situations. In essence, the recent achievement of the Korean and Chinese health sectors in obtaining active control of the COVID-19 pandemic was not possible without the use of state of the art medical technology.}
       \field{issn}{1660-4601}
       \field{journaltitle}{International Journal of Environmental Research and Public Health}
       \field{month}{05}
@@ -1329,6 +2339,42 @@
       \verb https://www.revfine.com/hotel-robots/
       \endverb
     \endentry
+    \entry{Bruce}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=ec6efdb7a3c050292b999f493c1b255f}{%
+           family={Bruce},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f6bc198a4f7b87afa60e7f270f10f9dc}{%
+           family={Veloso},
+           family_i={V\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{355c6d7350931134f1799a20947adebb}
+      \strng{fullhash}{355c6d7350931134f1799a20947adebb}
+      \field{labelalpha}{BV}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE/RSJ International Conference on Intelligent Robots and System}
+      \field{isbn}{0-7803-7398-7}
+      \field{title}{{Real-time randomized path planning for robot navigation}}
+      \field{volume}{3}
+      \field{pages}{2383\bibrangedash 2388}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IRDS.2002.1041624
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1041624/
+      \endverb
+    \endentry
     \entry{Chieh-ChihWang}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=83445f22d006c4550b9f7b2405793285}{%
@@ -1495,6 +2541,115 @@
       \verb http://ieeexplore.ieee.org/document/1250629/
       \endverb
     \endentry
+    \entry{Hsua}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=178ff5b8dad44cf97a84de4c6b46c312}{%
+           family={Hsu},
+           family_i={H\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=d17918dff5084bdd4ef3c832db07f533}{%
+           family={Sanchez-Ante},
+           family_i={S\bibinithyphendelim A\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+        {{hash=c21b9ff866013c4ff00587b03bae0310}{%
+           family={{Zheng\bibnamedelimb Sun}},
+           family_i={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{98fd5f296d0aef2137030775856f7317}
+      \strng{fullhash}{98fd5f296d0aef2137030775856f7317}
+      \field{labelalpha}{HSZ}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-7803-8914-X}
+      \field{title}{{Hybrid PRM Sampling with a Cost-Sensitive Adaptive Strategy}}
+      \field{pages}{3874\bibrangedash 3880}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2005.1570712
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1570712/
+      \endverb
+    \endentry
+    \entry{Koren}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=11666d205dfc9887173a5a86bfcced72}{%
+           family={Koren},
+           family_i={K\bibinitperiod},
+           given={Y.},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc. Press}%
+      }
+      \strng{namehash}{bcd9fff23459b712577a36dbcf44010e}
+      \strng{fullhash}{bcd9fff23459b712577a36dbcf44010e}
+      \field{labelalpha}{KB}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 1991 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-8186-2163-X}
+      \field{title}{{Potential field methods and their inherent limitations for mobile robot navigation}}
+      \field{pages}{1398\bibrangedash 1404}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1991.131810
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/131810/
+      \endverb
+    \endentry
+    \entry{Mingueza}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
+           family={Minguez},
+           family_i={M\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=62999d6be283a87b369ad13b77285346}{%
+           family={Montano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0c461dff5aa5e0e97a4b8cb18887151c}
+      \strng{fullhash}{0c461dff5aa5e0e97a4b8cb18887151c}
+      \field{labelalpha}{MM}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 2000 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2000) (Cat. No.00CH37113)}
+      \field{isbn}{0-7803-6348-5}
+      \field{title}{{Nearness diagram navigation (ND): a new real time collision avoidance approach}}
+      \field{volume}{3}
+      \field{pages}{2094\bibrangedash 2100}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2000.895280
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/895280/
+      \endverb
+    \endentry
     \entry{Minguez}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
@@ -1534,6 +2689,82 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/1389825/
+      \endverb
+    \endentry
+    \entry{Nissoux}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=428c3e9da3fc0912b4dca44389b2738a}{%
+           family={Nissoux},
+           family_i={N\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=bdafdabbccbcb0f927e7c2af20ca63df}{%
+           family={Simeon},
+           family_i={S\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{hash=5c9e59bf7a6e729ca6b71fdbb1239dbb}{%
+           family={Laumond},
+           family_i={L\bibinitperiod},
+           given={J.-P.},
+           given_i={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4eaa009b11efcfc05bc3debb7b673c23}
+      \strng{fullhash}{4eaa009b11efcfc05bc3debb7b673c23}
+      \field{labelalpha}{NSL}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 1999 IEEE/RSJ International Conference on Intelligent Robots and Systems. Human and Environment Friendly Robots with High Intelligence and Emotional Quotients (Cat. No.99CH36289)}
+      \field{isbn}{0-7803-5184-3}
+      \field{title}{{Visibility based probabilistic roadmaps}}
+      \field{volume}{3}
+      \field{pages}{1316\bibrangedash 1321}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.1999.811662
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/811662/
+      \endverb
+    \endentry
+    \entry{Quinlan}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8f6adafe625f50a7b49a4d5ca7477ea0}{%
+           family={Quinlan},
+           family_i={Q\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b7099225208d490eae9fdc985956b767}{%
+           family={Khatib},
+           family_i={K\bibinitperiod},
+           given={O.},
+           given_i={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc. Press}%
+      }
+      \strng{namehash}{5bb50bf99917e97b91f17766b3139473}
+      \strng{fullhash}{5bb50bf99917e97b91f17766b3139473}
+      \field{labelalpha}{QK}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{[1993] Proceedings IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-8186-3450-2}
+      \field{title}{{Elastic bands: connecting path planning and control}}
+      \field{pages}{802\bibrangedash 807}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1993.291936
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/291936/
       \endverb
     \endentry
     \entry{Schulz}{inproceedings}{}
@@ -1616,7 +2847,82 @@
       \verb https://www.statista.com/statistics/880147/global-robotic-vehicle-sensors-market-size-by-segment/
       \endverb
     \endentry
+    \entry{Ulricha}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=fd0ed5c43cdd22e4b1862ac7b11e4f12}{%
+           family={Ulrich},
+           family_i={U\bibinitperiod},
+           given={I.},
+           given_i={I\bibinitperiod}}}%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a5bb690101b096294dee07c964daa571}
+      \strng{fullhash}{a5bb690101b096294dee07c964daa571}
+      \field{labelalpha}{UB}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)}
+      \field{isbn}{0-7803-5886-4}
+      \field{title}{{VFH$^\ast$: local obstacle avoidance with look-ahead verification}}
+      \field{volume}{3}
+      \field{pages}{2505\bibrangedash 2511}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2000.846405
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/846405/
+      \endverb
+    \endentry
+    \entry{Ulrich}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=fd0ed5c43cdd22e4b1862ac7b11e4f12}{%
+           family={Ulrich},
+           family_i={U\bibinitperiod},
+           given={I.},
+           given_i={I\bibinitperiod}}}%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a5bb690101b096294dee07c964daa571}
+      \strng{fullhash}{a5bb690101b096294dee07c964daa571}
+      \field{labelalpha}{UB}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 1998 IEEE International Conference on Robotics and Automation (Cat. No.98CH36146)}
+      \field{isbn}{0-7803-4300-X}
+      \field{title}{{VFH+: reliable obstacle avoidance for fast mobile robots}}
+      \field{volume}{2}
+      \field{pages}{1572\bibrangedash 1577}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1998.677362
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/677362/
+      \endverb
+    \endentry
   \endsortlist
+  \missing{amcl}
 \endrefsection
 \endinput
 

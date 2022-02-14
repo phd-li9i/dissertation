@@ -2088,6 +2088,43 @@
     <bcf:citekey order="31">Minguez</bcf:citekey>
     <bcf:citekey order="31">Montesano2008a</bcf:citekey>
     <bcf:citekey order="32">Schulz</bcf:citekey>
+    <bcf:citekey order="33">Ng2009</bcf:citekey>
+    <bcf:citekey order="34">Gandhi2017</bcf:citekey>
+    <bcf:citekey order="35">Lozano-Perez1979</bcf:citekey>
+    <bcf:citekey order="36">Ghosh2007</bcf:citekey>
+    <bcf:citekey order="37">Ghosh2013</bcf:citekey>
+    <bcf:citekey order="38">Kim2011</bcf:citekey>
+    <bcf:citekey order="39">Bhattacharya2007</bcf:citekey>
+    <bcf:citekey order="40">Garrido2006</bcf:citekey>
+    <bcf:citekey order="41">Ok2013</bcf:citekey>
+    <bcf:citekey order="42">Kavraki1996</bcf:citekey>
+    <bcf:citekey order="43">Nissoux</bcf:citekey>
+    <bcf:citekey order="44">Bohlin2000</bcf:citekey>
+    <bcf:citekey order="45">Hsua</bcf:citekey>
+    <bcf:citekey order="46">Lavalle1998</bcf:citekey>
+    <bcf:citekey order="47">Bruce</bcf:citekey>
+    <bcf:citekey order="48">Martin2007</bcf:citekey>
+    <bcf:citekey order="49">Karaman2010</bcf:citekey>
+    <bcf:citekey order="50">Guitton2009</bcf:citekey>
+    <bcf:citekey order="51">Jaillet2010</bcf:citekey>
+    <bcf:citekey order="52">MikhailPivtoraiko2005</bcf:citekey>
+    <bcf:citekey order="53">Latombe1991</bcf:citekey>
+    <bcf:citekey order="54">Koren</bcf:citekey>
+    <bcf:citekey order="55">Ge2000</bcf:citekey>
+    <bcf:citekey order="56">Kowalczyk2019</bcf:citekey>
+    <bcf:citekey order="57">Park2016</bcf:citekey>
+    <bcf:citekey order="58">Borenstein1991</bcf:citekey>
+    <bcf:citekey order="59">Ulrich</bcf:citekey>
+    <bcf:citekey order="60">Ulricha</bcf:citekey>
+    <bcf:citekey order="61">Fox1997</bcf:citekey>
+    <bcf:citekey order="62">Tovar2005</bcf:citekey>
+    <bcf:citekey order="63">Mingueza</bcf:citekey>
+    <bcf:citekey order="64">Minguez2004a</bcf:citekey>
+    <bcf:citekey order="65">Quinlan</bcf:citekey>
+    <bcf:citekey order="66">Kurniawati2007</bcf:citekey>
+    <bcf:citekey order="67">ChristophRoesmann</bcf:citekey>
+    <bcf:citekey order="68">Rosmann2017</bcf:citekey>
+    <bcf:citekey order="69">amcl</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>
