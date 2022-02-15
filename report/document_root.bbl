@@ -309,6 +309,28 @@
       \verb http://ieeexplore.ieee.org/document/880813/
       \endverb
     \endentry
+    \entry{Fox2001}{report}{}
+      \name{author}{1}{}{%
+        {{hash=93b0c4a7857a82a8f94e256475887c74}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={Dieter},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{93b0c4a7857a82a8f94e256475887c74}
+      \strng{fullhash}{93b0c4a7857a82a8f94e256475887c74}
+      \field{labelalpha}{Fox01}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{KLD-Sampling: Adaptive Particle Filters and Mobile Robot Localization}}
+      \field{type}{techreport}
+      \field{year}{2001}
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/KLD-Sampling%7B%5C%%7D3A-Adaptive-Particle-Filters-and-Mobile-Fox/bc83280b12828a45366368294001f5890c07e02b
+      \endverb
+    \endentry
     \entry{Gustafsson2002}{article}{}
       \name{author}{7}{}{%
         {{hash=efeca2b720f2e1353d53f19b3195ccb6}{%
@@ -450,6 +472,35 @@
       \field{volume}{1}
       \field{year}{2002}
     \endentry
+    \entry{Maxim2003}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b003e939dc38c729a7019f5b8403fa44}{%
+           family={Likhachev},
+           family_i={L\bibinitperiod},
+           given={Maxim},
+           given_i={M\bibinitperiod}}}%
+        {{hash=685e1c249c9cf9b84bcec19b01d8fef0}{%
+           family={Gordon},
+           family_i={G\bibinitperiod},
+           given={Geoff},
+           given_i={G\bibinitperiod}}}%
+        {{hash=5112ea130eadef0764fce0145b8b9f91}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb58389a95fa3e738489f1d34dac7edb}
+      \strng{fullhash}{fb58389a95fa3e738489f1d34dac7edb}
+      \field{labelalpha}{LGT03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of (NeurIPS) Neural Information Processing Systems}
+      \field{title}{{ARA*: Anytime A* with Provable Bounds on Sub-Optimality}}
+      \field{year}{2003}
+    \endentry
     \entry{Minguez2004a}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
@@ -490,6 +541,70 @@
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/1308869/
       \endverb
+    \endentry
+    \entry{Philippsen2004}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=36bc28bd150e1b2e2face001717d4ab1}{%
+           family={Philippsen},
+           family_i={P\bibinitperiod},
+           given={Roland},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {EPFL}%
+      }
+      \strng{namehash}{36bc28bd150e1b2e2face001717d4ab1}
+      \strng{fullhash}{36bc28bd150e1b2e2face001717d4ab1}
+      \field{labelalpha}{Phi04}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Motion planning and obstacle avoidance for mobile robots in highly cluttered dynamic environments}}
+      \field{type}{phdthesis}
+      \field{year}{2004}
+      \verb{doi}
+      \verb 10.5075/epfl-thesis-3146
+      \endverb
+    \endentry
+    \entry{Maxim2005}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=b003e939dc38c729a7019f5b8403fa44}{%
+           family={Likhachev},
+           family_i={L\bibinitperiod},
+           given={Maxim},
+           given_i={M\bibinitperiod}}}%
+        {{hash=3d54bfe78073b8139d9aab81688dc72e}{%
+           family={Ferguson},
+           family_i={F\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=256956ca86efebfe1fa783a2740a36a8}{%
+           family={Gordon},
+           family_i={G\bibinitperiod},
+           given={Geoffrey},
+           given_i={G\bibinitperiod}}}%
+        {{hash=b3acfda7762fc2124702ad47169e839b}{%
+           family={Stentz},
+           family_i={S\bibinitperiod},
+           given={Anthony\bibnamedelima (Tony)},
+           given_i={A\bibinitperiod\bibinitdelim (\bibinitperiod}}}%
+        {{hash=5112ea130eadef0764fce0145b8b9f91}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6d6276c79aabe1aee7905cadb4bc33b8}
+      \strng{fullhash}{a1a88c63c41c6feb6c6200ca6ffe3357}
+      \field{labelalpha}{Lik+05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 15th International Conference on Automated Planning and Scheduling}
+      \field{title}{{Anytime Dynamic A*: An Anytime, Replanning Algorithm}}
+      \field{year}{2005}
     \endentry
     \entry{MikhailPivtoraiko2005}{inproceedings}{}
       \name{author}{1}{}{%
@@ -702,6 +817,47 @@
       \verb https://www.cambridge.org/core/product/identifier/9780511543340/type/book
       \endverb
     \endentry
+    \entry{Grisetti2007}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1aa4adfed9f6f5be21fca54e130eacb5}{%
+           family={Grisetti},
+           family_i={G\bibinitperiod},
+           given={Giorgio},
+           given_i={G\bibinitperiod}}}%
+        {{hash=5d87e0c36213202151bff64fdd9346a3}{%
+           family={Stachniss},
+           family_i={S\bibinitperiod},
+           given={Cyrill},
+           given_i={C\bibinitperiod}}}%
+        {{hash=98f4ab1bc2ac191d8f8a0651315ce9c0}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={Wolfram},
+           given_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{46e0c8d908edcfca5bd82f3ddfe938a4}
+      \strng{fullhash}{46e0c8d908edcfca5bd82f3ddfe938a4}
+      \field{labelalpha}{GSB07}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1552-3098}
+      \field{journaltitle}{IEEE Transactions on Robotics}
+      \field{month}{02}
+      \field{number}{1}
+      \field{title}{{Improved Techniques for Grid Mapping With Rao-Blackwellized Particle Filters}}
+      \field{volume}{23}
+      \field{year}{2007}
+      \field{pages}{34\bibrangedash 46}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/TRO.2006.889486
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4084563/
+      \endverb
+    \endentry
     \entry{Kurniawati2007}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=2bf76a81789275cfc46befe0850cea36}{%
@@ -807,6 +963,43 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/4341761/
+      \endverb
+    \endentry
+    \entry{Durham2008}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=236d77c7eba62f91d06b7bdbc46f9a99}{%
+           family={Durham},
+           family_i={D\bibinitperiod},
+           given={J.W.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=1c3998636570cd16120e920bab631264}{%
+           family={Bullo},
+           family_i={B\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3631d2c0882f90eb75aa6fd9fe4f08c9}
+      \strng{fullhash}{3631d2c0882f90eb75aa6fd9fe4f08c9}
+      \field{labelalpha}{DB08}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{978-1-4244-2057-5}
+      \field{month}{09}
+      \field{title}{{Smooth Nearness-Diagram Navigation}}
+      \field{year}{2008}
+      \field{pages}{690\bibrangedash 695}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2008.4651071
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4651071/
       \endverb
     \endentry
     \entry{Montesano2008a}{article}{}
@@ -1095,6 +1288,84 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S1474667016436815
+      \endverb
+    \endentry
+    \entry{Phillips2011}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=5894cdb872155b205d2067e6ef4f9f8d}{%
+           family={Phillips},
+           family_i={P\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+        {{hash=b003e939dc38c729a7019f5b8403fa44}{%
+           family={Likhachev},
+           family_i={L\bibinitperiod},
+           given={Maxim},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0aaa4400d2da84ae2b449c748a6084d0}
+      \strng{fullhash}{0aaa4400d2da84ae2b449c748a6084d0}
+      \field{labelalpha}{PL11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{978-1-61284-386-5}
+      \field{month}{05}
+      \field{title}{{SIPP: Safe interval path planning for dynamic environments}}
+      \field{year}{2011}
+      \field{pages}{5628\bibrangedash 5635}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICRA.2011.5980306
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/5980306/
+      \endverb
+    \endentry
+    \entry{Chitta2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c8b4293f7358b8d2c74099a3e9e25b84}{%
+           family={Chitta},
+           family_i={C\bibinitperiod},
+           given={Sachin},
+           given_i={S\bibinitperiod}}}%
+        {{hash=04b3571f132e5b190d193c17df47af87}{%
+           family={Sucan},
+           family_i={S\bibinitperiod},
+           given={Ioan},
+           given_i={I\bibinitperiod}}}%
+        {{hash=6e48c0bbf1da12af63cf1231c2d2ba32}{%
+           family={Cousins},
+           family_i={C\bibinitperiod},
+           given={Steve},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{00805e3b0dd4b638156700238e384f94}
+      \strng{fullhash}{00805e3b0dd4b638156700238e384f94}
+      \field{labelalpha}{CSC12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1070-9932}
+      \field{journaltitle}{IEEE Robotics {\&} Automation Magazine}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{{MoveIt! [ROS Topics]}}
+      \field{volume}{19}
+      \field{year}{2012}
+      \field{pages}{18\bibrangedash 19}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/MRA.2011.2181749
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/6174325/
       \endverb
     \endentry
     \entry{Oliver2012}{inproceedings}{}
@@ -2922,7 +3193,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{amcl}
 \endrefsection
 \endinput
 

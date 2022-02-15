@@ -2120,11 +2120,24 @@
     <bcf:citekey order="62">Tovar2005</bcf:citekey>
     <bcf:citekey order="63">Mingueza</bcf:citekey>
     <bcf:citekey order="64">Minguez2004a</bcf:citekey>
-    <bcf:citekey order="65">Quinlan</bcf:citekey>
-    <bcf:citekey order="66">Kurniawati2007</bcf:citekey>
-    <bcf:citekey order="67">ChristophRoesmann</bcf:citekey>
-    <bcf:citekey order="68">Rosmann2017</bcf:citekey>
-    <bcf:citekey order="69">amcl</bcf:citekey>
+    <bcf:citekey order="65">Durham2008</bcf:citekey>
+    <bcf:citekey order="66">Quinlan</bcf:citekey>
+    <bcf:citekey order="67">Kurniawati2007</bcf:citekey>
+    <bcf:citekey order="68">ChristophRoesmann</bcf:citekey>
+    <bcf:citekey order="69">Rosmann2017</bcf:citekey>
+    <bcf:citekey order="70">Grisetti2007</bcf:citekey>
+    <bcf:citekey order="70">Fox2001</bcf:citekey>
+    <bcf:citekey order="71">Latombe1991</bcf:citekey>
+    <bcf:citekey order="72">Philippsen2004</bcf:citekey>
+    <bcf:citekey order="73">Chitta2012</bcf:citekey>
+    <bcf:citekey order="74">MikhailPivtoraiko2005</bcf:citekey>
+    <bcf:citekey order="75">Maxim2003</bcf:citekey>
+    <bcf:citekey order="76">Maxim2005</bcf:citekey>
+    <bcf:citekey order="77">Phillips2011</bcf:citekey>
+    <bcf:citekey order="78">Bhattacharya2007</bcf:citekey>
+    <bcf:citekey order="79">Fox1997</bcf:citekey>
+    <bcf:citekey order="80">Quinlan</bcf:citekey>
+    <bcf:citekey order="81">Rosmann2017</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>
