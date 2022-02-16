@@ -2138,6 +2138,8 @@
     <bcf:citekey order="79">Fox1997</bcf:citekey>
     <bcf:citekey order="80">Quinlan</bcf:citekey>
     <bcf:citekey order="81">Rosmann2017</bcf:citekey>
+    <bcf:citekey order="82">Frechet1906</bcf:citekey>
+    <bcf:citekey order="83">RockafellarR</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>

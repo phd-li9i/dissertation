@@ -3,11 +3,8 @@
 \begin{document}
 \selectlanguage{greek}
 
-% Front page
-\input{./parts/00/01.title_page.tex}
-\input{./parts/00/02.filler.tex}
-\input{./parts/00/03.abstract.tex}
-\input{./parts/00/04.filler.tex}
+% Front page -------------------------------------------------------------------
+\input{./parts/00/00.front_matter.tex}
 
 % ΕΙΣΑΓΩΓΗ ---------------------------------------------------------------------
 \part{Εισαγωγή}
@@ -15,10 +12,14 @@
 
 % ΟΙ ΜΕΘΟΔΟΙ -------------------------------------------------------------------
 \part{Προβλήματα---Λύσεις---Συμβολές}
+  \input{parts/02/chapters.tex}
 
 % ΣΥΜΠΕΡΑΣΜΑΤΑ -----------------------------------------------------------------
 \part{Συμπεράσματα}
 
+% ΠΑΡΑΡΤΗΜΑΤΑ ------------------------------------------------------------------
+\part{Παραρτήματα}
+  \input{parts/appendix/appendix.tex}
 
 %\selectlanguage{english}
 \printbibliography[heading=bibintoc,title={\textgreek{Αναφορές}}]

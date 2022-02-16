@@ -19,6 +19,37 @@
 
 \refsection{0}
   \sortlist[entry]{ynt/global}
+    \entry{Frechet1906}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8b2687ee7f60fd9f0b37d7285b116dd7}{%
+           family={Fréchet},
+           family_i={F\bibinitperiod},
+           given={M.\bibnamedelimi Maurice},
+           given_i={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b2687ee7f60fd9f0b37d7285b116dd7}
+      \strng{fullhash}{8b2687ee7f60fd9f0b37d7285b116dd7}
+      \field{labelalpha}{Fré06}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-725X}
+      \field{journaltitle}{Rendiconti del Circolo Matematico di Palermo}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{{Sur quelques points du calcul fonctionnel}}
+      \field{volume}{22}
+      \field{year}{1906}
+      \field{pages}{1\bibrangedash 72}
+      \range{pages}{72}
+      \verb{doi}
+      \verb 10.1007/BF03018603
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BF03018603
+      \endverb
+    \endentry
     \entry{Lozano-Perez1979}{article}{}
       \name{author}{2}{}{%
         {{hash=b9f59c0e4dda6bc1e541769e84d04a84}{%
@@ -237,6 +268,30 @@
       \field{year}{1998}
       \field{pages}{4}
       \range{pages}{1}
+    \endentry
+    \entry{RockafellarR}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ba20200e383382adc55a3320309231bc}{%
+           family={Rockafellar},
+           family_i={R\bibinitperiod},
+           given={R.\bibnamedelimi Tyrrell},
+           given_i={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8f2e48483310c29514956725df8d74c0}{%
+           family={Wets},
+           family_i={W\bibinitperiod},
+           given={Roger\bibnamedelimb J.\bibnamedelimi B.},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{107effaeca291cd214f5e863b9533558}
+      \strng{fullhash}{107effaeca291cd214f5e863b9533558}
+      \field{labelalpha}{RW98}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-642-02431-3}
+      \field{title}{{Variational Analysis}}
+      \field{year}{1998}
     \endentry
     \entry{Bohlin2000}{inproceedings}{}
       \name{author}{2}{}{%
