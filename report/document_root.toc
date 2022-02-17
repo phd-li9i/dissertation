@@ -68,26 +68,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Μεθοδολογία συνολικής και ιεράρχημένης αξιολόγησης}{51}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Ποιοτικές μετρικές πακέτων λογισμικών πλοήγησης}{57}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Μετρικές ποιότητας πακέτων λογισμικών πλοήγησης}{57}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Πειραματική αξιολόγηση}{59}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Προκαταρκτική αξιολόγηση}{59}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Συμπεράσματα και μελλοντική έρευνα}{63}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.2}Αξιολόγηση στο περιβάλλον CORRIDOR}{63}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Pose selection}{65}{chapter.5}
+\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση στο περιβάλλον WILLOWGARAGE}{66}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Global localisation}{67}{chapter.6}
+\contentsline {subsection}{\numberline {4.4.4}Αξιολόγηση στο περιβάλλον CSAL}{69}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}smsm}{69}{chapter.7}
+\contentsline {subsection}{\numberline {4.4.5}Συνολική αξιολόγηση}{70}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}sm}{71}{chapter.8}
+\contentsline {section}{\numberline {4.5}Συμπεράσματα και μελλοντική έρευνα}{73}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Συμπεράσματα}{73}{part.3}
+\contentsline {chapter}{\numberline {5}Pose selection}{75}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Παραρτήματα}{75}{part.4}
+\contentsline {chapter}{\numberline {6}Global localisation}{77}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{77}{section.8.1}
+\contentsline {chapter}{\numberline {7}smsm}{79}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\textgreek {Αναφορές}}{81}{chapter*.22}
+\contentsline {chapter}{\numberline {8}sm}{81}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{III\hspace {1em}Συμπεράσματα}{83}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{IV\hspace {1em}Παραρτήματα}{85}{part.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{87}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\textgreek {Αναφορές}}{91}{chapter*.32}

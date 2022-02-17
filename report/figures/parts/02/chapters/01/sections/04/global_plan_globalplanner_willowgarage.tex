@@ -1,0 +1,178 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolorfalse
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktexttrue
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplfronttext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+  \setlength{\unitlength}{0.0500bp}%
+  \begin{picture}(8000.00,4800.00)%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,1073){\makebox(0,0)[r]{\strut{}$45$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,1490){\makebox(0,0)[r]{\strut{}$50$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,1908){\makebox(0,0)[r]{\strut{}$55$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,2325){\makebox(0,0)[r]{\strut{}$60$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,2743){\makebox(0,0)[r]{\strut{}$65$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,3160){\makebox(0,0)[r]{\strut{}$70$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,3578){\makebox(0,0)[r]{\strut{}$75$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(891,3995){\makebox(0,0)[r]{\strut{}$80$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1065,644){\makebox(0,0){\strut{}$56$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1399,644){\makebox(0,0){\strut{}$60$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1817,644){\makebox(0,0){\strut{}$65$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2234,644){\makebox(0,0){\strut{}$70$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(385,2471){\rotatebox{90}{\makebox(0,0){\strut{}$y$ [m]}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1733,314){\makebox(0,0){\strut{}$x$ [m]}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1433,4409){\makebox(0,0){\strut{}\texttt{global\_planner} / \texttt{dwa}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,1073){\makebox(0,0)[r]{\strut{}$45$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,1490){\makebox(0,0)[r]{\strut{}$50$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,1908){\makebox(0,0)[r]{\strut{}$55$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,2325){\makebox(0,0)[r]{\strut{}$60$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,2743){\makebox(0,0)[r]{\strut{}$65$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,3160){\makebox(0,0)[r]{\strut{}$70$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,3578){\makebox(0,0)[r]{\strut{}$75$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3157,3995){\makebox(0,0)[r]{\strut{}$80$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3331,644){\makebox(0,0){\strut{}$56$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3665,644){\makebox(0,0){\strut{}$60$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4083,644){\makebox(0,0){\strut{}$65$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4500,644){\makebox(0,0){\strut{}$70$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3999,314){\makebox(0,0){\strut{}$x$ [m]}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3999,4409){\makebox(0,0){\strut{}\texttt{global\_planner} / \texttt{eband}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,1073){\makebox(0,0)[r]{\strut{}$45$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,1490){\makebox(0,0)[r]{\strut{}$50$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,1908){\makebox(0,0)[r]{\strut{}$55$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,2325){\makebox(0,0)[r]{\strut{}$60$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,2743){\makebox(0,0)[r]{\strut{}$65$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,3160){\makebox(0,0)[r]{\strut{}$70$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,3578){\makebox(0,0)[r]{\strut{}$75$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5424,3995){\makebox(0,0)[r]{\strut{}$80$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5598,644){\makebox(0,0){\strut{}$56$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5932,644){\makebox(0,0){\strut{}$60$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6349,644){\makebox(0,0){\strut{}$65$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6766,644){\makebox(0,0){\strut{}$70$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6265,314){\makebox(0,0){\strut{}$x$ [m]}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6565,4409){\makebox(0,0){\strut{}\texttt{global\_planner} / \texttt{teb}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplfronttext
+    \put(0,0){\includegraphics{./figures/parts/02/chapters/01/sections/04/global_plan_globalplanner_willowgarage}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup
