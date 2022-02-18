@@ -3,7 +3,7 @@
   \label{subsection:02_01_04:01}
 
 Τα πακέτα \texttt{navfn} και \texttt{global\_planner} θεωρούνται ότι είναι οι
-προεπιλεγμένες επιλογές για αλγορίθμους κατασκευής μονοπατιών στο ROS: είναι οι
+προεπιλεγμένες επιλογές για αλγορίθμους χάραξης μονοπατιών στο ROS: είναι οι
 παλαιότερες και (θεωρούνται ότι είναι οι---) ασφαλέστερες επιλογές για το έργο
 της πλοήγησης. Επιπλέον, απαιτούν ελάχιστη παραμετροποίηση. Συντηρούνται συνεχώς
 από την απαρχή του ROS (αυτό ισχύει ειδικά για το \texttt{navfn}) και,
@@ -44,7 +44,7 @@
 είναι η \texttt{diamondback}, και η τελευταία ενημέρωσή της ήταν πάνω από οκτώ
 χρόνια πριν κατά το χρόνο συγγραφής της διατριβής. Συνεπώς αυτό το πακέτο δεν
 είναι αυτοτελές, ενημερωμένο, και, σύμφωνα με τo δεύτερο, το τέταρτο, και το
-έβδομο κριτήριo, δεν θα ληφθεί υπόψη στην προσεχή αξιολόγηση.
+έβδομο κριτήριο, δεν θα ληφθεί υπόψη στην προσεχή αξιολόγηση.
 
 Παρόλο που το πακέτο \texttt{lattice\_planner} είναι τεκμηριωμένο και
 αυτοτελές, δεν συντηρείται ενεργά (η τελευταία του έκδοση στο \texttt{github}
@@ -98,7 +98,7 @@ ROS\footnote{\url{https://github.com/utexas-bwi/eband\_local\_planner/issues/28}
 
 Ο πίνακας \ref{tbl:qualitative_metrics} απεικονίζει τον πλήρη κατάλογο
 αξιολόγησης με βάση τα ποιοτικά κριτήρια της ενότητος
-\ref{subsection:02_01_03:04} γιά όλα τα πακέτα λογισμικού αυτόνομους πλοήγησης
+\ref{subsection:02_01_03:04} για όλα τα πακέτα λογισμικού αυτόνομους πλοήγησης
 των ενοτήτων \ref{subsubsection:02_01_02:03_01} και
 \ref{subsubsection:02_01_02:03_02}.
 
@@ -150,7 +150,8 @@ ROS που θα αξιολογηθούν πειραματικά. Οι συμβο
   \caption{\small Ο κατάλογος των πακέτων ROS των αλγορίθμων κατασκευής
            μονοπατιών (Global Planners) και ελεγκτών κίνησης (Local Planners)
            των οποίων η ξεχωριστή και συνδυαστική χρήση θα αξιολογηθεί
-           πειραματικά}
+           πειραματικά. Κάθε πακέτο ικανοποιεί όλα τα κριτήρια της λίστας
+           της ενότητας \ref{subsection:02_01_03:04}}
 \label{tbl:planners_sifted_list}
 \end{table}
 
@@ -162,96 +163,100 @@ ROS που θα αξιολογηθούν πειραματικά. Οι συμβο
 Συνολικά, όλοι οι συνδυασμοί του \texttt{dwa\_local\_planner} με οποιονδήποτε
 global planner απέτυχαν να πλοηγήσουν το ρομπότ στην επιθυμητή στάση, και το
 ίδιο παρατηρείται για το συνδυασμό του \texttt{sbpl\_lattice\_planner} με τον
-\texttt{eband\_local\_planner}. Οι υπόλοιποι συνδυασμοί ήταν αξιόπιστοι. Ο
-πίνακας \ref{tbl:rank_corridor} συνοψίζει το ποσοστό επιτυχίας
-κάθε συνδυασμού global και local planner στο περιβάλλον CORRIDOR.
+\texttt{eband\_local\_planner}.
 
-Το σχήμα \ref{fig:global_plans:corridor} απεικονίζει τα μονοπάτια προς ακολούθηση
-που παρήχθησαν από όλους τους global planners που εμφανίζονται στην πρώτη στήλη του πίνακα
-\ref{tbl:planners_sifted_list}, για όλους τους συνδυασμούς global και local
-planner του ίδιου πίνακα, για $N$ προσομοιώσεις κάθε συνδυασμού.
+Το σχήμα \ref{fig:global_plans:corridor} απεικονίζει τα μονοπάτια προς
+ακολούθηση που παρήχθησαν από όλους τους global planners που εμφανίζονται στην
+πρώτη στήλη του πίνακα \ref{tbl:planners_sifted_list}, για όλους τους
+συνδυασμούς global και local planner του ίδιου πίνακα, για $N=10$ προσομοιώσεις
+κάθε συνδυασμού.
 
 \begin{figure}\centering
   \begin{subfigure}[t]{\linewidth}
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/global_plan_navfn_corridor}
   \end{subfigure}\\%
+  \vspace{-1cm}
   \begin{subfigure}[t]{\linewidth}
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/global_plan_globalplanner_corridor}
   \end{subfigure}\\%
+  \vspace{-1cm}
   \begin{subfigure}[t]{\linewidth}
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/global_plan_sbpl_corridor.tex}
   \end{subfigure}%
-  \caption{Global plans $\bm{\mathcal{G}}$ produced by the three global
-           planners with regard to the initial and goal poses of map
-           CORRIDOR $\bm{M}_C$. Each row depicts the global plans produced
-           by one global planner when combined with each of the reviewed local
-           planners. Navigation with each combination of planners was run
-           $N=10$ times.}
+  \caption{\small Τα σχεδιασθέντα μονοπάτια προς ακολούθηση $\bm{\mathcal{G}}$
+           που παρήχθησαν από τους τρεις αλγορίθμους χάραξης μονοπατιών για
+           κάθε συνδυασμό τους με ελεγκτή κίνησης του πίνακα
+           \ref{tbl:planners_sifted_list}, σε σχέση με τις ορισμένες αρχικές και
+           τελικές στάσεις του περιβάλλοντος CORRIDOR}
   \label{fig:global_plans:corridor}
 \end{figure}
 
-Το σχήμα \ref{fig:ground_truths:corridor} απεικονίζει τις πραγματικές διαδρομές που διανύουν οι
-το ρομπότ για όλους τους συνδυασμούς παγκόσμιων και τοπικών σχεδιαστών του ίδιου πίνακα,
-και για $N$ προσομοιώσεις για κάθε συνδυασμό.
+Το σχήμα \ref{fig:ground_truths:corridor} απεικονίζει τις πραγματικές διαδρομές
+που διένυσε το ρομπότ για όλους τους συνδυασμούς αλγορίθμων σχεδίασης μονοπατιών
+και ελεγκτών κίνησης του ίδιου πίνακα, για $N=10$ προσομοιώσεις για κάθε
+συνδυασμό.
 
 \begin{figure}\centering
   \begin{subfigure}[t]{\linewidth}
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/ground_truth_navfn_corridor}
   \end{subfigure}\\%
+  \vspace{-1cm}
   \begin{subfigure}[t]{\linewidth}
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/ground_truth_globalplanner_corridor}
   \end{subfigure}\\%
+  \vspace{-1cm}
   \begin{subfigure}[t]{\linewidth}
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/ground_truth_sbpl_corridor.tex}
   \end{subfigure}%
-  \caption{The paths traversed $\bm{\mathcal{P}}$ by the robot with regard to
-           the initial and goal poses of map CORRIDOR $\bm{M}_C$. Each column
-           depicts the paths that were the result of application of one local
-           planner when combined with each of the reviewed global planners.
-           Navigation with each combination of planners was run $N=10$ times.}
+  \caption{\small Τα διανυθέντα μονοπάτια $\bm{\mathcal{P}}$ του ρομπότ, όπως
+           ορίστηκαν από τους τρεις ελεγκτές κίνησης για κάθε συνδυασμό τους με
+           αλγόριθμο παραγωγής μονοπατιών του πίνακα
+           \ref{tbl:planners_sifted_list}, σε σχέση με τις ορισμένες αρχικές και
+           τελικές στάσεις του περιβάλλοντος CORRIDOR}
   \label{fig:ground_truths:corridor}
 \end{figure}
 
 
-Ο πίνακας \ref{tbl:rank_corridor} διαθέτει την τιμή $V_{\bm{M}_C}$ και την κατάταξη όλων των
-συνδυασμών των παγκόσμιων και τοπικών σχεδιαστών που αξιολογήθηκαν σε όλες τις μετρικές
-που παρουσιάζονται στους πίνακες \ref{tbl:info_global_plan_corridor} $-$
-\ref{tbl:info_deviation_from_global_plan_corridor} όσον αφορά τους
-τις επιδόσεις τους στην πλοήγηση στον παγκόσμιο χάρτη CORRIDOR. Για τον υπολογισμό του
-της τιμής όλων των συνδυασμών, όλα τα βάρη $w_m = 1.0$ εκτός από το αντίστοιχο
-στην ειδική για τον τοπικό σχεδιαστή μετρική του $\mu_{PF} / \mu_{LPC}$, λόγω του γεγονότος ότι
-ότι το \texttt{eband\_local\_planner} δεν παρέχει πρόσβαση στον αριθμό των
-φορές που κλήθηκε να κατευθύνει την κίνηση του ρομπότ, ο οποίος είχε οριστεί σε $0.0$.
-Συνολικά, ο τοπικός σχεδιαστής \texttt{teb\_local\_planner} κατέλαβε όλες τις θέσεις στο βάθρο,
-με τον συνδυασμό του με τον παγκόσμιο σχεδιαστή \texttt{navfn} να είναι ο
-με τις καλύτερες επιδόσεις μεταξύ των τριών. Λεπτομέρειες σχετικά με τις επιδόσεις των παγκόσμιων σχεδιαστών,
-τοπικών σχεδιαστών και του συνδυασμού τους, βρίσκονται στο παράρτημα
+Ο πίνακας \ref{tbl:rank_corridor} καταγράφει την τιμή-αξία $V_{\bm{M}_C}$ και
+την κατάταξη όλων των συνδυασμών αλγορίθμων χάραξης μονοπατιών και ελεγκτών
+κίνησης που αξιολογήθηκαν με βάση τις τιμές όλων των μετρικών, που
+παρουσιάζονται στους πίνακες
+\ref{tbl:info_global_plan_corridor}-\ref{tbl:info_deviation_from_global_plan_corridor},
+όσον αφορά στις επιδόσεις τους στην πλοήγηση στο περιβάλλον CORRIDOR. Για τον
+υπολογισμό της τιμής όλων των συνδυασμών, όλα τα βάρη $w_m = 1.0$ εκτός από
+αυτό που αφορά στη μετρική $\mu_{PF} / \mu_{LPC}$, λόγω του γεγονότος ότι ότι ο
+\texttt{eband\_local\_planner} δεν παρέχει πρόσβαση στον αριθμό των κλήσεων του
+ελεγκτή. Συνολικά, ο ελεγκτής κίνησης \texttt{teb\_local\_planner} κατέλαβε
+όλες τις θέσεις του βάθρου, με τον συνδυασμό του με τον αλγόριθμο
+\texttt{navfn} να είναι ο με τις καλύτερες επιδόσεις μεταξύ των τριών.
+Λεπτομέρειες σχετικά με τις επιδόσεις των αλγορίθμων χάραξης μονοπατιών, των
+ελεγκτών κίνησης, και των συνδυασμών τους, βρίσκονται στο παράρτημα
 \ref{appendix:evaluation_corridor}.
 
-\begin{table}[htb]\centering
+\begin{table}\centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{llccc}
-  GP & LP & επιτυχημένες αποστολές / $N$ & $V_{\bm{M}_C}$ & rank \\ \toprule
-  \texttt{navfn} & \texttt{teb} & $10/10$ & $21.41$ & $1$ \\
-  \texttt{sbpl} & \texttt{teb} & $10/10$ & $20.35$ & $2$ \\
-  \texttt{globalplanner} & \texttt{teb} & $10/10$ & $19.29$ & $3$ \\
-  \texttt{navfn} & \texttt{eband} & $10/10$ & $15.96$ & $4$ \\
-  \texttt{globalplanner} & \texttt{eband} & $10/10$ & $14.70$ & $5$ \\
-  \texttt{sbpl} & \texttt{eband} & $0/10$ & $10.99$ & $6$ \\
-  \texttt{sbpl} & \texttt{dwa} & $0/10$ & $6.56$ & $7$ \\
-  \texttt{navfn} & \texttt{dwa} & $0/10$ & $6.46$ & $8$ \\
-  \texttt{globalplanner} & \texttt{dwa} & $0/10$ & $5.50$ & $9$ \\ \bottomrule
+  GP                        & LP              & επιτυχημένες αποστολές / $N$ & $V_{\bm{M}_C}$ & Κατάταξη \\ \toprule
+  \texttt{navfn}            & \texttt{teb}    & $10/10$                      & $21.41$        & $1$      \\
+  \texttt{sbpl}             & \texttt{teb}    & $10/10$                      & $20.35$        & $2$      \\
+  \texttt{global\_planner}  & \texttt{teb}    & $10/10$                      & $19.29$        & $3$      \\
+  \texttt{navfn}            & \texttt{eband}  & $10/10$                      & $15.96$        & $4$      \\
+  \texttt{global\_planner}  & \texttt{eband}  & $10/10$                      & $14.70$        & $5$      \\
+  \texttt{sbpl}             & \texttt{eband}  & $0/10$                       & $10.99$        & $6$      \\
+  \texttt{sbpl}             & \texttt{dwa}    & $0/10$                       & $6.56$         & $7$      \\
+  \texttt{navfn}            & \texttt{dwa}    & $0/10$                       & $6.46$         & $8$      \\
+  \texttt{global\_planner}  & \texttt{dwa}    & $0/10$                       & $5.50$         & $9$      \\ \bottomrule
 \end{tabular}
-\caption{Το ποσοστό επιτυχίας, η τιμή $V_{\bm{M}_C}$, και η αντίστοιχη κατάταξη όλων των
-         συνδυασμών των παγκόσμιων και τοπικών σχεδιαστών που αξιολογούνται για τους
-         την απόδοσή τους στο χάρτη του παγκόσμιου CORRIDOR $\bm{M}_C$ σε $N=10$
-         προσομοιώσεις.}
+\caption{\small Οι αριθμοί επιτυχίας αποστολών, η τιμή-αξία $V_{\bm{M}_C}$, και
+         η κατάταξη όλων των συνδυασμών των αλγορίθμων χάραξης μονοπατιών και
+         ελεγκτών κίνησης που αξιολογούνται για τους την επίδοσή τους στο
+         περιβάλλον CORRIDOR σε $N=10$ προσομοιώσεις}
 \label{tbl:rank_corridor}
 \end{table}
 
@@ -260,18 +265,17 @@ planner του ίδιου πίνακα, για $N$ προσομοιώσεις κ
 \subsection{Αξιολόγηση στο περιβάλλον WILLOWGARAGE}
   \label{subsection:02_01_04:03}
 
-Συνολικά, οι συνδυασμοί \texttt{dwa\_local\_planner} και
-\texttt{eband\_local\_planner} με όλους τους παγκόσμιους σχεδιαστές απέτυχαν να κάνουν την
-ρομπότ να φτάσει στο $p_G^W$. Οι υπόλοιποι συνδυασμοί (όλοι με
-\texttt{teb\_local\_planner} ως τοπικός σχεδιαστής τους) ήταν αξιόπιστοι κάθε φορά που
-run. Ο πίνακας \ref{tbl:rank_willowgarage} συνοψίζει το ποσοστό επιτυχίας κάθε
-συνδυασμού παγκόσμιων και τοπικών σχεδιαστών στο χάρτη $\bm{M}_W$.
+Συνολικά, όλοι οι συνδυασμοί των αλγόριθμο χάραξης μονοπατιών με τους
+ελεγκτές κίνησης \texttt{dwa\_local\_planner} και \texttt{eband\_local\_planner}
+απέτυχαν να πλοηγήσουν το ρομπότ στην τελική του στάση. Οι υπόλοιποι συνδυασμοί
+(όλοι με τον \texttt{teb\_local\_planner} ως ελεγκτή κίνησής τους) ήταν
+αξιόπιστοι σε κάθε προσομοίωση
 
-Το σχήμα \ref{fig:global_plans:willowgarage} απεικονίζει τα παγκόσμια σχέδια που παρήχθησαν
-από όλους τους παγκόσμιους σχεδιαστές που εμφανίζονται στην πρώτη στήλη του πίνακα
-\ref{tbl:planners_sifted_list} για όλους τους συνδυασμούς παγκόσμιων και τοπικών
-σχεδιαστών του ίδιου πίνακα, και για $N$ προσομοιώσεις για κάθε συνδυασμό, σε
-όσον αφορά την πλοήγηση στο χάρτη WILLOWGARAGE $\bm{M}_W$.
+Το σχήμα \ref{fig:global_plans:willowgarage} απεικονίζει τα μονοπάτια προς
+ακολούθηση που παρήχθησαν από όλους τους global planners που εμφανίζονται στην
+πρώτη στήλη του πίνακα \ref{tbl:planners_sifted_list}, για όλους τους
+συνδυασμούς global και local planner του ίδιου πίνακα, για $N=10$ προσομοιώσεις
+κάθε συνδυασμού.
 
 \begin{figure}
 \raggedright
@@ -289,19 +293,18 @@ run. Ο πίνακας \ref{tbl:rank_willowgarage} συνοψίζει το πο�
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/global_plan_sbpl_willowgarage.tex}
   \end{subfigure}%
-  \caption{Global plans $\bm{\mathcal{G}}$ produced by the three global
-           planners with regard to the initial and goal poses of map
-           WILLOWGARAGE $\bm{M}_W$. Each row depicts the global plans produced
-           by one global planner when combined with each of the reviewed local
-           planners. Navigation with each combination of planners was run
-           $N=10$ times.}
+  \caption{\small Τα σχεδιασθέντα μονοπάτια προς ακολούθηση $\bm{\mathcal{G}}$
+           που παρήχθησαν από τους τρεις αλγορίθμους χάραξης μονοπατιών για
+           κάθε συνδυασμό τους με ελεγκτή κίνησης του πίνακα
+           \ref{tbl:planners_sifted_list}, σε σχέση με τις ορισμένες αρχικές και
+           τελικές στάσεις του περιβάλλοντος WILLOWGARAGE}
   \label{fig:global_plans:willowgarage}
 \end{figure}
 
-
-Το σχήμα \ref{fig:ground_truths:willowgarage} απεικονίζει τα πραγματικά μονοπάτια που διανύθηκαν
-από το ρομπότ για όλους τους συνδυασμούς των παγκόσμιων και τοπικών σχεδιαστών του
-ίδιου πίνακα και για $N$ προσομοιώσεις για κάθε συνδυασμό.
+Το σχήμα \ref{fig:ground_truths:willowgarage} απεικονίζει τις πραγματικές
+διαδρομές που διένυσε το ρομπότ για όλους τους συνδυασμούς αλγορίθμων σχεδίασης
+μονοπατιών και ελεγκτών κίνησης του ίδιου πίνακα, για $N=10$ προσομοιώσεις για
+κάθε συνδυασμό.
 
 \begin{figure}
 \raggedright
@@ -319,50 +322,59 @@ run. Ο πίνακας \ref{tbl:rank_willowgarage} συνοψίζει το πο�
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/ground_truth_sbpl_willowgarage.tex}
   \end{subfigure}%
-  \caption{The paths traversed $\bm{\mathcal{P}}$ by the robot with regard to
-           the initial and goal poses of map WILLOWGARAGE $\bm{M}_W$. Each
-           column depicts the paths that were the result of application of one
-           local planner when combined with each of the reviewed global
-           planners. Navigation with each combination of planners was run
-           $N=10$ times.}
+  \caption{\small Τα διανυθέντα μονοπάτια $\bm{\mathcal{P}}$ του ρομπότ, όπως
+           ορίστηκαν από τους τρεις ελεγκτές κίνησης για κάθε συνδυασμό τους με
+           αλγόριθμο παραγωγής μονοπατιών του πίνακα
+           \ref{tbl:planners_sifted_list}, σε σχέση με τις ορισμένες αρχικές και
+           τελικές στάσεις του περιβάλλοντος WILLOWGARAGE}
   \label{fig:ground_truths:willowgarage}
 \end{figure}
 
+Ο πίνακας \ref{tbl:rank_willowgarage} καταγράφει την τιμή-αξία $V_{\bm{M}_W}$
+και την κατάταξη όλων των συνδυασμών αλγορίθμων χάραξης μονοπατιών και
+ελεγκτών κίνησης που αξιολογήθηκαν με βάση τις τιμές όλων των μετρικών, που
+παρουσιάζονται στους πίνακες \ref{tbl:info_global_plan_willowgarage}-
+\ref{tbl:info_deviation_from_global_plan_willowgarage} όσον αφορά στις
+επιδόσεις τους στην πλοήγηση στο περιβάλλον WILLOWGARAGE. Για τον υπολογισμό
+της τιμής όλων των συνδυασμών, όλα τα βάρη $w_m = 1.0$ εκτός από αυτό που αφορά
+στη μετρική $\mu_{PF} / \mu_{LPC}$, λόγω του γεγονότος ότι ότι ο
+\texttt{eband\_local\_planner} δεν παρέχει πρόσβαση στον αριθμό των κλήσεων του
+ελεγκτή. Συνολικά, ο ελεγκτής κίνησης \texttt{teb\_local\_planner} κατέλαβε και
+πάλι όλες τις θέσεις του βάθρο (αυτή τη φορά λόγω της αποτυχίας όλων των άλλων
+ελεγκτών κίνησης να ολοκληρώσουν την αποστολή του ρομπότ), με το συνδυασμό του
+με τον \texttt{global\_planner} να ξεπερνά αυτόν με τον \texttt{navfn}, ο
+οποίος ήταν ο συνολικά καλύτερος στο περιβάλλον CORRIDOR. Ενδιαφέρον αποτελεί
+ότι ο \texttt{sbpl\_lattice\_planner} βοήθησε την επίδοση του
+\texttt{dwa\_local\_planner} περισσότερο από τους άλλους global planners,
+κάτι που πιθανότατα οφείλεται στο γεγονός ότι ο πρώτος λαμβάνει υπόψιν του
+κατά την σχεδίαση των μονοπατιών τους περιορισμούς του κινηματικού μοντέλου
+της βάσης του ρομπότ, το οποίο σε αυτήν την περίπτωση είναι διαφορικής κίνησης.
 
-Ο πίνακας \ref{tbl:rank_willowgarage} διαθέτει την τιμή $V_{\bm{M}_W}$ και την κατάταξη του
-όλων των συνδυασμών των παγκόσμιων και τοπικών σχεδιαστών που αξιολογήθηκαν σε όλες τις μετρικές
-που παρουσιάζονται στους πίνακες \ref{tbl:info_global_plan_willowgarage} $-$
-\ref{tbl:info_deviation_from_global_plan_willowgarage}, όσον αφορά τους
-τις επιδόσεις τους στην πλοήγηση στον παγκόσμιο χάρτη WILLOWGARAGE.
-Για τον υπολογισμό της τιμής όλων των συνδυασμών, όλα τα βάρη $w_m = 1.0$
-εκτός από εκείνο που αντιστοιχεί στην ειδική για τον τοπικό σχεδιαστή μετρική του
-$\mu_{PF} / \mu_{LPC}$, η οποία τέθηκε και πάλι σε $0$. Τοπικός σχεδιαστής
-\texttt{teb\_local\_planner} κατέλαβε και πάλι όλες τις θέσεις στο βάθρο (αυτή τη φορά κατά
-λόγω της αποτυχίας όλων των άλλων τοπικών σχεδιαστών να ολοκληρώσουν την αποστολή του ρομπότ να
-να ταξιδέψει από την αρχική στη θέση-στόχο), με το συνδυασμό του
-\texttt{global\_planner} ξεπερνά αυτόν με \texttt{navfn}, ο οποίος ήταν ο
-συνολικά καλύτερος στο χάρτη του κόσμου CORRIDOR. Λεπτομέρειες σχετικά με τις επιδόσεις του global
-σχεδιαστών, των τοπικών σχεδιαστών και του συνδυασμού τους, βρίσκονται στο παράρτημα
+
+Λεπτομέρειες σχετικά
+με τις επιδόσεις των αλγορίθμων χάραξης μονοπατιών, των ελεγκτών κίνησης,
+και των συνδυασμών τους, βρίσκονται στο παράρτημα
 \ref{appendix:evaluation_willowgarage}.
+
 
 \begin{table}[htb]\centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{llccc}
-  GP & LP & επιτυχημένες αποστολές / $N$ & $V_{\bm{M}_W}$ & rank \\ \toprule
-  \texttt{globalplanner} & \texttt{teb} & $10/10$ & $21.90$ & $1$ \\
-  \texttt{navfn} & \texttt{teb} & $10/10$ & $20.00$ & $2$ \\
-  \texttt{sbpl} & \texttt{teb} & $10/10$ & $12.27$ & $3$ \\
-  \texttt{globalplanner} & \texttt{eband} & $0/10$ & $11.95$ & $4$ \\
-  \texttt{navfn} & \texttt{eband} & $0/10$ & $11.76$ & $5$ \\
-  \texttt{sbpl} & \texttt{eband} & $0/10$ & $9.85$ & $6$ \\
-  \texttt{navfn} & \texttt{dwa} & $0/10$ & $9.31$ & $7$ \\
-  \texttt{globalplanner} & \texttt{dwa} & $0/10$ & $8.86$ & $8$ \\
-  \texttt{sbpl} & \texttt{dwa} & $0/10$ & $4.85$ & $9$ \\ \bottomrule
+  GP                     & LP             & επιτυχημένες αποστολές / $N$ & $V_{\bm{M}_W}$ & Κατάταξη \\ \toprule
+  \texttt{globalplanner} & \texttt{teb}   & $10/10$                      & $21.90$        & $1$      \\
+  \texttt{navfn}         & \texttt{teb}   & $10/10$                      & $20.00$        & $2$      \\
+  \texttt{sbpl}          & \texttt{teb}   & $10/10$                      & $12.27$        & $3$      \\
+  \texttt{globalplanner} & \texttt{eband} & $0/10$                       & $11.95$        & $4$      \\
+  \texttt{navfn}         & \texttt{eband} & $0/10$                       & $11.76$        & $5$      \\
+  \texttt{sbpl}          & \texttt{eband} & $0/10$                       & $9.85$         & $6$      \\
+  \texttt{navfn}         & \texttt{dwa}   & $0/10$                       & $9.31$         & $7$      \\
+  \texttt{globalplanner} & \texttt{dwa}   & $0/10$                       & $8.86$         & $8$      \\
+  \texttt{sbpl}          & \texttt{dwa}   & $0/10$                       & $4.85$         & $9$      \\ \bottomrule
 \end{tabular}
-\caption{Το ποσοστό επιτυχίας, η τιμή $V_{M_W}$ και η αντίστοιχη κατάταξη όλων των
-         συνδυασμών των παγκόσμιων και τοπικών σχεδιαστών που αξιολογούνται στις
-         την απόδοσή τους στο χάρτη του κόσμου WILLOWGARAGE $M_W$ σε $N=10$
-         προσομοιώσεις.}
+\caption{\small Οι αριθμοί επιτυχίας αποστολών, η τιμή-αξία $V_{\bm{M}_W}$, και
+         η κατάταξη όλων των συνδυασμών των αλγορίθμων χάραξης μονοπατιών και
+         ελεγκτών κίνησης που αξιολογούνται για τους την επίδοσή τους στο
+         περιβάλλον WILLOWGARAGE σε $N=10$ προσομοιώσεις}
 \label{tbl:rank_willowgarage}
 \end{table}
 
@@ -372,17 +384,16 @@ $\mu_{PF} / \mu_{LPC}$, η οποία τέθηκε και πάλι σε $0$. Τ�
 \subsection{Αξιολόγηση στο περιβάλλον CSAL}
   \label{subsection:02_01_04:04}
 
-Συνολικά, όπως και στις προσομοιώσεις, όλοι οι συνδυασμοί \texttt{dwa\_local\_planner}
-με οποιονδήποτε παγκόσμιο σχεδιαστή απέτυχαν να κάνουν το ρομπότ να φτάσει στο $p_G^L$. Οι υπόλοιποι
-συνδυασμοί ήταν αξιόπιστοι κάθε φορά που εκτελούνταν. Πίνακας \ref{tbl:rank_csal}
-συνοψίζει το ποσοστό επιτυχίας κάθε συνδυασμού παγκόσμιων και τοπικών σχεδιαστών σε
-χάρτη $\bm{M}_L$.
+Συνολικά, όπως και στις προσομοιώσεις, όλοι οι συνδυασμοί αλγορίθμων
+χάραξης μονοπατιών με τον ελεγκτή κίνησης \texttt{dwa\_local\_planner}
+απέτυχαν να πλοηγήσουν το ρομπότ από την αρχική του στάση στην τελική. Οι
+υπόλοιποι συνδυασμοί ήταν αξιόπιστοι σε κάθε εκτέλεση.
 
-Το σχήμα \ref{fig:global_plans:csal} απεικονίζει τα παγκόσμια σχέδια που παρήχθησαν από τον
-όλους τους παγκόσμιους σχεδιαστές που εμφανίζονται στην πρώτη στήλη του πίνακα
-\ref{tbl:planners_sifted_list} για όλους τους συνδυασμούς παγκόσμιων και τοπικών
-σχεδιαστών του ίδιου πίνακα, και για $N$ προσομοιώσεις για κάθε συνδυασμό, σε
-όσον αφορά την πλοήγηση στο χάρτη CSAL $\bm{M}_L$.
+Το σχήμα \ref{fig:global_plans:csal} απεικονίζει τα μονοπάτια προς
+ακολούθηση που παρήχθησαν από όλους τους global planners που εμφανίζονται στην
+πρώτη στήλη του πίνακα \ref{tbl:planners_sifted_list}, για όλους τους
+συνδυασμούς global και local planner του ίδιου πίνακα, για $N=10$ προσομοιώσεις
+κάθε συνδυασμού.
 
 \begin{figure*}
 \raggedright
@@ -400,19 +411,23 @@ $\mu_{PF} / \mu_{LPC}$, η οποία τέθηκε και πάλι σε $0$. Τ�
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/global_plan_sbpl_csal.tex}
   \end{subfigure}%
-  \caption{Global plans $\bm{\mathcal{G}}$ produced by the three global
-           planners with regard to the initial and goal poses of map
-           CSAL $\bm{M}_L$. Each row depicts the global plans produced
-           by one global planner when combined with each of the reviewed local
-           planners. Navigation with each combination of planners was run
-           $N=10$ times.}
+  \caption{\small Τα σχεδιασθέντα μονοπάτια προς ακολούθηση $\bm{\mathcal{G}}$
+           που παρήχθησαν από τους τρεις αλγορίθμους χάραξης μονοπατιών για
+           κάθε συνδυασμό τους με ελεγκτή κίνησης του πίνακα
+           \ref{tbl:planners_sifted_list}, σε σχέση με τις ορισμένες αρχικές και
+           τελικές στάσεις του περιβάλλοντος CSAL}
   \label{fig:global_plans:csal}
 \end{figure*}
 
-
-Το σχήμα \ref{fig:poses:csal} απεικονίζει τις πραγματικές διαδρομές που διέσχισαν οι
-το ρομπότ για όλους τους συνδυασμούς παγκόσμιων και τοπικών σχεδιαστών του ίδιου πίνακα,
-και για $N$ προσομοιώσεις για κάθε συνδυασμό.
+Το σχήμα \ref{fig:poses:csal} απεικονίζει τις εκτιμώμενες \footnote{Το
+εργαστήριο CSAL, σε αντίθεση με το περιβάλλον προσομοίωσης Gazebo, δεν διαθέτει
+υποδομή μέτρησης της πραγματικής στάσης ενός οχήματος. Oι εκτιμώμενες διαδρομές
+βασίζονται στην εκτίμησης της στάσης του ρομπότ, η οποία εξάγεται μέσω της
+χρήσης φίλτρου σωματιδίου. Η λειτουργία του φίλτρου βασίζεται στο κινηματικό
+μοντέλο της βάσης του Turtlebot, η οποία είναι διαφορικής φύσης, και σε έναν
+αισθητήρα αποστάσεων 2D lidar.} διαδρομές που διένυσε το ρομπότ για όλους τους
+συνδυασμούς αλγορίθμων σχεδίασης μονοπατιών και ελεγκτών κίνησης του ίδιου
+πίνακα, για $N=10$ προσομοιώσεις για κάθε συνδυασμό.
 
 \begin{figure*}\centering
   \begin{subfigure}[t]{\linewidth}
@@ -429,57 +444,58 @@ $\mu_{PF} / \mu_{LPC}$, η οποία τέθηκε και πάλι σε $0$. Τ�
     \centering
     \input{./figures/parts/02/chapters/01/sections/04/pose_sbpl_csal.tex}
   \end{subfigure}%
-  \caption{The paths traversed $\bm{\mathcal{P}}$ by the robot with regard to
-           the initial and goal poses of map CSAL $\bm{M}_L$. Each column
-           depicts the paths that were the result of application of one local
-           planner when combined with each of the reviewed global planners.
-           Navigation with each combination of planners was run $N=10$ times.}
+  \caption{\small Τα διανυθέντα μονοπάτια $\bm{\mathcal{P}}$ του ρομπότ, όπως
+           ορίστηκαν από τους τρεις ελεγκτές κίνησης για κάθε συνδυασμό τους με
+           αλγόριθμο παραγωγής μονοπατιών του πίνακα
+           \ref{tbl:planners_sifted_list}, σε σχέση με τις ορισμένες αρχικές και
+           τελικές στάσεις του περιβάλλοντος CSAL}
   \label{fig:poses:csal}
 \end{figure*}
 
-Ο πίνακας \ref{tbl:rank_csal} διαθέτει την τιμή $V_{\bm{M}_L}$ και την κατάταξη όλων των
-συνδυασμών των παγκόσμιων και τοπικών σχεδιαστών που αξιολογήθηκαν σε όλες τις μετρικές
-που παρουσιάζονται στους πίνακες \ref{tbl:info_global_plan_csal} $-$
-\ref{tbl:info_deviation_from_global_plan_csal} όσον αφορά τους
-τις επιδόσεις τους στην πλοήγηση στο χάρτη του περιβάλλοντος CSAL. Για τον υπολογισμό του
-της τιμής όλων των συνδυασμών, όλα τα βάρη $w_m = 1.0$ εκτός από το αντίστοιχο
-στη μετρική $\mu_{PF} / \mu_{LPC}$ που αφορά τον τοπικό σχεδιαστή, λόγω του γεγονότος ότι
-ότι το \texttt{eband\_local\_planner} δεν παρέχει πρόσβαση στον αριθμό των
-φορές που κλήθηκε να κατευθύνει την κίνηση του ρομπότ, ο οποίος είχε οριστεί σε $0.0$.
+Ο πίνακας \ref{tbl:rank_csal} καταγράφει την τιμή-αξία $V_{\bm{M}_L}$
+και την κατάταξη όλων των συνδυασμών αλγορίθμων χάραξης μονοπατιών και
+ελεγκτών κίνησης που αξιολογήθηκαν με βάση τις τιμές όλων των μετρικών, που
+παρουσιάζονται στους πίνακες
+\ref{tbl:info_global_plan_csal}-\ref{tbl:info_deviation_from_global_plan_csal}
+όσον αφορά στις επιδόσεις τους στην πλοήγηση στο περιβάλλον CSAL. Για τον
+υπολογισμό της τιμής όλων των συνδυασμών, όλα τα βάρη $w_m = 1.0$ εκτός από
+αυτό που αφορά στη μετρική $\mu_{PF} / \mu_{LPC}$, λόγω του γεγονότος ότι ότι ο
+\texttt{eband\_local\_planner} δεν παρέχει πρόσβαση στον αριθμό των κλήσεων του
+ελεγκτή. Λεπτομέρειες σχετικά με τις επιδόσεις των αλγορίθμων κατασκευής
+μονοπατιών, των ελεγκτών κίνησης, και των συνδυασμών τους, βρίσκονται στο
+παράρτημα \ref{appendix:evaluation_csal}.
 
-Αυτό που ξεχωρίζει στα πραγματικά πειράματα είναι ότι η απόδοση των συνδυασμών
-του παγκόσμιου σχεδιαστή \texttt{sbpl\_lattice\_planner} με τοπικούς σχεδιαστές μειώθηκε,
-επιτρέποντας στον \texttt{eband\_local\_planner} $-$ αν και πιο αργά, όπως στις προσομοιώσεις
-$-$ και οι συνδυασμοί του με τους υπόλοιπους δύο παγκόσμιους σχεδιαστές να εκτοπίσουν
-τον συνδυασμό του \texttt{teb\_local\_planner} με τον \texttt{sbpl\_lattice\_planner}
-από τις πρώτες θέσεις. Ορισμός των συνδυασμών αυτού του παγκόσμιου σχεδιαστή
-με τους τοπικούς σχεδιαστές, οι συνδυασμοί των υπόλοιπων παγκόσμιων σχεδιαστών
-παρουσιάζουν το ίδιο μοτίβο που παρατηρήθηκε στις προσομοιώσεις: (α) δεδομένου ενός παγκόσμιου σχεδιαστή,
-\texttt{teb\_local\_planner} υπερτερεί του \texttt{eband\_local\_planner}, ο οποίος
-με τη σειρά του υπερτερεί του \texttt{dwa\_local\_planner}, και (β) δεδομένου ενός τοπικού
-προγραμματιστή, το \texttt{navfn} υπερτερεί του \texttt{global\_planner}.
+Αυτό που ξεχωρίζει στα πειράματα στο πραγματικό περιβάλλον CSAL είναι ότι η
+επίδοση των συνδυασμών του \texttt{sbpl\_lattice\_planner} με ελεγκτές κίνησης
+μειώθηκε, επιτρέποντας στον \texttt{eband\_local\_planner} και τους συνδυασμούς
+του να εκτοπίσουν τον συνδυασμό του \texttt{teb\_local\_planner} με τον
+\texttt{sbpl\_lattice\_planner} από τις πρώτες θέσεις. Εκτός από αυτήν την
+αλλαγή, οι συνδυασμοί των υπόλοιπων αλγορίθμων παρουσιάζουν το ίδιο μοτίβο που
+παρατηρήθηκε στις προσομοιώσεις: (α) δεδομένου ενός αλγορίθμου κατασκευής
+μονοπατιών, ο \texttt{teb\_local\_planner} υπερτερεί του
+\texttt{eband\_local\_planner}, ο οποίος με τη σειρά του υπερτερεί του
+\texttt{dwa\_local\_planner}, και (β) δεδομένου ενός ελεγκτή κίνησης, ο
+\texttt{navfn} υπερτερεί του \texttt{global\_planner}.
 
-Λεπτομέρειες σχετικά με τις επιδόσεις των παγκόσμιων σχεδιαστών, των τοπικών σχεδιαστών και των
-συνδυασμό τους, βρίσκονται στο παράρτημα \ref{appendix:evaluation_csal}.
 
 \begin{table}[htb]\centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{llccc}
-  GP & LP & επιτυχημένες αποστολές / $N$ & $V_{\bm{M}_C}$ & rank \\ \toprule
-  \texttt{navfn} & \texttt{teb} & $10/10$ & $18.74$ & $1$ \\
-  \texttt{globalplanner} & \texttt{teb} & $10/10$ & $16.84$ & $2$ \\
-  \texttt{navfn} & \texttt{eband} & $10/10$ & $14.77$ & $3$ \\
-  \texttt{globalplanner} & \texttt{eband} & $10/10$ & $14.26$ & $4$ \\
-  \texttt{sbpl} & \texttt{teb} & $10/10$ & $13.57$ & $5$ \\
-  \texttt{navfn} & \texttt{dwa} & $0/10$ & $8.10$ & $6$ \\
-  \texttt{sbpl} & \texttt{eband} & $10/10$ & $7.80$ & $7$ \\
-  \texttt{sbpl} & \texttt{dwa} & $0/10$ & $6.47$ & $8$ \\
-  \texttt{globalplanner} & \texttt{dwa} & $0/10$ & $6.13$ & $9$ \\ \bottomrule
+  GP                     & LP             & επιτυχημένες αποστολές / $N$ & $V_{\bm{M}_C}$ & Κατάταξη \\ \toprule
+  \texttt{navfn}         & \texttt{teb}   & $10/10$                      & $18.74$        & $1$      \\
+  \texttt{globalplanner} & \texttt{teb}   & $10/10$                      & $16.84$        & $2$      \\
+  \texttt{navfn}         & \texttt{eband} & $10/10$                      & $14.77$        & $3$      \\
+  \texttt{globalplanner} & \texttt{eband} & $10/10$                      & $14.26$        & $4$      \\
+  \texttt{sbpl}          & \texttt{teb}   & $10/10$                      & $13.57$        & $5$      \\
+  \texttt{navfn}         & \texttt{dwa}   & $0/10$                       & $8.10$         & $6$      \\
+  \texttt{sbpl}          & \texttt{eband} & $10/10$                      & $7.80$         & $7$      \\
+  \texttt{sbpl}          & \texttt{dwa}   & $0/10$                       & $6.47$         & $8$      \\
+  \texttt{globalplanner} & \texttt{dwa}   & $0/10$                       & $6.13$         & $9$      \\ \bottomrule
 \end{tabular}
-\caption{Το ποσοστό επιτυχίας, η τιμή $V_{\bm{M}_L}$ και η αντίστοιχη κατάταξη όλων των
-         συνδυασμών των παγκόσμιων και τοπικών σχεδιαστών που αξιολογούνται στις
-         την απόδοσή τους στο χάρτη του παγκόσμιου CSAL $\bm{M}_L$ σε $N=10$
-         πειράματα.}
+\caption{\small Οι αριθμοί επιτυχίας αποστολών, η τιμή-αξία $V_{\bm{M}_L}$, και
+         η κατάταξη όλων των συνδυασμών των αλγορίθμων χάραξης μονοπατιών και
+         ελεγκτών κίνησης που αξιολογούνται για τους την επίδοσή τους στο
+         περιβάλλον CSAL σε $N=10$ πειράματα}
 \label{tbl:rank_csal}
 \end{table}
 
@@ -488,42 +504,51 @@ $-$ και οι συνδυασμοί του με τους υπόλοιπους �
 \subsection{Συνολική αξιολόγηση}
   \label{subsection:02_01_04:05}
 
-Ο πίνακας \ref{tbl:rank_overall} περιλαμβάνει τις τιμές όλων των συνδυασμών των παγκόσμιων
-σχεδιαστών του πίνακα \ref{tbl:planners_sifted_list} σε όλους τους χάρτες των
-περιβάλλοντα CORRIDOR, WILLOWGARAGE και CSAL.
+Ο πίνακας \ref{tbl:rank_overall} καταγράφει τις τελικές συνδυαστικές τιμές-αξίες
+όλων των συνδυασμών των αλγορίθμων χάραξης μονοπατιών της αριστερής στήλης
+του πίνακα \ref{tbl:planners_sifted_list} με όλους τους ελεγκτές κίνησης της
+δεξιάς στήλης του ίδιου πίνακα, για όλα τα πειράματα και προσομοιώσεις που
+διεξήχθησαν.
 
 \begin{table}\centering
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{llccccc}
-  GP & LP & $V_{\bm{M}_C}$ & $V_{\bm{M}_W}$ & $V_{\bm{M}_L}$ & $V$ & rank \\ \toprule
-  \texttt{navfn} & \texttt{teb} & $21.41$ & $20.00$ & $18.74$ & $60.15$ & $1$ \\
-  \texttt{globalplanner} & \texttt{teb} & $19.29$ & $21.90$ & $16.84$ & $58.03$ & $2$ \\
-  \texttt{sbpl} & \texttt{teb} & $20.35$ & $12.27$ & $13.57$ & $46.19$ & $3$ \\
-  \texttt{navfn} & \texttt{eband} & $15.96$ & $11.76$ & $14.77$ & $42.49$ & $4$ \\
-  \texttt{globalplanner} & \texttt{eband} & $14.70$ & $11.95$ & $14.26$ & $40.91$ & $5$ \\
-  \texttt{sbpl} & \texttt{eband} & $10.99$ & $9.85$ & $7.80$ & $28.94$ & $6$ \\
-  \texttt{navfn} & \texttt{dwa} & $6.46$ & $9.31$ & $8.10$ & $28.64$ & $7$ \\
-  \texttt{globalplanner} & \texttt{dwa} & $5.50$ & $8.86$ & $6.13$ & $20.49$ & $8$ \\
-  \texttt{sbpl} & \texttt{dwa} & $6.56$ & $4.85$ & $6.47$ & $17.88$ & $9$ \\ \bottomrule
+  GP                      & LP              & $V_{\bm{M}_C}$ & $V_{\bm{M}_W}$ & $V_{\bm{M}_L}$ & $V$      & Κατάταξη \\ \toprule
+  \texttt{navfn}          & \texttt{teb}    & $21.41$        & $20.00$        & $18.74$        & $60.15$  & $1$      \\
+  \texttt{globalplanner}  & \texttt{teb}    & $19.29$        & $21.90$        & $16.84$        & $58.03$  & $2$      \\
+  \texttt{sbpl}           & \texttt{teb}    & $20.35$        & $12.27$        & $13.57$        & $46.19$  & $3$      \\
+  \texttt{navfn}          & \texttt{eband}  & $15.96$        & $11.76$        & $14.77$        & $42.49$  & $4$      \\
+  \texttt{globalplanner}  & \texttt{eband}  & $14.70$        & $11.95$        & $14.26$        & $40.91$  & $5$      \\
+  \texttt{sbpl}           & \texttt{eband}  & $10.99$        & $9.85$         & $7.80$         & $28.94$  & $6$      \\
+  \texttt{navfn}          & \texttt{dwa}    & $6.46$         & $9.31$         & $8.10$         & $28.64$  & $7$      \\
+  \texttt{globalplanner}  & \texttt{dwa}    & $5.50$         & $8.86$         & $6.13$         & $20.49$  & $8$      \\
+  \texttt{sbpl}           & \texttt{dwa}    & $6.56$         & $4.85$         & $6.47$         & $17.88$  & $9$      \\ \bottomrule
 \end{tabular}
-\caption{Η σύνθετη τιμή $V$ για και η αντίστοιχη κατάταξη όλων των συνδυασμών
-         των παγκόσμιων και τοπικών σχεδιαστών που αξιολογούνται με βάση την απόδοσή τους στην
-         χάρτες των κόσμων CORRIDOR $\bm{M}_C$, WILLOWGARAGE $\bm{M}_W$, και CSAL
-         $\bm{M}_L$.}
+\caption{\small Η σύνθετη τελική τιμή $V$ και η κατάταξη όλων των συνδυασμών
+         αλγορίθμων χάραξης μονοπατιών και ελεγκτών κίνησης του πίνακα
+         \ref{tbl:planners_sifted_list} ως αποτέλεσμα της αξιολόγησης της
+         επίδοσής τους βάσει των μετρικών των πινάκων
+         \ref{tbl:metrics_and_proportionality_global_planners},
+         \ref{tbl:metrics_and_proportionality_local_planners}, και
+         \ref{tbl:metrics_and_proportionality_combination_planners}, σε
+         επαναληπτικές προσομοιώσεις και πειράματα στα περιβάλλοντα CORRIDOR
+         (σχήμα \ref{fig:02_01_03:map_corridor}), WILLOWGARAGE (σχήμα
+         \ref{fig:02_01_03:map_willowgarage}) και CSAL (σχήμα
+         \ref{fig:02_01_03:map_csal})}
 \label{tbl:rank_overall}
 \end{table}
 
-Δύο καθοριστικά πρότυπα αναδύονται σαφώς: όσον αφορά τους τοπικούς σχεδιαστές,
-\texttt{teb\_local\_planner} υπερτερεί του \texttt{eband\_local\_planner},
-που ξεπερνά τον \texttt{dwa\_local\_planner}- όσον αφορά τους παγκόσμιους σχεδιαστές,
-δεδομένου ενός τοπικού σχεδιαστή, ο \texttt{navfn} υπερτερεί του \texttt{global\_planner} κατά ένα
-μικρή διαφορά, μικρότερη από εκείνη μεταξύ του τελευταίου και του
-\texttt{sbpl\_lattice\_planner}, και αυτό ισχύει για όλους τους συνδυασμούς των
-παγκόσμιους σχεδιαστές με όλους τους τοπικούς σχεδιαστές. Επομένως, είναι λογικό να υποθέσουμε
-ότι ο καλύτερος συνδυασμός σχεδιαστών για χρήση στην αυτόνομη πλοήγηση στο έδαφος
-οχημάτων σε χάρτες πλέγματος κατοχής $2$D χρησιμοποιεί τον \texttt{navfn} ως τον παγκόσμιο
-σχεδιαστής και το \texttt{teb\_local\_planner} ως τοπικός σχεδιαστής.
-συνιστώσα. Επιπλέον, οι καλύτεροι υποψήφιοι για την αντικατάσταση των παραπάνω
-σχεδιαστών, ανάλογα με τις συνθήκες του περιβάλλοντος και τη ρύθμιση του
-ρομπότ, είναι ο παγκόσμιος σχεδιαστής \texttt{global\_planner} και ο τοπικός σχεδιαστής
-\texttt{eband\_local\_planner}.
+Με βάση τα παραπάνω στοιχεία δύο καθοριστικά πρότυπα αναδύονται με σαφήνεια:
+Όσον αφορά στους ελεγκτές κίνησης: ο \texttt{teb\_local\_planner} υπερτερεί του
+\texttt{eband\_local\_planner}, ο οποίος υπερτερεί με τη σειρά του του
+\texttt{dwa\_local\_planner}. Όσον αφορά στους αλγορίθμους σχεδιασμού
+μονοπατιών: δεδομένου ενός ελεγκτή κίνησης, ο \texttt{navfn} υπερτερεί του
+\texttt{global\_planner} με μικρή διαφορά, μικρότερη από εκείνη μεταξύ του
+τελευταίου και του \texttt{sbpl\_lattice\_planner}. Επομένως, \textbf{με βάση
+τα πειραματικά δεδομένα, συμπεραίνουμε ότι ο καλύτερος συνδυασμός πακέτων
+λογισμικού ROS για χρήση στην αυτόνομη πλοήγηση στο πεδίο εφαρμογής \ref{scope}
+χρησιμοποιεί τον \texttt{navfn} ως αλγόριθμο χάραξης μονοπατιών, και τον
+\texttt{teb\_local\_planner} ως ελεγκτή κίνησης}. Επιπλέον, οι καλύτεροι
+υποψήφιοι για την αντικατάσταση των παραπάνω αλγορίθμων, ανάλογα με τις
+συνθήκες του περιβάλλοντος και τις απαιτήσεις/στόχους πλοηγήσεις, είναι ο
+\texttt{global\_planner} και ο \texttt{eband\_local\_planner} αντίστοιχα.
