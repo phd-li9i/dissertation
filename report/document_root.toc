@@ -54,7 +54,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Ελεγκτές κίνησης}{38}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Αυτόνομη πλοήγηση με το ROS}{41}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Αυτόνομη πλοήγηση με το ROS}{40}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3.1}Αλγόριθμοι χάραξης μονοπατιών}{43}{subsubsection.4.2.3.1}
 \defcounter {refsection}{0}\relax 
@@ -66,21 +66,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Ορισμός μετρικών αξιολόγησης}{50}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Μεθοδολογία συνολικής και ιεραρχημένης αξιολόγησης}{56}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Μεθοδολογία συνολικής και ιεραρχημένης αξιολόγησης}{54}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Ορισμός μετρικών ποιότητας πακέτων λογισμικών πλοήγησης}{59}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Ορισμός μετρικών ποιότητας πακέτων λογισμικών πλοήγησης}{58}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Πειραματική αξιολόγηση}{60}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Προκαταρκτική αξιολόγηση}{60}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Αξιολόγηση στο περιβάλλον CORRIDOR}{64}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Αξιολόγηση στο περιβάλλον CORRIDOR}{62}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση στο περιβάλλον WILLOWGARAGE}{64}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση στο περιβάλλον WILLOWGARAGE}{67}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.4}Αξιολόγηση στο περιβάλλον CSAL}{70}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Συνολική αξιολόγηση}{74}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.5}Συνολική αξιολόγηση}{73}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Συμπεράσματα και περαιτέρω έρευνα}{75}{section.4.5}
 \defcounter {refsection}{0}\relax 
@@ -88,7 +88,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.2}Αιτίες περαιτέρω έρευνας}{76}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Pose selection}{79}{chapter.5}
+\contentsline {chapter}{\numberline {5}Μέθοδοι ελάττωσης σφάλματος εκτίμησης στάσης φίλτρου σωματιδίων}{79}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Στόχοι του κεφαλαίου και δομή}{80}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Σχετική βιβλιογραφία}{80}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar}{80}{subsection.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar με σαρώσεις χάρτη}{80}{subsection.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Μεθοδολογία}{80}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Ελάττωση σφάλματος μέσω επιλογής σωματιδίων}{80}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Ελάττωση σφάλματος μέσω ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{80}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Ελάττωση σφάλματος μέσω ανατροφοδότησης}{80}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Πειραματική αξιολόγηση}{80}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Αξιολόγηση στο περιβάλλον CORRIDOR}{80}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Αξιολόγηση στο περιβάλλον WAREHOUSE}{80}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Συμπεράσματα και περαιτέρω έρευνα}{80}{section.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Global localisation}{81}{chapter.6}
 \defcounter {refsection}{0}\relax 
