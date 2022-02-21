@@ -17,15 +17,16 @@
 % ΣΥΜΠΕΡΑΣΜΑΤΑ -----------------------------------------------------------------
 \part{Συμπεράσματα}
 
+% ΑΝΑΦΟΡΕΣ ---------------------------------------------------------------------
+\part{Αναφορές}
+%\selectlanguage{english}
+%\printbibliography[heading=bibintoc,title={\textgreek{Αναφορές}}]
+\printbibliography[heading=none]
+
 % ΠΑΡΑΡΤΗΜΑΤΑ ------------------------------------------------------------------
 \part{Παραρτήματα}
-\begin{appendix}
-  \input{parts/appendix/appendix.tex}
-\end{appendix}
-
-% ΑΝΑΦΟΡΕΣ ---------------------------------------------------------------------
-%\selectlanguage{english}
-\part{Αναφορές}
-\printbibliography[heading=bibintoc,title={\textgreek{Αναφορές}}]
+\appendix
+%\setcounter{chapter}{3}
+\input{parts/appendix/chapters.tex}
 
 \end{document}
