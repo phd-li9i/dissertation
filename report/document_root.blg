@@ -1,15 +1,24 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
-[1] Config.pm:343> INFO - Logfile is 'document_root.blg'
-[64] biber:287> INFO - === Mon Feb 21, 2022, 15:47:48
-[203] Biber.pm:348> INFO - Reading 'document_root.bcf'
-[415] Biber.pm:742> INFO - Found 83 citekeys in bib section 0
-[434] Biber.pm:3151> INFO - Processing section 0
-[487] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
-[773] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1004] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
-[3470] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3470] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3471] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[3471] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[3705] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
-[4274] bbl.pm:615> INFO - Output to document_root.bbl
+[0] Config.pm:343> INFO - Logfile is 'document_root.blg'
+[62] biber:287> INFO - === Tue Feb 22, 2022, 22:07:09
+[192] Biber.pm:348> INFO - Reading 'document_root.bcf'
+[413] Biber.pm:742> INFO - Found 126 citekeys in bib section 0
+[422] Biber.pm:3151> INFO - Processing section 0
+[467] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
+[792] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1069] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
+[2771] Utils.pm:147> WARN - I didn't find a database entry for 'bswt' (section 0)
+[2772] Utils.pm:147> WARN - I didn't find a database entry for 'kalman' (section 0)
+[2772] Utils.pm:147> WARN - I didn't find a database entry for 'selection_1' (section 0)
+[2773] Utils.pm:147> WARN - I didn't find a database entry for 'selection_2' (section 0)
+[2773] Utils.pm:147> WARN - I didn't find a database entry for 'bible' (section 0)
+[2774] Utils.pm:147> WARN - I didn't find a database entry for 'paid_original' (section 0)
+[2774] Utils.pm:147> WARN - I didn't find a database entry for 'plicp' (section 0)
+[2775] Utils.pm:147> WARN - I didn't find a database entry for 'gangpeng' (section 0)
+[4652] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4653] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4653] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[4653] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[5003] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
+[5811] bbl.pm:615> INFO - Output to document_root.bbl
+[5812] Biber.pm:109> INFO - WARNINGS: 8

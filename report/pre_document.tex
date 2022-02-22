@@ -114,6 +114,11 @@
   {\renewcommand\theinnercustomscope{#1}\innercustomscope}
   {\endinnercustomscope}
 
+\newtheorem{innercustomproblem}{Πρόβλημα}
+\newenvironment{customproblem}[1]
+  {\renewcommand\theinnercustomproblem{#1}\innercustomproblem}
+  {\endinnercustomproblem}
+
 \renewcommand\theproposition{\Roman{proposition}}
 \newtheorem{objective}{Objective}
 \renewcommand\theobjective{\Roman{objective}}
