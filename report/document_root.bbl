@@ -250,6 +250,42 @@
       \verb http://ieeexplore.ieee.org/document/121791/
       \endverb
     \endentry
+    \entry{Smith1992}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f1d742c13d63a11d07ddb96e1aa9e36d}{%
+           family={Smith},
+           family_i={S\bibinitperiod},
+           given={A.\bibnamedelimi F.\bibnamedelimi M.},
+           given_i={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=8091056fc388031933235a44d7fe6bb8}{%
+           family={Gelfand},
+           family_i={G\bibinitperiod},
+           given={A.\bibnamedelimi E.},
+           given_i={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a5f179b4b9d1c4836038ee3bdddeb18}
+      \strng{fullhash}{2a5f179b4b9d1c4836038ee3bdddeb18}
+      \field{labelalpha}{SG92}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-1305}
+      \field{journaltitle}{The American Statistician}
+      \field{month}{05}
+      \field{number}{2}
+      \field{title}{{Bayesian Statistics without Tears: A Sampling–Resampling Perspective}}
+      \field{volume}{46}
+      \field{year}{1992}
+      \field{pages}{84\bibrangedash 88}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1080/00031305.1992.10475856
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/00031305.1992.10475856
+      \endverb
+    \endentry
     \entry{FengLu1994a}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=eaaf09ae3516b9d7e6bbbcfefee541b4}{%
@@ -1717,6 +1753,38 @@
       \verb http://www.roboticsproceedings.org/rss06/p34.pdf
       \endverb
     \endentry
+    \entry{Liemhetcharat2010}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=b506aa3a775dcb3ae51cc513f93ac1bf}{%
+           family={Liemhetcharat},
+           family_i={L\bibinitperiod},
+           given={Somchaya},
+           given_i={S\bibinitperiod}}}%
+        {{hash=61d7bd31db60bc75d58172f2d25f81df}{%
+           family={Coltin},
+           family_i={C\bibinitperiod},
+           given={Brian},
+           given_i={B\bibinitperiod}}}%
+        {{hash=108bc6e5f71a32699fcf07b7e8957310}{%
+           family={Veloso},
+           family_i={V\bibinitperiod},
+           given={Manuela},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nashville USA}%
+      }
+      \strng{namehash}{f713a965885fba987afc2e7c29d26f5d}
+      \strng{fullhash}{f713a965885fba987afc2e7c29d26f5d}
+      \field{labelalpha}{LCV10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th Workshop on Humanoid Soccer Robots}
+      \field{title}{{Vision-Based Cognition of a Humanoid Robot in Standard Platform Robot Soccer}}
+      \field{year}{2010}
+    \endentry
     \entry{Kim2011}{article}{}
       \name{author}{3}{}{%
         {{hash=807c87b59780f85f3efd5ec200b9a0d1}{%
@@ -2003,6 +2071,42 @@
       \field{pages}{74\bibrangedash 79}
       \range{pages}{6}
       \keyw{Autonomous robots,Dynamics,Kinematics,Timed elastic band,Trajectory modification}
+    \endentry
+    \entry{Coltin2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=61d7bd31db60bc75d58172f2d25f81df}{%
+           family={Coltin},
+           family_i={C\bibinitperiod},
+           given={Brian},
+           given_i={B\bibinitperiod}}}%
+        {{hash=108bc6e5f71a32699fcf07b7e8957310}{%
+           family={Veloso},
+           family_i={V\bibinitperiod},
+           given={Manuela},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{930148c758f13bed78415426184db3f7}
+      \strng{fullhash}{930148c758f13bed78415426184db3f7}
+      \field{labelalpha}{CV13}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0929-5593}
+      \field{journaltitle}{Autonomous Robots}
+      \field{month}{10}
+      \field{number}{2-3}
+      \field{title}{{Multi-observation sensor resetting localization with ambiguous landmarks}}
+      \field{volume}{35}
+      \field{year}{2013}
+      \field{pages}{221\bibrangedash 237}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1007/s10514-013-9347-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10514-013-9347-y
+      \endverb
     \endentry
     \entry{Ghosh2013}{article}{}
       \name{author}{2}{}{%
@@ -4632,14 +4736,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{selection_1}
-  \missing{paid_original}
-  \missing{bswt}
-  \missing{kalman}
-  \missing{plicp}
-  \missing{gangpeng}
-  \missing{selection_2}
-  \missing{bible}
 \endrefsection
 \endinput
 
