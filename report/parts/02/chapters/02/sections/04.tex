@@ -1,20 +1,63 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Πειραματική διαδικασία}
 
-\begin{figure}[ht]\centering
-  \input{./figures/parts/02/chapters/02/sections/04/corridor.tex}
-  \vspace{0.1cm}
-  \caption{}
-  \label{}
-\end{figure}
-
-\begin{figure}[ht]\centering
-  \input{./figures/parts/02/chapters/02/sections/04/warehouse_karto.tex}
-  \caption{}
-  \label{}
+\begin{figure}[h]\centering
+  \begin{subfigure}{0.49\linewidth}\centering
+    \hspace{-1.75cm}
+    \input{./figures/parts/02/chapters/02/sections/04/corridor.tex}
+    \caption{\small CORRIDOR}
+    \label{}
+  \end{subfigure}
+  \begin{subfigure}{0.49\linewidth} \centering
+    \input{./figures/parts/02/chapters/02/sections/04/warehouse.tex}
+    \caption{\small WAREHOUSE}
+    \label{}
+  \end{subfigure}
+\caption{}
+\label{}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Αξιολόγηση της μεθόδου επιλογής σωματιδίων}
+
+\begin{figure}[h]
+  \begin{subfigure}{\linewidth}
+  \hspace{-1.25cm}
+    \input{./figures/parts/02/chapters/02/sections/04/corridor_mean_total_errors_per_selection.tex}
+    \vspace{0.3cm}
+    \caption{Περιβάλλον CORRIDOR}
+    \label{}
+  \end{subfigure}\\
+  \begin{subfigure}{\linewidth}\vspace{0.5cm}
+    \hspace{-1.25cm}
+    \input{./figures/parts/02/chapters/02/sections/04/warehouse_mean_total_errors_per_selection.tex}
+    \vspace{0.3cm}
+    \caption{Περιβάλλον WAREHOUSE}
+    \label{}
+    \end{subfigure}
+\caption{}
+\label{}
+\end{figure}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Αξιολόγηση της μεθόδου ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη και ανάδραση}
+
+\begin{figure}[h]
+  \begin{subfigure}{\linewidth}
+  \hspace{-1.25cm}
+    \input{./figures/parts/02/chapters/02/sections/04/corridor_mean_total_errors_per_feedback.tex}
+    \vspace{0.3cm}
+    \caption{Περιβάλλον CORRIDOR}
+    \label{}
+  \end{subfigure}\\
+  \begin{subfigure}{\linewidth}\vspace{0.5cm}
+    \hspace{-1.25cm}
+    \input{./figures/parts/02/chapters/02/sections/04/warehouse_mean_total_errors_per_feedback.tex}
+    \vspace{0.3cm}
+    \caption{Περιβάλλον WAREHOUSE}
+    \label{}
+    \end{subfigure}
+\caption{}
+\label{}
+\end{figure}
