@@ -196,7 +196,7 @@
 
 \widowpenalty=9000
 \clubpenalty=9000
-
+\interfootnotelinepenalty=10000
 
 % Redefines cleardoublepage so as to remove headers/footers
 \makeatletter
@@ -227,3 +227,7 @@
     \newpage}
 
 %. . . by calling \afterpage{\blankpage}
+
+% Refresh symbol
+\def\Circlearrowleft{\ensuremath{%
+  \rotatebox[origin=c]{180}{$\circlearrowleft$}}}
