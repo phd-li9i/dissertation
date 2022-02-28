@@ -1,15 +1,15 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'document_root.blg'
-[62] biber:287> INFO - === Wed Feb 23, 2022, 09:55:05
-[194] Biber.pm:348> INFO - Reading 'document_root.bcf'
-[415] Biber.pm:742> INFO - Found 121 citekeys in bib section 0
-[427] Biber.pm:3151> INFO - Processing section 0
-[474] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
-[806] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1089] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
-[4588] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4589] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4589] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[4589] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[4941] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
-[5720] bbl.pm:615> INFO - Output to document_root.bbl
+[63] biber:287> INFO - === Mon Feb 28, 2022, 10:47:10
+[198] Biber.pm:348> INFO - Reading 'document_root.bcf'
+[416] Biber.pm:742> INFO - Found 123 citekeys in bib section 0
+[426] Biber.pm:3151> INFO - Processing section 0
+[469] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
+[807] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1124] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
+[4739] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4739] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4739] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[4740] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[5100] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
+[5918] bbl.pm:615> INFO - Output to document_root.bbl

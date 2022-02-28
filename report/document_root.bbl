@@ -1899,6 +1899,47 @@
       \verb http://ieeexplore.ieee.org/document/5980306/
       \endverb
     \endentry
+    \entry{Tavana2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=392d5a009af7962604a7e843435e51f7}{%
+           family={Tavana},
+           family_i={T\bibinitperiod},
+           given={Madjid},
+           given_i={M\bibinitperiod}}}%
+        {{hash=bace6b96f5f5e909a1783918ef9d2b4d}{%
+           family={Busch},
+           family_i={B\bibinitperiod},
+           given={Timothy\bibnamedelima E.},
+           given_i={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=c2a8f8f0e1d39ebbc91df06807999d4c}{%
+           family={Davis},
+           family_i={D\bibinitperiod},
+           given={Eleanor\bibnamedelima L.},
+           given_i={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{aeae91f065a0edb7f467fdfcfe991253}
+      \strng{fullhash}{aeae91f065a0edb7f467fdfcfe991253}
+      \field{labelalpha}{TBD11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2155-6393}
+      \field{journaltitle}{International Journal of Knowledge-Based Organizations}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{{Fuzzy Multiple Criteria Workflow Robustness and Resiliency Modeling with Petri Nets}}
+      \field{volume}{1}
+      \field{year}{2011}
+      \field{pages}{72\bibrangedash 90}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.4018/ijkbo.2011100105
+      \endverb
+      \verb{url}
+      \verb http://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/ijkbo.2011100105
+      \endverb
+    \endentry
     \entry{Zhu2011a}{article}{}
       \name{author}{3}{}{%
         {{hash=4aef54e2aa7bd68c293a098ea7361282}{%
@@ -1938,6 +1979,43 @@
       \endverb
       \verb{url}
       \verb http://journals.sagepub.com/doi/10.5772/10525
+      \endverb
+    \endentry
+    \entry{Zhu2011b}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=ac733f1ebc4d357170b624d9dd702e07}{%
+           family={Zhu},
+           family_i={Z\bibinitperiod},
+           given={Quanyan},
+           given_i={Q\bibinitperiod}}}%
+        {{hash=9579ceec43b3910e986951532ab0a598}{%
+           family={Basar},
+           family_i={B\bibinitperiod},
+           given={Tamer},
+           given_i={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6da33c17cc654e61eb69428462d071fc}
+      \strng{fullhash}{6da33c17cc654e61eb69428462d071fc}
+      \field{labelalpha}{ZB11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Conference on Decision and Control and European Control Conference}
+      \field{isbn}{978-1-61284-801-3}
+      \field{month}{12}
+      \field{title}{{Robust and resilient control design for cyber-physical systems with an application to power systems}}
+      \field{year}{2011}
+      \field{pages}{4066\bibrangedash 4071}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CDC.2011.6161031
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/6161031/
       \endverb
     \endentry
     \entry{Chitta2012}{article}{}
@@ -2071,6 +2149,63 @@
       \field{pages}{74\bibrangedash 79}
       \range{pages}{6}
       \keyw{Autonomous robots,Dynamics,Kinematics,Timed elastic band,Trajectory modification}
+    \endentry
+    \entry{Rowekamper2012a}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=4e60e97aa3a636da2a455fe16d4b75d2}{%
+           family={Rowekamper},
+           family_i={R\bibinitperiod},
+           given={Jorg},
+           given_i={J\bibinitperiod}}}%
+        {{hash=c9982c017ac5af00b16d3591b1146044}{%
+           family={Sprunk},
+           family_i={S\bibinitperiod},
+           given={Christoph},
+           given_i={C\bibinitperiod}}}%
+        {{hash=8e736e710912a962e14420046ea34682}{%
+           family={Tipaldi},
+           family_i={T\bibinitperiod},
+           given={Gian\bibnamedelima Diego},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5d87e0c36213202151bff64fdd9346a3}{%
+           family={Stachniss},
+           family_i={S\bibinitperiod},
+           given={Cyrill},
+           given_i={C\bibinitperiod}}}%
+        {{hash=150954cff1c756660e932b0357cbd73b}{%
+           family={Pfaff},
+           family_i={P\bibinitperiod},
+           given={Patrick},
+           given_i={P\bibinitperiod}}}%
+        {{hash=98f4ab1bc2ac191d8f8a0651315ce9c0}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={Wolfram},
+           given_i={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{fde3d0fcfcf3f914dd9d3d289d627ab0}
+      \strng{fullhash}{a19b82e767ac0f61fb3271028adb20ec}
+      \field{labelalpha}{Row+12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE/RSJ International Conference on Intelligent Robots and Systems}
+      \field{isbn}{978-1-4673-1736-8}
+      \field{month}{10}
+      \field{title}{{On the position accuracy of mobile robot localization based on particle filters combined with scan matching}}
+      \field{year}{2012}
+      \field{pages}{3158\bibrangedash 3164}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2012.6385988
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/6385988/
+      \endverb
     \endentry
     \entry{Coltin2013}{article}{}
       \name{author}{2}{}{%
@@ -2499,58 +2634,6 @@
       \field{labelalpha}{Vas+16}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
-      \field{extraalpha}{1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{07365845}
-      \field{journaltitle}{Robotics and Computer-Integrated Manufacturing}
-      \field{month}{12}
-      \field{title}{{High-accuracy vehicle localization for autonomous warehousing}}
-      \field{volume}{42}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 16}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1016/j.rcim.2016.05.001
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0736584515300314
-      \endverb
-    \endentry
-    \entry{Vasiljevic2016b}{article}{}
-      \name{author}{5}{}{%
-        {{hash=d292195918a2dcee100b2de16538ad5a}{%
-           family={Vasiljević},
-           family_i={V\bibinitperiod},
-           given={Goran},
-           given_i={G\bibinitperiod}}}%
-        {{hash=56f8900de9a7162d61c542c5c4b87736}{%
-           family={Miklić},
-           family_i={M\bibinitperiod},
-           given={Damjan},
-           given_i={D\bibinitperiod}}}%
-        {{hash=66a7fcb1cb4c984f5fb4e03ac2cf1531}{%
-           family={Draganjac},
-           family_i={D\bibinitperiod},
-           given={Ivica},
-           given_i={I\bibinitperiod}}}%
-        {{hash=9ef411b388aef1a38f1625fad9ef0fcb}{%
-           family={Kovačić},
-           family_i={K\bibinitperiod},
-           given={Zdenko},
-           given_i={Z\bibinitperiod}}}%
-        {{hash=6166c05fca2514ff64618f80696c51e8}{%
-           family={Lista},
-           family_i={L\bibinitperiod},
-           given={Paolo},
-           given_i={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{289719e21ab2c252253c80a8342d35e3}
-      \strng{fullhash}{daa4a0b48f0d2e45d201529936dc327a}
-      \field{labelalpha}{Vas+16}
-      \field{sortinit}{2}
-      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
-      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{07365845}
