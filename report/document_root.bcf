@@ -2198,6 +2198,14 @@
     <bcf:citekey order="137">Tavana2011</bcf:citekey>
     <bcf:citekey order="138">Rowekamper2012a</bcf:citekey>
     <bcf:citekey order="139">Vasiljevic2016a</bcf:citekey>
+    <bcf:citekey order="140">Cooper2018a</bcf:citekey>
+    <bcf:citekey order="141">paid_original</bcf:citekey>
+    <bcf:citekey order="142">plicp</bcf:citekey>
+    <bcf:citekey order="143">ICP</bcf:citekey>
+    <bcf:citekey order="144">plicp</bcf:citekey>
+    <bcf:citekey order="145">pose_selection_and_feedback_methods</bcf:citekey>
+    <bcf:citekey order="146">csm_manual1</bcf:citekey>
+    <bcf:citekey order="147">csm_manual2</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
   <bcf:sorting>

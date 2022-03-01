@@ -4819,6 +4819,13 @@
       \endverb
     \endentry
   \endsortlist
+  \missing{pose_selection_and_feedback_methods}
+  \missing{paid_original}
+  \missing{lidar}
+  \missing{csm_manual1}
+  \missing{plicp}
+  \missing{csm_manual2}
+  \missing{ICP}
 \endrefsection
 \endinput
 
