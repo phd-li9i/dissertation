@@ -3524,6 +3524,52 @@
       \verb https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2758472
       \endverb
     \endentry
+    \entry{bernreiter2021phaser}{article}{}
+      \name{author}{5}{}{%
+        {{hash=145ba6752bdeff853575063c31f7d7bf}{%
+           family={Bernreiter},
+           family_i={B\bibinitperiod},
+           given={Lukas},
+           given_i={L\bibinitperiod}}}%
+        {{hash=fb8eb6ad8616d52c1a1ec4235cd9e9cc}{%
+           family={Ott},
+           family_i={O\bibinitperiod},
+           given={Lionel},
+           given_i={L\bibinitperiod}}}%
+        {{hash=86481b508a2ad389b40948bac9c23e65}{%
+           family={Nieto},
+           family_i={N\bibinitperiod},
+           given={Juan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=6ee8958bbf32527489012d8ca7c95ee3}{%
+           family={Siegwart},
+           family_i={S\bibinitperiod},
+           given={Roland},
+           given_i={R\bibinitperiod}}}%
+        {{hash=e3395f53691b0224f8a3c7766bd34f78}{%
+           family={Cadena},
+           family_i={C\bibinitperiod},
+           given={Cesar},
+           given_i={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f54a58ac6cedaf7adab5846fe8fbe93e}
+      \strng{fullhash}{c020f1aaf8ad4021e3abe538f03c5883}
+      \field{labelalpha}{Ber+21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics and Automation Letters}
+      \field{number}{2}
+      \field{title}{PHASER: A Robust and Correspondence-Free Global Pointcloud Registration}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{855\bibrangedash 862}
+      \range{pages}{8}
+    \endentry
     \entry{Bouraine2021}{article}{}
       \name{author}{3}{}{%
         {{hash=5ca8b93305c6ba32a8a0c1450ddfff79}{%
@@ -4052,6 +4098,7 @@
       \field{labelalpha}{Cen}
       \field{sortinit}{9}
       \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings 2006 IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.}
@@ -4104,6 +4151,48 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/1570528/
+      \endverb
+    \endentry
+    \entry{csm_manual1}{url}{}
+      \name{author}{1}{}{%
+        {{hash=107bb5e3e8936f7821b7f89b0052dba9}{%
+           family={Censi},
+           family_i={C\bibinitperiod},
+           given={Andrea},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{107bb5e3e8936f7821b7f89b0052dba9}
+      \strng{fullhash}{107bb5e3e8936f7821b7f89b0052dba9}
+      \field{labelalpha}{Cen}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PLICP code headers}}
+      \verb{url}
+      \verb https://github.com/AndreaCensi/csm/blob/master/sm/csm/algos.h
+      \endverb
+    \endentry
+    \entry{csm_manual2}{url}{}
+      \name{author}{1}{}{%
+        {{hash=107bb5e3e8936f7821b7f89b0052dba9}{%
+           family={Censi},
+           family_i={C\bibinitperiod},
+           given={Andrea},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{107bb5e3e8936f7821b7f89b0052dba9}
+      \strng{fullhash}{107bb5e3e8936f7821b7f89b0052dba9}
+      \field{labelalpha}{Cen}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{PLICP manual}}
+      \verb{url}
+      \verb https://github.com/AndreaCensi/csm/blob/master/csm%7B%5C_%7Dmanual.pdf
       \endverb
     \endentry
     \entry{Chetverikova}{inproceedings}{}
@@ -4819,13 +4908,6 @@
       \endverb
     \endentry
   \endsortlist
-  \missing{pose_selection_and_feedback_methods}
-  \missing{paid_original}
-  \missing{lidar}
-  \missing{csm_manual1}
-  \missing{plicp}
-  \missing{csm_manual2}
-  \missing{ICP}
 \endrefsection
 \endinput
 
