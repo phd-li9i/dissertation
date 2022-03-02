@@ -1,15 +1,15 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'document_root.blg'
-[63] biber:287> INFO - === Wed Mar  2, 2022, 11:54:01
-[195] Biber.pm:348> INFO - Reading 'document_root.bcf'
-[421] Biber.pm:742> INFO - Found 126 citekeys in bib section 0
+[61] biber:287> INFO - === Wed Mar  2, 2022, 13:55:13
+[198] Biber.pm:348> INFO - Reading 'document_root.bcf'
+[421] Biber.pm:742> INFO - Found 143 citekeys in bib section 0
 [430] Biber.pm:3151> INFO - Processing section 0
 [475] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
-[867] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1177] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
-[5122] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[5122] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[5122] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[5123] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[5505] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
-[6399] bbl.pm:615> INFO - Output to document_root.bbl
+[871] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1208] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
+[5399] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5399] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5400] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[5400] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[5859] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
+[6849] bbl.pm:615> INFO - Output to document_root.bbl
