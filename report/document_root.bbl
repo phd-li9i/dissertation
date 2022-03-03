@@ -260,6 +260,42 @@
       \verb https://mitpress.mit.edu/books/object-recognition-computer
       \endverb
     \endentry
+    \entry{Koren}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=11666d205dfc9887173a5a86bfcced72}{%
+           family={Koren},
+           family_i={K\bibinitperiod},
+           given={Y.},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc. Press}%
+      }
+      \strng{namehash}{bcd9fff23459b712577a36dbcf44010e}
+      \strng{fullhash}{bcd9fff23459b712577a36dbcf44010e}
+      \field{labelalpha}{KB91}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 1991 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-8186-2163-X}
+      \field{title}{{Potential field methods and their inherent limitations for mobile robot navigation}}
+      \field{year}{1991}
+      \field{pages}{1398\bibrangedash 1404}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1991.131810
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/131810/
+      \endverb
+    \endentry
     \entry{Latombe1991}{book}{}
       \name{author}{1}{}{%
         {{hash=f1b7494703264d3e562759a836f6d716}{%
@@ -351,6 +387,42 @@
       \verb http://www.tandfonline.com/doi/abs/10.1080/00031305.1992.10475856
       \endverb
     \endentry
+    \entry{Quinlan}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8f6adafe625f50a7b49a4d5ca7477ea0}{%
+           family={Quinlan},
+           family_i={Q\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b7099225208d490eae9fdc985956b767}{%
+           family={Khatib},
+           family_i={K\bibinitperiod},
+           given={O.},
+           given_i={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc. Press}%
+      }
+      \strng{namehash}{5bb50bf99917e97b91f17766b3139473}
+      \strng{fullhash}{5bb50bf99917e97b91f17766b3139473}
+      \field{labelalpha}{QK93}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{[1993] Proceedings IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-8186-3450-2}
+      \field{title}{{Elastic bands: connecting path planning and control}}
+      \field{year}{1993}
+      \field{pages}{802\bibrangedash 807}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1993.291936
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/291936/
+      \endverb
+    \endentry
     \entry{FengLu1994a}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=eaaf09ae3516b9d7e6bbbcfefee541b4}{%
@@ -381,6 +453,37 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/323928/
+      \endverb
+    \endentry
+    \entry{Kleinberg}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=5812b8616e2478504171e462dcea94c4}{%
+           family={Kleinberg},
+           family_i={K\bibinitperiod},
+           given={J.M.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc. Press}%
+      }
+      \strng{namehash}{5812b8616e2478504171e462dcea94c4}
+      \strng{fullhash}{5812b8616e2478504171e462dcea94c4}
+      \field{labelalpha}{Kle94}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 35th Annual Symposium on Foundations of Computer Science}
+      \field{isbn}{0-8186-6580-7}
+      \field{title}{{The localization problem for mobile robots}}
+      \field{year}{1994}
+      \field{pages}{521\bibrangedash 531}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/SFCS.1994.365739
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/365739/
       \endverb
     \endentry
     \entry{Qin-ShengChen1994a}{article}{}
@@ -651,6 +754,168 @@
       \field{title}{{Variational Analysis}}
       \field{year}{1998}
     \endentry
+    \entry{Ulrich}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=fd0ed5c43cdd22e4b1862ac7b11e4f12}{%
+           family={Ulrich},
+           family_i={U\bibinitperiod},
+           given={I.},
+           given_i={I\bibinitperiod}}}%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a5bb690101b096294dee07c964daa571}
+      \strng{fullhash}{a5bb690101b096294dee07c964daa571}
+      \field{labelalpha}{UB98}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 1998 IEEE International Conference on Robotics and Automation (Cat. No.98CH36146)}
+      \field{isbn}{0-7803-4300-X}
+      \field{title}{{VFH+: reliable obstacle avoidance for fast mobile robots}}
+      \field{volume}{2}
+      \field{year}{1998}
+      \field{pages}{1572\bibrangedash 1577}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1998.677362
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/677362/
+      \endverb
+    \endentry
+    \entry{Dellaert}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=65cabd2b2609900759b43b30dcbfae24}{%
+           family={Dellaert},
+           family_i={D\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=33f960734163cca595a2898e40ead972}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f90d4c5a9aed77207596a7bb7facce6a}
+      \strng{fullhash}{a5a60b0e9bd15404709e0e22acbe18ce}
+      \field{labelalpha}{Del+99}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)}
+      \field{isbn}{0-7803-5180-0}
+      \field{title}{{Monte Carlo localization for mobile robots}}
+      \field{volume}{2}
+      \field{year}{1999}
+      \field{pages}{1322\bibrangedash 1328}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.1999.772544
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/772544/
+      \endverb
+    \endentry
+    \entry{Gutmann}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=334a3c6f0bb4fad0c40c2a63c77fcfd5}{%
+           family={Gutmann},
+           family_i={G\bibinitperiod},
+           given={J.-S.},
+           given_i={J\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=a18afbdc870bfb2e02b6c1553aa6169b}{%
+           family={Konolige},
+           family_i={K\bibinitperiod},
+           given={K.},
+           given_i={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6ada18091634e28bd22b97b4b8937da5}
+      \strng{fullhash}{6ada18091634e28bd22b97b4b8937da5}
+      \field{labelalpha}{GK99}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 1999 IEEE International Symposium on Computational Intelligence in Robotics and Automation. CIRA'99 (Cat. No.99EX375)}
+      \field{isbn}{0-7803-5806-6}
+      \field{title}{{Incremental mapping of large cyclic environments}}
+      \field{year}{1999}
+      \field{pages}{318\bibrangedash 325}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CIRA.1999.810068
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/810068/
+      \endverb
+    \endentry
+    \entry{Nissoux}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=428c3e9da3fc0912b4dca44389b2738a}{%
+           family={Nissoux},
+           family_i={N\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=bdafdabbccbcb0f927e7c2af20ca63df}{%
+           family={Simeon},
+           family_i={S\bibinitperiod},
+           given={T.},
+           given_i={T\bibinitperiod}}}%
+        {{hash=5c9e59bf7a6e729ca6b71fdbb1239dbb}{%
+           family={Laumond},
+           family_i={L\bibinitperiod},
+           given={J.-P.},
+           given_i={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{4eaa009b11efcfc05bc3debb7b673c23}
+      \strng{fullhash}{4eaa009b11efcfc05bc3debb7b673c23}
+      \field{labelalpha}{NSL99}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 1999 IEEE/RSJ International Conference on Intelligent Robots and Systems. Human and Environment Friendly Robots with High Intelligence and Emotional Quotients (Cat. No.99CH36289)}
+      \field{isbn}{0-7803-5184-3}
+      \field{title}{{Visibility based probabilistic roadmaps}}
+      \field{volume}{3}
+      \field{year}{1999}
+      \field{pages}{1316\bibrangedash 1321}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.1999.811662
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/811662/
+      \endverb
+    \endentry
     \entry{Bohlin2000}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=32fad560b3877db62916e648b5494848}{%
@@ -722,6 +987,80 @@
       \verb http://ieeexplore.ieee.org/document/880813/
       \endverb
     \endentry
+    \entry{Mingueza}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
+           family={Minguez},
+           family_i={M\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=62999d6be283a87b369ad13b77285346}{%
+           family={Montano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0c461dff5aa5e0e97a4b8cb18887151c}
+      \strng{fullhash}{0c461dff5aa5e0e97a4b8cb18887151c}
+      \field{labelalpha}{MM00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings. 2000 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2000) (Cat. No.00CH37113)}
+      \field{isbn}{0-7803-6348-5}
+      \field{title}{{Nearness diagram navigation (ND): a new real time collision avoidance approach}}
+      \field{volume}{3}
+      \field{year}{2000}
+      \field{pages}{2094\bibrangedash 2100}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2000.895280
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/895280/
+      \endverb
+    \endentry
+    \entry{Ulricha}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=fd0ed5c43cdd22e4b1862ac7b11e4f12}{%
+           family={Ulrich},
+           family_i={U\bibinitperiod},
+           given={I.},
+           given_i={I\bibinitperiod}}}%
+        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
+           family={Borenstein},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a5bb690101b096294dee07c964daa571}
+      \strng{fullhash}{a5bb690101b096294dee07c964daa571}
+      \field{labelalpha}{UB00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)}
+      \field{isbn}{0-7803-5886-4}
+      \field{title}{{VFH$^\ast$: local obstacle avoidance with look-ahead verification}}
+      \field{volume}{3}
+      \field{year}{2000}
+      \field{pages}{2505\bibrangedash 2511}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2000.846405
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/846405/
+      \endverb
+    \endentry
     \entry{Fox2001}{report}{}
       \name{author}{1}{}{%
         {{hash=93b0c4a7857a82a8f94e256475887c74}{%
@@ -777,6 +1116,178 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/964673/
+      \endverb
+    \endentry
+    \entry{Schulz}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=282064c750cc530a9f17e2eb6d736320}{%
+           family={Schulz},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=33f960734163cca595a2898e40ead972}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=171a2ce9e955003ca2cabd3a9bf717d1}{%
+           family={Cremers},
+           family_i={C\bibinitperiod},
+           given={A.B.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f83a1b41a5053cb2c6bc23bfa3f37a50}
+      \strng{fullhash}{747ea00a68f17a78393485a966b02246}
+      \field{labelalpha}{Sch+01}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2001 ICRA. IEEE International Conference on Robotics and Automation (Cat. No.01CH37164)}
+      \field{isbn}{0-7803-6576-3}
+      \field{title}{{Tracking multiple moving targets with a mobile robot using particle filters and statistical data association}}
+      \field{volume}{2}
+      \field{year}{2001}
+      \field{pages}{1665\bibrangedash 1670}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2001.932850
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/932850/
+      \endverb
+    \endentry
+    \entry{Se}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=3d46a6fe16858fac1a55ece7c50e0f56}{%
+           family={Se},
+           family_i={S\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=eeff5238f7813026bacc6db2fcafac55}{%
+           family={Lowe},
+           family_i={L\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=0118595dce5bec7253f2f4149b3fc084}{%
+           family={Little},
+           family_i={L\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{db417716f2695f490de40bffaa03d897}
+      \strng{fullhash}{db417716f2695f490de40bffaa03d897}
+      \field{labelalpha}{SLL01}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2001 IEEE/RSJ International Conference on Intelligent Robots and Systems. Expanding the Societal Role of Robotics in the the Next Millennium (Cat. No.01CH37180)}
+      \field{isbn}{0-7803-6612-3}
+      \field{title}{{Local and global localization for mobile robots using visual landmarks}}
+      \field{volume}{1}
+      \field{year}{2001}
+      \field{pages}{414\bibrangedash 420}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2001.973392
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/973392/
+      \endverb
+    \endentry
+    \entry{Bruce}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=ec6efdb7a3c050292b999f493c1b255f}{%
+           family={Bruce},
+           family_i={B\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f6bc198a4f7b87afa60e7f270f10f9dc}{%
+           family={Veloso},
+           family_i={V\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{355c6d7350931134f1799a20947adebb}
+      \strng{fullhash}{355c6d7350931134f1799a20947adebb}
+      \field{labelalpha}{BV02}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE/RSJ International Conference on Intelligent Robots and System}
+      \field{isbn}{0-7803-7398-7}
+      \field{title}{{Real-time randomized path planning for robot navigation}}
+      \field{volume}{3}
+      \field{year}{2002}
+      \field{pages}{2383\bibrangedash 2388}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IRDS.2002.1041624
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1041624/
+      \endverb
+    \endentry
+    \entry{Chetverikova}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=597e22ef54f4f49a7f2e419f5321e19a}{%
+           family={Chetverikov},
+           family_i={C\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=e92b882387e9524be3b7f04c394ece1b}{%
+           family={Svirko},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=a78662fd9d1c22b598310dbeb96664e6}{%
+           family={Stepanov},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=77d042f7d29c642360618e8f0267f465}{%
+           family={Krsek},
+           family_i={K\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Comput. Soc}%
+      }
+      \strng{namehash}{81643fb4ca5e6271f956ac1422e46d32}
+      \strng{fullhash}{929fb47f9ce661184ea723750c2290d7}
+      \field{labelalpha}{Che+02}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Object recognition supported by user interaction for service robots}
+      \field{title}{{The Trimmed Iterative Closest Point algorithm}}
+      \field{volume}{3}
+      \field{year}{2002}
+      \field{pages}{545\bibrangedash 548}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ICPR.2002.1047997
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1047997/
       \endverb
     \endentry
     \entry{Gustafsson2002}{article}{}
@@ -895,6 +1406,53 @@
       \verb http://journals.sagepub.com/doi/10.1177/0278364902021010841
       \endverb
     \endentry
+    \entry{Pfistera}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=b8b90532e8e8570357ca18a759bdc681}{%
+           family={Pfister},
+           family_i={P\bibinitperiod},
+           given={S.T.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=a3a5171e57df29bc44d6d7b5e8ca1aca}{%
+           family={Kriechbaum},
+           family_i={K\bibinitperiod},
+           given={K.L.},
+           given_i={K\bibinitperiod}}}%
+        {{hash=708eb66fc48a1961cfe1e27cca309493}{%
+           family={Roumeliotis},
+           family_i={R\bibinitperiod},
+           given={S.I.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=bf30de24c072b47c0a51c30d41a62e4b}{%
+           family={Burdick},
+           family_i={B\bibinitperiod},
+           given={J.W.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6b75b57219d475e7ea6bfdb4329fc564}
+      \strng{fullhash}{98403303495e200542e6ce5cd88572fc}
+      \field{labelalpha}{Pfi+02}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)}
+      \field{isbn}{0-7803-7272-7}
+      \field{title}{{Weighted range sensor matching algorithms for mobile robot displacement estimation}}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{pages}{1667\bibrangedash 1674}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2002.1014782
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1014782/
+      \endverb
+    \endentry
     \entry{Thrun2002a}{article}{}
       \name{author}{1}{}{%
         {{hash=5112ea130eadef0764fce0145b8b9f91}{%
@@ -916,6 +1474,130 @@
       \field{title}{{Particle Filters in Robotics}}
       \field{volume}{1}
       \field{year}{2002}
+    \endentry
+    \entry{Bibera}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=94199257dfad7424d66058bb537ebc11}{%
+           family={Biber},
+           family_i={B\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{hash=2f3f3a4e74bde17f7fbd3ca1e4860e59}{%
+           family={Strasser},
+           family_i={S\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{1abf55811d0d7aeeb5d473ce02943d6b}
+      \strng{fullhash}{1abf55811d0d7aeeb5d473ce02943d6b}
+      \field{labelalpha}{BS03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2003) (Cat. No.03CH37453)}
+      \field{isbn}{0-7803-7860-1}
+      \field{title}{{The normal distributions transform: a new approach to laser scan matching}}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{pages}{2743\bibrangedash 2748}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2003.1249285
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1249285/
+      \endverb
+    \endentry
+    \entry{Chieh-ChihWang}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=83445f22d006c4550b9f7b2405793285}{%
+           family={{Chieh-Chih\bibnamedelimb Wang}},
+           family_i={C\bibinitperiod}}}%
+        {{hash=643ef49773ccdd9b0c87b107b60d69c6}{%
+           family={Thorpe},
+           family_i={T\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{808108a83612b6e64f28c60f3abd4616}
+      \strng{fullhash}{808108a83612b6e64f28c60f3abd4616}
+      \field{labelalpha}{CTT03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2003 IEEE International Conference on Robotics and Automation (Cat. No.03CH37422)}
+      \field{isbn}{0-7803-7736-2}
+      \field{title}{{Online simultaneous localization and mapping with detection and tracking of moving objects: theory and results from a ground vehicle in crowded urban areas}}
+      \field{volume}{1}
+      \field{year}{2003}
+      \field{pages}{842\bibrangedash 849}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2003.1241698
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1241698/
+      \endverb
+    \endentry
+    \entry{Hahnel}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=d2a5b2a1fbadee07841f2950d05d6bfc}{%
+           family={Hahnel},
+           family_i={H\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=33f960734163cca595a2898e40ead972}{%
+           family={Burgard},
+           family_i={B\bibinitperiod},
+           given={W.},
+           given_i={W\bibinitperiod}}}%
+        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
+           family={Fox},
+           family_i={F\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
+           family={Thrun},
+           family_i={T\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{aea64d396a63047b48effc82b9e8c06f}
+      \strng{fullhash}{db4348599e047ff1f88a93fb7b4ddc5b}
+      \field{labelalpha}{Hah+03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2003) (Cat. No.03CH37453)}
+      \field{isbn}{0-7803-7860-1}
+      \field{title}{{An efficient fastslam algorithm for generating maps of large-scale cyclic environments from raw laser range measurements}}
+      \field{volume}{1}
+      \field{year}{2003}
+      \field{pages}{206\bibrangedash 211}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IROS.2003.1250629
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1250629/
+      \endverb
     \endentry
     \entry{Maxim2003}{inproceedings}{}
       \name{author}{3}{}{%
@@ -980,6 +1662,42 @@
       \verb https://www.cambridge.org/core/product/identifier/9780511801181/type/book
       \endverb
     \endentry
+    \entry{XuZezhong}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d9778026c3838e98ad7d3e88f55f0c6d}{%
+           family={{Xu\bibnamedelimb Zezhong}},
+           family_i={X\bibinitperiod}}}%
+        {{hash=89d1ec11273efb00d406ae2ca6ecde4d}{%
+           family={{Liu\bibnamedelimb Jilin}},
+           family_i={L\bibinitperiod}}}%
+        {{hash=df154b4d7d8d000009ae515fb8613f19}{%
+           family={{Xiang\bibnamedelimb Zhiyu}},
+           family_i={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{986497a245b598cdbf97767de08c50d0}
+      \strng{fullhash}{986497a245b598cdbf97767de08c50d0}
+      \field{labelalpha}{XLX03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE International Conference on Robotics, Intelligent Systems and Signal Processing, 2003. Proceedings. 2003}
+      \field{isbn}{0-7803-7925-X}
+      \field{title}{{Scan matching based on CLS relationships}}
+      \field{volume}{1}
+      \field{year}{2003}
+      \field{pages}{99\bibrangedash 104}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/RISSP.2003.1285556
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1285556/
+      \endverb
+    \endentry
     \entry{Lowe2004}{article}{}
       \name{author}{1}{}{%
         {{hash=ecc108666da64b7128e221a0e5aaded6}{%
@@ -1009,6 +1727,48 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1023/B:VISI.0000029664.99615.94
+      \endverb
+    \endentry
+    \entry{Minguez}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
+           family={Minguez},
+           family_i={M\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=08979e8d4e4b2e4b73f91370357f4ebf}{%
+           family={Montesano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{hash=62999d6be283a87b369ad13b77285346}{%
+           family={Montano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7e65e4c0b95d62d2cc8153e1eae98292}
+      \strng{fullhash}{7e65e4c0b95d62d2cc8153e1eae98292}
+      \field{labelalpha}{MMM04}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
+      \field{isbn}{0-7803-8463-6}
+      \field{title}{{An architecture for sensor-based navigation in realistic dynamic and troublesome scenarios}}
+      \field{volume}{3}
+      \field{year}{2004}
+      \field{pages}{2750\bibrangedash 2756}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/IROS.2004.1389825
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1389825/
       \endverb
     \endentry
     \entry{Minguez2004a}{inproceedings}{}
@@ -1077,6 +1837,47 @@
       \verb 10.5075/epfl-thesis-3146
       \endverb
     \endentry
+    \entry{Censia}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=83114c00ca0cb66243d5040f4eaf4e5f}{%
+           family={Censi},
+           family_i={C\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+        {{hash=dc930c47dff5909c86319820b24160e4}{%
+           family={Iocchi},
+           family_i={I\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{hash=6e03fdf76474b45acb7f7f74b250b666}{%
+           family={Grisetti},
+           family_i={G\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b066023cb6b97efd377a5af497c4fc65}
+      \strng{fullhash}{b066023cb6b97efd377a5af497c4fc65}
+      \field{labelalpha}{CIG05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-7803-8914-X}
+      \field{title}{{Scan Matching in the Hough Domain}}
+      \field{year}{2005}
+      \field{pages}{2739\bibrangedash 2744}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2005.1570528
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1570528/
+      \endverb
+    \endentry
     \entry{Diosi2005}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=609671f9e30149aa5e3868600c8f4ead}{%
@@ -1111,6 +1912,45 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/1545181/
+      \endverb
+    \endentry
+    \entry{Hsua}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=178ff5b8dad44cf97a84de4c6b46c312}{%
+           family={Hsu},
+           family_i={H\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=d17918dff5084bdd4ef3c832db07f533}{%
+           family={Sanchez-Ante},
+           family_i={S\bibinithyphendelim A\bibinitperiod},
+           given={G.},
+           given_i={G\bibinitperiod}}}%
+        {{hash=c21b9ff866013c4ff00587b03bae0310}{%
+           family={{Zheng\bibnamedelimb Sun}},
+           family_i={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{98fd5f296d0aef2137030775856f7317}
+      \strng{fullhash}{98fd5f296d0aef2137030775856f7317}
+      \field{labelalpha}{HSZ05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-7803-8914-X}
+      \field{title}{{Hybrid PRM Sampling with a Cost-Sensitive Adaptive Strategy}}
+      \field{year}{2005}
+      \field{pages}{3874\bibrangedash 3880}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2005.1570712
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1570712/
       \endverb
     \endentry
     \entry{Kim2005}{article}{}
@@ -1293,6 +2133,47 @@
       \field{title}{{Efficient constrained path planning via search in state lattices}}
       \field{year}{2005}
     \endentry
+    \entry{Minguezb}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
+           family={Minguez},
+           family_i={M\bibinitperiod},
+           given={J.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=2c5ac4a974a9801fa1b230ab30562e09}{%
+           family={Lamiraux},
+           family_i={L\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+        {{hash=08979e8d4e4b2e4b73f91370357f4ebf}{%
+           family={Montesano},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{bead139aef6f1d21b619b60370c72a1f}
+      \strng{fullhash}{bead139aef6f1d21b619b60370c72a1f}
+      \field{labelalpha}{MLM05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-7803-8914-X}
+      \field{title}{{Metric-Based Scan Matching Algorithms for Mobile Robot Displacement Estimation}}
+      \field{year}{2005}
+      \field{pages}{3557\bibrangedash 3563}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2005.1570661
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1570661/
+      \endverb
+    \endentry
     \entry{Montesano2005}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=08979e8d4e4b2e4b73f91370357f4ebf}{%
@@ -1332,6 +2213,42 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/1545182/
+      \endverb
+    \endentry
+    \entry{OKanea}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=3205d7e04a756a7c7f01cbc9038fc6a7}{%
+           family={O'Kane},
+           family_i={O\bibinitperiod},
+           given={J.M.},
+           given_i={J\bibinitperiod}}}%
+        {{hash=50898e1af4a8c5e701171dd10f685345}{%
+           family={LaValle},
+           family_i={L\bibinitperiod},
+           given={S.M.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c1a7d4eae63d9ab2d915816dfe332a37}
+      \strng{fullhash}{c1a7d4eae63d9ab2d915816dfe332a37}
+      \field{labelalpha}{OL05}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
+      \field{isbn}{0-7803-8914-X}
+      \field{title}{{Almost-Sensorless Localization}}
+      \field{year}{2005}
+      \field{pages}{3764\bibrangedash 3769}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2005.1570694
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1570694/
       \endverb
     \endentry
     \entry{thrun2005probabilistic}{book}{}
@@ -1408,6 +2325,37 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/10991541%7B%5C_%7D29
+      \endverb
+    \endentry
+    \entry{Censib}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=83114c00ca0cb66243d5040f4eaf4e5f}{%
+           family={Censi},
+           family_i={C\bibinitperiod},
+           given={A.},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{83114c00ca0cb66243d5040f4eaf4e5f}
+      \strng{fullhash}{83114c00ca0cb66243d5040f4eaf4e5f}
+      \field{labelalpha}{Cen06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2006 IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.}
+      \field{isbn}{0-7803-9505-0}
+      \field{title}{{Scan matching in a probabilistic framework}}
+      \field{year}{2006}
+      \field{pages}{2291\bibrangedash 2296}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2006.1642044
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1642044/
       \endverb
     \endentry
     \entry{Garrido2006}{inproceedings}{}
@@ -1492,6 +2440,37 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/4018808/
+      \endverb
+    \endentry
+    \entry{OKane}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=3205d7e04a756a7c7f01cbc9038fc6a7}{%
+           family={O'Kane},
+           family_i={O\bibinitperiod},
+           given={J.M.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{3205d7e04a756a7c7f01cbc9038fc6a7}
+      \strng{fullhash}{3205d7e04a756a7c7f01cbc9038fc6a7}
+      \field{labelalpha}{OKa06}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings 2006 IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.}
+      \field{isbn}{0-7803-9505-0}
+      \field{title}{{Global localization using odometry}}
+      \field{year}{2006}
+      \field{pages}{37\bibrangedash 42}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ROBOT.2006.1641158
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1641158/
       \endverb
     \endentry
     \entry{Bhattacharya2007}{inproceedings}{}
@@ -6302,149 +7281,6 @@
       \verb https://www.revfine.com/hotel-robots/
       \endverb
     \endentry
-    \entry{Bibera}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=94199257dfad7424d66058bb537ebc11}{%
-           family={Biber},
-           family_i={B\bibinitperiod},
-           given={P.},
-           given_i={P\bibinitperiod}}}%
-        {{hash=2f3f3a4e74bde17f7fbd3ca1e4860e59}{%
-           family={Strasser},
-           family_i={S\bibinitperiod},
-           given={W.},
-           given_i={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{1abf55811d0d7aeeb5d473ce02943d6b}
-      \strng{fullhash}{1abf55811d0d7aeeb5d473ce02943d6b}
-      \field{labelalpha}{BS}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2003) (Cat. No.03CH37453)}
-      \field{isbn}{0-7803-7860-1}
-      \field{title}{{The normal distributions transform: a new approach to laser scan matching}}
-      \field{volume}{3}
-      \field{pages}{2743\bibrangedash 2748}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IROS.2003.1249285
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1249285/
-      \endverb
-    \endentry
-    \entry{Bruce}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=ec6efdb7a3c050292b999f493c1b255f}{%
-           family={Bruce},
-           family_i={B\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-        {{hash=f6bc198a4f7b87afa60e7f270f10f9dc}{%
-           family={Veloso},
-           family_i={V\bibinitperiod},
-           given={M.},
-           given_i={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{355c6d7350931134f1799a20947adebb}
-      \strng{fullhash}{355c6d7350931134f1799a20947adebb}
-      \field{labelalpha}{BV}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE/RSJ International Conference on Intelligent Robots and System}
-      \field{isbn}{0-7803-7398-7}
-      \field{title}{{Real-time randomized path planning for robot navigation}}
-      \field{volume}{3}
-      \field{pages}{2383\bibrangedash 2388}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IRDS.2002.1041624
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1041624/
-      \endverb
-    \endentry
-    \entry{Censib}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=83114c00ca0cb66243d5040f4eaf4e5f}{%
-           family={Censi},
-           family_i={C\bibinitperiod},
-           given={A.},
-           given_i={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{83114c00ca0cb66243d5040f4eaf4e5f}
-      \strng{fullhash}{83114c00ca0cb66243d5040f4eaf4e5f}
-      \field{labelalpha}{Cen}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{extraalpha}{1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2006 IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.}
-      \field{isbn}{0-7803-9505-0}
-      \field{title}{{Scan matching in a probabilistic framework}}
-      \field{pages}{2291\bibrangedash 2296}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2006.1642044
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1642044/
-      \endverb
-    \endentry
-    \entry{Censia}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=83114c00ca0cb66243d5040f4eaf4e5f}{%
-           family={Censi},
-           family_i={C\bibinitperiod},
-           given={A.},
-           given_i={A\bibinitperiod}}}%
-        {{hash=dc930c47dff5909c86319820b24160e4}{%
-           family={Iocchi},
-           family_i={I\bibinitperiod},
-           given={L.},
-           given_i={L\bibinitperiod}}}%
-        {{hash=6e03fdf76474b45acb7f7f74b250b666}{%
-           family={Grisetti},
-           family_i={G\bibinitperiod},
-           given={G.},
-           given_i={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{b066023cb6b97efd377a5af497c4fc65}
-      \strng{fullhash}{b066023cb6b97efd377a5af497c4fc65}
-      \field{labelalpha}{CIG}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
-      \field{isbn}{0-7803-8914-X}
-      \field{title}{{Scan Matching in the Hough Domain}}
-      \field{pages}{2739\bibrangedash 2744}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2005.1570528
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1570528/
-      \endverb
-    \endentry
     \entry{csm_manual1}{url}{}
       \name{author}{1}{}{%
         {{hash=107bb5e3e8936f7821b7f89b0052dba9}{%
@@ -6458,7 +7294,7 @@
       \field{labelalpha}{Cen}
       \field{sortinit}{9}
       \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{extraalpha}{2}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{PLICP code headers}}
@@ -6479,717 +7315,12 @@
       \field{labelalpha}{Cen}
       \field{sortinit}{9}
       \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{extraalpha}{3}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{PLICP manual}}
       \verb{url}
       \verb https://github.com/AndreaCensi/csm/blob/master/csm%7B%5C_%7Dmanual.pdf
-      \endverb
-    \endentry
-    \entry{Chetverikova}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=597e22ef54f4f49a7f2e419f5321e19a}{%
-           family={Chetverikov},
-           family_i={C\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=e92b882387e9524be3b7f04c394ece1b}{%
-           family={Svirko},
-           family_i={S\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=a78662fd9d1c22b598310dbeb96664e6}{%
-           family={Stepanov},
-           family_i={S\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=77d042f7d29c642360618e8f0267f465}{%
-           family={Krsek},
-           family_i={K\bibinitperiod},
-           given={P.},
-           given_i={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE Comput. Soc}%
-      }
-      \strng{namehash}{81643fb4ca5e6271f956ac1422e46d32}
-      \strng{fullhash}{929fb47f9ce661184ea723750c2290d7}
-      \field{labelalpha}{Che+}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Object recognition supported by user interaction for service robots}
-      \field{title}{{The Trimmed Iterative Closest Point algorithm}}
-      \field{volume}{3}
-      \field{pages}{545\bibrangedash 548}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1109/ICPR.2002.1047997
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1047997/
-      \endverb
-    \endentry
-    \entry{Chieh-ChihWang}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=83445f22d006c4550b9f7b2405793285}{%
-           family={{Chieh-Chih\bibnamedelimb Wang}},
-           family_i={C\bibinitperiod}}}%
-        {{hash=643ef49773ccdd9b0c87b107b60d69c6}{%
-           family={Thorpe},
-           family_i={T\bibinitperiod},
-           given={C.},
-           given_i={C\bibinitperiod}}}%
-        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
-           family={Thrun},
-           family_i={T\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{808108a83612b6e64f28c60f3abd4616}
-      \strng{fullhash}{808108a83612b6e64f28c60f3abd4616}
-      \field{labelalpha}{CTT}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2003 IEEE International Conference on Robotics and Automation (Cat. No.03CH37422)}
-      \field{isbn}{0-7803-7736-2}
-      \field{title}{{Online simultaneous localization and mapping with detection and tracking of moving objects: theory and results from a ground vehicle in crowded urban areas}}
-      \field{volume}{1}
-      \field{pages}{842\bibrangedash 849}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2003.1241698
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1241698/
-      \endverb
-    \endentry
-    \entry{Dellaert}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=65cabd2b2609900759b43b30dcbfae24}{%
-           family={Dellaert},
-           family_i={D\bibinitperiod},
-           given={F.},
-           given_i={F\bibinitperiod}}}%
-        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
-           family={Fox},
-           family_i={F\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=33f960734163cca595a2898e40ead972}{%
-           family={Burgard},
-           family_i={B\bibinitperiod},
-           given={W.},
-           given_i={W\bibinitperiod}}}%
-        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
-           family={Thrun},
-           family_i={T\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{f90d4c5a9aed77207596a7bb7facce6a}
-      \strng{fullhash}{a5a60b0e9bd15404709e0e22acbe18ce}
-      \field{labelalpha}{Del+}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 1999 IEEE International Conference on Robotics and Automation (Cat. No.99CH36288C)}
-      \field{isbn}{0-7803-5180-0}
-      \field{title}{{Monte Carlo localization for mobile robots}}
-      \field{volume}{2}
-      \field{pages}{1322\bibrangedash 1328}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/ROBOT.1999.772544
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/772544/
-      \endverb
-    \endentry
-    \entry{Gutmann}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=334a3c6f0bb4fad0c40c2a63c77fcfd5}{%
-           family={Gutmann},
-           family_i={G\bibinitperiod},
-           given={J.-S.},
-           given_i={J\bibinithyphendelim S\bibinitperiod}}}%
-        {{hash=a18afbdc870bfb2e02b6c1553aa6169b}{%
-           family={Konolige},
-           family_i={K\bibinitperiod},
-           given={K.},
-           given_i={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6ada18091634e28bd22b97b4b8937da5}
-      \strng{fullhash}{6ada18091634e28bd22b97b4b8937da5}
-      \field{labelalpha}{GK}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 1999 IEEE International Symposium on Computational Intelligence in Robotics and Automation. CIRA'99 (Cat. No.99EX375)}
-      \field{isbn}{0-7803-5806-6}
-      \field{title}{{Incremental mapping of large cyclic environments}}
-      \field{pages}{318\bibrangedash 325}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/CIRA.1999.810068
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/810068/
-      \endverb
-    \endentry
-    \entry{Hahnel}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=d2a5b2a1fbadee07841f2950d05d6bfc}{%
-           family={Hahnel},
-           family_i={H\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=33f960734163cca595a2898e40ead972}{%
-           family={Burgard},
-           family_i={B\bibinitperiod},
-           given={W.},
-           given_i={W\bibinitperiod}}}%
-        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
-           family={Fox},
-           family_i={F\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=29ee2ab72460d2bb8cf06365e2f3a243}{%
-           family={Thrun},
-           family_i={T\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{aea64d396a63047b48effc82b9e8c06f}
-      \strng{fullhash}{db4348599e047ff1f88a93fb7b4ddc5b}
-      \field{labelalpha}{Hah+}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2003 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2003) (Cat. No.03CH37453)}
-      \field{isbn}{0-7803-7860-1}
-      \field{title}{{An efficient fastslam algorithm for generating maps of large-scale cyclic environments from raw laser range measurements}}
-      \field{volume}{1}
-      \field{pages}{206\bibrangedash 211}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IROS.2003.1250629
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1250629/
-      \endverb
-    \endentry
-    \entry{Hsua}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=178ff5b8dad44cf97a84de4c6b46c312}{%
-           family={Hsu},
-           family_i={H\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=d17918dff5084bdd4ef3c832db07f533}{%
-           family={Sanchez-Ante},
-           family_i={S\bibinithyphendelim A\bibinitperiod},
-           given={G.},
-           given_i={G\bibinitperiod}}}%
-        {{hash=c21b9ff866013c4ff00587b03bae0310}{%
-           family={{Zheng\bibnamedelimb Sun}},
-           family_i={Z\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{98fd5f296d0aef2137030775856f7317}
-      \strng{fullhash}{98fd5f296d0aef2137030775856f7317}
-      \field{labelalpha}{HSZ}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
-      \field{isbn}{0-7803-8914-X}
-      \field{title}{{Hybrid PRM Sampling with a Cost-Sensitive Adaptive Strategy}}
-      \field{pages}{3874\bibrangedash 3880}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2005.1570712
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1570712/
-      \endverb
-    \endentry
-    \entry{Kleinberg}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=5812b8616e2478504171e462dcea94c4}{%
-           family={Kleinberg},
-           family_i={K\bibinitperiod},
-           given={J.M.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE Comput. Soc. Press}%
-      }
-      \strng{namehash}{5812b8616e2478504171e462dcea94c4}
-      \strng{fullhash}{5812b8616e2478504171e462dcea94c4}
-      \field{labelalpha}{Kle}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 35th Annual Symposium on Foundations of Computer Science}
-      \field{isbn}{0-8186-6580-7}
-      \field{title}{{The localization problem for mobile robots}}
-      \field{pages}{521\bibrangedash 531}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/SFCS.1994.365739
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/365739/
-      \endverb
-    \endentry
-    \entry{Koren}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=11666d205dfc9887173a5a86bfcced72}{%
-           family={Koren},
-           family_i={K\bibinitperiod},
-           given={Y.},
-           given_i={Y\bibinitperiod}}}%
-        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
-           family={Borenstein},
-           family_i={B\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE Comput. Soc. Press}%
-      }
-      \strng{namehash}{bcd9fff23459b712577a36dbcf44010e}
-      \strng{fullhash}{bcd9fff23459b712577a36dbcf44010e}
-      \field{labelalpha}{KB}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings. 1991 IEEE International Conference on Robotics and Automation}
-      \field{isbn}{0-8186-2163-X}
-      \field{title}{{Potential field methods and their inherent limitations for mobile robot navigation}}
-      \field{pages}{1398\bibrangedash 1404}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/ROBOT.1991.131810
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/131810/
-      \endverb
-    \endentry
-    \entry{Minguezb}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
-           family={Minguez},
-           family_i={M\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-        {{hash=2c5ac4a974a9801fa1b230ab30562e09}{%
-           family={Lamiraux},
-           family_i={L\bibinitperiod},
-           given={F.},
-           given_i={F\bibinitperiod}}}%
-        {{hash=08979e8d4e4b2e4b73f91370357f4ebf}{%
-           family={Montesano},
-           family_i={M\bibinitperiod},
-           given={L.},
-           given_i={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{bead139aef6f1d21b619b60370c72a1f}
-      \strng{fullhash}{bead139aef6f1d21b619b60370c72a1f}
-      \field{labelalpha}{MLM}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
-      \field{isbn}{0-7803-8914-X}
-      \field{title}{{Metric-Based Scan Matching Algorithms for Mobile Robot Displacement Estimation}}
-      \field{pages}{3557\bibrangedash 3563}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2005.1570661
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1570661/
-      \endverb
-    \endentry
-    \entry{Mingueza}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
-           family={Minguez},
-           family_i={M\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-        {{hash=62999d6be283a87b369ad13b77285346}{%
-           family={Montano},
-           family_i={M\bibinitperiod},
-           given={L.},
-           given_i={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{0c461dff5aa5e0e97a4b8cb18887151c}
-      \strng{fullhash}{0c461dff5aa5e0e97a4b8cb18887151c}
-      \field{labelalpha}{MM}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings. 2000 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2000) (Cat. No.00CH37113)}
-      \field{isbn}{0-7803-6348-5}
-      \field{title}{{Nearness diagram navigation (ND): a new real time collision avoidance approach}}
-      \field{volume}{3}
-      \field{pages}{2094\bibrangedash 2100}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/IROS.2000.895280
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/895280/
-      \endverb
-    \endentry
-    \entry{Minguez}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=9fbe0ef11e2cf54d4ade633e96803637}{%
-           family={Minguez},
-           family_i={M\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-        {{hash=08979e8d4e4b2e4b73f91370357f4ebf}{%
-           family={Montesano},
-           family_i={M\bibinitperiod},
-           given={L.},
-           given_i={L\bibinitperiod}}}%
-        {{hash=62999d6be283a87b369ad13b77285346}{%
-           family={Montano},
-           family_i={M\bibinitperiod},
-           given={L.},
-           given_i={L\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{7e65e4c0b95d62d2cc8153e1eae98292}
-      \strng{fullhash}{7e65e4c0b95d62d2cc8153e1eae98292}
-      \field{labelalpha}{MMM}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566)}
-      \field{isbn}{0-7803-8463-6}
-      \field{title}{{An architecture for sensor-based navigation in realistic dynamic and troublesome scenarios}}
-      \field{volume}{3}
-      \field{pages}{2750\bibrangedash 2756}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/IROS.2004.1389825
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1389825/
-      \endverb
-    \endentry
-    \entry{Nissoux}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=428c3e9da3fc0912b4dca44389b2738a}{%
-           family={Nissoux},
-           family_i={N\bibinitperiod},
-           given={C.},
-           given_i={C\bibinitperiod}}}%
-        {{hash=bdafdabbccbcb0f927e7c2af20ca63df}{%
-           family={Simeon},
-           family_i={S\bibinitperiod},
-           given={T.},
-           given_i={T\bibinitperiod}}}%
-        {{hash=5c9e59bf7a6e729ca6b71fdbb1239dbb}{%
-           family={Laumond},
-           family_i={L\bibinitperiod},
-           given={J.-P.},
-           given_i={J\bibinithyphendelim P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{4eaa009b11efcfc05bc3debb7b673c23}
-      \strng{fullhash}{4eaa009b11efcfc05bc3debb7b673c23}
-      \field{labelalpha}{NSL}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 1999 IEEE/RSJ International Conference on Intelligent Robots and Systems. Human and Environment Friendly Robots with High Intelligence and Emotional Quotients (Cat. No.99CH36289)}
-      \field{isbn}{0-7803-5184-3}
-      \field{title}{{Visibility based probabilistic roadmaps}}
-      \field{volume}{3}
-      \field{pages}{1316\bibrangedash 1321}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/IROS.1999.811662
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/811662/
-      \endverb
-    \endentry
-    \entry{OKane}{inproceedings}{}
-      \name{author}{1}{}{%
-        {{hash=3205d7e04a756a7c7f01cbc9038fc6a7}{%
-           family={O'Kane},
-           family_i={O\bibinitperiod},
-           given={J.M.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{3205d7e04a756a7c7f01cbc9038fc6a7}
-      \strng{fullhash}{3205d7e04a756a7c7f01cbc9038fc6a7}
-      \field{labelalpha}{OKa}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2006 IEEE International Conference on Robotics and Automation, 2006. ICRA 2006.}
-      \field{isbn}{0-7803-9505-0}
-      \field{title}{{Global localization using odometry}}
-      \field{pages}{37\bibrangedash 42}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2006.1641158
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1641158/
-      \endverb
-    \endentry
-    \entry{OKanea}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=3205d7e04a756a7c7f01cbc9038fc6a7}{%
-           family={O'Kane},
-           family_i={O\bibinitperiod},
-           given={J.M.},
-           given_i={J\bibinitperiod}}}%
-        {{hash=50898e1af4a8c5e701171dd10f685345}{%
-           family={LaValle},
-           family_i={L\bibinitperiod},
-           given={S.M.},
-           given_i={S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{c1a7d4eae63d9ab2d915816dfe332a37}
-      \strng{fullhash}{c1a7d4eae63d9ab2d915816dfe332a37}
-      \field{labelalpha}{OL}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 2005 IEEE International Conference on Robotics and Automation}
-      \field{isbn}{0-7803-8914-X}
-      \field{title}{{Almost-Sensorless Localization}}
-      \field{pages}{3764\bibrangedash 3769}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2005.1570694
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1570694/
-      \endverb
-    \endentry
-    \entry{Pfistera}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=b8b90532e8e8570357ca18a759bdc681}{%
-           family={Pfister},
-           family_i={P\bibinitperiod},
-           given={S.T.},
-           given_i={S\bibinitperiod}}}%
-        {{hash=a3a5171e57df29bc44d6d7b5e8ca1aca}{%
-           family={Kriechbaum},
-           family_i={K\bibinitperiod},
-           given={K.L.},
-           given_i={K\bibinitperiod}}}%
-        {{hash=708eb66fc48a1961cfe1e27cca309493}{%
-           family={Roumeliotis},
-           family_i={R\bibinitperiod},
-           given={S.I.},
-           given_i={S\bibinitperiod}}}%
-        {{hash=bf30de24c072b47c0a51c30d41a62e4b}{%
-           family={Burdick},
-           family_i={B\bibinitperiod},
-           given={J.W.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6b75b57219d475e7ea6bfdb4329fc564}
-      \strng{fullhash}{98403303495e200542e6ce5cd88572fc}
-      \field{labelalpha}{Pfi+}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2002 IEEE International Conference on Robotics and Automation (Cat. No.02CH37292)}
-      \field{isbn}{0-7803-7272-7}
-      \field{title}{{Weighted range sensor matching algorithms for mobile robot displacement estimation}}
-      \field{volume}{2}
-      \field{pages}{1667\bibrangedash 1674}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2002.1014782
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1014782/
-      \endverb
-    \endentry
-    \entry{Quinlan}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=8f6adafe625f50a7b49a4d5ca7477ea0}{%
-           family={Quinlan},
-           family_i={Q\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-        {{hash=b7099225208d490eae9fdc985956b767}{%
-           family={Khatib},
-           family_i={K\bibinitperiod},
-           given={O.},
-           given_i={O\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE Comput. Soc. Press}%
-      }
-      \strng{namehash}{5bb50bf99917e97b91f17766b3139473}
-      \strng{fullhash}{5bb50bf99917e97b91f17766b3139473}
-      \field{labelalpha}{QK}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{[1993] Proceedings IEEE International Conference on Robotics and Automation}
-      \field{isbn}{0-8186-3450-2}
-      \field{title}{{Elastic bands: connecting path planning and control}}
-      \field{pages}{802\bibrangedash 807}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.1993.291936
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/291936/
-      \endverb
-    \endentry
-    \entry{Schulz}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{hash=282064c750cc530a9f17e2eb6d736320}{%
-           family={Schulz},
-           family_i={S\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=33f960734163cca595a2898e40ead972}{%
-           family={Burgard},
-           family_i={B\bibinitperiod},
-           given={W.},
-           given_i={W\bibinitperiod}}}%
-        {{hash=269c41e8868f4ca66348ada6db5d7146}{%
-           family={Fox},
-           family_i={F\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=171a2ce9e955003ca2cabd3a9bf717d1}{%
-           family={Cremers},
-           family_i={C\bibinitperiod},
-           given={A.B.},
-           given_i={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{f83a1b41a5053cb2c6bc23bfa3f37a50}
-      \strng{fullhash}{747ea00a68f17a78393485a966b02246}
-      \field{labelalpha}{Sch+}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2001 ICRA. IEEE International Conference on Robotics and Automation (Cat. No.01CH37164)}
-      \field{isbn}{0-7803-6576-3}
-      \field{title}{{Tracking multiple moving targets with a mobile robot using particle filters and statistical data association}}
-      \field{volume}{2}
-      \field{pages}{1665\bibrangedash 1670}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2001.932850
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/932850/
-      \endverb
-    \endentry
-    \entry{Se}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=3d46a6fe16858fac1a55ece7c50e0f56}{%
-           family={Se},
-           family_i={S\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
-        {{hash=eeff5238f7813026bacc6db2fcafac55}{%
-           family={Lowe},
-           family_i={L\bibinitperiod},
-           given={D.},
-           given_i={D\bibinitperiod}}}%
-        {{hash=0118595dce5bec7253f2f4149b3fc084}{%
-           family={Little},
-           family_i={L\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{db417716f2695f490de40bffaa03d897}
-      \strng{fullhash}{db417716f2695f490de40bffaa03d897}
-      \field{labelalpha}{SLL}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2001 IEEE/RSJ International Conference on Intelligent Robots and Systems. Expanding the Societal Role of Robotics in the the Next Millennium (Cat. No.01CH37180)}
-      \field{isbn}{0-7803-6612-3}
-      \field{title}{{Local and global localization for mobile robots using visual landmarks}}
-      \field{volume}{1}
-      \field{pages}{414\bibrangedash 420}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/IROS.2001.973392
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/973392/
       \endverb
     \endentry
     \entry{statista1}{url}{}
@@ -7224,115 +7355,6 @@
       \field{labelnamesource}{author}
       \verb{url}
       \verb https://www.statista.com/statistics/880147/global-robotic-vehicle-sensors-market-size-by-segment/
-      \endverb
-    \endentry
-    \entry{Ulricha}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=fd0ed5c43cdd22e4b1862ac7b11e4f12}{%
-           family={Ulrich},
-           family_i={U\bibinitperiod},
-           given={I.},
-           given_i={I\bibinitperiod}}}%
-        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
-           family={Borenstein},
-           family_i={B\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{a5bb690101b096294dee07c964daa571}
-      \strng{fullhash}{a5bb690101b096294dee07c964daa571}
-      \field{labelalpha}{UB}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{extraalpha}{1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)}
-      \field{isbn}{0-7803-5886-4}
-      \field{title}{{VFH$^\ast$: local obstacle avoidance with look-ahead verification}}
-      \field{volume}{3}
-      \field{pages}{2505\bibrangedash 2511}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1109/ROBOT.2000.846405
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/846405/
-      \endverb
-    \endentry
-    \entry{Ulrich}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=fd0ed5c43cdd22e4b1862ac7b11e4f12}{%
-           family={Ulrich},
-           family_i={U\bibinitperiod},
-           given={I.},
-           given_i={I\bibinitperiod}}}%
-        {{hash=4ecd7c21f2d918ac6a09d109e82f5177}{%
-           family={Borenstein},
-           family_i={B\bibinitperiod},
-           given={J.},
-           given_i={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{a5bb690101b096294dee07c964daa571}
-      \strng{fullhash}{a5bb690101b096294dee07c964daa571}
-      \field{labelalpha}{UB}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{extraalpha}{2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings. 1998 IEEE International Conference on Robotics and Automation (Cat. No.98CH36146)}
-      \field{isbn}{0-7803-4300-X}
-      \field{title}{{VFH+: reliable obstacle avoidance for fast mobile robots}}
-      \field{volume}{2}
-      \field{pages}{1572\bibrangedash 1577}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/ROBOT.1998.677362
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/677362/
-      \endverb
-    \endentry
-    \entry{XuZezhong}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=d9778026c3838e98ad7d3e88f55f0c6d}{%
-           family={{Xu\bibnamedelimb Zezhong}},
-           family_i={X\bibinitperiod}}}%
-        {{hash=89d1ec11273efb00d406ae2ca6ecde4d}{%
-           family={{Liu\bibnamedelimb Jilin}},
-           family_i={L\bibinitperiod}}}%
-        {{hash=df154b4d7d8d000009ae515fb8613f19}{%
-           family={{Xiang\bibnamedelimb Zhiyu}},
-           family_i={X\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{986497a245b598cdbf97767de08c50d0}
-      \strng{fullhash}{986497a245b598cdbf97767de08c50d0}
-      \field{labelalpha}{XLX}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE International Conference on Robotics, Intelligent Systems and Signal Processing, 2003. Proceedings. 2003}
-      \field{isbn}{0-7803-7925-X}
-      \field{title}{{Scan matching based on CLS relationships}}
-      \field{volume}{1}
-      \field{pages}{99\bibrangedash 104}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1109/RISSP.2003.1285556
-      \endverb
-      \verb{url}
-      \verb http://ieeexplore.ieee.org/document/1285556/
       \endverb
     \endentry
   \endsortlist
