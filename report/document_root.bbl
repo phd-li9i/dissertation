@@ -19,6 +19,25 @@
 
 \refsection{0}
   \sortlist[entry]{ynt/global}
+    \entry{Riemann1851}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=bda6bb5b38f7bd5e17c19c5121715453}{%
+           family={Riemann},
+           family_i={R\bibinitperiod},
+           given={Bernhard},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \strng{fullhash}{bda6bb5b38f7bd5e17c19c5121715453}
+      \field{labelalpha}{Rie51}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse}}
+      \field{type}{phdthesis}
+      \field{year}{1851}
+    \endentry
     \entry{Frechet1906}{article}{}
       \name{author}{1}{}{%
         {{hash=8b2687ee7f60fd9f0b37d7285b116dd7}{%
@@ -69,6 +88,42 @@
       \field{year}{1960}
       \verb{url}
       \verb https://patents.google.com/patent/US3069654A/en
+      \endverb
+    \endentry
+    \entry{Casasent1976}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f49abb7ab5467f74d26e204a3f28b94c}{%
+           family={Casasent},
+           family_i={C\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=6c04754ca07875c8afcb23747d66721e}{%
+           family={Psaltis},
+           family_i={P\bibinitperiod},
+           given={Demetri},
+           given_i={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{d5b36b5a32f9e63293f796982e2b2385}
+      \strng{fullhash}{d5b36b5a32f9e63293f796982e2b2385}
+      \field{labelalpha}{CP76}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0003-6935}
+      \field{journaltitle}{Applied Optics}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{{Position, rotation, and scale invariant optical correlation}}
+      \field{volume}{15}
+      \field{year}{1976}
+      \field{pages}{1795}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/AO.15.001795
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/abstract.cfm?URI=ao-15-7-1795
       \endverb
     \endentry
     \entry{Lozano-Perez1979}{article}{}
@@ -586,6 +641,42 @@
       \endverb
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/508439/
+      \endverb
+    \endentry
+    \entry{Reddy1996}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e26549ee337e839526eeb209f66a4ec8}{%
+           family={Reddy},
+           family_i={R\bibinitperiod},
+           given={B.S.},
+           given_i={B\bibinitperiod}}}%
+        {{hash=7254b7c5f98047304f5477e2deeb327c}{%
+           family={Chatterji},
+           family_i={C\bibinitperiod},
+           given={B.N.},
+           given_i={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb726a981eeeab899ad3d7f5d99181d9}
+      \strng{fullhash}{fb726a981eeeab899ad3d7f5d99181d9}
+      \field{labelalpha}{RC96}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1057-7149}
+      \field{journaltitle}{IEEE Transactions on Image Processing}
+      \field{month}{08}
+      \field{number}{8}
+      \field{title}{{An FFT-based technique for translation, rotation, and scale-invariant image registration}}
+      \field{volume}{5}
+      \field{year}{1996}
+      \field{pages}{1266\bibrangedash 1271}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/83.506761
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/506761/
       \endverb
     \endentry
     \entry{Romanik1996}{inproceedings}{}

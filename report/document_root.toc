@@ -22,164 +22,186 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.2}Τα δύο κύρια προβλήματα εκτίμησης στάσης}{12}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Το φίλτρο σωματιδίων}{13}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Το φίλτρο σωματιδίων}{14}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Ο αισθητήρας lidar δισδιάστατων μετρήσεων}{16}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Ο αισθητήρας lidar δισδιάστατων μετρήσεων}{17}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Ευθυγράμμιση σαρώσεων lidar}{17}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.5}Ευθυγράμμιση σαρώσεων lidar}{18}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Ευθυγράμμιση σαρώσεων lidar με σαρώσεις χάρτη}{19}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.6}Ευθυγράμμιση σαρώσεων lidar με σαρώσεις χάρτη}{20}{subsection.1.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.7}Το λειτουργικό σύστημα ρομπότ ROS}{22}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.7}Αναλλοίωτη ευθυγράμμιση Fourier-Mellin σε δύο διαστάσεις}{23}{subsection.1.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Οδικός χάρτης}{25}{chapter.2}
+\contentsline {subsection}{\numberline {1.2.8}Κεντροειδές πολυγώνου}{27}{subsection.1.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Οδικός χάρτης}{25}{section.2.1}
+\contentsline {subsection}{\numberline {1.2.9}Το λειτουργικό σύστημα ρομπότ ROS}{29}{subsection.1.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Συμβολές και Διάρθρωση της διατριβής}{31}{chapter.3}
+\contentsline {chapter}{\numberline {2}Οδικός χάρτης}{31}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Συμβολές της διατριβής}{31}{section.3.1}
+\contentsline {section}{\numberline {2.1}Οδικός χάρτης}{31}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Διάρθρωση}{31}{section.3.2}
+\contentsline {chapter}{\numberline {3}Συμβολές και Διάρθρωση της διατριβής}{37}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{II\hspace {1em}Προβλήματα---Λύσεις---Συμβολές}{33}{part.2}
+\contentsline {section}{\numberline {3.1}Συμβολές της διατριβής}{37}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{35}{chapter.4}
+\contentsline {section}{\numberline {3.2}Διάρθρωση}{37}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Στόχοι του κεφαλαίου και δομή}{36}{section.4.1}
+\contentsline {part}{II\hspace {1em}Προβλήματα---Λύσεις---Συμβολές}{39}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Σχετική βιβλιογραφία}{36}{section.4.2}
+\contentsline {chapter}{\numberline {4}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{41}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Αλγόριθμοι χάραξης μονοπατιών}{37}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.1}Στόχοι του κεφαλαίου και δομή}{42}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Ελεγκτές κίνησης}{40}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.2}Σχετική βιβλιογραφία}{42}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Αυτόνομη πλοήγηση με το ROS}{42}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.1}Αλγόριθμοι χάραξης μονοπατιών}{43}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.1}Αλγόριθμοι χάραξης μονοπατιών}{45}{subsubsection.4.2.3.1}
+\contentsline {subsection}{\numberline {4.2.2}Ελεγκτές κίνησης}{46}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3.2}Ελεγκτές Κίνησης}{48}{subsubsection.4.2.3.2}
+\contentsline {subsection}{\numberline {4.2.3}Αυτόνομη πλοήγηση με το ROS}{48}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Μεθοδολογία αξιολόγησης}{49}{section.4.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Αλγόριθμοι χάραξης μονοπατιών}{51}{subsubsection.4.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Μεθοδολογία αξιολόγησης, περιβάλλοντα, και συμβολισμοί}{49}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Ελεγκτές Κίνησης}{54}{subsubsection.4.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Ορισμός μετρικών αξιολόγησης}{52}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.3}Μεθοδολογία αξιολόγησης}{55}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Μεθοδολογία συνολικής και ιεραρχημένης αξιολόγησης}{56}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.1}Μεθοδολογία αξιολόγησης, περιβάλλοντα, και συμβολισμοί}{55}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Ορισμός μετρικών ποιότητας πακέτων λογισμικών πλοήγησης}{60}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.2}Ορισμός μετρικών αξιολόγησης}{58}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Πειραματική αξιολόγηση}{62}{section.4.4}
+\contentsline {subsection}{\numberline {4.3.3}Μεθοδολογία συνολικής και ιεραρχημένης αξιολόγησης}{62}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Προκαταρκτική αξιολόγηση}{62}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.3.4}Ορισμός μετρικών ποιότητας πακέτων λογισμικών πλοήγησης}{66}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Αξιολόγηση στο περιβάλλον CORRIDOR}{64}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.4}Πειραματική αξιολόγηση}{68}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση στο περιβάλλον WILLOWGARAGE}{69}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.1}Προκαταρκτική αξιολόγηση}{68}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Αξιολόγηση στο περιβάλλον CSAL}{72}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.2}Αξιολόγηση στο περιβάλλον CORRIDOR}{70}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.5}Συνολική αξιολόγηση}{75}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση στο περιβάλλον WILLOWGARAGE}{75}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Συμπεράσματα και περαιτέρω έρευνα}{77}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.4}Αξιολόγηση στο περιβάλλον CSAL}{78}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Συμπεράσματα κεφαλαίου}{77}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.4.5}Συνολική αξιολόγηση}{81}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Αιτίες περαιτέρω έρευνας}{78}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.5}Συμπεράσματα και περαιτέρω έρευνα}{83}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Μέθοδοι ελάττωσης σφάλματος εκτίμησης στάσης φίλτρου σωματιδίων}{81}{chapter.5}
+\contentsline {subsection}{\numberline {4.5.1}Συμπεράσματα κεφαλαίου}{83}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Στόχοι του κεφαλαίου και δομή}{81}{section.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Αιτίες περαιτέρω έρευνας}{84}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Σχετική βιβλιογραφία}{84}{section.5.2}
+\contentsline {chapter}{\numberline {5}Μέθοδοι ελάττωσης σφάλματος εκτίμησης στάσης φίλτρου σωματιδίων}{87}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar}{84}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.1}Στόχοι του κεφαλαίου και δομή}{87}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar με σαρώσεις χάρτη}{93}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.2}Σχετική βιβλιογραφία}{90}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Μεθοδολογία ελάττωσης σφάλματος εκτίμησης στάσης}{98}{section.5.3}
+\contentsline {subsection}{\numberline {5.2.1}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar}{90}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Μέσω επιλογής σωματιδίων}{98}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.2.2}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar με σαρώσεις χάρτη}{99}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Μέσω ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{103}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.3}Μεθοδολογία ελάττωσης σφάλματος εκτίμησης στάσης}{104}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Μέσω ανάδρασης}{105}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.1}Μέσω επιλογής σωματιδίων}{104}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.4}Το ολικό σύστημα ελάττωσης του σφάλματος εκτίμησης}{108}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.2}Μέσω ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{109}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Πειραματική αξιολόγηση}{110}{section.5.4}
+\contentsline {subsection}{\numberline {5.3.3}Μέσω ανάδρασης}{111}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Πειραματική διαδικασία}{110}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.3.4}Το ολικό σύστημα ελάττωσης του σφάλματος εκτίμησης}{114}{subsection.5.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Αποτελέσματα}{114}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.4}Πειραματική αξιολόγηση}{116}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Αξιολόγηση μεθόδων επιλογής σωματιδίων}{116}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.1}Πειραματική διαδικασία}{116}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Αξιολόγηση ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{119}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.2}Αποτελέσματα}{120}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Αξιολόγηση μεθόδων ανάδρασης}{119}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.3}Αξιολόγηση μεθόδων επιλογής σωματιδίων}{122}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Συμπεράσματα και περαιτέρω έρευνα}{121}{section.5.5}
+\contentsline {subsection}{\numberline {5.4.4}Αξιολόγηση ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{125}{subsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Συμπεράσματα κεφαλαίου}{121}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.4.5}Αξιολόγηση μεθόδων ανάδρασης}{125}{subsection.5.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Αιτίες περαιτέρω έρευνας}{123}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.5}Συμπεράσματα και περαιτέρω έρευνα}{127}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος χωρίς τον υπολογισμό αντιστοιχίσεων}{129}{chapter.6}
+\contentsline {subsection}{\numberline {5.5.1}Συμπεράσματα κεφαλαίου}{127}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Στόχοι του κεφαλαίου και δομή}{129}{section.6.1}
+\contentsline {subsection}{\numberline {5.5.2}Αιτίες περαιτέρω έρευνας}{129}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Σχετική βιβλιογραφία}{129}{section.6.2}
+\contentsline {chapter}{\numberline {6}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος χωρίς τον υπολογισμό αντιστοιχίσεων}{135}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος}{129}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.1}Στόχοι του κεφαλαίου και δομή}{135}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Ο μετασχηματισμός Fourier-Mellin στη ρομποτική}{139}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.2}Σχετική βιβλιογραφία}{136}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Μεθοδολογία}{143}{section.6.3}
+\contentsline {subsection}{\numberline {6.2.1}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος}{136}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Πειραματική αξιολόγηση}{143}{section.6.4}
+\contentsline {subsection}{\numberline {6.2.2}Ο μετασχηματισμός Fourier-Mellin στη ρομποτική}{146}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Συμπεράσματα και περαιτέρω έρευνα}{143}{section.6.5}
+\contentsline {section}{\numberline {6.3}Μεθοδολογία εκτίμησης}{150}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Συμπεράσματα}{145}{part.3}
+\contentsline {subsection}{\numberline {6.3.1}Επισκόπηση}{150}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Αναφορές}{147}{part.4}
+\contentsline {subsection}{\numberline {6.3.2}Εκτίμηση περιστροφής και κλίμακας}{150}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Παραρτήματα}{177}{part.5}
+\contentsline {subsection}{\numberline {6.3.3}Εκτίμηση μετατόπισης}{150}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{179}{appendix.Alph1}
+\contentsline {subsection}{\numberline {6.3.4}Επιλογή βέλτιστης υπόθεσης}{150}{subsection.6.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{179}{section.Alph1.1}
+\contentsline {section}{\numberline {6.4}Πειραματική αξιολόγηση}{150}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Λεπτομέρειες αξιολόγησης μεθόδων αυτόνομους πλοήγησης}{182}{section.Alph1.2}
+\contentsline {subsection}{\numberline {6.4.1}Πειραματική διαδικασία}{150}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.1}Στοιχεία αξιολόγησης στο περιβάλλον CORRIDOR}{182}{subsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {6.4.2}Αποτελέσματα}{150}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{182}{subsubsection.Alph1.2.1.1}
+\contentsline {subsection}{\numberline {6.4.3}Αξιολόγηση}{150}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.2}Σχετικά με τους ελεγκτές κίνησης}{183}{subsubsection.Alph1.2.1.2}
+\contentsline {section}{\numberline {6.5}Συμπεράσματα και περαιτέρω έρευνα}{150}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.3}Σχετικά με το συνδυασμό τους}{185}{subsubsection.Alph1.2.1.3}
+\contentsline {subsection}{\numberline {6.5.1}Συμπεράσματα κεφαλαίου}{150}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.2}Στοιχεία αξιολόγησης στο περιβάλλον WILLOWGARAGE}{189}{subsection.Alph1.2.2}
+\contentsline {subsection}{\numberline {6.5.2}Αιτίες περαιτέρω έρευνας}{150}{subsection.6.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{189}{subsubsection.Alph1.2.2.1}
+\contentsline {part}{III\hspace {1em}Συμπεράσματα}{151}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.2}Σχετικά με τους ελεγκτές κίνησης}{191}{subsubsection.Alph1.2.2.2}
+\contentsline {part}{IV\hspace {1em}Αναφορές}{153}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.3}Σχετικά με το συνδυασμό τους}{192}{subsubsection.Alph1.2.2.3}
+\contentsline {part}{V\hspace {1em}Παραρτήματα}{183}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.3}Στοιχεία αξιολόγησης στο περιβάλλον CSAL}{195}{subsection.Alph1.2.3}
+\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{185}{appendix.Alph1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{195}{subsubsection.Alph1.2.3.1}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{185}{section.Alph1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.2}Σχετικά με τους ελεγκτές κίνησης}{196}{subsubsection.Alph1.2.3.2}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Λεπτομέρειες αξιολόγησης μεθόδων αυτόνομους πλοήγησης}{188}{section.Alph1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.3}Σχετικά με το συνδυασμό τους}{197}{subsubsection.Alph1.2.3.3}
+\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.1}Στοιχεία αξιολόγησης στο περιβάλλον CORRIDOR}{188}{subsection.Alph1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Μέθοδοι ελάττωσης σφάλματος στάσης φίλτρου σωματιδίων}{203}{appendix.Alph2}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{188}{subsubsection.Alph1.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Σφάλματα εκτίμησης στάσης μεθόδου επιλογής σωματιδίων}{203}{section.Alph2.1}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.2}Σχετικά με τους ελεγκτές κίνησης}{189}{subsubsection.Alph1.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Σφάλματα εκτίμησης στάσης μεθόδου ανάδρασης σωματιδίων}{203}{section.Alph2.2}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.3}Σχετικά με το συνδυασμό τους}{191}{subsubsection.Alph1.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.2}Στοιχεία αξιολόγησης στο περιβάλλον WILLOWGARAGE}{195}{subsection.Alph1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{195}{subsubsection.Alph1.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.2}Σχετικά με τους ελεγκτές κίνησης}{197}{subsubsection.Alph1.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.3}Σχετικά με το συνδυασμό τους}{198}{subsubsection.Alph1.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.3}Στοιχεία αξιολόγησης στο περιβάλλον CSAL}{201}{subsection.Alph1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{201}{subsubsection.Alph1.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.2}Σχετικά με τους ελεγκτές κίνησης}{202}{subsubsection.Alph1.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.3}Σχετικά με το συνδυασμό τους}{203}{subsubsection.Alph1.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Μέθοδοι ελάττωσης σφάλματος στάσης φίλτρου σωματιδίων}{209}{appendix.Alph2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Σφάλματα εκτίμησης στάσης μεθόδου επιλογής σωματιδίων}{209}{section.Alph2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Σφάλματα εκτίμησης στάσης μεθόδου ανάδρασης σωματιδίων}{209}{section.Alph2.2}

@@ -1,0 +1,40 @@
+\begin{bw_box}
+\begin{customproblem}{Π2}
+  \label{prob:02_03:the_problem}
+  Έστω ένα ρομπότ κινητής βάσης του πεδίου εφαρμογής \ref{scope}, εξοπλισμένο με
+  έναν οριζόντια τοποθετημένο αισθητήρα lidar μετρήσεων δύο διαστάσεων που
+  εκπέμπει $N_s$ ακτίνες. Έστω επίσης ότι τα ακόλουθα είναι διαθέσιμα ή
+  ευσταθούν:
+  \begin{itemize}
+    \item Ο χάρτης $\bm{M}$ του περιβάλλοντος στο οποίο κινείται το ρομπότ
+    \item Μια δισδιάστατη μέτρηση $\mathcal{S}_R$, που λαμβάνεται από
+          την---άγνωστη και αναζητούμενη---στάση $\bm{p}(\bm{l},\theta)$,
+          $\bm{l} = (x,y)$
+  \end{itemize}
+\end{customproblem}
+Τότε ο στόχος είναι η εκτίμηση της στάσης $\bm{p}$ του ρομπότ.
+\end{bw_box}
+
+\begin{bw_box}
+  \begin{assumption}
+    \label{assumption:02_03_01:01}
+    Το γωνιακό εύρος του αισθητήρα lidar είναι $360^\circ$.
+  \end{assumption}
+\end{bw_box}
+
+\begin{bw_box}
+  \begin{assumption}
+    \label{assumption:02_03_01:02}
+    Η λύση του προβλήματος \ref{prob:02_03:the_problem} πρέπει δοθεί μέσω
+    ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη.
+  \end{assumption}
+\end{bw_box}
+
+\begin{bw_box}
+  \begin{assumption}
+    \label{assumption:02_03_01:03}
+    Η επίλυση του προβλήματος της παραδοχής \ref{assumption:02_03_01:02}
+    πρέπει να δοθεί χωρίς τον υπολογισμό αντιστοιχίσεων ανάμεσα στις εισόδους
+    της μεθόδου επίλυσης.
+  \end{assumption}
+\end{bw_box}
