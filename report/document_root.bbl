@@ -2081,7 +2081,7 @@
       \verb 10.1049/ip-rsn:20045015
       \endverb
       \verb{url}
-      \verb https://digital-library.theiet.org/content/journals/10.1049/ip-rsn%7B%5C_%7D20045015
+      \verb https://digital-library.theiet.org/content/journals/10.1049/ip-rsn_20045015
       \endverb
     \endentry
     \entry{Leordeanu2005a}{inproceedings}{}
@@ -2415,7 +2415,7 @@
       \verb 10.1007/10991541_29
       \endverb
       \verb{url}
-      \verb http://link.springer.com/10.1007/10991541%7B%5C_%7D29
+      \verb http://link.springer.com/10.1007/10991541_29
       \endverb
     \endentry
     \entry{Censib}{inproceedings}{}
@@ -3250,7 +3250,7 @@
       \verb 10.1007/978-3-642-03983-6_21
       \endverb
       \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-642-03983-6%7B%5C_%7D21
+      \verb http://link.springer.com/10.1007/978-3-642-03983-6_21
       \endverb
     \endentry
     \entry{Segal2009a}{inproceedings}{}
@@ -3473,7 +3473,7 @@
       \verb 10.1007/978-3-642-13408-1_14
       \endverb
       \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-642-13408-1%7B%5C_%7D14
+      \verb http://link.springer.com/10.1007/978-3-642-13408-1_14
       \endverb
     \endentry
     \entry{Jaillet2010}{article}{}
@@ -6236,7 +6236,7 @@
       \verb 10.1017/S0263574719000298
       \endverb
       \verb{url}
-      \verb https://www.cambridge.org/core/product/identifier/S0263574719000298/type/journal%7B%5C_%7Darticle
+      \verb https://www.cambridge.org/core/product/identifier/S0263574719000298/type/journal_article
       \endverb
     \endentry
     \entry{Choi2019}{inproceedings}{}
@@ -7411,7 +7411,7 @@
       \field{labeltitlesource}{title}
       \field{title}{{PLICP manual}}
       \verb{url}
-      \verb https://github.com/AndreaCensi/csm/blob/master/csm%7B%5C_%7Dmanual.pdf
+      \verb https://github.com/AndreaCensi/csm/blob/master/csm_manual.pdf
       \endverb
     \endentry
     \entry{statista1}{url}{}
