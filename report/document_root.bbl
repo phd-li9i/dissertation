@@ -5369,6 +5369,37 @@
       \verb http://www.mdpi.com/1424-8220/17/5/1060
       \endverb
     \endentry
+    \entry{Rasouli2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=55990b14c1bde8bc571804af5e2f5b4a}{%
+           family={Rasouli},
+           family_i={R\bibinitperiod},
+           given={Amir},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c9318f59ba6f18d726200de9025ab318}{%
+           family={Tsotsos},
+           family_i={T\bibinitperiod},
+           given={John\bibnamedelima K.},
+           given_i={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0f38b4505f607a12206625661915c1a}
+      \strng{fullhash}{a0f38b4505f607a12206625661915c1a}
+      \field{labelalpha}{RT17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{month}{02}
+      \field{title}{{The Effect of Color Space Selection on Detectability and Discriminability of Colored Objects}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1702.05421
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1702.05421
+      \endverb
+    \endentry
     \entry{Rosmann2017}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=35ddad8c21afb9a84b04afae8f173b28}{%
@@ -7446,6 +7477,42 @@
       \field{labelnamesource}{author}
       \verb{url}
       \verb https://www.statista.com/statistics/880147/global-robotic-vehicle-sensors-market-size-by-segment/
+      \endverb
+    \endentry
+    \entry{willow_map}{url}{}
+      \name{author}{1}{}{%
+        {{hash=d68f301c93db6f9a221db203236dd559}{%
+           family={WILLOWGARAGE},
+           family_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d68f301c93db6f9a221db203236dd559}
+      \strng{fullhash}{d68f301c93db6f9a221db203236dd559}
+      \field{labelalpha}{WIL}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Χάρτης του περιβάλλοντος WILLOWGARAGE}
+      \verb{url}
+      \verb https://github.com/CognitiveRobotics/jarves/tree/master/jarves%7B%5C_%7Dgazebo/worlds/maps
+      \endverb
+    \endentry
+    \entry{ydlidar}{url}{}
+      \name{author}{1}{}{%
+        {{hash=93fa2d4d11e6e110cf0e813b6931b29a}{%
+           family={YDLIDAR},
+           family_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{93fa2d4d11e6e110cf0e813b6931b29a}
+      \strng{fullhash}{93fa2d4d11e6e110cf0e813b6931b29a}
+      \field{labelalpha}{YDL}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{YDLIDAR datasheets}}
+      \verb{url}
+      \verb https://www.manualshelf.com/brand/ydlidar
       \endverb
     \endentry
   \endsortlist

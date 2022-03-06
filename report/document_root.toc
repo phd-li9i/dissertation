@@ -150,62 +150,64 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.4}Επιλογή βέλτιστης υπόθεσης}{155}{subsection.6.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Πειραματική αξιολόγηση}{160}{section.6.4}
+\contentsline {section}{\numberline {6.4}Πειραματική αξιολόγηση}{156}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Πειραματική διαδικασία}{160}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Πειραματική διαδικασία}{156}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Αποτελέσματα}{160}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}Αποτελέσματα}{166}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Αξιολόγηση}{160}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.3}Αξιολόγηση}{166}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Συμπεράσματα και περαιτέρω έρευνα}{160}{section.6.5}
+\contentsline {section}{\numberline {6.5}Συμπεράσματα και περαιτέρω έρευνα}{169}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.1}Συμπεράσματα κεφαλαίου}{160}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}Συμπεράσματα κεφαλαίου}{169}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.2}Αιτίες περαιτέρω έρευνας}{160}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.2}Αιτίες περαιτέρω έρευνας}{169}{subsection.6.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Συμπεράσματα}{161}{part.3}
+\contentsline {part}{III\hspace {1em}Συμπεράσματα}{171}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Αναφορές}{163}{part.4}
+\contentsline {part}{IV\hspace {1em}Αναφορές}{173}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Παραρτήματα}{193}{part.5}
+\contentsline {part}{V\hspace {1em}Παραρτήματα}{203}{part.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{195}{appendix.Alph1}
+\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{205}{appendix.Alph1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{195}{section.Alph1.1}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{205}{section.Alph1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Λεπτομέρειες αξιολόγησης μεθόδων αυτόνομους πλοήγησης}{198}{section.Alph1.2}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Λεπτομέρειες αξιολόγησης μεθόδων αυτόνομους πλοήγησης}{208}{section.Alph1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.1}Στοιχεία αξιολόγησης στο περιβάλλον CORRIDOR}{198}{subsection.Alph1.2.1}
+\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.1}Στοιχεία αξιολόγησης στο περιβάλλον CORRIDOR}{208}{subsection.Alph1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{198}{subsubsection.Alph1.2.1.1}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{208}{subsubsection.Alph1.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.2}Σχετικά με τους ελεγκτές κίνησης}{199}{subsubsection.Alph1.2.1.2}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.2}Σχετικά με τους ελεγκτές κίνησης}{209}{subsubsection.Alph1.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.3}Σχετικά με το συνδυασμό τους}{201}{subsubsection.Alph1.2.1.3}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.1.3}Σχετικά με το συνδυασμό τους}{211}{subsubsection.Alph1.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.2}Στοιχεία αξιολόγησης στο περιβάλλον WILLOWGARAGE}{205}{subsection.Alph1.2.2}
+\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.2}Στοιχεία αξιολόγησης στο περιβάλλον WILLOWGARAGE}{215}{subsection.Alph1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{205}{subsubsection.Alph1.2.2.1}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{215}{subsubsection.Alph1.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.2}Σχετικά με τους ελεγκτές κίνησης}{207}{subsubsection.Alph1.2.2.2}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.2}Σχετικά με τους ελεγκτές κίνησης}{217}{subsubsection.Alph1.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.3}Σχετικά με το συνδυασμό τους}{208}{subsubsection.Alph1.2.2.3}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.3}Σχετικά με το συνδυασμό τους}{218}{subsubsection.Alph1.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.3}Στοιχεία αξιολόγησης στο περιβάλλον CSAL}{211}{subsection.Alph1.2.3}
+\contentsline {subsection}{\numberline {\Greeknumber {\c@chapter }.2.3}Στοιχεία αξιολόγησης στο περιβάλλον CSAL}{221}{subsection.Alph1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{211}{subsubsection.Alph1.2.3.1}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{221}{subsubsection.Alph1.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.2}Σχετικά με τους ελεγκτές κίνησης}{212}{subsubsection.Alph1.2.3.2}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.2}Σχετικά με τους ελεγκτές κίνησης}{222}{subsubsection.Alph1.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.3}Σχετικά με το συνδυασμό τους}{213}{subsubsection.Alph1.2.3.3}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.3.3}Σχετικά με το συνδυασμό τους}{223}{subsubsection.Alph1.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Μέθοδοι ελάττωσης σφάλματος στάσης φίλτρου σωματιδίων}{219}{appendix.Alph2}
+\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Μέθοδοι ελάττωσης σφάλματος στάσης φίλτρου σωματιδίων}{229}{appendix.Alph2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Σφάλματα εκτίμησης στάσης μεθόδου επιλογής σωματιδίων}{219}{section.Alph2.1}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Σφάλματα εκτίμησης στάσης μεθόδου επιλογής σωματιδίων}{229}{section.Alph2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Σφάλματα εκτίμησης στάσης μεθόδου ανάδρασης σωματιδίων}{219}{section.Alph2.2}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Σφάλματα εκτίμησης στάσης μεθόδου ανάδρασης σωματιδίων}{229}{section.Alph2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος χωρίς τον υπολογισμό αντιστοιχίσεων}{225}{appendix.Alph3}
+\contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος χωρίς τον υπολογισμό αντιστοιχίσεων}{235}{appendix.Alph3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Σφάλματα θέσης και προσανατολισμού}{225}{section.Alph3.1}
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Παράδειγμα}{235}{section.Alph3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Σφάλματα θέσης και προσανατολισμού}{235}{section.Alph3.2}

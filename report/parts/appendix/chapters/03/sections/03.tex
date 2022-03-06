@@ -1,0 +1,66 @@
+\begin{figure}\centering
+    \begin{subfigure}[t]{0.475\linewidth} \centering
+        \hspace{0.5cm}
+        \input{./figures/parts/appendix/chapters/03/sections/03/real1.tex}\vspace{1em}
+        \caption{\small The connected endpoints $\mathcal{P}_r^a$ of the range
+                 scan captured from the robot's true pose $\bm{p}_a$, as seen
+                 from the local reference frame of the range scan sensor
+                 (effectively $(0,0)$)}
+        \label{fig:pr1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.475\linewidth} \centering
+        \hspace{0.5cm}
+        \input{./figures/parts/appendix/chapters/03/sections/03/virtual1.tex}\vspace{1em}
+        \caption{\small The connected endpoints $\mathcal{P}_\text{v}^c$ of the
+                 range scan captured from the robot's hypothesised pose
+                 $\bm{p}_c$, as seen from the local reference frame of the
+                 virtual range scan sensor $(0,0)$}
+        \label{fig:pv1}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.475\linewidth} \centering
+        \hspace{0.5cm}
+        \input{./figures/parts/appendix/chapters/03/sections/03/real2.tex}\vspace{1em}
+        \caption {\small The connected endpoints $\mathcal{P}_r^a$ of the range
+                  scan captured from the robot's true pose $\bm{p}_a$, as seen
+                  from the local reference frame of the range scan sensor, and
+                  the centroid of the polygon formed by them}
+        \label{fig:pr2}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.475\linewidth} \centering
+        \hspace{0.5cm}
+        \input{./figures/parts/appendix/chapters/03/sections/03/virtual2.tex}\vspace{1em}
+        \caption{\small The connected endpoints $\mathcal{P}_\text{v}^{c\prime}$
+                 of the range scan captured from the robot's angularly-aligned
+                 hypothesised pose $\bm{p}_c^\prime$, as seen from the local
+                 reference frame of the virtual range scan sensor, and the
+                 centroid of the polygon formed by them. Notice that the pose
+                 has been aligned angularly, but not positionally}
+        \label{fig:pv2}
+    \end{subfigure}
+    \begin{subfigure}[t]{0.475\linewidth} \centering
+        \hspace{0.5cm}
+        \input{./figures/parts/appendix/chapters/03/sections/03/virtual3.tex}\vspace{1em}
+        \caption{\small The connected endpoints $\mathcal{P}_\text{v}^{c\prime}$
+                 of the range scan captured from the robot's positionally- and
+                 angularly-aligned hypothesised pose $\bm{p}_c^{\prime}$, as
+                 seen from the local reference frame of the virtual range scan
+                 sensor, and the centroid of the polygon formed by them}
+        \label{fig:pv3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[t]{0.475\linewidth} \centering
+        \hspace{0.5cm}
+        \input{./figures/parts/appendix/chapters/03/sections/03/aligned.tex}\vspace{1em}
+        \caption{\small The connected endpoints $\mathcal{P}_r^a$ (black) and
+                 $\mathcal{P}_\text{v}^{c\prime}$ (red), and their corresponding
+                 centroids, all as seen from the local reference frames of the
+                 range scan sensors that captured them}
+        \label{fig:aligned}
+    \end{subfigure}
+    \caption{\small Illustration of orientational and then positional alignment
+             of candidate pose $\bm{p}_c$ with respect to true pose $\bm{p}_a$
+             in environment CORRIDOR (figure \ref{fig:map_corridor})}
+    \label{fig:illustration}
+\end{figure}
