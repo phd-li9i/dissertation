@@ -64,7 +64,6 @@
 \usepackage{tikz}
 \usepackage{multirow}
 \usepackage{dashrule}
-\usepackage{pgfplots}
 \usepackage{framed}
 \pgfplotsset{compat=1.8}
 \usepgfplotslibrary{statistics}
@@ -127,6 +126,30 @@
 \renewcommand\theoperation{\Roman{operation}}
 
 \renewcommand{\qedsymbol}{$\blacksquare$}
+
+% Squares and their colours for global localisation tables
+\definecolor{glca}{RGB}{235,172,35}
+\definecolor{glcb}{RGB}{184,0,88}
+\definecolor{glcc}{RGB}{0,140,249}
+\definecolor{glcd}{RGB}{0,110,0}
+\definecolor{glce}{RGB}{0,187,173}
+\definecolor{glcf}{RGB}{209,99,230}
+\definecolor{glcg}{RGB}{178,69,2}
+\definecolor{glch}{RGB}{255,146,135}
+\definecolor{glci}{RGB}{89,84,214}
+\definecolor{glcj}{RGB}{135,133,0}
+\definecolor{glck}{RGB}{0,198,248}
+\newcommand*{\squarea}{\textcolor{glca}{\blacksquare}}
+\newcommand*{\squareb}{\textcolor{glcb}{\blacksquare}}
+\newcommand*{\squarec}{\textcolor{glcc}{\blacksquare}}
+\newcommand*{\squared}{\textcolor{glcd}{\blacksquare}}
+\newcommand*{\squaree}{\textcolor{glce}{\blacksquare}}
+\newcommand*{\squaref}{\textcolor{glcf}{\blacksquare}}
+\newcommand*{\squareg}{\textcolor{glcg}{\blacksquare}}
+\newcommand*{\squareh}{\textcolor{glch}{\blacksquare}}
+\newcommand*{\squarei}{\textcolor{glci}{\blacksquare}}
+\newcommand*{\squarej}{\textcolor{glcj}{\blacksquare}}
+\newcommand*{\squarek}{\textcolor{glck}{\blacksquare}}
 
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
 \definecolor{keyword}{rgb}{0.5,0.5,0.5}
