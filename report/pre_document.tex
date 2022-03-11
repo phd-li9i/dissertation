@@ -107,6 +107,10 @@
 \newtheorem{proposition}{Proposition}
 \newtheorem{assumption}{Παραδοχή}
 \renewcommand\theassumption{\Roman{assumption}}
+\newtheorem{hypothesis}{Υπόθεση}
+\renewcommand\thehypothesis{\Roman{hypothesis}}
+\newtheorem{claim}{Ισχυρισμός}
+\renewcommand\theclaim{\Roman{claim}}
 \newtheorem{scope}{Πεδίο Εφαρμογής}
 \renewcommand\thescope{\Roman{scope}}
 \newtheorem{innercustomscope}{Πεδίο Εφαρμογής}
@@ -118,6 +122,11 @@
 \newenvironment{customproblem}[1]
   {\renewcommand\theinnercustomproblem{#1}\innercustomproblem}
   {\endinnercustomproblem}
+
+\newtheorem{innercustomhypothesis}{Υπόθεση}
+\newenvironment{customhypothesis}[1]
+  {\renewcommand\theinnercustomhypothesis{#1}\innercustomhypothesis}
+  {\endinnercustomhypothesis}
 
 \renewcommand\theproposition{\Roman{proposition}}
 \newtheorem{objective}{Objective}
