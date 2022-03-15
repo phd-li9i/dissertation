@@ -170,23 +170,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Μεθοδολογία ευθυγράμμισης προσανατολισμού}{175}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Μέσω πρώτων αρχών}{176}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.1}Η μέθοδος Fourier-Mellin σε μία διάσταση}{176}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Μέσω Fourier-Mellin σε μία διάσταση}{179}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Η μέθοδος πρώτων αρχών}{177}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.3}Μέσω Προκρούστη}{179}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.3}Η μέθοδος του Προκρούστη}{180}{subsection.7.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.4}Ο ύφαλος της διακριτικής γωνίας του αισθητήρα}{179}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.4}Ο ύφαλος της διακριτικής γωνίας του αισθητήρα}{180}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.5}Σίνις ο Πιτυοκάμπτης}{179}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.5}Σίνις ο Πιτυοκάμπτης}{180}{subsection.7.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Μεθοδολογία ευθυγράμμισης θέσης}{179}{section.7.3}
+\contentsline {section}{\numberline {7.3}Μεθοδολογία ευθυγράμμισης θέσης}{180}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Μεθοδολογία ευθυγράμμισης από κοινού}{179}{section.7.4}
+\contentsline {section}{\numberline {7.4}Μεθοδολογία ευθυγράμμισης από κοινού}{180}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Πειραματική αξιολόγηση}{179}{section.7.5}
+\contentsline {section}{\numberline {7.5}Πειραματική αξιολόγηση}{180}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Συμπεράσματα και περαιτέρω έρευνα}{179}{section.7.6}
+\contentsline {section}{\numberline {7.6}Συμπεράσματα και περαιτέρω έρευνα}{180}{section.7.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{181}{part.3}
 \defcounter {refsection}{0}\relax 
