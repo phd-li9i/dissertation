@@ -9,19 +9,16 @@ $\mathcal{S}_R$ μπορεί να βρεθεί μέσω των μεθόδων π
 περαιτέρω μέσω της μεθόδου που παρουσιάζεται στην ενότητα
 \ref{subsection:02_04_02:05}.
 
+Στα συμφραζόμενα του παρόντος κεφαλαίου, έστω $\mathcal{F}\{\mathcal{S}\}$ ο
+διακριτός μετασχηματισμός Fourier του σήματος $\mathcal{S}$,
+$\mathcal{F}^{-1}\{\mathcal{S}\}$ ο αντίστροφός του, $\bm{c}^\ast$ ο συζυγής
+του μιγαδικού αριθμού $\bm{c}$, και $|\bm{c}|$ το μέτρο του.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Η μέθοδος Fourier-Mellin σε μία διάσταση}
 \label{subsection:02_04_02:01}
 
-Έστω $\mathcal{F}\{\mathcal{S}\}$ ο διακριτός μετασχηματισμός Fourier
-του σήματος $\mathcal{S}$, $\mathcal{F}^{-1}\{\mathcal{S}\}$
-ο αντίστροφός του, $\bm{c}^\ast$ ο συζυγής του μιγαδικού $\bm{c}$, και
-$|\bm{c}|$ το μέτρο του. Έστω επίσης $Q_{\mathcal{S}_R, \mathcal{S}_V}$:
-\begin{align}
-  Q_{\mathcal{S}_R, \mathcal{S}_V} \triangleq \dfrac{\mathcal{F}\{\mathcal{S}_R\}^{\ast} \cdot \mathcal{F}\{\mathcal{S}_V\}}{|\mathcal{F}\{\mathcal{S}_R\}| \cdot |\mathcal{F}\{\mathcal{S}_V\}|}
-\end{align}
-Αν ο χώρος δειγματοληπτείται αρκετά πυκνά γωνιακά, για
+Έστω ότι ο χώρος δειγματοληπτείται αρκετά πυκνά γωνιακά, τότε για
 $k,\xi \in \mathbb{Z}$: $k,\xi \in [0, N_s-1]$:
 \begin{align}
   \mathcal{S}_V[k] &\simeq \mathcal{S}_R[(k - \xi) \mod N_s] \Rightarrow \nonumber \\
@@ -30,14 +27,14 @@ $k,\xi \in \mathbb{Z}$: $k,\xi \in [0, N_s-1]$:
 και, επομένως, αφού $2\pi \dfrac{\xi}{N_s} = \xi \dfrac{2\pi}{N_s} = \xi \gamma$,
 όπου $\gamma$ είναι η διακριτική γωνία του αισθητήρα:
 \begin{align}
-  Q_{\mathcal{S}_V, \mathcal{S}_R}(u) &= \dfrac{\mathcal{F}\{\mathcal{S}_V\}^{\ast} \cdot \mathcal{F}\{\mathcal{S}_R\}}{|\mathcal{F}\{\mathcal{S}_V\}| \cdot |\mathcal{F}\{\mathcal{S}_R\}|} \nonumber \\
+  Q_{\mathcal{S}_V, \mathcal{S}_R}(u) & \triangleq \dfrac{\mathcal{F}\{\mathcal{S}_V\}^{\ast} \cdot \mathcal{F}\{\mathcal{S}_R\}}{|\mathcal{F}\{\mathcal{S}_V\}| \cdot |\mathcal{F}\{\mathcal{S}_R\}|} \nonumber \\
   &\simeq \dfrac{e^{-j \xi \gamma u} \cdot \mathcal{F}\{\mathcal{S}_R\}^\ast \cdot \mathcal{F}\{\mathcal{S}_R\}}{|e^{- j \xi \gamma u} \cdot \mathcal{F}\{\mathcal{S}_R\}^\ast | \cdot | \mathcal{F}\{\mathcal{S}_R\}|} \nonumber \\
   &= e^{-j \xi \gamma u} \cdot \dfrac{\mathcal{F}\{\mathcal{S}_R\}^\ast \cdot \mathcal{F}\{\mathcal{S}_R\}}{|\mathcal{F}\{\mathcal{S}_R\} | \cdot | \mathcal{F}\{\mathcal{S}_R\}|} \nonumber \\
   &= e^{-j \xi \gamma u}
   \label{eq:Q0}
 \end{align}
 
-Ο αντίστροφος διακριτό μετασχηματιμός Fourier του
+Συνεπώς ο αντίστροφος διακριτός μετασχηματιμός Fourier του
 $Q_{\mathcal{S}_V, \mathcal{S}_R}$ είναι μία Kronecker $\delta$-συνάρτηση
 $q_{\mathcal{S}_V, \mathcal{S}_R} = \mathcal{F}^{-1}\{Q_{\mathcal{S}_V, \mathcal{S}_R}\}$
 με κέντρο $\xi$:
@@ -50,8 +47,14 @@ $q_{\mathcal{S}_V, \mathcal{S}_R} = \mathcal{F}^{-1}\{Q_{\mathcal{S}_V, \mathcal
 $\Delta\theta = \xi\gamma + \delta\theta$, όπου
 $\mod(|\delta\theta|, \gamma) = \phi \in [0,\gamma/2]$. Επομένως, για δεδομένο
 αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για δεδομένη διακριτική γωνία
-$\gamma$) παραμένει ένα ανεπίλυτο σφάλμα προσανατολισμού
-$|\delta\theta| = \phi \leq \gamma/2$.
+$\gamma$), ενημερώνοντας την εκτίμηση προσανατολισμού σε $\hat{\theta}^\prime$:
+\begin{align}
+  \hat{\theta}^\prime = \hat{\theta} + \xi \gamma \label{eq:update_t1}
+\end{align}
+οδηγεί σε ένα σφάλμα προσανατολισμού $\phi$:
+\begin{align}
+  \phi \leq \dfrac{\gamma}{2}  \label{eq:phi_1}
+\end{align}
 
 Η συμβολή αυτού του σφάλματος στην
 σάρωσης-αντιστοίχισης είναι διπλή, καθώς η ύπαρξή του διαδίδεται επίσης στο
@@ -119,10 +122,9 @@ $\hat{\bm{p}}(x,y,\hat{\theta})$:
 
 Ο πρώτος όρος του διακριτού μετασχηματισμού Fourier του σήματος που
 αποτελείται από τη διαφορά των δύο σημάτων (\ref{eq:dne_complex_r}) και
-(\ref{eq:dne_complex_v}) είναι $\bm{X}_1$:
+(\ref{eq:dne_complex_v}) είναι:
 \begin{align}
-  \bm{X}_1 &= \mathcal{F}\{\mathcal{S}_R\} - \mathcal{F}\{\mathcal{S}_V\} \nonumber \\
-           &= \sum\limits_{n=0}^{N_s-1}(d_n^R - d_n^V) \cdot e^{-i 2 \pi n/N_s} \nonumber \\
+  \mathcal{F}\{\mathcal{S}_R\} - \mathcal{F}\{\mathcal{S}_V\} &= \sum\limits_{n=0}^{N_s-1}(d_n^R - d_n^V) \cdot e^{-i 2 \pi n/N_s} \nonumber \\
            &\leftstackrel{(\ref{eq:dne_complex_r}),(\ref{eq:dne_complex_v})}{=} N_s (x-i \cdot y)(e^{i\theta}-e^{i\hat{\theta}}) -e^{i\theta}\Delta_R+e^{i\hat{\theta}}\Delta_V \nonumber \\
           &\leftstackrel{(\ref{eq:Delta_V_eq_Delta_R})}{=} N_s (x-i \cdot y)(e^{i\theta}-e^{i\hat{\theta}}) -e^{i\theta}\Delta_R +e^{i\hat{\theta}}(\Delta_R -N_s(\delta_x - i \cdot \delta_y)) \nonumber \\
           &= N_s (x-i \cdot y)(e^{i\theta}-e^{i\hat{\theta}}) - \Delta_R (e^{i\theta}-e^{i\hat{\theta}})- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
@@ -130,12 +132,14 @@ $\hat{\bm{p}}(x,y,\hat{\theta})$:
           &\leftstackrel{(\ref{eq:dne_complex_r})}{=} (e^{i\theta}-e^{i\hat{\theta}}) \dfrac{\mathcal{F}\{\mathcal{S}_R\}}{e^{i\theta}}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
           &= (1-e^{-i(\theta-\hat{\theta})}) \mathcal{F}\{\mathcal{S}_R\}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber
 \end{align}
-Επομένως, χρησιμοποιώντας την πολική αναπαράσταση του $\bm{A}$ ως
-$\bm{A} = |\bm{A}| e^{i\angle \bm{A}}$, και αφού $\bm{X}_1 = \mathcal{F}\{\mathcal{S}_R\} -\mathcal{F}\{\mathcal{S}_V\}$:
+άρα
 \begin{align}
   -\mathcal{F}\{\mathcal{S}_V\} &= -e^{-i(\theta-\hat{\theta})} \mathcal{F}\{\mathcal{S}_R\}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
-  e^{-i(\theta-\hat{\theta})} &= \dfrac{\mathcal{F}\{\mathcal{S}_V\}}{\mathcal{F}\{\mathcal{S}_R\}} - \dfrac{N_s e^{i\hat{\theta}}}{\mathcal{F}\{\mathcal{S}_R\}}(\delta_x - i\cdot \delta_y) \nonumber \\
-  e^{-i(\theta-\hat{\theta})} &= \dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} e^{i(\angle \mathcal{F}\{\mathcal{S}_V\} - \angle \mathcal{F}\{\mathcal{S}_R\})} - \dfrac{e^{i(\hat{\theta}-\angle \mathcal{F}\{\mathcal{S}_R\})}}{|\mathcal{F}\{\mathcal{S}_R\}|} (N_s \delta_x - i\cdot N_s \delta_y) \nonumber
+  e^{-i(\theta-\hat{\theta})} &= \dfrac{\mathcal{F}\{\mathcal{S}_V\}}{\mathcal{F}\{\mathcal{S}_R\}} - \dfrac{N_s e^{i\hat{\theta}}}{\mathcal{F}\{\mathcal{S}_R\}}(\delta_x - i\cdot \delta_y) \nonumber
+\end{align}
+Χρησιμοποιώντας την πολική αναπαράσταση $\bm{A} = |\bm{A}| e^{i\angle \bm{A}}$:
+\begin{align}
+  e^{-i(\theta-\hat{\theta})} &= \dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} e^{i(\angle \mathcal{F}\{\mathcal{S}_V\} - \angle \mathcal{F}\{\mathcal{S}_R\})} - \dfrac{e^{i(\hat{\theta}-\angle \mathcal{F}\{\mathcal{S}_R\})}}{|\mathcal{F}\{\mathcal{S}_R\}|} (N_s \delta_x - i\cdot N_s \delta_y) \label{eq:x1_final_big_eq}
 \end{align}
 
 Λόγω του γεγονότος ότι ο προσανατολισμός $\theta$ του αισθητήρα είναι άγνωστος,
@@ -149,25 +153,26 @@ $y$. Η προσέγγιση αυτή οφείλεται στο πεπερασμ
 $N_s$. Επομένως υπό τις υποθέσεις ότι (α) ο χάρτης του περιβάλλοντος είναι
 τέλεια αναπαράστασή του και (β) οι μετρήσεις του φυσικού αισθητήρα δεν
 επηρεάζονται από διαταραχές: καθώς $N_s \rightarrow \infty$, $N_s \delta_x$,
-$N_s \delta_y$ $\rightarrow 0$, τα οποία με τη σειρά τους σημαίνουν ότι
-$|\mathcal{F}\{\mathcal{S}_V\}| \rightarrow |\mathcal{F}\{\mathcal{S}_R\}|$ και $\theta-\hat{\theta} \rightarrow \angle
-\mathcal{F}\{\mathcal{S}_R\} - \angle \mathcal{F}\{\mathcal{S}_V\}$.
+$N_s \delta_y$ $\rightarrow 0$, τα οποία με τη σειρά τους σημαίνουν λόγω της
+εξίσωσης (\ref{eq:x1_final_big_eq}) ότι
+$\dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} \rightarrow 1$
+και $\theta-\hat{\theta} \rightarrow \angle \mathcal{F}\{\mathcal{S}_R\} - \angle \mathcal{F}\{\mathcal{S}_V\}$.
 
-Ενημερώνοντας την εκτίμηση προσανατολισμού σε $\hat{\theta}^\prime$
+Ενημερώνοντας την εκτίμηση προσανατολισμού σε $\hat{\theta}^\prime$:
 \begin{align}
 \hat{\theta}^\prime = \hat{\theta} + \angle \mathcal{F}\{\mathcal{S}_R\} - \angle\mathcal{F}\{\mathcal{S}_V\}
-  \label{eq:update_t}
+  \label{eq:update_t2}
 \end{align}
-οδηγεί σε ένα σφάλμα προσανατολισμού $\phi$
+οδηγεί σε ένα σφάλμα προσανατολισμού $\phi$:
 \begin{align}
-  \phi &= \tan^{-1}\dfrac{N_s \delta_x \tan(\theta - \angle \mathcal{F}\{\mathcal{S}_R\}) - N_s \delta_y}{|\mathcal{F}\{\mathcal{S}_R\}| + N_s \delta_x + N_s \delta_y \tan(\theta - \angle \mathcal{F}\{\mathcal{S}_R\})} \label{eq:phi}
+  \phi &= \tan^{-1}\dfrac{N_s \delta_x \tan(\theta - \angle \mathcal{F}\{\mathcal{S}_R\}) - N_s \delta_y}{|\mathcal{F}\{\mathcal{S}_R\}| + N_s \delta_x + N_s \delta_y \tan(\theta - \angle \mathcal{F}\{\mathcal{S}_R\})} \label{eq:phi2}
 \end{align}
 του οποίου το μέτρο είναι αντιστρόφως ανάλογο του αριθμού των ακτίνων $N_s$ που
 εκπέμπει ο αισθητήρας στην περίπτωση που τόσο η πραγματική μέτρηση
 $\mathcal{S}_R$ όσο και η εικονική σάρωση $\mathcal{S}_V$ δεν διαταράσσονται
 από θόρυβο. Το πεπερασμένο των εκπεμπόμενων ακτίνων του φυσικού αισθητήρα, σε
 συνδυασμό με το αυθαίρετο του ρυθμού των αλλαγών του περιβάλλοντος (σχήμα
-\ref{fig:02_02:the_problem}), μπορεί να οδηγήσει σε υποδειγματοληψία τμημάτων
+\ref{fig:02_02:the_problem}), μπορούν να οδηγήσουν σε υποδειγματοληψία τμημάτων
 του περιβάλλοντος και του χάρτη του. Επιπλέον, ο αριθμός των εκπεμπόμενων
 ακτίνων από τον φυσικό αισθητήρα είναι αμετάβλητος. ??
 
@@ -177,11 +182,170 @@ $\mathcal{S}_R$ όσο και η εικονική σάρωση $\mathcal{S}_V$ �
 
 
 
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Η μέθοδος του Προκρούστη}
 \label{subsection:02_04_02:03}
+
+Έστω ότι η προβολή των τελικών σημείων των ακτίνων της σάρωσης $\mathcal{S}_V$
+γύρω από τη στάση $\hat{\bm{p}}(x,y,\hat{\theta})$ παράγει το σύνολο σημείων
+$\bm{P}_V$ στο οριζόντιο επίπεδο. Έστω ότι η ίδια προβολή για τη σάρωση
+$\mathcal{S}_R$ ως προς τη στάση $\bm{p}(x,y,\theta)$ παράγει το σύνολο
+$\bm{P}_R$. Η περιστροφή της στάσης $\hat{\bm{p}}$ που ευθυγραμμίζει βέλτιστα
+το σύνολο σημείων $\bm{P}_V$ σε σχέση με το $\bm{P}_R$ μπορεί να βρεθεί από τη
+λύση του Ορθογώνιου Προσκρούστειου πρόβληματος \cite{Schonemann1966a} για
+πίνακες εισόδου $\bm{P}_V$ και $\bm{P}_R$. Στην περίπτωση που ο πίνακας
+μετασχηματισμού περιορίζεται στο να έχει τη δομή πίνακα περιστροφής $\bm{R}$:
+$\det{(\bm{R})} = 1$, το πρόβλημα ευθυγράμμισης ονομάζεται Περιορισμένο
+Ορθογώνιο Προσκρούστειο πρόβλημα. Η λύση του δίνεται στο \cite{Umeyama1991} και
+περιγράφεται παρακάτω.
+
+Δεδομένου ότι στα συμφραζόμενα του προβλήματός ?? μας η θέση $\bm{l}$ είναι
+άγνωστη, τα τελικά σημεία κάθε σάρωσης λαμβάνονται με την προβολή κάθε σάρωσης
+στο επίπεδο $x-y$ σύμφωνα με το τοπικό σύστημα αναφοράς της κάθεμίας, δηλαδή
+σαν να είχε ληφθεί η κάθε μιά από το $O(0,0,0)$. Ο πίνακας περιστροφής $\bm{R}$
+που ευθυγραμμίζει βέλτιστα το σύνολο $\bm{P}_V$ με το $\bm{P}_R$ είναι ο
+πίνακας που ελαχιστοποιεί την απόκλιση των περιεστραμμένων σημείων
+$\bm{R}\bm{P}_V$ από το $\bm{P}_R$:
+\begin{align}
+  \operatorname*{arg\,min}\limits_{\bm{R}} \|\bm{P}_R - \bm{R} \cdot \bm{P}_V\|_F^2 \nonumber
+\end{align}
+όπου $\|\bm{A}\|_F = (\bm{A}^\top\bm{A})^{1/2}$ δηλώνει το μέτρο Frobenius του
+πίνακα πραγματικών τιμών $\bm{A}$. Έστω ο τελεστής $\text{tr}(\bm{A})$ να
+δηλώνει το ίχνος του πίνακα $\bm{A}$. Τότε
+\begin{align}
+  \|\bm{P}_R - \bm{R} \bm{P}_V\|_F^2 = \text{tr}(\bm{P}_R^\top \bm{P}_R + \bm{P}_V^\top \bm{P}_V) - 2 \text{tr}(\bm{R} \bm{P}_R \bm{P}_V^\top)
+  \label{eq:expanded_frob_norm}
+\end{align}
+
+Δεδομένου ότι μόνο ο δεύτερος όρος της δεξιάς πλευράς εξαρτάται από τον πίνακα
+$\bm{R}$, αρκεί να βρεθεί ο πίνακας περιστροφής $\bm{R}$ που μεγιστοποιεί
+το ίχνος $\text{tr}(\bm{R} \bm{P}_V \bm{P}_R^\top)$. Ο βέλτιστος πίνακας
+$\bm{R}$ δίνεται από το λήμμα \ref{lm:umeyama}:
+
+\begin{lemma}
+  \label{lm:umeyama}
+  Έστω $\bm{P}_R$ και $\bm{P}_V$ πίνακες διαστάσεων $2 \times N_s$, $\bm{R}$
+  πίνακας διαστάσεων $2 \times 2$, και $\bm{U} \bm{D} \bm{V}^\top$ η αποσύνθεση
+  του $\bm{P}_R \bm{P}_V^\top$ σε ιδιάζουσες τιμές (Singular Value
+  Decomposition---SVD). Τότε ο πίνακας $\bm{R}$ που ελαχιστοποιεί το μέτρο
+  $\|\bm{P}_R - \bm{R} \cdot \bm{P}_V\|_F^2$ δίνεται από τη σχέση
+  $\bm{R} = \bm{U} \bm{S} \bm{V}^\top$, όπου
+  $\bm{S} = \text{diag}(1,\det{(\bm{U}\bm{V})})$.
+\end{lemma}
+
+\begin{corollary}
+  \label{col:umeyama}
+  Η τιμή του μέγιστου ίχνους
+  $T(\bm{P}_R, \bm{P}_V) \triangleq \max\text{tr}(\bm{R} \bm{P}_R \bm{P}_V^\top)$
+  είναι
+  \begin{align}
+  \max\text{tr}(\bm{R} \bm{P}_R \bm{P}_V^\top) = \text{tr}(\bm{D}\bm{S})
+  \end{align}
+\end{corollary}
+
+Το παραπάνω λήμμα παρέχει τον βέλτιστο πίνακα περιστροφής $\bm{R}$ υπό την
+προϋπόθεση ότι τόσο το σύνολο $\bm{P}_R$ όσο και το $\bm{P}_V$ είναι γνωστά.
+Ωστόσο, στα συμφραζόμενα του προβλήματος ?? τα τελικά σημεία $\bm{P}_R$
+υπολογίζονται από έναν αυθαίρετο προσανατολισμό επειδή ο επιθυμητός
+προσανατολισμός είναι θεμελιωδώς άγνωστος. Επομένως, ο υπολογισμός του πίνακα
+$\bm{R}$ και η εξαγωγή  του σχετικού προσανατολισμού του $\bm{P}_V$ σε σχέση με
+το $\bm{P}_R$ από τον πίνακα $\bm{R}$ \textit{σε ένα βήμα} είναι αδύνατη. Αυτό
+που μπορεί να γίνει σε αυτή την περίπτωση είναι το εξής. Υπολογίζεται το
+γινόμενο $\bm{P}_R \bm{P}_V^\top$ σε $O(N_s^2)$, η αποσύνθεσή του σε ιδιάζουσες
+τιμές σε $O(1)$, καταγράφεται η τιμή του ίχνους $\text{tr}(\bm{D}\bm{S})$ σε
+$O(1)$, μετατοπίζεται ο πίνακας $\bm{P}_V$ κατά στήλες προς τα αριστερά μία
+φορά,  και επαναλαμβάνεται αυτή τη διαδικασία $N_s-1$ φορές. Έστω ότι η
+επανάληψη $i$ να καταγράψει το μέγιστο ίχνος:---τότε η περιστροφή της στάσης
+$\hat{\bm{p}}$ κατά $\hat{\theta}^\prime = 2 \pi i / N_s$ μεγιστοποιεί το ίχνος
+$\text{tr}(\bm{R} \bm{P}_R \bm{P}_V^\top)$ και ελαχιστοποιεί το μέτρο του
+σφάλματος ευθυγράμμισης σε (\ref{eq:expanded_frob_norm}) για μία δεδομένη
+διακριτική γωνία $\gamma$. Η παραπάνω διαδικασία αποδίδει τη βέλτιστη
+περιστροφή επειδή το ίχνος $\text{tr}(\bm{D}\bm{S})$ ουσιαστικά αναλαμβάνει το
+ρόλο ενός μέτρου ευθυγράμμισης μεταξύ των συνόλων σημείων $\bm{P}_V$ και
+$\bm{P}_R$.
+
+Η παραπάνω διαδικασία καταγραφής $N_s$ ιχνών μπορεί να υπολογιστεί είτε με ευθύ
+τρόπο πολυπλοκότητας $O(N_s^3)$, είτε μέσω με της μεθόδου που παρουσιάζεται στο
+\cite{Dogan2015} σε $O(N_s \log N_s)$, η οποία θα αναφέρεται στο εξής ως
+μέθοδος DBH. Η μέθοδος αυτή περιγράφεται παρακάτω.
+
+% ΤΟDO απο εδω και κατω
+
+Έστω $\mathcal{F}\{\cdot\}$ που συμβολίζει τον εμπρόσθιο διακριτό
+μετασχηματισμό Fourier και $\mathcal{F}^{-1}\{\cdot\}$ το αντίστροφό του. Έστω
+επίσης $\widetilde{\bm{A}}$ που συμβολίζει τον πίνακα $\bm{A}$ με αντίστροφη
+σειρά στηλών, $\bm{P}_R = [\bm{p}_R^x; \bm{p}_R^y]$, $\widetilde{\bm{P}}_V =
+[\bm{p}_V^x; \bm{p}_V^y]$, και ο τελεστής $\odot$ υποδηλώνουν τον
+πολλαπλασιασμό κατά στοιχείο. Τότε τέσσερα διανύσματα μεγέθους $N_s$ είναι
+κατασκευάζονται:
+\begin{align}
+  \bm{m}_{11} = \mathcal{F}^{-1}\{ \mathcal{F}\{\bm{p}_R^x\} \odot \mathcal{F}\{\bm{p}_V^x\} \} \} \nonumber  \\
+  \bm{m}_{12} = \mathcal{F}^{-1}\{ \mathcal{F}\{\bm{p}_R^y\} \odot \mathcal{F}\{\bm{p}_V^x\} \} \} \nonumber \\
+  \bm{m}_{21} = \mathcal{F}^{-1}\{ \mathcal{F}\{\bm{p}_R^x\} \odot \mathcal{F}\{\bm{p}_V^y\} \} \} \nonumber \\
+  \bm{m}_{22} = \mathcal{F}^{-1}\{ \mathcal{F}\{\bm{p}_R^y\} \odot \mathcal{F}\{\bm{p}_V^y\} \} \} \nonumber
+\end{align}
+Μετά τον υπολογισμό των πινάκων $\bm{m}_{kj}$, $k,j = 1,2$, $N_s$ μεγέθους
+$2\times2$ κατασκευάζονται σύμφωνα με:
+\begin{align}
+  \bm{M}_i =
+  \begin{bmatrix}
+    \bm{m}_{11}^i & \bm{m}_{12}^i \\
+    \bm{m}_{21}^i & \bm{m}_{22}^i
+  \end{bmatrix}
+\end{align}
+όπου $i = 0,\dots,N-1$, και $\bm{m}_{kj}^i$ είναι το $i$-οστό στοιχείο του
+διανύσματος $\bm{m}_{kj}$. Ο πίνακας $\bm{M}_i$ είναι ίσος με τον πίνακα
+$\bm{P}_R (\bm{P}_V^{N_s-1-i})^\top$, όπου χρησιμοποιείται ο συμβολισμός
+$\bm{A}^k$.  για να δηλώσει τον πίνακα $\bm{A}$ του οποίου οι στήλες
+μετατοπίζονται $k$ φορές προς τα αριστερά.  Η απόδειξη επικαλείται το θεώρημα
+κυκλικής συνέλιξης του DFT και παραλείπεται.
+
+Αφού υπολογιστούν και σχηματιστούν όλοι οι $N_s$ $\bm{M}_i$ πίνακες, κάθε
+πίνακας είναι αποσυντίθεται με τη χρήση της αποσύνθεσης μοναδιαίων τιμών. Το
+ίχνος κάθε $\bm{R}_i \bm{M}_i$ καταγράφεται με την εφαρμογή του λήμματος
+\ref{lm:umeyama} και την επίκληση του Πόρισμα \ref{col:umeyama}. Ας καταγραφεί
+το μέγιστο ίχνος κάτω από τον δείκτη $i$, τότε περιστρέφοντας το $\hat{\bm{p}}$
+κατά $\hat{\theta}^\prime = 2 \pi (N_s-1-i)/ N_s$ επιτυγχάνει το ίδιο
+αποτέλεσμα με την αφελή μέθοδο υψηλότερης πολυπλοκότητας για μια δεδομένη
+προσαύξηση γωνίας του αισθητήρα εμβέλειας $\gamma$. Αλγόριθμος
+\ref{alg:algorithm_ufrc} παρουσιάζει τη διαδικασία διόρθωσης προσανατολισμού
+που χρησιμοποιεί τη μέθοδο DBH σε ψευδοκώδικα.
+
+\begin{algorithm}[]
+  \caption{\texttt{uf\_rc}}
+  \begin{spacing}{1.2}
+  \begin{algorithmic}[1]
+    \REQUIRE $\bm{P}_R$, $\bm{P}_V$
+    \ENSURE $i$, $T(\bm{P}_R, \bm{P}_V)$
+    \STATE \texttt{reverse}$(\bm{P}_V)$
+    \STATE $\bm{p}_R^x \leftarrow \text{first row of } \bm{P}_R$
+    \STATE $\bm{p}_R^y \leftarrow \text{second row of } \bm{P}_R$
+    \STATE $\bm{p}_V^x \leftarrow \text{first row of } \bm{P}_V$
+    \STATE $\bm{p}_V^y \leftarrow \text{second row of } \bm{P}_V$
+    \STATE $\bm{m}_{11} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^x) \odot \texttt{DFT}(\bm{p}_V^x))$
+    \STATE $\bm{m}_{12} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^y) \odot \texttt{DFT}(\bm{p}_V^x))$
+    \STATE $\bm{m}_{21} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^x) \odot \texttt{DFT}(\bm{p}_V^y))$
+    \STATE $\bm{m}_{22} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^y) \odot \texttt{DFT}(\bm{p}_V^y))$
+    \STATE $\bm{T} \leftarrow \{\varnothing\}$
+    \FOR{\texttt{$i = 0:N_s-1$}}
+      \vspace{0.1cm}
+      \STATE $\bm{M}_i \leftarrow
+        \begin{bmatrix}
+          \bm{m}_{11}(i) & \bm{m}_{12}(i) \\
+          \bm{m}_{21}(i) & \bm{m}_{22}(i)
+        \end{bmatrix}$
+        \vspace{0.1cm}
+        \STATE $(\bm{U}, \bm{D}, \bm{V}) \leftarrow \texttt{SVD}(\bm{M}_i)$
+        \STATE Append $\texttt{trace}(\bm{D} \cdot \texttt{diag}(1,\det(\bm{U}\bm{V})))$ to $\bm{T}$
+    \ENDFOR
+    \STATE \texttt{reverse}$(\bm{T})$
+    \STATE $T_{\max} \leftarrow \max \{\bm{T}\}$
+    \STATE $i_{\max} \leftarrow \texttt{index}(\bm{T}, T_{\max})$
+    \RETURN $(i_{\max},T_{\max})$
+  \end{algorithmic}
+  \end{spacing}
+  \label{alg:algorithm_ufrc}
+\end{algorithm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Ο ύφαλος της διακριτικής γωνίας του αισθητήρα}

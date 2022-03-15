@@ -90,6 +90,37 @@
       \verb https://patents.google.com/patent/US3069654A/en
       \endverb
     \endentry
+    \entry{Schonemann1966a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f39d6eea104ebb7c28d463d07ba5d5a}{%
+           family={Schönemann},
+           family_i={S\bibinitperiod},
+           given={Peter\bibnamedelima H.},
+           given_i={P\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f39d6eea104ebb7c28d463d07ba5d5a}
+      \strng{fullhash}{6f39d6eea104ebb7c28d463d07ba5d5a}
+      \field{labelalpha}{Sch66}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0033-3123}
+      \field{journaltitle}{Psychometrika}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{{A generalized solution of the orthogonal procrustes problem}}
+      \field{volume}{31}
+      \field{year}{1966}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/BF02289451
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/BF02289451
+      \endverb
+    \endentry
     \entry{Casasent1976}{article}{}
       \name{author}{2}{}{%
         {{hash=f49abb7ab5467f74d26e204a3f28b94c}{%
@@ -369,6 +400,37 @@
       \field{isbn}{978-1-4615-4022-9}
       \field{title}{{Robot Motion Planning}}
       \field{year}{1991}
+    \endentry
+    \entry{Umeyama1991}{article}{}
+      \name{author}{1}{}{%
+        {{hash=99979dc43ab366c2b6c94c3ced7bd625}{%
+           family={Umeyama},
+           family_i={U\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{99979dc43ab366c2b6c94c3ced7bd625}
+      \strng{fullhash}{99979dc43ab366c2b6c94c3ced7bd625}
+      \field{labelalpha}{Ume91}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{01628828}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{month}{04}
+      \field{number}{4}
+      \field{title}{{Least-squares estimation of transformation parameters between two point patterns}}
+      \field{volume}{13}
+      \field{year}{1991}
+      \field{pages}{376\bibrangedash 380}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/34.88573
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/88573/
+      \endverb
     \endentry
     \entry{Besl1992c}{article}{}
       \name{author}{2}{}{%
@@ -4823,6 +4885,47 @@
       \field{year}{2015}
       \verb{url}
       \verb https://www.semanticscholar.org/paper/Efficient-Image-Based-Localization-Using-Context-Azzi/1c7125987fe893d78cbbfa7e0ba1ec019feda8af
+      \endverb
+    \endentry
+    \entry{Dogan2015}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d8a2e668eb2760adf0393bd3b0179722}{%
+           family={Doğan},
+           family_i={D\bibinitperiod},
+           given={Günay},
+           given_i={G\bibinitperiod}}}%
+        {{hash=9cba13826bd8b9f9cf02c5f21547aab1}{%
+           family={Bernal},
+           family_i={B\bibinitperiod},
+           given={Javier},
+           given_i={J\bibinitperiod}}}%
+        {{hash=507cf4b1c6306928dbc5bc60c0287839}{%
+           family={Hagwood},
+           family_i={H\bibinitperiod},
+           given={Charles},
+           given_i={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {British Machine Vision Association}%
+      }
+      \strng{namehash}{5cb6e3f310932dd0057e4f50f401b24e}
+      \strng{fullhash}{5cb6e3f310932dd0057e4f50f401b24e}
+      \field{labelalpha}{DBH15}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Procedings of the Proceedings of the 1st International Workshop on DIFFerential Geometry in Computer Vision for Analysis of Shapes, Images and Trajectories 2015}
+      \field{isbn}{1-901725-56-1}
+      \field{title}{{FFT-based Alignment of 2D Closed Curves with Application to Elastic Shape Analysis}}
+      \field{year}{2015}
+      \field{pages}{12.1\bibrangedash 12.10}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.5244/C.29.DIFFCV.12
+      \endverb
+      \verb{url}
+      \verb http://www.bmva.org/bmvc/2015/diffcv/papers/paper012/index.html
       \endverb
     \endentry
     \entry{Friedman2015}{article}{}
