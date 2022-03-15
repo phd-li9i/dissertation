@@ -1,0 +1,143 @@
+Έστω οι παραδοχές του προβλήματος ??. Έστω επιπλέον ότι $\hat{\bm{l}} =
+\bm{l}$, δηλαδή μόνο ο προσανατολισμός του αισθητήρα πρέπει να εκτιμηθεί. Τότε
+ας υπολογιστεί η εικονική σάρωση $\mathcal{S}_V$ μέσω δεσμοβολής (raycasting)
+από την εκτίμηση $\hat{\bm{p}}$ στον χάρτη $\bm{M}$. Η εκτίμηση της περιστροφής
+της εικονικής σάρωσης $\mathcal{S}_V$ σε σχέση με την πραγματική σάρωση
+$\mathcal{S}_R$ μπορεί να βρεθεί μέσω των μεθόδων που παρουσιάζονται στις
+ενότητες \ref{subsection:02_04_02:01}, \ref{subsection:02_04_02:02}, και
+\ref{subsection:02_04_02:03}. Το σφάλμα της εκτίμησης μπορεί να μειωθεί
+περαιτέρω μέσω της μεθόδου που παρουσιάζεται στην ενότητα
+\ref{subsection:02_04_02:05}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Μέσω πρώτων αρχών}
+\label{subsection:02_04_02:01}
+
+
+Έστω μια πανοραμική σάρωση εμβέλειας $\mathcal{S}$ που έχει ληφθεί από τη θέση
+$(x,y,\theta)$.  σε κάποιο πλαίσιο συντεταγμένων (ορισμός
+\ref{def:definition_1}). Οι συντεταγμένες του τελικού σημείου της $n$-οστής
+ακτίνας της σάρωσης $n=0,1,\dots,N_s-1$ εντός του εν λόγω πλαισίου αναφοράς
+είναι $(x_n,y_n)$:
+\begin{align}
+  x_n &= x + d_n \cos(\theta + \frac{2 \pi n}{N_s} - \pi) = -d_n \cos(\theta + \frac{2 \pi n}{N_s}) \label{eq:x_n}\\
+  y_n &= y + d_n \sin(\theta + \frac{2 \pi n}{N_s} - \pi) = -d_n \sin(\theta + \frac{2 \pi n}{N_s}) \label{eq:y_n}
+\end{align}
+Εδώ κάνουμε την παρατήρηση ότι $-(x_n-x)$ και $(y_n-y)$ είναι αντίστοιχα,
+το πραγματικό και το φανταστικό μέρος της μιγαδικής ποσότητας
+\begin{align}
+  d_n e^{-i(\theta + \frac{2 \pi n}{N_s})} &= d_n \cos(\theta + \frac{2 \pi n}{N_s}) - i \cdot d_n \sin(\theta + \frac{2 \pi n}{N}) \nonumber \\
+                                         &\leftstackrel{(\ref{eq:x_n}),(\ref{eq:y_n})}{=} -(x_n-x) + i \cdot (y_n-y) \label{eq:dne_complex_x_y}
+\end{align}
+και, επομένως, ότι
+\begin{align}
+  d_n e^{-i \frac{2 \pi n}{N_s}} &= e^{i\theta}(-(x_n-x) + i \cdot (y_n-y)) \label{eq:dne_complex}
+\end{align}
+Το τελικό γινόμενο του αθροίσματος (\ref{eq:dne_complex}) επί $N_s$ ακτίνων είναι ίσο με
+με τον πρώτο όρο του διακριτού μετασχηματισμού Fourier του σήματος $\{d_n\}$,
+$n=0,1,\dots,N_s-1$, $\bm{F}_1$:
+\begin{align}
+  \bm{F}_1 &= \sum\limits_{n=0}^{N_s-1}d_n \cdot e^{-i \frac{2 \pi n}{N_s}} \nonumber \\
+           &\leftstackrel{(\ref{eq:dne_complex})}{=} \sum\limits_{n=0}^{N_s-1} e^{i\theta}(-(x_n-x) + i \cdot (y_n-y)) \nonumber  \\
+           &= e^{i\theta} \sum\limits_{n=0}^{N_s-1} [ (x- i \cdot y) + (-x_n + i \cdot y_n) ]\nonumber \\
+           &= e^{i\theta} N_s (x-i\cdot y) - e^{i\theta}\Delta \label{eq:F1}
+\end{align}
+όπου $\Delta \triangleq \sum\limits_{n=0}^{N_s-1} (x_n -i \cdot y_n)$.
+
+
+Συμβολίζοντας με το γράμμα $R$ τις ποσότητες που αντιστοιχούν στις
+πραγματική σάρωση $\mathcal{S}_R$, η οποία έχει ληφθεί από τη θέση του αισθητήρα
+$\bm{p}(x,y,\theta)$, και με $V$ εκείνες που αντιστοιχούν στην εικονική
+σάρωση $\mathcal{S}_V$, η οποία έχει ληφθεί από τη θέση
+$\hat{\bm{p}}(x,y,\hat{\theta})$:
+\begin{align}
+  \bm{R}_1 &= \sum\limits_{n=0}^{N_s-1}d_n^R \cdot e^{-i \frac{2 \pi n}{N_s}} \leftstackrel{(\ref{eq:F1})}{=} N_s e^{i\theta}(x-i\cdot y) - e^{i\theta} \Delta_R \label{eq:dne_complex_r} \\
+  \bm{V}_1 &= \sum\limits_{n=0}^{N_s-1}d_n^V \cdot e^{-i \frac{2 \pi n}{N_s}} \leftstackrel{(\ref{eq:F1})}{=} N_s e^{i\hat{\theta}}(x-i\cdot y) - e^{i\hat{\theta}} \Delta_V \label{eq:dne_complex_v}
+\end{align}
+
+Έστω τώρα
+\begin{align}
+  \Delta_R - \Delta_V &= \sum\limits_{n=0}^{N_s-1}(x_n^R-x_n^V) - i \cdot \sum\limits_{n=0}^{N_s-1}(y_n^R-y_n^V)
+                      &= N_s (\delta_x - i \cdot \delta_y)
+\end{align}
+όπου
+\begin{align}
+  \delta_x &\triangleq \frac{1}{N_s}\sum\limits_{n=0}^{N_s-1}(x_n^R-x_n^V) \label{eq:delta_x}\\
+  \delta_y &\triangleq \frac{1}{N_s}\sum\limits_{n=0}^{N_s-1}(y_n^R-y_n^V) \label{eq:delta_y}
+\end{align}
+Τότε
+\begin{align}
+  \Delta_V &= \Delta_R -N_s(\delta_x - i \cdot \delta_y) \label{eq:Delta_V_eq_Delta_R}
+\end{align}
+
+Ο πρώτος όρος του διακριτού μετασχηματισμού Fourier του σήματος που
+αποτελείται από τη διαφορά των δύο σημάτων (\ref{eq:dne_complex_r}) και
+(\ref{eq:dne_complex_v}) είναι $\bm{X}_1$:
+\begin{align}
+  \bm{X}_1 &= \bm{R}_1 - \bm{V}_1 \nonumber \\
+           &= \sum\limits_{n=0}^{N_s-1}(d_n^R - d_n^V) \cdot e^{-i \frac{2 \pi n}{N_s}} \nonumber \\
+           &\leftstackrel{(\ref{eq:dne_complex_r}),(\ref{eq:dne_complex_v})}{=} N_s (x-i \cdot y)(e^{i\theta}-e^{i\hat{\theta}}) -e^{i\theta}\Delta_R+e^{i\hat{\theta}}\Delta_V \nonumber \\
+          &\leftstackrel{(\ref{eq:Delta_V_eq_Delta_R})}{=} N_s (x-i \cdot y)(e^{i\theta}-e^{i\hat{\theta}}) -e^{i\theta}\Delta_R +e^{i\hat{\theta}}(\Delta_R -N_s(\delta_x - i \cdot \delta_y)) \nonumber \\
+          &= N_s (x-i \cdot y)(e^{i\theta}-e^{i\hat{\theta}}) - \Delta_R (e^{i\theta}-e^{i\hat{\theta}})- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
+          &= (e^{i\theta}-e^{i\hat{\theta}}) [N_s(x-i\cdot y) - \Delta_R]- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber   \\
+          &\leftstackrel{(\ref{eq:dne_complex_r})}{=} (e^{i\theta}-e^{i\hat{\theta}}) \dfrac{\bm{R}_1}{e^{i\theta}}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
+          &= (1-e^{-i(\theta-\hat{\theta})}) \bm{R}_1- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber
+\end{align}
+
+Επομένως, αφού $\bm{X}_1 = \bm{R}_1 -\bm{V}_1$:
+
+\begin{align}
+  -\bm{V}_1 &= -e^{-i(\theta-\hat{\theta})} \bm{R}_1- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
+  e^{-i(\theta-\hat{\theta})} &= \dfrac{\bm{V_1}}{\bm{R_1}} - \dfrac{N_s e^{i\hat{\theta}}}{\bm{R_1}}(\delta_x - i\cdot \delta_y) \nonumber \\
+  e^{-i(\theta-\hat{\theta})} &= \dfrac{|\bm{V_1}|}{|\bm{R_1}|} e^{i(\angle \bm{V_1} - \angle \bm{R_1})} - \dfrac{e^{i(\hat{\theta}-\angle \bm{R_1})}}{|\bm{R_1}|} (N_s \delta_x - i\cdot N_s \delta_y) \nonumber
+\end{align}
+όπου η πολική αναπαράσταση του μιγαδικού $\bm{A}$ είναι
+$\bm{A} = |\bm{A}| e^{i\angle \bm{A}}$.
+
+Λόγω του γεγονότος ότι ο προσανατολισμός του αισθητήρα $\theta$ είναι άγνωστος, έτσι είναι και οι
+τελικά σημεία $\{(x_n^R,y_n^R)\}$, και επομένως οι ποσότητες $\delta_x, \delta_y$.
+Προκειμένου να αποκτήσουμε μια αρχική διαίσθηση ως προς τα μεγέθη των τελευταίων θα
+κάνουμε την παρατήρηση ότι, εξ ορισμού, $N_s \delta_x$ και $N_s \delta_y$
+ποσοτικοποιούν τη διαφορά της προσέγγισης των γραμμικών ολοκληρωμάτων πάνω από το κλειστό
+διαδρομές που παρέχουν τα τελικά σημεία των δύο σαρώσεων πάνω στους δύο κύριους άξονες $x$ και
+$y$. Η προσέγγιση αυτή οφείλεται στο πεπερασμένο του $N_s$. Επομένως, υπό την
+υποθέσεων ότι (α) ο χάρτης του περιβάλλοντος είναι η τέλεια αναπαράστασή του
+και (β) η φυσική σάρωση εύρους δεν επηρεάζεται από διαταραχές, καθώς $N_s
+\rightarrow \infty$, $N_s \delta_x$, $N_s \delta_y$ $\rightarrow 0$, τα οποία σε
+με τη σειρά του σημαίνει ότι $|\bm{V}_1| \rightarrow |\bm{R}_1|$ και $\theta-\hat{\theta}
+\rightarrow \angle \bm{R_1} - \angle \bm{V_1}$.
+
+Ενημέρωση της εκτίμησης προσανατολισμού με
+\begin{align}
+\hat{\theta}^\prime = \hat{\theta} + \angle \bm{R}_1 - \angle \bm{V}_1
+  \label{eq:update_t}
+\end{align}
+οδηγεί σε ένα υπολειπόμενο σφάλμα προσανατολισμού $\phi$:
+\begin{align}
+  \phi &= \tan^{-1}\dfrac{N_s \delta_x \tan(\theta - \angle \bm{R}_1) - N_s \delta_y}{|\bm{R}_1| + N_s \delta_x + N_s \delta_y \tan(\theta - \angle \bm{R}_1)} \label{eq:phi}
+\end{align}
+του οποίου το μέγεθος είναι αντιστρόφως ανάλογο του αριθμού των ακτίνων της φυσικής
+αισθητήρα εμβέλειας $N_s$ στην περίπτωση όπου τόσο ο $\mathcal{S}_R$ όσο και ο $\mathcal{S}_V$
+δεν διαταράσσονται από θόρυβο. Το πεπερασμένο των εκπεμπόμενων ακτίνων του φυσικού αισθητήρα, σε συνδυασμό με το
+αυθαιρεσία του ρυθμού των αλλαγών στο περιβάλλον (σχ.
+\ref{fig:the_problem}), μπορεί να οδηγήσει σε υποδειγματοληψία τμημάτων του χάρτη.
+Επιπλέον, το γεγονός ότι ο αριθμός των εκπεμπόμενων ακτίνων από τον φυσικό αισθητήρα είναι
+αμετάβλητος.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Μέσω Fourier-Mellin σε μία διάσταση}
+\label{subsection:02_04_02:02}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Μέσω Προκρούστη}
+\label{subsection:02_04_02:03}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Ο ύφαλος της διακριτικής γωνίας του αισθητήρα}
+\label{subsection:02_04_02:04}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Σίνις ο Πιτυοκάμπτης}
+\label{subsection:02_04_02:05}
+
