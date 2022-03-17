@@ -49,7 +49,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
 διαδικασία διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο.
 
 \begin{algorithm}
-  \caption{\texttt{fm\_rc}}
+  \caption{\texttt{rc\_fm}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$
@@ -188,7 +188,7 @@ $\dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} \rightar
 εν λόγω μέθοδο.
 
 \begin{algorithm}
-  \caption{\texttt{x1\_rc}}
+  \caption{\texttt{rc\_x1}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$
@@ -355,7 +355,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος του 
 \ref{alg:algorithm_core_ufrc} παρουσιάζει σε ψευδοκώδικα τη μέθοδο DBH.
 
 \begin{algorithm}[h]
-  \caption{\texttt{uf\_rc}}
+  \caption{\texttt{rc\_uf}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$
@@ -363,7 +363,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος του 
     %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
     \STATE $\bm{P}_R \leftarrow \texttt{project}(\mathcal{S}_R, (0,0,0))$
     \STATE $\bm{P}_V \leftarrow \texttt{project}(\mathcal{S}_V, (0,0,0))$
-    \STATE $(J,T) \leftarrow \texttt{core\_uf\_rc}(\bm{P}_R, \bm{P}_V)$ (Αλγόριθμος \ref{alg:algorithm_core_ufrc})
+    \STATE $(J,T) \leftarrow \texttt{rc\_uf\_core}(\bm{P}_R, \bm{P}_V)$ (Αλγόριθμος \ref{alg:algorithm_core_ufrc})
     \STATE $\psi = N_s - 1 - J$
     \STATE $\hat{\theta}^\prime \leftarrow \hat{\theta} + \psi \gamma$
     \RETURN $(\hat{\theta}^\prime, T)$
@@ -374,7 +374,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος του 
 
 
 \begin{algorithm}[h]
-  \caption{\texttt{core\_uf\_rc}}
+  \caption{\texttt{rc\_uf\_core}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\bm{P}_R$, $\bm{P}_V$
@@ -441,13 +441,20 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος του 
 \textit{μειώνοντας την αρχική εκτίμηση προσανατολισμού κατά ακέραια πολλαπλάσια
 της σταθεράς διακριτικής γωνίας $\gamma$}, με αποτέλεσμα αυθαίρετα επίλοιπα
 σφάλματα προσανατολισμού $\phi$ όπως ορίζονται από τις παρατηρήσεις
-\ref{remark:02_04_02:01} και \ref{remark:02_04_02:03}.  Αυτός ο περιορισμός
-μπορεί να ιδωθεί ως μία έτερη Προκρούστεια ιδιότητα, που αφορά σε δύο μεθόδους
-αυτή τη φορά, υπό την έννοια ότι το αρχικό σφάλμα προσανατολισμού $|\theta -
-\hat{\theta}| \in \mathbb{R}_{\geq 0}$ τεμαχίζεται στην κλίνη $K\gamma, K \in
-\mathbb{Z}_{\geq 0}$, στη βάση διακριτής και εξωτερικής λογικής:---το αρχικό
-σφάλμα προσαρμόζεται στη μέθοδο, αντί η μέθοδος να είναι προσαρμόσιμη στο
-αρχικό σφάλμα.
+\ref{remark:02_04_02:01} και \ref{remark:02_04_02:03}. Αυτός ο περιορισμός
+μπορεί να ιδωθεί ως μία έτερη Προκρούστεια ιδιότητα,\footnote{Στη μυθολογία ο
+Πολυπήμων, γνωστότερος ως Προκρούστης, ήταν ένας απαγωγέας ξένων, και μάστιγα
+της Ιεράς Οδού της Αττικής. Αφού φιλοξενούσε τα θύματά του προσφέροντάς τούς
+ένα πλουσιοπάροχο δείπνο, τα προσκαλούσε να ξαπλώσουν σε ένα κρεβάτι διαστάσεων
+τέτοιων που το ύψος του θύματος καλείτο να προσαρμοστεί στο μήκος του
+κρεβατιού, είτε μέσω τεμαχισμού του σώματός του, είτε μέσω τάνυσής του. Ο
+Πολυπήμων είχε την ατυχία να απαγάγει τον Θησέα, ο οποίος, άρτι αφιχθείς από τη
+δολοφονία του Μινώταυρου, τον τιμώρησε χρησιμοποιώντας την τεχνική του εναντίον
+τού.} που αφορά σε δύο μεθόδους αυτή τη φορά, υπό την έννοια ότι το αρχικό
+σφάλμα προσανατολισμού $|\theta - \hat{\theta}| \in \mathbb{R}_{\geq 0}$
+τεμαχίζεται στην κλίνη $K\gamma, K \in \mathbb{Z}_{\geq 0}$, στη βάση διακριτής
+και εξωτερικής λογικής:---το αρχικό σφάλμα προσαρμόζεται στη μέθοδο, αντί η
+μέθοδος να είναι προσαρμόσιμη στο αρχικό σφάλμα.
 
 Επιπρόσθετα, σύμφωνα με τις παρατηρήσεις \ref{remark:02_04_02:01},
 \ref{remark:02_04_02:02}, και \ref{remark:02_04_02:03} τα τελικά σφάλματα
@@ -517,7 +524,12 @@ $\gamma^{(\nu)} = \gamma / 2^\nu$, $\nu \in \mathbb{Z}_{> 0}$. Όσο αφορά
 εικονική σάρωση, δεδομένου ότι παράγεται από το χάρτη, δεν απαιτεί τη χρήση
 παρεμβολής---ο αριθμός των απαιτούμενων εικονικών ακτίνων $N_s^\prime$
 καθορίζεται από το μέγεθος της πραγματικής σάρωσης: $N_s^\prime = 2^\nu N_s$.
-Λόγω της ονομάζουμε αυτή τη μέθοδο ως μέθοδο του Σίνι του Πιτυοκάμπτη??
+Λόγω της χρήσης της τεχνικής διχοτόμησης ακτίνων ονομάζουμε αυτή τη μέθοδο ως
+μέθοδο του Πιτυοκάμπτη Σίνι.\footnote{Ο Σίνις, επονομαζόμενος Πιτυοκάμπτης, ήταν
+γιός του Προκρούστη Πολυπήμων. Σε συνέχεια της γενεαλογίας του ο Σίνις απήγαγε
+ξένους, των οποίων τα άκρα έδενε σε δύο λυγισμένα πεύκα (κεκαμμένες πιτύες)
+προτού τα αφήσει να πάρουν τη φυσική τους κλίση, διχοτομώντας έτσι τα σώματά
+τους. Για κακή του τύχη εξοντώθηκε επίσης από τον Θησέα.}
 
 \begin{remark}
   \label{rem:sizes_incorrect}
@@ -664,7 +676,7 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
 \end{align}
 το επίλοιπο σφάλμα εκτίμησης προσανατολισμού $\phi$ φράσσεται από:
 \begin{align}
-  |\phi| = \mod(|\theta - \hat{\theta}^\prime|, \gamma) \leq \dfrac{\gamma}{2^{1+\nu}} \leq \dfrac{\gamma}{2}
+  |\phi| = \mod(|\theta - \hat{\theta}^\prime|, \gamma) \leq \dfrac{\gamma}{2^{1+\nu}} < \dfrac{\gamma}{2}
 \end{align}
 για $\nu \in \mathbb{Z}_{>0}$.
 
@@ -675,10 +687,12 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
 \ref{} παρουσιάζεται η μέθοδος προσανατολισμού διόρθωσης
 που προτείνεται από την παρούσα μελέτη.
 
-Επίσης αυτός ο αλγόριθμος στελνει ολες τις γωνιες. ο θησεας
+Η διαφορα με τον κανονικο τροπο ειναι οτι αν το σφαλμα $<\gamma$ τότε ο
+κανονικος τροπος δεν μπορει να το μειωσει. Επισης εφαρμοζεται μονο για rc = uf ή fm
+
 
 \begin{algorithm}
-  \caption{\texttt{theseus}}
+  \caption{\texttt{rc\_theseus}}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
@@ -693,7 +707,7 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
 \end{algorithm}
 
 \begin{algorithm}
-  \caption{\texttt{core\_theseus}}
+  \caption{\texttt{rc\_theseus\_core}}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
