@@ -178,17 +178,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.4}Η κλίνη της διακριτικής γωνίας του αισθητήρα}{185}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.5}Η μέθοδος του Πιτυοκάμπτη Σίνι}{185}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.5}Η μέθοδος του Πιτυοκάμπτη Σίνι}{186}{subsection.7.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.6}Η μέθοδος του Θησέα}{187}{subsection.7.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Μεθοδολογία ευθυγράμμισης θέσης}{190}{section.7.3}
+\contentsline {section}{\numberline {7.3}Μεθοδολογία ευθυγράμμισης θέσης}{192}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Μεθοδολογία ευθυγράμμισης από κοινού}{190}{section.7.4}
+\contentsline {section}{\numberline {7.4}Μεθοδολογία ευθυγράμμισης από κοινού}{192}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Πειραματική αξιολόγηση}{190}{section.7.5}
+\contentsline {section}{\numberline {7.5}Πειραματική αξιολόγηση}{192}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Συμπεράσματα και περαιτέρω έρευνα}{190}{section.7.6}
+\contentsline {section}{\numberline {7.6}Συμπεράσματα και περαιτέρω έρευνα}{192}{section.7.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{193}{part.3}
 \defcounter {refsection}{0}\relax 
