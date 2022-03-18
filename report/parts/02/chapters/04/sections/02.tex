@@ -398,7 +398,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος του 
         \end{bmatrix}$
         \vspace{0.1cm}
         \STATE $(\bm{U}, \bm{D}, \bm{V}) \leftarrow \texttt{SVD}(\bm{M}_j)$
-        \STATE Append $\texttt{trace}(\bm{D} \cdot \texttt{diag}(1,\det(\bm{U}\bm{V})))$ to $\bm{T}$
+        \STATE \texttt{append} $\texttt{trace}(\bm{D} \cdot \texttt{diag}(1,\det(\bm{U}\bm{V})))$ to $\bm{T}$
     \ENDFOR
     \STATE \texttt{reverse}$(\bm{T})$
     \STATE $J \leftarrow \arg\max\bm{T}$
@@ -526,10 +526,10 @@ $\gamma^{(\nu)} = \gamma / 2^\nu$, $\nu \in \mathbb{Z}_{> 0}$. Όσο αφορά
 καθορίζεται από το μέγεθος της πραγματικής σάρωσης: $N_s^\prime = 2^\nu N_s$.
 Λόγω της χρήσης της τεχνικής διχοτόμησης ακτίνων ονομάζουμε αυτή τη μέθοδο ως
 μέθοδο του Πιτυοκάμπτη Σίνι.\footnote{Ο Σίνις, επονομαζόμενος Πιτυοκάμπτης, ήταν
-γιός του Προκρούστη Πολυπήμων. Σε συνέχεια της γενεαλογίας του ο Σίνις απήγαγε
+γιός του Προκρούστη Πολυπήμωνος. Σε συνέχεια της γενεαλογίας του ο Σίνις απήγαγε
 ξένους, των οποίων τα άκρα έδενε σε δύο λυγισμένα πεύκα (κεκαμμένες πιτύες)
-προτού τα αφήσει να πάρουν τη φυσική τους κλίση, διχοτομώντας έτσι τα σώματά
-τους. Για κακή του τύχη εξοντώθηκε επίσης από τον Θησέα.}
+προτού αφήσει τα τελευταία να πάρουν τη φυσική τους κλίση, διχοτομώντας έτσι τα
+σώματά των θυμάτων του. Για κακή του τύχη εξοντώθηκε επίσης από τον Θησέα.}
 
 \begin{remark}
   \label{rem:sizes_incorrect}
@@ -607,7 +607,7 @@ $\nu = 2$.
            $\gamma/2^\nu$, $\nu = 2$ γωνιακά βήματα, ξεκινώντας από τον
            εκτιμώμενο προσανατολισμό του αισθητήρα $\hat{\theta}$. Η εικονική
            σάρωση που συμβολίζεται με μωβ χρώμα σημειώνει την υψηλότερη τιμή
-           της μετρικής Percent Discrimination (PD) μεταξύ όλων των $2^\nu$
+           της μετρικής Ποσοστού Διάκρισης (PD) μεταξύ όλων των $2^\nu$
            εικονικών σαρώσεων. Χρησιμοποιώντας τη μετρική PD και επιλέγοντας
            την εκτίμηση προσανατολισμού που αντιστοιχεί στην εικονική σάρωση με
            τη μέγιστη τιμή PD, το σφάλμα εκτίμησης προσανατολισμού περιορίζεται
@@ -680,16 +680,9 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
 \end{align}
 για $\nu \in \mathbb{Z}_{>0}$.
 
-Ο
-στόχος (\ref{obj:the_objective}) ?? επιτυγχάνεται με αυτή τη μέθοδο με την
-προϋπόθεση ότι το αρχικό σφάλμα προσανατολισμού είναι μεγαλύτερο από $\gamma /
-2^{1+\nu}$ για ένα σύνολο βαθμού δειγματοληψίας $\nu$ για l=l??. Ο Αλγόριθμος
-\ref{} παρουσιάζεται η μέθοδος προσανατολισμού διόρθωσης
-που προτείνεται από την παρούσα μελέτη.
-
-Η διαφορα με τον κανονικο τροπο ειναι οτι αν το σφαλμα $<\gamma$ τότε ο
-κανονικος τροπος δεν μπορει να το μειωσει. Επισης εφαρμοζεται μονο για rc = uf ή fm
-
+Ο Αλγόριθμος \ref{alg:theseus} παρουσιάζει τη μέθοδο διόρθωσης προσανατολισμού
+που προτείνουμε σε μορφή ψευδοκώδικα, για ορίσματα
+$\texttt{rc} = \{\texttt{rc\_fm}, \texttt{rc\_uf}\}$.
 
 \begin{algorithm}
   \caption{\texttt{rc\_theseus}}
@@ -697,7 +690,7 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
     \ENSURE $\hat{\theta}^\prime$
-    \STATE $(\hat{\bm{\Theta}}, \textbf{PD}) \leftarrow \texttt{core\_theseus}(\texttt{rc}, \bm{M}, \mathcal{S}_R, \hat{\bm{p}}(x, y, \hat{\theta}), \gamma, N_s, \nu)$
+    \STATE $(\hat{\bm{\Theta}}, \textbf{PD}) \leftarrow \texttt{rc\_theseus\_core}(\texttt{rc}, \bm{M}, \mathcal{S}_R, \hat{\bm{p}}(x, y, \hat{\theta}), \gamma, N_s, \nu)$
     \STATE $k_{\max} \leftarrow \arg\max\textbf{PD}$
     \STATE $\hat{\theta}^\prime \leftarrow \hat{\bm{\Theta}}[k_{\max}]$
     \RETURN $\hat{\theta}^\prime$
@@ -728,3 +721,31 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
   \end{spacing}
   \label{alg:core_theseus}
 \end{algorithm}
+
+\begin{algorithm}
+  \caption{\texttt{scan\_map}}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\bm{M}, \bm{p}(x, y, \theta), N_s$
+      \ENSURE $\mathcal{S}_V$
+      \STATE $\mathcal{S}_V \leftarrow \{\varnothing\}$
+      \FOR{$n = 0:N_s-1$}
+      \STATE $\lambda_n \leftarrow -\pi + \dfrac{2\pi}{N_s} n$
+      \STATE $\theta_n \leftarrow \lambda_n + \hat{\theta}$
+      \STATE $(x_n,y_n) \leftarrow \texttt{intersect}(\bm{M}, (x,y, \theta_n))$
+      \STATE $d_n \leftarrow \|(x- x_n, y-y_n)\|_2$
+      \STATE \texttt{append} $(d_n, \lambda_n)$ to $\mathcal{S}_V$
+      \ENDFOR
+      \RETURN $\mathcal{S}_V$
+    \end{algorithmic}
+  \end{spacing}
+  \label{alg:scan_map}
+\end{algorithm}
+
+Ο στόχος (\ref{objective:02_04}) ?? επιτυγχάνεται με τη μέθοδο που εισαγάγαμε σε
+αυτή την ενότητα για τη μέθοδο Fourier-Mellin μίας διάστασης (ενότητα
+\ref{subsection:02_04_02:01}) και τη μέθοδο του Προκρούστη (ενότητα
+\ref{subsection:02_04_02:03}) υπό τις προϋποθέσεις ότι (α)
+$\bm{l} = \hat{\bm{l}}$, και (β) το αρχικό σφάλμα προσανατολισμού είναι
+$|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμό
+δειγματοληψίας $\nu$.

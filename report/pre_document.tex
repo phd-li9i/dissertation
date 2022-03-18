@@ -110,8 +110,10 @@
 \floatname{algorithm}{Αλγόριθμος}
 
 % Italics for theorems
-\theoremstyle{plain}
-\newtheorem{theorem}{Theorem}
+%\theoremstyle{plain}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Θεώρημα}
 \renewcommand\thetheorem{\Roman{theorem}}
 
 
@@ -182,6 +184,12 @@
 \newcommand*{\squarei}{\textcolor{glci}{\blacksquare}}
 \newcommand*{\squarej}{\textcolor{glcj}{\blacksquare}}
 \newcommand*{\squarek}{\textcolor{glck}{\blacksquare}}
+
+
+\definecolor{m}{RGB}{255,0,255}
+\definecolor{k}{RGB}{0,0,0}
+\newcommand*{\bulletmagenta}{\textcolor{m}{\bullet}}
+\newcommand*{\bulletblack}{\textcolor{k}{\bullet}}
 
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
 \definecolor{keyword}{rgb}{0.5,0.5,0.5}
