@@ -69,12 +69,13 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
 \begin{gg_box}
 \begin{remark}
   \label{remark:02_04_02:01}
-  Εάν η διαφορά του προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν οι
-  σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V$ είναι $\Delta\theta$, τότε
-  $\Delta\theta = \xi\gamma + \delta\theta$, όπου $\mod(|\delta\theta|, \gamma) =
-  \phi \in [0,\gamma/2]$. Επομένως, για δεδομένο αριθμό εκπεμπόμενων ακτίνων
-  $N_s$ (ισοδύναμα, για δεδομένη διακριτική γωνία $\gamma$), ενημερώνοντας την
-  εκτίμηση προσανατολισμού σε $\hat{\theta}^\prime$:
+  Εάν η διαφορά του προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν
+  οι σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V$ είναι $\Delta\theta$, τότε
+  $\Delta\theta = \xi\gamma + \phi$, όπου
+  $\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
+  Επομένως, για δεδομένο αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για
+  δεδομένη διακριτική γωνία $\gamma$), ενημερώνοντας την εκτίμηση
+  προσανατολισμού σε $\hat{\theta}^\prime$:
   \begin{align}
     \hat{\theta}^\prime = \hat{\theta} + \xi \gamma \label{eq:update_t1}
   \end{align}
@@ -429,10 +430,11 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος του 
   \label{remark:02_04_02:03}
   Εάν η διαφορά του προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν οι
   σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V$ είναι $\Delta\theta$, τότε
-  $\Delta\theta = (N_s-1-J)\gamma + \delta\theta$, όπου
-  $\mod(|\delta\theta|, \gamma) = \phi \in [0,\gamma/2]$. Επομένως, για δεδομένο
-  αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για δεδομένη διακριτική γωνία
-  $\gamma$), ενημερώνοντας την εκτίμηση προσανατολισμού σε $\hat{\theta}^\prime$:
+  $\Delta\theta = (N_s-1-J)\gamma + \phi$, όπου
+  $\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
+  Επομένως, για δεδομένο αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για
+  δεδομένη διακριτική γωνία $\gamma$), ενημερώνοντας την εκτίμηση
+  προσανατολισμού σε $\hat{\theta}^\prime$:
   \begin{align}
     \hat{\theta}^\prime = \hat{\theta} + (N_s-1-J) \gamma \label{eq:update_t3}
   \end{align}
