@@ -31,7 +31,7 @@
   % define a \g@addto@macro without @ in the name:
   \let\gplgaddtomacro\g@addto@macro
   % define empty templates for all commands taking text:
-  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
   \gdef\gplfronttext{}%
   \makeatother
   \ifGPblacktext
@@ -82,7 +82,7 @@
     \setlength{\fboxrule}{0.5pt}%
     \setlength{\fboxsep}{1pt}%
 \begin{picture}(4000.00,3000.00)%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.00,0.00,0.00}%
       \put(468,330){\makebox(0,0)[r]{\strut{}$0.3$}}%
       \colorrgb{0.00,0.00,0.00}%
@@ -104,7 +104,7 @@
       \put(2809,3194){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\dfrac{N \log(N)}{N^3}$}}%
       \put(2109,-220){\makebox(0,0){\strut{}Βαθμός δειγματολειψίας $\nu$}}%
     }%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.00,0.00,0.00}%
       \put(3751,330){\makebox(0,0)[l]{\strut{}}}%
       \colorrgb{0.00,0.00,0.00}%
@@ -120,7 +120,6 @@
     }%
     \gplgaddtomacro\gplfronttext{%
     }%
-    \gplbacktext
     \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/ku_vs_dbh}}%
     \gplfronttext
   \end{picture}%
