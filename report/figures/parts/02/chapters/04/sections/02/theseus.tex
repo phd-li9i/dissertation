@@ -36,7 +36,7 @@
   % define a \g@addto@macro without @ in the name:
   \let\gplgaddtomacro\g@addto@macro
   % define empty templates for all commands taking text:
-  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
   \gdef\gplfronttext{}%
   \makeatother
   \ifGPblacktext
@@ -87,11 +87,11 @@
     \setlength{\fboxrule}{0.5pt}%
     \setlength{\fboxsep}{1pt}%
 \begin{picture}(8000.00,8000.00)%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
     }%
     \gplgaddtomacro\gplfronttext{%
     }%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
       \put(4868,4400){\makebox(0,0)[r]{\strut{}$2^{-5}$}}%
       \colorrgb{0.15,0.15,0.15}%
@@ -119,21 +119,21 @@
       \colorrgb{0.15,0.15,0.15}%
       \put(4868,7202){\makebox(0,0)[r]{\strut{}$2^{7}$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(5900,4180){\makebox(0,0){\strut{}$3$}}%
+      \put(5450,4180){\makebox(0,0){\strut{}$1$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6199,4180){\makebox(0,0){\strut{}$4$}}%
+      \put(5900,4180){\makebox(0,0){\strut{}$2$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6499,4180){\makebox(0,0){\strut{}$5$}}%
+      \put(6349,4180){\makebox(0,0){\strut{}$3$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6799,4180){\makebox(0,0){\strut{}$6$}}%
+      \put(6799,4180){\makebox(0,0){\strut{}$4$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
     }%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
     }%
     \gplgaddtomacro\gplfronttext{%
     }%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
       \put(4868,800){\makebox(0,0)[r]{\strut{}$2^{-5}$}}%
       \colorrgb{0.15,0.15,0.15}%
@@ -161,24 +161,24 @@
       \colorrgb{0.15,0.15,0.15}%
       \put(4868,3602){\makebox(0,0)[r]{\strut{}$2^{7}$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(5900,580){\makebox(0,0){\strut{}$3$}}%
+      \put(5450,580){\makebox(0,0){\strut{}$1$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6199,580){\makebox(0,0){\strut{}$4$}}%
+      \put(5900,580){\makebox(0,0){\strut{}$2$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6499,580){\makebox(0,0){\strut{}$5$}}%
+      \put(6349,580){\makebox(0,0){\strut{}$3$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6799,580){\makebox(0,0){\strut{}$6$}}%
+      \put(6799,580){\makebox(0,0){\strut{}$4$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
-      \colorrgb{0.15,0.15,0.15}
+      \colorrgb{0.15,0.15,0.15}%
       \put(5900,7900){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\dfrac{|\theta-\hat{\theta}[k]|}{\gamma}$}}%
-      \put(5400,7519){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-1}$}}%
-      \put(6400,7519){\makebox(0,0){\strut{}{\color{m}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-4}$}}%
+      \put(5400,7419){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-1}$}}%
+      \put(6400,7419){\makebox(0,0){\strut{}{\color{m}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-4}$}}%
 
       \put(1100,7519){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\bm{M}$}}%
       \put(1850,7519){\makebox(0,0){\strut{}{\color{sr}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\bm{p}$}}%
       \put(2600,7519){\makebox(0,0){\strut{}{\color{svi}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\hat{\bm{p}}[0]$}}%
-      \put(3600,7519){\makebox(0,0){\strut{}{\color{svf}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\hat{\bm{p}}[6]$}}%
+      \put(3600,7519){\makebox(0,0){\strut{}{\color{svf}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\hat{\bm{p}}[4]$}}%
 
       \put(5100,3869){\makebox(0,0){\strut{}$\nu$}}%
       \put(5400,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn0}{\rule{0pt}{6pt}\rule{6pt}{0pt} 0}}} %
@@ -190,8 +190,7 @@
       \put(2300,250){\makebox(0,0){\strut{} \texttt{rc\_uf}}}%
 
       \put(5899,250){\makebox(0,0){\strut{}Αριθμός επαναλήψεων $k$}}%
-    }
-    \gplbacktext
+    }%
     \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/theseus}}%
     \gplfronttext
   \end{picture}%
