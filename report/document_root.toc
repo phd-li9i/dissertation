@@ -34,11 +34,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Μεθοδολογία ευθυγράμμισης θέσης}{29}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{35}{section.4.4}
+\contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{34}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{35}{section.4.5}
+\contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{34}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Συμπεράσματα και περαιτέρω έρευνα}{35}{section.4.6}
+\contentsline {section}{\numberline {4.6}Συμπεράσματα και περαιτέρω έρευνα}{34}{section.4.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{37}{part.3}
 \defcounter {refsection}{0}\relax 

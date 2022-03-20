@@ -315,3 +315,81 @@
 \addtolength{\leftstackrelawd}{-\leftstackrelbwd}%
 \leavevmode\ifthenelse{\lengthtest{\leftstackrelawd>0pt}}%
 {\kern-.5\leftstackrelawd}{}\mathrel{\mathop{#2}\limits^{#1}}}
+
+
+% Annulus plot
+\usepackage{xcolor}
+\usepackage{xparse}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning}
+\usetikzlibrary{decorations, decorations.text}
+
+\newlength{\layerwd}
+\newcounter{outermost}
+
+\NewDocumentEnvironment{onion}{sm}{%*= draw axes; #1: thickness of each annulus
+    \begin{tikzpicture}
+        \setlength{\layerwd}{#2}%
+        \setcounter{outermost}{0}
+        \IfBooleanT{#1}{%
+            \draw[<->] (-4,0) -- (4,0);
+            \draw[<->] (0,4) -- (0,-4);
+        }%
+}{%
+    %\foreach \A in {0,...,\theoutermost}{\draw[thick] (0,0) circle (\A*\layerwd+\layerwd);}
+    \end{tikzpicture}
+}
+
+% *=text on a circular path; [optional fill color]; #3 layer;
+% #4 start angle; #5 stop angle; #6 [optional text]
+%% angles are counterclockwise in degrees
+\NewDocumentCommand{\annulus}{sO{lightgray}mmmo}{%
+
+    \ifthenelse{#3=0}
+    {
+      %\filldraw[thick,fill=#2] (#4:#3*\layerwd) %% start here
+        %arc [radius=#3*\layerwd, start angle=#4, delta angle=#5-#4] %% inner arc
+        %-- (#5:#3*\layerwd+\layerwd) %% move out
+        %arc [radius=#3*\layerwd+\layerwd, start angle=#5, delta angle=#4-#5] %% outer arc
+        %-- cycle; %% Back to the beginnning
+    }
+    {
+      \filldraw[thick,fill=#2] (#4:#3*\layerwd) %% start here
+      arc [radius=#3*\layerwd, start angle=#4, delta angle=#5-#4] %% inner arc
+      -- (#5:#3*\layerwd+\layerwd) %% move out
+      arc [radius=#3*\layerwd+\layerwd, start angle=#5, delta angle=#4-#5] %% outer arc
+      -- cycle; %% Back to the beginnning
+    }
+    \pgfmathsetmacro{\tmp}{(#5-#4)/2 +#4} %% Locate the middle of the arc
+    \IfNoValueF{#6}{%
+        \IfBooleanTF{#1}
+        {%
+            \begingroup
+                %% text is always rightside-up:
+                \pgfmathsetmacro{\rpTF}{ifthenelse(\tmp>180,"false","true")}
+                \def\\{\space} %% A safety precaution, \\ = space on decorated text
+                \path[rotate=\tmp-180,postaction={
+                    decorate,
+                    decoration={
+                        text along path,
+                        raise=-3pt,
+                        text align={align=center},
+                        reverse path=\rpTF,
+                        text=#6
+                    }
+                }] (0,0) circle (#3*\layerwd+0.5*\layerwd);
+            \endgroup
+        }%%
+        {%
+            \pgfmathsetmacro{\rpTF}{ifthenelse(\tmp>180,\tmp+90,\tmp-90)}
+            \pgfmathsetmacro{\rpTF}{ifthenelse(#3==0,\rpTF-90,\rpTF)}
+            \node[inner sep=0pt, %%% If there is text, print it
+            text width=#3*\layerwd*3+\layerwd,
+            align=center,
+            rotate=\rpTF,
+            font=\footnotesize] at (\tmp:#3*\layerwd+0.5*\layerwd)
+            {#6};
+        }%
+    }%
+    \ifnum\theoutermost<#3\setcounter{outermost}{#3}\fi
+}
