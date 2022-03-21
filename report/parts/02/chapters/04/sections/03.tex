@@ -14,8 +14,7 @@ $\hat{\bm{l}} \neq \bm{l}$. Εάν ο χάρτης αναπαριστά το π�
 \begin{bw_box}
 \begin{theorem}
   \label{prop:theorem_without_disturbance}
-
-  Έστω ότι ισχύουν οι υποθέσεις του προβλήματος \ref{}??, και ότι
+  Έστω ότι ισχύουν οι υποθέσεις του προβλήματος \ref{prob:02_04}, και ότι
   $\hat{\theta} = \theta$. Έστω επίσης ότι η εικονική σάρωση $\mathcal{S}_V$ που
   συλλαμβάνεται από τη στάση $\hat{\bm{p}}$ εντός του χάρτη $\bm{M}$
   συμβολίζεται με $\mathcal{S}_V|_{\bm{\hat{p}}}$. Έστω ακόμα ότι οι
@@ -74,7 +73,7 @@ $\hat{\bm{l}} \neq \bm{l}$. Εάν ο χάρτης αναπαριστά το π�
 της τελευταίας επανάληψης, και με
 $\hat{\bm{l}}^{\prime} = \hat{\bm{l}}[k_{stop}]$ τότε
 $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 < \|\bm{e}(\bm{l}, \hat{\bm{l}}[0])\|_2$,
-και επομένως ο στόχος (\ref{objective:02_04}??) ικανοποιείται.
+και επομένως ο στόχος (\ref{objective:02_04}) ικανοποιείται.
 
 \begin{gg_box}
 \begin{remark}
@@ -100,20 +99,25 @@ $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 < \|\bm{e}(\bm{l}, \hat{\bm{l}}[0])
 \end{theorem}
 \end{bw_box}
 
-Σε σύγκριση με την περίπτωση που δεν υπάρχουν διαταραχές, μια λύση που
-ικανοποιεί το στόχο (\ref{}??) δεν είναι αυστηρά εγγυημένη για κάθε αρχική θέση
-$\hat{\bm{l}}[0]$. Ας συμβολίσουμε και πάλι με $k_{stop} \in (0, I_T]$ τον
-δείκτη της τελευταίας επανάληψης, με $\hat{\bm{l}}^{\prime} =
-\hat{\bm{l}}[k_{stop}]$ την τελική εκτίμηση της θέσης του αισθητήρα, και με $B$
-το τελικό φράγμα (ultimate bound) του σφάλματος θέσης. Εάν $\|\bm{e}(\bm{l},
-\hat{\bm{l}}[0])\|_2 > B$, το θεώρημα \ref{prop:theorem_with_disturbance}
-εγγυάται την ικανοποίηση του στόχου (\ref{} ??) εάν $k_{stop} \geq
-k_0$. Εάν, από την άλλη πλευρά, εάν $\|\bm{e}(\bm{l}, \hat{\bm{l}}[0])\|_2 \leq
-B$, δεν είναι βέβαιο ότι $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 <
-\|\bm{e}(\bm{l}, \hat{\bm{l}}[0])\|_2$---αυτό που είναι βέβαιο σε αυτή την
-περίπτωση, όμως, είναι ότι $\|\bm{e}(\bm{l}, \hat{\bm{l}}[k])\|_2 \ngtr B$ για
-όλα κάθε $k \geq 0$.
+\begin{corollary}
+  Σε σύγκριση με την περίπτωση που δεν υπάρχουν διαταραχές, μια λύση που
+  ικανοποιεί το στόχο (\ref{objective:02_04}) δεν είναι αυστηρά εγγυημένη για
+  κάθε αρχική θέση $\hat{\bm{l}}[0]$ στην περίπτωση που οι μετρήσεις του φυσικού
+  αισθητήρα φέρουν διαταραχές ή/και ο χάρτης $\bm{M}$ είναι διεφθαρμένος ως προς
+  το περιβάλλον που αναπαριστά.
+\end{corollary}
 
+Ας συμβολίσουμε και πάλι με $k_{stop} \in (0, I_T]$ τον δείκτη της τελευταίας
+επανάληψης, με $\hat{\bm{l}}^{\prime} = \hat{\bm{l}}[k_{stop}]$ την τελική
+εκτίμηση της θέσης του αισθητήρα, και με $B$ το τελικό φράγμα (ultimate bound)
+του σφάλματος θέσης. Εάν $\|\bm{e}(\bm{l}, \hat{\bm{l}}[0])\|_2 > B$, το
+θεώρημα \ref{prop:theorem_with_disturbance} εγγυάται την ικανοποίηση του
+στόχου (\ref{objective:02_04}) εάν $k_{stop} \geq k_0$. Εάν, από την άλλη
+πλευρά, εάν $\|\bm{e}(\bm{l}, \hat{\bm{l}}[0])\|_2 \leq B$, δεν είναι βέβαιο
+ότι $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 < \|\bm{e}(\bm{l},
+\hat{\bm{l}}[0])\|_2$---αυτό που είναι βέβαιο σε αυτή την περίπτωση, όμως,
+είναι ότι $\|\bm{e}(\bm{l}, \hat{\bm{l}}[k])\|_2 \ngtr B$ για όλα κάθε $k \geq
+0$.
 Στο σχήμα \ref{fig:02_04_03:map_convergence} απεικονίζονται οι τροχιές της
 εκτίμησης θέσης βάσει εφαρμογής του θεωρήματος
 \ref{prop:theorem_without_disturbance} για έναν αισθητήρα με θέση
@@ -125,7 +129,7 @@ $\mathcal{S}_R$ και των εικονικών σαρώσεων $\mathcal{S}_V
 αποκλίσεις $\sigma_R = \sigma_V = 0.0$ m, και η κάτω σειρά για
 $\sigma_R = \sigma_V = 0.05$ m.
 
-\begin{figure}\centering\vspace{1cm}
+\begin{figure}[h]\centering\vspace{1cm}
   \input{./figures/parts/02/chapters/04/sections/03/translation_map_convergence.tex}
 \caption{\small Οι τροχιές της εκτίμησης θέσης βάσει εφαρμογής του θεωρήματος
          \ref{prop:theorem_without_disturbance} για επίπεδο διαταραχών
@@ -185,11 +189,11 @@ $\sigma_R = \sigma_V = 0.05$ m.
     \begin{algorithmic}[1]
       \REQUIRE $\mathcal{S}_R, \mathcal{S}_V$
       \ENSURE $X_1$
-      \STATE \texttt{assert} $|\mathcal{S}_R| = |\mathcal{S}_{v}^{[k]}|$
+      \STATE \texttt{assert} $|\mathcal{S}_R| = |\mathcal{S}V^{[k]}|$
       \STATE $N_s \leftarrow |\mathcal{S}_R|$
       \STATE {$\bm{\Delta} \leftarrow \{\varnothing\}$}
       \FOR{$n = 0:N_s-1$}
-      \STATE $d_n \leftarrow \mathcal{S}_R[n] - \mathcal{S}_{v}^{[k]}[n]$
+      \STATE $d_n \leftarrow \mathcal{S}_R[n] - \mathcal{S}_V^{[k]}[n]$
       \STATE \texttt{append} $d$ to $\bm{\Delta}$
       \ENDFOR
       \STATE $\bm{X} \leftarrow \texttt{DFT}(\bm{\Delta})$
@@ -199,5 +203,3 @@ $\sigma_R = \sigma_V = 0.05$ m.
   \end{spacing}
   \label{alg:diff_dft}
 \end{algorithm}
-
-

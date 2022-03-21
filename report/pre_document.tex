@@ -394,3 +394,13 @@
     }%
     \ifnum\theoutermost<#3\setcounter{outermost}{#3}\fi
 }
+
+
+% Double \ast = \astt
+\DeclareRobustCommand\astt{%
+  \leavevmode
+  {\sbox0{\ddag}%
+   \ooalign{\raisebox{\ht0-\height}{*}\cr
+            \raisebox{\depth-\dp0}{\scalebox{1}[-1]{*}}\cr}%
+  }%
+}
