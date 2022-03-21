@@ -558,7 +558,7 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
 
 Οι δύο παραπάνω παρατηρήσεις αφορούν στα σφάλματα στάσης της συνολικής μεθόδου
 ευθυγράμμισης, όχι μόνο λόγω των μη επιλύσιμων σφαλμάτων προσανατολισμού αυτών
-καθεαυτούς, αλλά και λόγω της διάδοσής τους στην διαδεχόμενη της μεθόδου
+καθεαυτά, αλλά και λόγω της διάδοσής τους στην διαδεχόμενη της μεθόδου
 ευθυγράμμισης προσανατολισμού μέθοδο ευθυγράμμισης της θέσης (παρατήρηση
 \ref{rem:iterative}): λόγω σύζευξης των δύο ειδών ευθυγράμμισης, η μέθοδος
 εκτίμησης θέσης απαιτεί επί της αρχής μηδενικά σφάλματα προσανατολισμού. Κατ'
@@ -575,7 +575,7 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
 Προτού εισάγουμε τη μέθοδο που ελαττώνει τα σφάλματα εκτίμησης προσανατολισμού
 που προτείνουμε, πρέπει να εξετάσουμε το λόγο για την πολυπλοκότητά και την
 επιτυχία της σε σχέση με την αφελή μέθοδο επιχείρησης ελάττωσης του σφάλματος
-εκτίμησης του προσανατολισμού.
+εκτίμησης του προσανατολισμού, η οποία παρουσιάζεται στην παρούσα ενότητα.
 
 Δεδομένων ότι
 
@@ -590,7 +590,7 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
         υπολογιστέες μέσω του χάρτη, μπορεί να υπολογιστεί ένας αυθαίρετος
         αριθμός εικονικών ακτίνων εντός του)
 \end{itemize}
-ο αφελής τρόπος επίλυσης του προβλήματος ελάττωσης του σφάλματος
+ένας αφελής τρόπος επίλυσης του προβλήματος ελάττωσης του σφάλματος
 προσανατολισμού συνίσταται στην αύξηση των εκπεμπόμενων ακτίνων
 \begin{itemize}
   \item του φυσικού αισθητήρα με την παρεμβολή των τιμών των ακτίνων της
@@ -673,27 +673,29 @@ $\gamma^{(\nu)} = \gamma / 2^\nu$, $\nu \in \mathbb{Z}_{> 0}$. Όσο αφορά
 και η αστάθεια αυτών των σφαλμάτων. Όπως και πριν απεικονίζονται οι αρχικές και
 τελικές συνθήκες ευθυγράμμισης προσανατολισμού για έναν αισθητήρα δισδιάστατων
 πανοραμικών σαρώσεων σε ένα μη δομημένο περιβάλλον, του οποίου ο χάρτης το
-αναπαριστά τέλεια, και οι μετρήσεις του αισθητήρα δεν διαταράσσονται από
+αναπαριστά τέλεια, ενώ οι μετρήσεις του αισθητήρα δεν διαταράσσονται από
 θόρυβο. H μέθοδος του Πιτυοκάμπτη Σίνι εφαρμόζεται επί των μεθόδων
 Fourier-Mellin μίας διάστασης (άνω) και Προκρούστη (κάτω). Εδώ ο βαθμός
-υπερδειγματολειψίας $\nu$ έχει αρχική τιμή $\nu = \nu_{\min} = 0$ και αυξάνει
-διαδοχικά κάθε φορά που έχει επιτευχθεί σύγκλιση της εκτίμησης προσανατολισμού,
-έως ότου $\nu = \nu_{\max} = 3$.
+υπερδειγματοληψίας $\nu$ έχει αρχική τιμή $\nu = \nu_{\min} = 0$ και αυξάνει
+διαδοχικά κάθε φορά που η εκτίμηση προσανατολισμού δεν εμφανίζει μεταβολή ως
+προς την προηγούμενη τιμή της πάνω από $\gamma/2$ rad, έως ότου
+$\nu = \nu_{\max} = 3$.
 
 \begin{figure}[h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/sinis.tex}
   \caption{\small Η λανθασμένη προσέγγιση ελάττωσης του γωνιακού σφάλματος
            εκτίμησης της μεθόδου Πιτυοκάμπτη Σίνι για διαδοχική
-           υπερδειγματολειψία βαθμών $(\nu_{\min}, \nu_{\max}) = (0,3)$. Το
+           υπερδειγματοληψία βαθμών $(\nu_{\min}, \nu_{\max}) = (0,3)$. Το
            σφάλμα εκτίμησης προσανατολισμού $\phi^{(\nu)}$ φράσσεται από την
            ποσότητα $\gamma/2^{1+\nu}$ μόνο στο τέλος του βήματος
-           δειγματολειψίας $\nu=0$}
+           δειγματοληψίας $\nu=0$}
   \label{fig:02_04_02:sinis}
 \end{figure}
 
-Στην ενότητα \ref{subsection:02_04_02:04} παρουσιάζουμε τη μέθοδο που ελαττώνει
-το σφάλμα εκτίμησης προσανατολισμού με τρόπο ευσταθή, προβλεπόμενο, και
-αναλογικό ως προς το ρυθμό δειγματολειψίας $\mu = 2^{\nu}$ του χάρτη $\bm{M}$.
+Στην ενότητα \ref{subsection:02_04_02:04} παρουσιάζουμε τη μέθοδο που, σε
+αντίθεση με τη μέθοδο του Πιτυοκάμπτη Σίνι, ελαττώνει το σφάλμα εκτίμησης
+προσανατολισμού με τρόπο ευσταθή, προβλεπόμενο, και αναλογικό ως προς το ρυθμό
+δειγματοληψίας $\mu = 2^{\nu}$ του χάρτη $\bm{M}$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Η μέθοδος του Θησέα}
@@ -743,18 +745,14 @@ $2^\nu$ φορές. Η διόρθωση προσανατολισμού πραγ�
 \end{align}
 για συνολικά $2^\nu$ φορές, με αποτέλεσμα $2^\nu$ εκτιμήσεις προσανατολισμού.
 
-Για τη μέθοδο Fourier-Mellin μίας διάστασης και τη μέθοδο του Προκρούστη, η
-μετρική ευθυγράμμισης μεταξύ της $k$-οστής εικονικής σάρωσης και της
-πραγματικής σάρωσης υπολογίζεται σύμφωνα το Ποσοστό Διάκρισης (Percent
-Discrimination---PD). Για τη μέθοδο Πρώτων Αρχών η σύγκριση ανάμεσα
-στις σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V^k$ δεν είναι δόκιμη, καθώς
-αποτελεί μέθοδο συνεχούς χώρου, και συνεπώς δεν ορίζεται μετρική ευθυγράμμισης.
-
-Η μετρική του Ποσοστού Διάκρισης για την $k$-οστή εικονική σάρωση PD$_k$ $\in
-[0,1]$, και είναι ανάλογη του βαθμού ευθυγράμμισης μεταξύ των σαρώσεων
-$\mathcal{S}_R$ και $\mathcal{S}_V^k$ για όλες τις $2^\nu$ σαρώσεις
-$\mathcal{S}_V^k$. Το Ποσοστό Διάκρισης ανάμεσα στην πραγματική μέτρηση
-$\mathcal{S}_R$ και την εικονική σάρωση $\mathcal{S}_V^k$ ορίζεται ως:
+Όσο αφορά στις μεθόδους Fourier-Mellin μίας διάστασης και τη μέθοδο του
+Προκρούστη, η μετρική ευθυγράμμισης μεταξύ της $k$-οστής εικονικής σάρωσης και
+της πραγματικής σάρωσης υπολογίζεται σύμφωνα το Ποσοστό Διάκρισης (Percent
+Discrimination---PD). Η μετρική του Ποσοστού Διάκρισης για την $k$-οστή
+εικονική σάρωση PD$_k$ $\in [0,1]$, και είναι ανάλογη του βαθμού ευθυγράμμισης
+μεταξύ των σαρώσεων $\mathcal{S}_R$ και $\mathcal{S}_V^k$ για όλες τις $2^\nu$
+σαρώσεις $\mathcal{S}_V^k$. Το Ποσοστό Διάκρισης ανάμεσα στην πραγματική
+μέτρηση $\mathcal{S}_R$ και την εικονική σάρωση $\mathcal{S}_V^k$ ορίζεται ως:
 \begin{align}
   \text{PD}_k = \dfrac{2 \ F(G,H_k)}{F(G,G) + F(H_k,H_k)} \label{eq:pd}
 \end{align}
@@ -773,6 +771,9 @@ $\mathcal{S}_R$ προβεβλημμένες στο επίπεδο $x-y$ από 
 τελικών σημείων της $k$-οστής εικονικής σάρωσης, επίσης προβεβλημμένες στο
 επίπεδο $x-y$ από το $\bm{O}$.
 
+Όσο αφορά στη μέθοδο Πρώτων Αρχών η σύγκριση ανάμεσα στις σαρώσεις
+$\mathcal{S}_R$ και $\mathcal{S}_V^k$ δεν είναι δόκιμη, καθώς αυτή αποτελεί
+μέθοδο συνεχούς χώρου, και συνεπώς δεν ορίζεται μετρική ευθυγράμμισης. \\
 
 Έστω τώρα ότι $k_{\max} \in \mathbb{Z}_{\geq 0} : k_{\max} \in [0,2^{\nu-1}]$
 συμβολίζει το δείκτη της $k$-οστής εικονικής σάρωσης $\mathcal{S}_V^{k_{\max}}$
@@ -789,70 +790,9 @@ PD$_{k_{\max}}$. Τότε εάν η εκτίμηση προσανατολισμ�
 το επίλοιπο σφάλμα εκτίμησης προσανατολισμού $\phi$ φράσσεται από:
 \begin{align}
   |\phi| = \mod(|\theta - \hat{\theta}^\prime|, \gamma) \leq \dfrac{\gamma}{2^{1+\nu}} < \dfrac{\gamma}{2}
+  \label{eq:phi_theseus}
 \end{align}
 για $\nu \in \mathbb{Z}_{>0}$.
-
-Ο Αλγόριθμος \ref{alg:theseus} παρουσιάζει τη μέθοδο διόρθωσης προσανατολισμού
-που προτείνουμε σε μορφή ψευδοκώδικα, για ορίσματα
-$\texttt{rc} = \{\texttt{rc\_fm}, \texttt{rc\_uf}\}$.
-
-\begin{algorithm}
-  \caption{\texttt{rc\_theseus}}
-  \begin{spacing}{1.5}
-  \begin{algorithmic}[1]
-    \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
-    \ENSURE $\hat{\theta}^\prime$
-    \STATE $(\hat{\bm{\Theta}}, \textbf{PD}) \leftarrow \texttt{rc\_theseus\_core}(\texttt{rc}, \bm{M}, \mathcal{S}_R, \hat{\bm{p}}(x, y, \hat{\theta}), \gamma, N_s, \nu)$
-    \STATE $k_{\max} \leftarrow \arg\max\textbf{PD}$
-    \STATE $\hat{\theta}^\prime \leftarrow \hat{\bm{\Theta}}[k_{\max}]$
-    \RETURN $\hat{\theta}^\prime$
-  \end{algorithmic}
-  \end{spacing}
-  \label{alg:theseus}
-\end{algorithm}
-
-\begin{algorithm}
-  \caption{\texttt{rc\_theseus\_core}}
-  \begin{spacing}{1.5}
-  \begin{algorithmic}[1]
-    \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
-    \ENSURE $\hat{\bm{\Theta}}$, $\textbf{PD}$
-    \STATE $\hat{\bm{\Theta}}, \textbf{PD} \leftarrow \{\varnothing\}$
-    \FOR{$k = 0 : 2^\nu-1$}
-      \STATE $\hat{\bm{p}}_k \leftarrow (x, y, \hat{\theta} + k \cdot \gamma/2^\nu)$
-      \STATE $\mathcal{S}_V^k \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}_k, N_s)$
-      \STATE $(\cdot, m_k) \leftarrow \texttt{rc}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}_k, \gamma)$
-      \STATE $\texttt{append} \ \ \hat{\theta}_k = \hat{\theta} + 2\pi m_k/N_s + k \cdot \gamma/2^\nu$ to $\hat{\bm{\Theta}}$
-      \STATE $(\cdot,m_k^{R}) \leftarrow \texttt{rc}(\mathcal{S}_R, \mathcal{S}_R, \hat{\bm{p}}_k, \gamma)$
-      \STATE $(\cdot,m_k^{V}) \leftarrow \texttt{rc}(\mathcal{S}_V^k, \mathcal{S}_V^k, \hat{\bm{p}}_k, \gamma)$
-      \STATE $\texttt{append} \ \ \dfrac{2m_k}{m_k^{R} + m_k^{V}}$ to \textbf{PD}
-      \STATE $k \leftarrow k + 1$
-    \ENDFOR
-    \RETURN $(\hat{\bm{\Theta}}, \textbf{PD})$
-  \end{algorithmic}
-  \end{spacing}
-  \label{alg:core_theseus}
-\end{algorithm}
-
-\begin{algorithm}
-  \caption{\texttt{scan\_map}}
-  \begin{spacing}{1.3}
-    \begin{algorithmic}[1]
-      \REQUIRE $\bm{M}, \bm{p}(x, y, \theta), N_s$
-      \ENSURE $\mathcal{S}_V$
-      \STATE $\mathcal{S}_V \leftarrow \{\varnothing\}$
-      \FOR{$n = 0:N_s-1$}
-      \STATE $\lambda_n \leftarrow -\pi + \dfrac{2\pi}{N_s} n$
-      \STATE $\theta_n \leftarrow \lambda_n + \hat{\theta}$
-      \STATE $(x_n,y_n) \leftarrow \texttt{intersect}(\bm{M}, (x,y, \theta_n))$
-      \STATE $d_n \leftarrow \|(x- x_n, y-y_n)\|_2$
-      \STATE \texttt{append} $(d_n, \lambda_n)$ to $\mathcal{S}_V$
-      \ENDFOR
-      \RETURN $\mathcal{S}_V$
-    \end{algorithmic}
-  \end{spacing}
-  \label{alg:scan_map}
-\end{algorithm}
 
 Ο στόχος (\ref{objective:02_04}) ?? επιτυγχάνεται με τη μέθοδο που εισαγάγαμε σε
 αυτή την ενότητα για τη μέθοδο Fourier-Mellin μίας διάστασης (ενότητα
@@ -861,27 +801,40 @@ $\texttt{rc} = \{\texttt{rc\_fm}, \texttt{rc\_uf}\}$.
 $\bm{l} = \hat{\bm{l}}$, (β) το αρχικό σφάλμα προσανατολισμού είναι
 $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμό
 δειγματοληψίας $\nu$, (γ) οι μετρήσεις του φυσικού αισθητήρα δεν διαταράσσονται
-από θόρυβο, και (δ) ο χάρτης του περιβάλλοντος το αναπαριστά τέλεια. Στο σχήμα
-\ref{fig:02_04_02:theseus} απεικονίζονται οι ίδιες αρχικές συνθήκες με αυτές
-της διαμόρφωσης του σχήματος \ref{fig:02_04_02:sinis}. Η ευθυγράμμιση
-προσανατολισμού εκτελείται και πάλι διαδοχικά για βαθμούς δειγματολειψίας του
+από θόρυβο, και (δ) ο χάρτης του περιβάλλοντος το αναπαριστά τέλεια.
+
+Στο σχήμα \ref{fig:02_04_02:theseus} απεικονίζονται οι ίδιες αρχικές συνθήκες
+με αυτές της διαμόρφωσης του σχήματος \ref{fig:02_04_02:sinis}. Η ευθυγράμμιση
+προσανατολισμού εκτελείται και πάλι διαδοχικά για βαθμούς δειγματοληψίας του
 χάρτη $\bm{M}$ $(\nu_{\min}, \nu_{\max}) = (0,3)$, αλλά αυτή τη φορά το σφάλμα
 εκτίμησης προσανατολισμού $\phi^{(\nu)}$ φράσσεται στο τέλος κάθε βήματος
-δειγματολειψίας $\nu$ από την ποσότητα $\dfrac{\gamma}{2^{1+\nu}}$. Η άνω σειρά
-του σχήματος \ref{fig:02_04_02:theseus_pd} απεικονίζει
+δειγματοληψίας $\nu$ από την ποσότητα $\dfrac{\gamma}{2^{1+\nu}}$.
+
+Στο σχήμα \ref{fig:02_04_02:theseus_pd} η άνω σειρά απεικονίζει τα πραγματικά
+δεδομένα Ποσοστών Διάκρισης και επίλοιπων σφαλμάτων των υποψήφιων
+προσανατολισμών ανά βαθμό δειγματοληψίας, τα οποία παρήχθησαν κατά την εφαρμογή
+της μεθόδου Θησέα επί των μεθόδων γωνιακής ευθυγράμμισης Fourier-Mellin και
+Προκρούστη που παρουσιάζονται στην εικόνα \ref{fig:02_04_02:theseus}. Στην
+αριστερή πλευρά της κάτω σειράς απεικονίζεται σχηματικά η εξέλιξη της ημίσειας
+κατάτμησης του επίλοιπου σφάλματος προσανατολισμού ανά βαθμό δειγματοληψίας,
+και στη δεξιά το Ποσοστό Διάκρισης που αντιστοιχεί σε κάθε σφάλμα.
+Συγκεκριμένα, με γκρι χρώμα σημειώνεται η μετρική που εμφανίζει τη μέγιστη τιμή
+ανάμεσα σε όλες εκείνες του ίδιου βαθμού δειγματοληψίας.  Αντιπαραβάλλοντας
+αυτές με τα δεδομένα της δεξιάς στήλης της άνω σειράς και στη συνέχεια αυτά με
+εκείνα της αριστερής στήλης της ίδιας σειράς παρατηρούμε ότι τα ελάχιστα
+επίλοιπα σφάλματα εμφανίζουν τα μέγιστα ποσοστά διάκρισης, σε συνέπεια με την
+εξίσωση (\ref{eq:phi_theseus}) και την ανάλυση της παρούσας ενότητας.
 
 
-
-
-\begin{figure}\centering
+\begin{figure}[h]\centering
   \vspace{1.0cm}
   \input{./figures/parts/02/chapters/04/sections/02/theseus.tex}
   \vspace{0.5cm}
   \caption{\small Η ορθή προσέγγιση ελάττωσης του γωνιακού σφάλματος εκτίμησης
-           της μεθόδου Θησέα για διαδοχική υπερδειγματολειψία βαθμών
+           της μεθόδου Θησέα για διαδοχική υπερδειγματοληψία βαθμών
            $(\nu_{\min}, \nu_{\max}) = (0,3)$. Το σφάλμα εκτίμησης
            προσανατολισμού $\phi^{(\nu)}$ των δύο μεθόδων φράσσεται στο τέλος
-           κάθε βήματος δειγματολειψίας $\nu$ από την ποσότητα
+           κάθε βήματος δειγματοληψίας $\nu$ από την ποσότητα
            $\gamma/2^{1+\nu}$}
   \label{fig:02_04_02:theseus}
 \end{figure}
@@ -969,14 +922,76 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
 \caption{\small Τα πραγματικά δεδομένα Ποσοστών Διάκρισης
          $\texttt{PD}^{(\nu)}_{0:2^{\nu}-1}$ και επίλοιπων σφαλμάτων
          $\phi^{(\nu)}_{0:2^{\nu}-1}$ των υποψήφιων προσανατολισμών που αφορούν
-         στα επίπεδα δειγματολειψίας $\nu$, τα οποία προέκυψαν κατά την εφαρμογή
+         στα επίπεδα δειγματοληψίας $\nu$, τα οποία προέκυψαν κατά την εφαρμογή
          της μεθόδου Θησέα επί των μεθόδων γωνιακής ευθυγράμμισης
          Fourier-Mellin και Προκρούστη που παρουσιάζονται στην εικόνα
          \ref{fig:02_04_02:theseus}. Η κάτω σειρά απεικονίζει σχηματικα: στα
          αριστερά την αναδρομική εξέλιξη της κατάτμησης του αρχικού επίλοιπου
          σφάλματος $\phi^{(0)}$ σε ημίσεια σφάλματα, και στα δεξιά τα
-         αντιστοιχούντα μέγιστα ποσοστά διάκρισης ανά βαθμό δειγματολειψίας.
+         αντιστοιχούντα μέγιστα ποσοστά διάκρισης ανά βαθμό δειγματοληψίας.
          Παρατηρήστε πως υπάρχει ευθεία αντιστοιχία του μέγιστου ποσοστού
          διάκρισης (γκρι) με το ελάχιστο επίλοιπο σφάλμα προσανατολισμού}
 \label{fig:02_04_02:theseus_pd}
 \end{figure}
+
+Ο Αλγόριθμος \ref{alg:theseus} παρουσιάζει τη μέθοδο διόρθωσης προσανατολισμού
+που προτείνουμε σε μορφή ψευδοκώδικα, για ορίσματα
+$\texttt{rc} = \{\texttt{rc\_fm}, \texttt{rc\_uf}\}$.
+
+\begin{algorithm}
+  \caption{\texttt{rc\_theseus}}
+  \begin{spacing}{1.5}
+  \begin{algorithmic}[1]
+    \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
+    \ENSURE $\hat{\theta}^\prime$
+    \STATE $(\hat{\bm{\Theta}}, \textbf{PD}) \leftarrow \texttt{rc\_theseus\_core}(\texttt{rc}, \bm{M}, \mathcal{S}_R, \hat{\bm{p}}(x, y, \hat{\theta}), \gamma, N_s, \nu)$
+    \STATE $k_{\max} \leftarrow \arg\max\textbf{PD}$
+    \STATE $\hat{\theta}^\prime \leftarrow \hat{\bm{\Theta}}[k_{\max}]$
+    \RETURN $\hat{\theta}^\prime$
+  \end{algorithmic}
+  \end{spacing}
+  \label{alg:theseus}
+\end{algorithm}
+
+\begin{algorithm}
+  \caption{\texttt{rc\_theseus\_core}}
+  \begin{spacing}{1.5}
+  \begin{algorithmic}[1]
+    \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
+    \ENSURE $\hat{\bm{\Theta}}$, $\textbf{PD}$
+    \STATE $\hat{\bm{\Theta}}, \textbf{PD} \leftarrow \{\varnothing\}$
+    \FOR{$k = 0 : 2^\nu-1$}
+      \STATE $\hat{\bm{p}}_k \leftarrow (x, y, \hat{\theta} + k \cdot \gamma/2^\nu)$
+      \STATE $\mathcal{S}_V^k \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}_k, N_s)$
+      \STATE $(\cdot, m_k) \leftarrow \texttt{rc}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}_k, \gamma)$
+      \STATE $\texttt{append} \ \ \hat{\theta}_k = \hat{\theta} + 2\pi m_k/N_s + k \cdot \gamma/2^\nu$ to $\hat{\bm{\Theta}}$
+      \STATE $(\cdot,m_k^{R}) \leftarrow \texttt{rc}(\mathcal{S}_R, \mathcal{S}_R, \hat{\bm{p}}_k, \gamma)$
+      \STATE $(\cdot,m_k^{V}) \leftarrow \texttt{rc}(\mathcal{S}_V^k, \mathcal{S}_V^k, \hat{\bm{p}}_k, \gamma)$
+      \STATE $\texttt{append} \ \ \dfrac{2m_k}{m_k^{R} + m_k^{V}}$ to \textbf{PD}
+      \STATE $k \leftarrow k + 1$
+    \ENDFOR
+    \RETURN $(\hat{\bm{\Theta}}, \textbf{PD})$
+  \end{algorithmic}
+  \end{spacing}
+  \label{alg:core_theseus}
+\end{algorithm}
+
+\begin{algorithm}
+  \caption{\texttt{scan\_map}}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\bm{M}, \bm{p}(x, y, \theta), N_s$
+      \ENSURE $\mathcal{S}_V$
+      \STATE $\mathcal{S}_V \leftarrow \{\varnothing\}$
+      \FOR{$n = 0:N_s-1$}
+      \STATE $\lambda_n \leftarrow -\pi + \dfrac{2\pi}{N_s} n$
+      \STATE $\theta_n \leftarrow \lambda_n + \hat{\theta}$
+      \STATE $(x_n,y_n) \leftarrow \texttt{intersect}(\bm{M}, (x,y, \theta_n))$
+      \STATE $d_n \leftarrow \|(x- x_n, y-y_n)\|_2$
+      \STATE \texttt{append} $(d_n, \lambda_n)$ to $\mathcal{S}_V$
+      \ENDFOR
+      \RETURN $\mathcal{S}_V$
+    \end{algorithmic}
+  \end{spacing}
+  \label{alg:scan_map}
+\end{algorithm}
