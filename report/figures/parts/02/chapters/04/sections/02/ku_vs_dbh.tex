@@ -1,6 +1,4 @@
 \definecolor{k}{RGB}{0,0,0}
-\definecolor{g}{RGB}{200,200,200}
-
 % GNUPLOT: LaTeX picture with Postscript
 \begingroup
   \makeatletter
@@ -32,7 +30,7 @@
   % define a \g@addto@macro without @ in the name:
   \let\gplgaddtomacro\g@addto@macro
   % define empty templates for all commands taking text:
-  \gdef\gplfronttext{}%
+  \gdef\gplbacktext{}%
   \gdef\gplfronttext{}%
   \makeatother
   \ifGPblacktext
@@ -82,31 +80,31 @@
     \fi%
     \setlength{\fboxrule}{0.5pt}%
     \setlength{\fboxsep}{1pt}%
-\begin{picture}(4000.00,3000.00)%
-    \gplgaddtomacro\gplfronttext{%
+\begin{picture}(4000.00,3600.00)%
+    \gplgaddtomacro\gplbacktext{%
       \colorrgb{0.00,0.00,0.00}%
-      \put(388,679){\makebox(0,0)[r]{\strut{}$0.1$}}%
+      \put(594,1039){\makebox(0,0)[r]{\strut{}$0.1$}}%
       \colorrgb{0.00,0.00,0.00}%
-      \put(388,1377){\makebox(0,0)[r]{\strut{}$0.3$}}%
+      \put(594,1709){\makebox(0,0)[r]{\strut{}$0.3$}}%
       \colorrgb{0.00,0.00,0.00}%
-      \put(388,2076){\makebox(0,0)[r]{\strut{}$0.5$}}%
+      \put(594,2379){\makebox(0,0)[r]{\strut{}$0.5$}}%
       \colorrgb{0.00,0.00,0.00}%
-      \put(388,2774){\makebox(0,0)[r]{\strut{}$0.7$}}%
+      \put(594,3049){\makebox(0,0)[r]{\strut{}$0.7$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(520,110){\makebox(0,0){\strut{}$360$}}%
+      \put(726,484){\makebox(0,0){\strut{}$360$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(1553,110){\makebox(0,0){\strut{}$720$}}%
+      \put(1685,484){\makebox(0,0){\strut{}$720$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(2586,110){\makebox(0,0){\strut{}$1440$}}%
+      \put(2644,484){\makebox(0,0){\strut{}$1440$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(3619,110){\makebox(0,0){\strut{}$2880$}}%
+      \put(3603,484){\makebox(0,0){\strut{}$2880$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(2069,-220){\makebox(0,0){\strut{}Αριθμός ακτίνων $N_s$}}%
-      \put(1209,3194){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\dfrac{T_{\texttt{DBH}}}{T_{\text{naive}}}$}}%
-      \put(2809,3194){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\dfrac{N_s \log(N_s)}{N_s^3}$}}%
+      \put(2164,154){\makebox(0,0){\strut{}Αριθμός ακτίνων $N_s$}}%
+      \put(2164,3394){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\dfrac{T_{\texttt{DBH}}}{T_{\text{naive}}}$}}%
     }%
+    \gplbacktext
     \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/ku_vs_dbh}}%
     \gplfronttext
   \end{picture}%

@@ -178,7 +178,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.4}Η κλίνη της διακριτικής γωνίας του αισθητήρα}{185}{subsection.7.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.5}Η μέθοδος του Πιτυοκάμπτη Σίνι}{188}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.5}Η μέθοδος του Πιτυοκάμπτη Σίνι}{186}{subsection.7.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.6}Η μέθοδος του Θησέα}{190}{subsection.7.2.6}
 \defcounter {refsection}{0}\relax 
