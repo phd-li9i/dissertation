@@ -35,7 +35,7 @@ $k,\xi \in \mathbb{Z}_{\geq 0}$: $k,\xi \in [0, N_s-1]$:
   \label{eq:Q0}
 \end{align}
 
-Συνεπώς ο αντίστροφος διακριτός μετασχηματισμός Fourier του
+Ο αντίστροφος διακριτός μετασχηματισμός Fourier του
 $Q_{\mathcal{S}_V, \mathcal{S}_R}$ είναι μία Kronecker $\delta$-συνάρτηση
 $q_{\mathcal{S}_V, \mathcal{S}_R} = \mathcal{F}^{-1}\{Q_{\mathcal{S}_V, \mathcal{S}_R}\}$
 με κέντρο $\xi$:
@@ -43,16 +43,58 @@ $q_{\mathcal{S}_V, \mathcal{S}_R} = \mathcal{F}^{-1}\{Q_{\mathcal{S}_V, \mathcal
   \xi = \operatorname*{arg\,max}\limits_u \ q_{\mathcal{S}_V, \mathcal{S}_R}(u)
 \end{align}
 
+Εάν η διαφορά του προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν
+οι σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V$ είναι
+$\Delta\theta = \theta - \hat{\theta}$, τότε
+$\Delta\theta = \xi\gamma + \phi$, όπου
+$\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
+
+\begin{gg_box}
+\begin{remark}
+  \label{remark:02_04_02:01}
+  Για δεδομένο αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για
+  δεδομένη διακριτική γωνία $\gamma$), ενημερώνοντας την εκτίμηση
+  προσανατολισμού $\hat{\theta}$ σε $\hat{\theta}^\prime$:
+  \begin{align}
+    \hat{\theta}^\prime = \hat{\theta} + \xi \gamma \label{eq:update_t1}
+  \end{align}
+  οδηγεί σε ένα επίλοιπο σφάλμα προσανατολισμού $\phi$:
+  \begin{align}
+    |\phi| \leq \dfrac{\gamma}{2}  \label{eq:phi_1}
+  \end{align}
+\end{remark}
+\end{gg_box}
+
 Η παραπάνω μέθοδος εκτίμησης του προσανατολισμού της στάσης
 $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier-Mellin σε μία
-διάσταση.  Ο αλγόριθμος \ref{alg:algorithm_fmrc} παρουσιάζει σε ψευδοκώδικα τη
-διαδικασία διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο.
+διάσταση. Στο σχήμα \ref{fig:02_04_02:rc_fm} απεικονίζεται η αρχική και τελική
+συνθήκη ευθυγράμμισης προσανατολισμού με εφαρμογή της μεθόδου Fourier-Mellin
+μίας διάστασης για έναν αισθητήρα δισδιάστατων πανοραμικών σαρώσεων σε ένα μη
+δομημένο περιβάλλον, του οποίου ο χάρτης το αναπαριστά τέλεια, ενώ οι μετρήσεις
+του αισθητήρα δεν διαταράσσονται από θόρυβο. Ο αλγόριθμος
+\ref{alg:algorithm_fmrc} παρουσιάζει σε ψευδοκώδικα τη διαδικασία διόρθωσης
+προσανατολισμού με βάση την εν λόγω μέθοδο.
+
+\begin{figure}[h]\centering
+  \vspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/02/rc_fm.tex}
+  \vspace{0.5cm}
+  \caption{\small Αριστερά: η αρχική
+           $\hat{\bm{p}}[0] \equiv (\bm{l},\hat{\theta}[0])$ και τελική
+           $\hat{\bm{p}}[1] \equiv (\bm{l},\hat{\theta}[1])$ εκτίμηση στάσης του
+           αισθητήρα σε ένα περιβάλλον με χάρτη $\bm{M}$, για πραγματική στάση
+           $\bm{p}(\bm{l},\theta)$, ως συνέπεια της εφαρμογής της μεθόδου
+           γωνιακής ευθυγράμμισης Fourier-Mellin μίας διάστασης. Δεξιά: το
+           σφάλμα εκτίμησης προσανατολισμού ως συνάρτηση της διακριτικής γωνίας
+           $\gamma$ του αισθητήρα}
+  \label{fig:02_04_02:rc_fm}
+\end{figure}
 
 \begin{algorithm}
   \caption{\texttt{rc\_fm}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
-    \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$
+    \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$
     \ENSURE $\hat{\theta}^\prime$, $q_{\max}$
     %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
     \STATE $q_{\mathcal{S}_V, \mathcal{S}_R} \leftarrow \mathcal{F}^{-1}\{Q_{\mathcal{S}_V, \mathcal{S}_R}\}$ (εξ. \ref{eq:Q0})
@@ -66,50 +108,8 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
 \end{algorithm}
 
 
-\begin{gg_box}
-\begin{remark}
-  \label{remark:02_04_02:01}
-  Εάν η διαφορά του προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν
-  οι σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V$ είναι $\Delta\theta$, τότε
-  $\Delta\theta = \xi\gamma + \phi$, όπου
-  $\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
-  Επομένως, για δεδομένο αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για
-  δεδομένη διακριτική γωνία $\gamma$), ενημερώνοντας την εκτίμηση
-  προσανατολισμού σε $\hat{\theta}^\prime$:
-  \begin{align}
-    \hat{\theta}^\prime = \hat{\theta} + \xi \gamma \label{eq:update_t1}
-  \end{align}
-  οδηγεί σε ένα επίλοιπο σφάλμα προσανατολισμού $\phi$:
-  \begin{align}
-    |\phi| \leq \dfrac{\gamma}{2}  \label{eq:phi_1}
-  \end{align}
-\end{remark}
-\end{gg_box}
-
-Στο σχήμα \ref{fig:02_04_02:rc_fm} απεικονίζεται η αρχική και τελική συνθήκη
-ευθυγράμμισης προσανατολισμού με εφαρμογή της μεθόδου Fourier-Mellin μίας
-διάστασης για έναν αισθητήρα δισδιάστατων πανοραμικών σαρώσεων σε ένα μη
-δομημένο περιβάλλον, του οποίου ο χάρτης το αναπαριστά τέλεια, και οι μετρήσεις
-του αισθητήρα δεν διαταράσσονται από θόρυβο.
-
-\begin{figure}[h]\centering
-  \vspace{0.5cm}
-  \input{./figures/parts/02/chapters/04/sections/02/rc_fm.tex}
-  \vspace{0.5cm}
-  \caption{\small Αριστερά: η αρχική
-           $\hat{\bm{p}}[0] \equiv (\bm{l},\hat{\theta}[0])$ και τελική
-           $\hat{\bm{p}}[1] \equiv (\bm{l},\hat{\theta}[1])$ στάση του
-           αισθητήρα σε ένα περιβάλλον με χάρτη $\bm{M}$, για πραγματική στάση
-           $\bm{p}(\bm{l},\theta)$, ως συνέπεια της εφαρμογής της μεθόδου
-           γωνιακής ευθυγράμμισης Fourier-Mellin μίας διάστασης. Δεξιά: το
-           σφάλμα εκτίμησης προσανατολισμού ως συνάρτηση της διακριτικής γωνίας
-           $\gamma$ του αισθητήρα}
-  \label{fig:02_04_02:rc_fm}
-\end{figure}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Η μέθοδος πρώτων αρχών}
+\subsection{Η μέθοδος Πρώτων Αρχών}
 \label{subsection:02_04_02:02}
 
 Έστω μία δισδιάστατη σάρωση $\mathcal{S}$ που έχει ληφθεί από τη στάση
@@ -194,37 +194,16 @@ $\hat{\bm{p}}(x,y,\hat{\theta})$:
 διαίσθηση ως προς τα μέτρα των τελευταίων κάνουμε την παρατήρηση ότι, εξ
 ορισμού, οι ποσότητες $N_s \delta_x$ και $N_s \delta_y$ ποσοτικοποιούν τη
 διαφορά της προσέγγισης των επικαμπύλιων ολοκληρωμάτων επί των καμπύλων που
-ορίζουν τα τελικά σημεία των δύο σαρώσεων στους δύο κύριους άξονες $x$ και $y$.
-Η προσέγγιση αυτή οφείλεται στο πεπερασμένο μέγεθος των εκπεμπόμενων ακτίνων
-$N_s$. Επομένως υπό τις υποθέσεις ότι (α) ο χάρτης του περιβάλλοντος είναι
-τέλεια αναπαράστασή του και (β) οι μετρήσεις του φυσικού αισθητήρα δεν
+ορίζονται από τα τελικά σημεία των δύο σαρώσεων στους δύο κύριους άξονες $x$
+και $y$.  Η προσέγγιση αυτή οφείλεται στο πεπερασμένο μέγεθος των εκπεμπόμενων
+ακτίνων $N_s$. Επομένως υπό τις υποθέσεις ότι (α) ο χάρτης του περιβάλλοντος
+είναι τέλεια αναπαράστασή του και (β) οι μετρήσεις του φυσικού αισθητήρα δεν
 επηρεάζονται από διαταραχές: καθώς $N_s \rightarrow \infty$, $N_s \delta_x$,
 $N_s \delta_y$ $\rightarrow 0$, τα οποία με τη σειρά τους σημαίνουν λόγω της
 εξίσωσης (\ref{eq:x1_final_big_eq}) ότι
-$\dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} \rightarrow 1$
-και $\theta-\hat{\theta} \rightarrow \angle \mathcal{F}\{\mathcal{S}_R\} - \angle \mathcal{F}\{\mathcal{S}_V\}$.
-
-Η παραπάνω μέθοδος εκτίμησης του προσανατολισμού της στάσης $\bm{p}(x,y,\theta)$
-ονομάζεται στο εξής μέθοδος πρώτων αρχών. Ο αλγόριθμος \ref{alg:algorithm_x1rc}
-παρουσιάζει σε ψευδοκώδικα τη διαδικασία διόρθωσης προσανατολισμού με βάση την
-εν λόγω μέθοδο.
-
-\begin{algorithm}
-  \caption{\texttt{rc\_x1}}
-  \begin{spacing}{1.3}
-  \begin{algorithmic}[1]
-    \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$
-    \ENSURE $\hat{\theta}^\prime$
-    %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
-    \STATE $\bm{R} = \mathcal{F}\{\mathcal{S}_R\}$
-    \STATE $\bm{V} = \mathcal{F}\{\mathcal{S}_V\}$
-    \STATE $\hat{\theta}^\prime \leftarrow \hat{\theta} + \arg(\bm{R}) - \arg(\bm{V})$
-    \RETURN $\hat{\theta}^\prime$
-  \end{algorithmic}
-  \end{spacing}
-  \label{alg:algorithm_x1rc}
-\end{algorithm}
-
+$\dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|}
+\rightarrow 1$ και $\theta-\hat{\theta} \rightarrow \angle
+\mathcal{F}\{\mathcal{S}_R\} - \angle \mathcal{F}\{\mathcal{S}_V\}$.
 
 \begin{gg_box}
 \begin{remark}
@@ -245,18 +224,22 @@ $\dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} \rightar
 \end{remark}
 \end{gg_box}
 
-Στο σχήμα \ref{fig:02_04_02:rc_x1} απεικονίζεται η αρχική και τελική συνθήκη
+Η παραπάνω μέθοδος εκτίμησης του προσανατολισμού της στάσης
+$\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Πρώτων Αρχών.  Στο σχήμα
+\ref{fig:02_04_02:rc_x1} απεικονίζεται η αρχική και τελική συνθήκη
 ευθυγράμμισης προσανατολισμού με εφαρμογή της μεθόδου Πρώτων αρχών για έναν
-αισθητήρα δισδιάστατων πανοραμικών σαρώσεων σε ένα μη δομημένο περιβάλλον, του
-οποίου ο χάρτης το αναπαριστά τέλεια, και οι μετρήσεις του αισθητήρα δεν
-διαταράσσονται από θόρυβο.
+αισθητήρα δισδιάστατων πανοραμικών σαρώσεων, υπό τις ίδιες συνθήκες διεξαγωγής
+μείωσης του σφάλματος προσανατολισμού με αυτές που παρουσιάζονται στο σχήμα
+\ref{fig:02_04_02:rc_fm}. Ο αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει σε
+ψευδοκώδικα τη διαδικασία διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο.
 
 \begin{figure}[h]\centering
+  \vspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/02/rc_x1.tex}
   \vspace{0.5cm}
   \caption{\small Αριστερά: η αρχική
            $\hat{\bm{p}}[0] \equiv (\bm{l},\hat{\theta}[0])$ και τελική
-           $\hat{\bm{p}}[1] \equiv (\bm{l},\hat{\theta}[1])$ στάση του
+           $\hat{\bm{p}}[1] \equiv (\bm{l},\hat{\theta}[1])$ εκτίμηση στάσης του
            αισθητήρα σε ένα περιβάλλον με χάρτη $\bm{M}$, για πραγματική στάση
            $\bm{p}(\bm{l},\theta)$, ως συνέπεια της εφαρμογής της μεθόδου
            γωνιακής ευθυγράμμισης Πρώτων Αρχών. Δεξιά: το σφάλμα εκτίμησης
@@ -264,6 +247,22 @@ $\dfrac{|\mathcal{F}\{\mathcal{S}_V\}|}{|\mathcal{F}\{\mathcal{S}_R\}|} \rightar
            αισθητήρα}
   \label{fig:02_04_02:rc_x1}
 \end{figure}
+
+\begin{algorithm}
+  \caption{\texttt{rc\_x1}}
+  \begin{spacing}{1.3}
+  \begin{algorithmic}[1]
+    \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$
+    \ENSURE $\hat{\theta}^\prime$
+    %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
+    \STATE $\bm{R} = \mathcal{F}\{\mathcal{S}_R\}$
+    \STATE $\bm{V} = \mathcal{F}\{\mathcal{S}_V\}$
+    \STATE $\hat{\theta}^\prime \leftarrow \hat{\theta} + \arg(\bm{R}) - \arg(\bm{V})$
+    \RETURN $\hat{\theta}^\prime$
+  \end{algorithmic}
+  \end{spacing}
+  \label{alg:algorithm_x1rc}
+\end{algorithm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Η μέθοδος του Προκρούστη}
@@ -279,8 +278,15 @@ $\bm{P}_R$. Η περιστροφή της στάσης $\hat{\bm{p}}$ που ε
 πίνακες εισόδου $\bm{P}_V$ και $\bm{P}_R$. Στην περίπτωση που ο πίνακας
 μετασχηματισμού περιορίζεται στο να έχει τη δομή πίνακα περιστροφής $\bm{R}$:
 $\det{(\bm{R})} = 1$, το πρόβλημα ευθυγράμμισης ονομάζεται Περιορισμένο
-Ορθογώνιο Προσκρούστειο πρόβλημα. Η λύση του δίνεται στο \cite{Umeyama1991} και
-περιγράφεται παρακάτω.
+Ορθογώνιο Προσκρούστειο πρόβλημα.
+
+Σε αυτή την ενότητα αναζητούμε την λύση αυτού του τελευταίου προβλήματος ως
+μέσο επίλυσης του προβλήματος ??, διότι ο περιορισμός του πίνακα
+μετασχηματισμού σε πίνακα περιστροφής δίνει τη δυνατότητα προσδιορισμού της
+γωνίας περιστροφής της εκτίμησης στάσης από την οποία το εικονικό διάνυσμα
+σαρώσεων εμφανίζει τη βέλτιστη ευθυγράμμιση με το πραγματικό διάνυσμα
+$\mathcal{S}_R$. Η λύση του Περιορισμένου Ορθογώνιου Προσκρούστειου προβλήματος
+δίνεται στο \cite{Umeyama1991} και περιγράφεται παρακάτω.
 
 Δεδομένου ότι στα συμφραζόμενα του προβλήματός ?? μας η θέση $\bm{l}$ είναι
 άγνωστη, τα τελικά σημεία κάθε σάρωσης λαμβάνονται με την προβολή κάθε σάρωσης
@@ -366,8 +372,8 @@ $\odot$ υποδηλώνει τον πολλαπλασιασμό κατά στο
   \bm{m}_{21} = \mathcal{F}^{-1}\{ \mathcal{F}\{\bm{p}_R^x\} \odot \mathcal{F}\{\bm{p}_V^y\} \} \} \nonumber \\
   \bm{m}_{22} = \mathcal{F}^{-1}\{ \mathcal{F}\{\bm{p}_R^y\} \odot \mathcal{F}\{\bm{p}_V^y\} \} \} \nonumber
 \end{align}
-Μετά τον υπολογισμό των πινάκων $\bm{m}_{kl}$, $k,l = 1,2$, υπολογίζονται
-$N_s$ πίνακες μεγέθους $2\times2$ σύμφωνα με:
+Μετά τον υπολογισμό των διανυσμάτων $\bm{m}_{kl}$, $k,l = 1,2$, υπολογίζονται
+$N_s$ πίνακες $\bm{M}_j$, μεγέθους $2\times2$, σύμφωνα με:
 \begin{align}
   \bm{M}_j =
   \begin{bmatrix}
@@ -388,39 +394,83 @@ $\bm{P}_R (\bm{P}_V^{N_s-1-j})^\top$, όπου ο συμβολισμός $\bm{A}
 \ref{corollary:umeyama}. Έστω ότι το μέγιστο ίχνος καταγράφεται για τον δείκτη
 $J$, τότε η περιστροφή της στάσης $\hat{\bm{p}}$ κατά $(N_s-1-J)\gamma =
 \psi\gamma$ επιτυγχάνει το ίδιο αποτέλεσμα με την ευθεία μέθοδο υψηλότερης
-πολυπλοκότητας για μία δεδομένη διακριτική γωνία $\gamma$.
+πολυπλοκότητας για μία δεδομένη διακριτική γωνία $\gamma$. Εάν η διαφορά του
+προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν οι σαρώσεις
+$\mathcal{S}_R$ και $\mathcal{S}_V$ είναι $\Delta\theta = \theta-\hat{\theta}$,
+τότε $\Delta\theta = (N_s-1-J)\gamma + \phi$, όπου
+$\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
+
+
+\begin{gg_box}
+\begin{remark}
+  \label{remark:02_04_02:03}
+  Για δεδομένο αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για δεδομένη
+  διακριτική γωνία $\gamma$), ενημερώνοντας την εκτίμηση προσανατολισμού σε
+  $\hat{\theta}^\prime$:
+  \begin{align}
+    \hat{\theta}^\prime = \hat{\theta} + (N_s-1-J) \gamma \label{eq:update_t3}
+  \end{align}
+  οδηγεί σε ένα επίλοιπο σφάλμα προσανατολισμού $\phi$:
+  \begin{align}
+    |\phi| \leq \dfrac{\gamma}{2}  \label{eq:phi_3}
+  \end{align}
+\end{remark}
+\end{gg_box}
 
 Η παραπάνω μέθοδος εκτίμησης του προσανατολισμού της στάσης $\bm{p}(x,y,\theta)$
 ονομάζεται στο εξής μέθοδος του Προκρούστη. Στο σχήμα
 \ref{fig:02_04_02:ku_vs_dbh} απεικονίζεται το κέρδος της εφαρμογής της μεθόδου
 DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλεσης για αύξοντες αριθμούς
-εκπεμπόμενων ακτίνων $N_s$ από τον αισθητήρα σάρωσης.
+εκπεμπόμενων από τον αισθητήρα σάρωσης ακτίνων $N_s$.
 
 \begin{figure}[h]\centering
   \vspace{1.0cm}
   \input{./figures/parts/02/chapters/04/sections/02/ku_vs_dbh.tex}
   \vspace{0.5cm}
   \caption{\small Με μαύρο χρώμα το ποσοστό του χρόνου εκτέλεσης της μεθόδου
-           ευθυγράμμισης Προκρούστη με και χωρίς την εφαρμογή της μεθόδου DBH
-           για αυξανόμενο αριθμό εκπεμπόμενων ακτίνων του αισθητήρα σάρωσης,
-           και με γκρι η καμπύλη του κέρδους σε πολυπλοκότητα χρόνου εκτέλεσης}
+           ευθυγράμμισης Προκρούστη με την εφαρμογή της μεθόδου DBH προς το
+           χρόνο εκτέλεσης χωρίς την εφαρμογή της, για αυξανόμενο αριθμό
+           εκπεμπόμενων ακτίνων του αισθητήρα σάρωσης. Με γκρι σημειώνεται
+           η καμπύλη του θεωρητικού κέρδους σε χρόνου εκτέλεσης}
   \label{fig:02_04_02:ku_vs_dbh}
 \end{figure}
 
-Ο αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει σε ψευδοκώδικα τη διαδικασία
-διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο. Ο αλγόριθμος
-\ref{alg:algorithm_core_ufrc} παρουσιάζει σε ψευδοκώδικα τη μέθοδο DBH.
+Στο σχήμα \ref{fig:02_04_02:rc_uf} απεικονίζεται η αρχική και τελική συνθήκη
+ευθυγράμμισης προσανατολισμού με εφαρμογή της μεθόδου Προκρούστη για έναν
+αισθητήρα δισδιάστατων πανοραμικών σαρώσεων σε ένα μη δομημένο περιβάλλον, του
+οποίου ο χάρτης το αναπαριστά τέλεια, ενώ οι μετρήσεις του αισθητήρα δεν
+διαταράσσονται από θόρυβο. Ο αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει
+σε ψευδοκώδικα τη διαδικασία διόρθωσης προσανατολισμού με βάση την εν λόγω
+μέθοδο. Ο αλγόριθμος \ref{alg:algorithm_core_ufrc} παρουσιάζει σε ψευδοκώδικα
+τη μέθοδο DBH.
+
+\begin{figure}[h]\centering
+  \vspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/02/rc_uf.tex}
+  \vspace{0.5cm}
+  \caption{\small Αριστερά: η αρχική
+           $\hat{\bm{p}}[0] \equiv (\bm{l},\hat{\theta}[0])$ και τελική
+           $\hat{\bm{p}}[1] \equiv (\bm{l},\hat{\theta}[1])$ εκτίμηση στάσης του
+           αισθητήρα σε ένα περιβάλλον με χάρτη $\bm{M}$, για πραγματική στάση
+           $\bm{p}(\bm{l},\theta)$, ως συνέπεια της εφαρμογής της μεθόδου
+           γωνιακής ευθυγράμμισης Προκρούστη. Δεξιά: το σφάλμα εκτίμησης
+           προσανατολισμού ως συνάρτηση της διακριτικής γωνίας $\gamma$ του
+           αισθητήρα}
+  \label{fig:02_04_02:rc_uf}
+\end{figure}
+
 
 \begin{algorithm}[h]
   \caption{\texttt{rc\_uf}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
-    \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$
+    \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$
     \ENSURE $\hat{\theta}^\prime$, $T$
     %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
     \STATE $\bm{P}_R \leftarrow \texttt{project}(\mathcal{S}_R, (0,0,0))$
     \STATE $\bm{P}_V \leftarrow \texttt{project}(\mathcal{S}_V, (0,0,0))$
     \STATE $(J,T) \leftarrow \texttt{rc\_uf\_core}(\bm{P}_R, \bm{P}_V)$ (Αλγόριθμος \ref{alg:algorithm_core_ufrc})
+    \STATE $N_s = 2 \pi / \gamma$
     \STATE $\psi = N_s - 1 - J$
     \STATE $\hat{\theta}^\prime \leftarrow \hat{\theta} + \psi \gamma$
     \RETURN $(\hat{\theta}^\prime, T)$
@@ -441,10 +491,10 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
     \STATE $\bm{p}_R^y \leftarrow \text{second row of } \bm{P}_R$
     \STATE $\bm{p}_V^x \leftarrow \text{first row of } \bm{P}_V$
     \STATE $\bm{p}_V^y \leftarrow \text{second row of } \bm{P}_V$
-    \STATE $\bm{m}_{11} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^x) \odot \texttt{DFT}(\bm{p}_V^x))$
-    \STATE $\bm{m}_{12} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^y) \odot \texttt{DFT}(\bm{p}_V^x))$
-    \STATE $\bm{m}_{21} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^x) \odot \texttt{DFT}(\bm{p}_V^y))$
-    \STATE $\bm{m}_{22} \leftarrow \texttt{IDFT}(\texttt{DFT}(\bm{p}_R^y) \odot \texttt{DFT}(\bm{p}_V^y))$
+    \STATE $\bm{m}_{11} \leftarrow \mathcal{F}^{-1}\{\mathcal{F}\{\bm{p}_R^x\} \odot \mathcal{F}\{\bm{p}_V^x\}\}$
+    \STATE $\bm{m}_{12} \leftarrow \mathcal{F}^{-1}\{\mathcal{F}\{\bm{p}_R^y\} \odot \mathcal{F}\{\bm{p}_V^x\}\}$
+    \STATE $\bm{m}_{21} \leftarrow \mathcal{F}^{-1}\{\mathcal{F}\{\bm{p}_R^x\} \odot \mathcal{F}\{\bm{p}_V^y\}\}$
+    \STATE $\bm{m}_{22} \leftarrow \mathcal{F}^{-1}\{\mathcal{F}\{\bm{p}_R^y\} \odot \mathcal{F}\{\bm{p}_V^y\}\}$
     \STATE $\bm{T} \leftarrow \{\varnothing\}$
     \FOR{\texttt{$j = 0:N_s-1$}}
       \vspace{0.1cm}
@@ -467,46 +517,6 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
 \end{algorithm}
 
 
-\begin{gg_box}
-\begin{remark}
-  \label{remark:02_04_02:03}
-  Εάν η διαφορά του προσανατολισμού μεταξύ των στάσεων από τις οποίες ελήφθησαν οι
-  σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V$ είναι $\Delta\theta$, τότε
-  $\Delta\theta = (N_s-1-J)\gamma + \phi$, όπου
-  $\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
-  Επομένως, για δεδομένο αριθμό εκπεμπόμενων ακτίνων $N_s$ (ισοδύναμα, για
-  δεδομένη διακριτική γωνία $\gamma$), ενημερώνοντας την εκτίμηση
-  προσανατολισμού σε $\hat{\theta}^\prime$:
-  \begin{align}
-    \hat{\theta}^\prime = \hat{\theta} + (N_s-1-J) \gamma \label{eq:update_t3}
-  \end{align}
-  οδηγεί σε ένα επίλοιπο σφάλμα προσανατολισμού $\phi$:
-  \begin{align}
-    |\phi| \leq \dfrac{\gamma}{2}  \label{eq:phi_3}
-  \end{align}
-\end{remark}
-\end{gg_box}
-
-
-Στο σχήμα \ref{fig:02_04_02:rc_uf} απεικονίζεται η αρχική και τελική συνθήκη
-ευθυγράμμισης προσανατολισμού με εφαρμογή της μεθόδου Προκρούστη για έναν
-αισθητήρα δισδιάστατων πανοραμικών σαρώσεων σε ένα μη δομημένο περιβάλλον, του
-οποίου ο χάρτης το αναπαριστά τέλεια, και οι μετρήσεις του αισθητήρα δεν
-διαταράσσονται από θόρυβο.
-
-\begin{figure}[h]\centering
-  \input{./figures/parts/02/chapters/04/sections/02/rc_uf.tex}
-  \vspace{0.5cm}
-  \caption{\small Αριστερά: η αρχική
-           $\hat{\bm{p}}[0] \equiv (\bm{l},\hat{\theta}[0])$ και τελική
-           $\hat{\bm{p}}[1] \equiv (\bm{l},\hat{\theta}[1])$ στάση του
-           αισθητήρα σε ένα περιβάλλον με χάρτη $\bm{M}$, για πραγματική στάση
-           $\bm{p}(\bm{l},\theta)$, ως συνέπεια της εφαρμογής της μεθόδου
-           γωνιακής ευθυγράμμισης Προκρούστη. Δεξιά: το σφάλμα εκτίμησης
-           προσανατολισμού ως συνάρτηση της διακριτικής γωνίας $\gamma$ του
-           αισθητήρα}
-  \label{fig:02_04_02:rc_uf}
-\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -515,7 +525,7 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
 
 Η μέθοδος Fourier-Mellin σε μία διάσταση (ενότητα \ref{subsection:02_04_02:01})
 και η μέθοδος του Προκρούστη (ενότητα \ref{subsection:02_04_02:03}), σε
-αντίθεση με την μέθοδο πρώτων αρχών (ενότητα \ref{subsection:02_04_02:02}),
+αντίθεση με την μέθοδο Πρώτων Αρχών (ενότητα \ref{subsection:02_04_02:02}),
 είναι διακριτές μέθοδοι εκτίμησης υπό την έννοια ότι λειτουργούν
 \textit{μειώνοντας την αρχική εκτίμηση προσανατολισμού κατά ακέραια πολλαπλάσια
 της σταθεράς διακριτικής γωνίας $\gamma$}, με αποτέλεσμα αυθαίρετα επίλοιπα
@@ -736,7 +746,7 @@ $2^\nu$ φορές. Η διόρθωση προσανατολισμού πραγ�
 Για τη μέθοδο Fourier-Mellin μίας διάστασης και τη μέθοδο του Προκρούστη, η
 μετρική ευθυγράμμισης μεταξύ της $k$-οστής εικονικής σάρωσης και της
 πραγματικής σάρωσης υπολογίζεται σύμφωνα το Ποσοστό Διάκρισης (Percent
-Discrimination---PD). Για τη μέθοδο πρώτων αρχών η σύγκριση ανάμεσα
+Discrimination---PD). Για τη μέθοδο Πρώτων Αρχών η σύγκριση ανάμεσα
 στις σαρώσεις $\mathcal{S}_R$ και $\mathcal{S}_V^k$ δεν είναι δόκιμη, καθώς
 αποτελεί μέθοδο συνεχούς χώρου, και συνεπώς δεν ορίζεται μετρική ευθυγράμμισης.
 
@@ -811,10 +821,10 @@ $\texttt{rc} = \{\texttt{rc\_fm}, \texttt{rc\_uf}\}$.
     \FOR{$k = 0 : 2^\nu-1$}
       \STATE $\hat{\bm{p}}_k \leftarrow (x, y, \hat{\theta} + k \cdot \gamma/2^\nu)$
       \STATE $\mathcal{S}_V^k \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}_k, N_s)$
-      \STATE $(\cdot, m_k) \leftarrow \texttt{rc}(\bm{M}, \mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}_k, \gamma, N_s)$
+      \STATE $(\cdot, m_k) \leftarrow \texttt{rc}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}_k, \gamma)$
       \STATE $\texttt{append} \ \ \hat{\theta}_k = \hat{\theta} + 2\pi m_k/N_s + k \cdot \gamma/2^\nu$ to $\hat{\bm{\Theta}}$
-      \STATE $(\cdot,m_k^{R}) \leftarrow \texttt{rc}(\bm{M}, \mathcal{S}_R, \mathcal{S}_R, \hat{\bm{p}}_k, \gamma, N_s)$
-      \STATE $(\cdot,m_k^{V}) \leftarrow \texttt{rc}(\bm{M}, \mathcal{S}_V^k, \mathcal{S}_V^k, \hat{\bm{p}}_k, \gamma, N_s)$
+      \STATE $(\cdot,m_k^{R}) \leftarrow \texttt{rc}(\mathcal{S}_R, \mathcal{S}_R, \hat{\bm{p}}_k, \gamma)$
+      \STATE $(\cdot,m_k^{V}) \leftarrow \texttt{rc}(\mathcal{S}_V^k, \mathcal{S}_V^k, \hat{\bm{p}}_k, \gamma)$
       \STATE $\texttt{append} \ \ \dfrac{2m_k}{m_k^{R} + m_k^{V}}$ to \textbf{PD}
       \STATE $k \leftarrow k + 1$
     \ENDFOR
