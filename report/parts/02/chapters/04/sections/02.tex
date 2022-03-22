@@ -223,15 +223,26 @@ $\dfrac{|\mathcal{F}_1\{\mathcal{S}_V\}|}{|\mathcal{F}_1\{\mathcal{S}_R\}|}
   \end{align}
   οδηγεί σε ένα επίλοιπο σφάλμα προσανατολισμού $\phi$:
   \begin{align}
-    \phi &= \tan^{-1}\dfrac{N_s \delta_x \tan(\theta - \angle \mathcal{F}_1\{\mathcal{S}_R\}) - N_s \delta_y}{|\mathcal{F}_1\{\mathcal{S}_R\}| + N_s \delta_x + N_s \delta_y \tan(\theta - \angle \mathcal{F}_1\{\mathcal{S}_R\})} \label{eq:phi2}
+    %\phi &= \tan^{-1}\dfrac{N_s \delta_x \tan(\theta - \angle \mathcal{F}_1\{\mathcal{S}_R\}) - N_s \delta_y}{|\mathcal{F}_1\{\mathcal{S}_R\}| + N_s \delta_x + N_s \delta_y \tan(\theta - \angle \mathcal{F}_1\{\mathcal{S}_R\})} \label{eq:phi2}
+    \phi &= \angle \mathcal{F}_1\{\mathcal{S}_V\} - \tan^{-1}\dfrac{|\mathcal{F}_1\{\mathcal{S}_V\}| \sin(\angle \mathcal{F}_1\{\mathcal{S}_V\})-N_s |\delta| \sin(\hat{\theta} + \angle \delta)}
+                                                                 {|\mathcal{F}_1\{\mathcal{S}_V\}| \cos(\angle \mathcal{F}_1\{\mathcal{S}_V\})-N_s |\delta| \cos(\hat{\theta} + \angle \delta)} \label{eq:phi2}
   \end{align}
-  του οποίου το μέτρο είναι αντιστρόφως ανάλογο του αριθμού των ακτίνων $N_s$ που
+  όπου $\delta = \delta_x - i \cdot \delta_y$. Το μέτρο του σφάλματος $|\phi|$
+  είναι αντιστρόφως ανάλογο του αριθμού των ακτίνων $N_s$ που
   εκπέμπει ο αισθητήρας στην περίπτωση που τόσο η πραγματική μέτρηση
   $\mathcal{S}_R$ όσο και η εικονική σάρωση $\mathcal{S}_V$ δεν διαταράσσονται
   από θόρυβο.
   \label{remark:02_04_02:02}
 \end{remark}
 \end{gg_box}
+
+\begin{figure}[h]\centering
+  \vspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/02/phi_rc_x1.tex}
+  \vspace{1.0cm}
+  \caption{}
+  \label{fig:02_04_02:phi_rc_x1}
+\end{figure}
 
 Η παραπάνω μέθοδος εκτίμησης του προσανατολισμού της στάσης
 $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Πρώτων Αρχών.  Στο σχήμα
@@ -477,7 +488,7 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
 \end{figure}
 
 
-\begin{algorithm}[h]
+\begin{algorithm}
   \caption{\texttt{rc\_uf}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
@@ -497,7 +508,7 @@ DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλ
 \end{algorithm}
 
 
-\begin{algorithm}[h]
+\begin{algorithm}
   \caption{\texttt{rc\_uf\_core}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
