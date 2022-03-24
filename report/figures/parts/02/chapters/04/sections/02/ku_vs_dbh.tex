@@ -30,7 +30,7 @@
   % define a \g@addto@macro without @ in the name:
   \let\gplgaddtomacro\g@addto@macro
   % define empty templates for all commands taking text:
-  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
   \gdef\gplfronttext{}%
   \makeatother
   \ifGPblacktext
@@ -80,8 +80,8 @@
     \fi%
     \setlength{\fboxrule}{0.5pt}%
     \setlength{\fboxsep}{1pt}%
-\begin{picture}(4000.00,3600.00)%
-    \gplgaddtomacro\gplbacktext{%
+  \begin{picture}(4000.00,3600.00)%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.00,0.00,0.00}%
       \put(594,1039){\makebox(0,0)[r]{\strut{}$0.1$}}%
       \colorrgb{0.00,0.00,0.00}%
@@ -104,7 +104,6 @@
       \put(2164,154){\makebox(0,0){\strut{}Αριθμός ακτίνων $N_s$}}%
       \put(2164,3394){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\dfrac{T_{\texttt{DBH}}}{T_{\text{naive}}}$}}%
     }%
-    \gplbacktext
     \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/ku_vs_dbh}}%
     \gplfronttext
   \end{picture}%
