@@ -11,15 +11,16 @@ $\mathcal{S}_R$ μπορεί να βρεθεί μέσω των μεθόδων π
 
 Στα συμφραζόμενα του παρόντος κεφαλαίου, έστω $\mathcal{F}\{\mathcal{S}\}$ ο
 διακριτός μετασχηματισμός Fourier του σήματος $\mathcal{S}$,
-$\mathcal{F}^{-1}\{\mathcal{S}\}$ ο αντίστροφός του, $\bm{c}^\ast$ ο συζυγής
-του μιγαδικού αριθμού $\bm{c}$, $|\bm{c}|$ το μέτρο του, και $i$ η φανταστική
-μονάδα.
+$\mathcal{F}^{-1}\{\mathcal{S}\}$ ο αντίστροφός του,
+$\mathcal{F}_1\{\mathcal{S}\}$ ο πρώτος όρος του μετασχηματισμού (υποθέτωντας
+αρίθμηση από το μηδέν), $\bm{c}^\ast$ ο συζυγής του μιγαδικού αριθμού $\bm{c}$,
+$|\bm{c}|$ το μέτρο του, και $i$ η φανταστική μονάδα.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Η μέθοδος Fourier-Mellin σε μία διάσταση}
 \label{subsection:02_04_02:01}
 
-Έστω ότι ο χώρος δειγματοληπτείται αρκετά πυκνά γωνιακά, τότε για
+Έστω ότι ο χώρος δειγματοληπτείται επαρκώς πυκνά γωνιακά, τότε για
 $k,\xi \in \mathbb{Z}_{\geq 0}$: $k,\xi \in [0, N_s-1]$:
 \begin{align}
   \mathcal{S}_V[k] &\simeq \mathcal{S}_R[(k - \xi) \mod N_s] \Rightarrow \nonumber \\
@@ -114,7 +115,6 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
   \begin{algorithmic}[1]
     \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$
     \ENSURE $\hat{\theta}^\prime$, $q_{\max}$
-    %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
     \STATE $q_{\mathcal{S}_V, \mathcal{S}_R} \leftarrow \mathcal{F}^{-1}\{Q_{\mathcal{S}_V, \mathcal{S}_R}\}$ (εξ. \ref{eq:Q0})
     \STATE $\xi = \operatorname*{arg\,max} \ q_{\mathcal{S}_V, \mathcal{S}_R}$
     \STATE $q_{\max} \leftarrow q_{\mathcal{S}_V, \mathcal{S}_R}[\xi] = \max q_{\mathcal{S}_V, \mathcal{S}_R}$
@@ -199,7 +199,7 @@ $\hat{\bm{p}}(x,y,\hat{\theta})$:
 \end{align}
 άρα
 \begin{align}
-  -\mathcal{F}_1\{\mathcal{S}_V\} &= -e^{-i(\theta-\hat{\theta})} \mathcal{F}_1\{\mathcal{S}_R\}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber \\
+  -\mathcal{F}_1\{\mathcal{S}_V\} &= -e^{-i(\theta-\hat{\theta})} \mathcal{F}_1\{\mathcal{S}_R\}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \label{eq:x1_for_proof} \\
   e^{-i(\theta-\hat{\theta})} &= \dfrac{\mathcal{F}_1\{\mathcal{S}_V\}}{\mathcal{F}_1\{\mathcal{S}_R\}} - \dfrac{N_s e^{i\hat{\theta}}}{\mathcal{F}_1\{\mathcal{S}_R\}}(\delta_x - i\cdot \delta_y) \nonumber
 \end{align}
 Χρησιμοποιώντας την πολική αναπαράσταση $\bm{A} = |\bm{A}| e^{i\angle \bm{A}}$:
@@ -244,6 +244,7 @@ $\dfrac{|\mathcal{F}_1\{\mathcal{S}_V\}|}{|\mathcal{F}_1\{\mathcal{S}_R\}|}
   \label{lemma:02_04_02:02}
 \end{lemma}
 
+Η απόδειξη βρίσκεται στο παράρτημα \ref{appendix:04:lemma_01_proof}.
 
 \begin{corollary}
   Το μέτρο του σφάλματος $|\phi|$ είναι αντιστρόφως ανάλογο του αριθμού των

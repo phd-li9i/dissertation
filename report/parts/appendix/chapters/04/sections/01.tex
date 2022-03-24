@@ -1,0 +1,48 @@
+Έστω $\theta = \hat{\theta} + \phi_0$, όπου $\phi_0$ είναι το αρχικό σφάλμα
+εκτίμησης. Τότε η εξίσωση (\ref{eq:x1_for_proof}):
+\begin{align}
+  -\mathcal{F}_1\{\mathcal{S}_V\} &= -e^{-i(\theta-\hat{\theta})} \mathcal{F}_1\{\mathcal{S}_R\}- N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber\\
+  \mathcal{F}_1\{\mathcal{S}_V\} &= e^{-i\phi_0} \mathcal{F}_1\{\mathcal{S}_R\}+ N_s e^{i\hat{\theta}}(\delta_x - i\cdot \delta_y) \nonumber
+\end{align}
+
+Έστω $\delta = \delta_x - i \cdot \delta_y$. Τότε
+\begin{align}
+  e^{i\phi_0} &= \dfrac{\mathcal{F}_1\{\mathcal{S}_R\}}{\mathcal{F}_1\{\mathcal{S}_V\} - N_s e^{i\hat{\theta}}\delta}  \label{eq:appendix:02:04:01_01}
+\end{align}
+
+Έστω $B = \mathcal{F}_1\{\mathcal{S}_V\} - N_s e^{i\hat{\theta}}\delta$ ο
+παρονομαστής της εξίσωσης (\ref{eq:appendix:02:04:01_01}). Τότε
+\begin{align}
+  B &= |\mathcal{F}_1\{\mathcal{S}_V\}| e^{i\angle \mathcal{F}_1\{\mathcal{S}_V\}} - N_s e^{i\hat{\theta}}|\delta| e^{i \angle \delta} \nonumber \\
+    &= [ |\mathcal{F}_1\{\mathcal{S}_V\}| \cos(\angle \mathcal{F}_1\{\mathcal{S}_V\}) - N_s |\delta| \cos(\hat{\theta} + \angle\delta) ] \nonumber \\
+    &+ i\cdot [ |\mathcal{F}_1\{\mathcal{S}_V\}| \sin(\angle \mathcal{F}_1\{\mathcal{S}_V\}) - N_s |\delta| \sin(\hat{\theta} + \angle\delta) ] \nonumber \\
+    &= |B| e^{i \angle B}
+\end{align}
+όπου
+\begin{align}
+  |B| = |\mathcal{F}_1\{\mathcal{S}_V\}|^2 + N_s^2|\delta|^2 -2 |\mathcal{F}_1\{\mathcal{S}_V\}| N_s |\delta| \cos(\angle \mathcal{F}_1\{\mathcal{S}_V\}-\hat{\theta} - \angle\delta) \nonumber
+\end{align}
+και
+\begin{align}
+  \angle B = \tan^{-1} \dfrac{ |\mathcal{F}_1\{\mathcal{S}_V\}| \sin(\angle \mathcal{F}_1\{\mathcal{S}_V\}) - N_s |\delta| \sin(\hat{\theta} + \angle\delta)}{|\mathcal{F}_1\{\mathcal{S}_V\}| \cos(\angle \mathcal{F}_1\{\mathcal{S}_V\}) - N_s |\delta| \cos(\hat{\theta} + \angle\delta)} \label{eq:appendix:02:04:01_02}
+\end{align}
+
+Τότε η εξίσωση (\ref{eq:appendix:02:04:01_01}) γίνεται
+\begin{align}
+  e^{i\phi_0} &= \dfrac{\mathcal{F}_1\{\mathcal{S}_R\}}{B} \nonumber \\
+  e^{i\phi_0} &= \dfrac{|\mathcal{F}_1\{\mathcal{S}_R\}| e^{i \angle \mathcal{F}_1\{\mathcal{S}_R\}}}{|B| e^{i \angle B}} \nonumber \\
+  e^{i\phi_0} &= \dfrac{|\mathcal{F}_1\{\mathcal{S}_R\}|}{|B|}e^{i \angle \mathcal{F}_1\{\mathcal{S}_R\} - \angle B} \nonumber \\
+       \phi_0 &= \angle \mathcal{F}_1\{\mathcal{S}_R\} - \angle B \label{eq:appendix:02:04:01_03}
+\end{align}
+Όμως, λόγω των εξισώσεων $\theta = \hat{\theta} + \phi_0$ και
+(\ref{eq:update_t2}):
+\begin{align}
+  \theta &= \hat{\theta}^\prime + \phi \nonumber \\
+  \theta &= \hat{\theta} + \angle \mathcal{F}_1\{\mathcal{S}_R\} - \angle\mathcal{F}_1\{\mathcal{S}_V\} + \phi \nonumber \\
+  \phi_0 &= \angle \mathcal{F}_1\{\mathcal{S}_R\} - \angle\mathcal{F}_1\{\mathcal{S}_V\} + \phi \nonumber \\
+  \angle \mathcal{F}_1\{\mathcal{S}_R\} - \angle B &\leftstackrel{(\ref{eq:appendix:02:04:01_03})}{=} \angle \mathcal{F}_1\{\mathcal{S}_R\} - \angle\mathcal{F}_1\{\mathcal{S}_V\} + \phi \nonumber \\
+  - \angle B &= - \angle\mathcal{F}_1\{\mathcal{S}_V\} + \phi \nonumber \\
+  \phi &= \angle\mathcal{F}_1\{\mathcal{S}_V\} - \angle B  \nonumber \\
+  \phi &\leftstackrel{(\ref{eq:appendix:02:04:01_02})}{=} \angle\mathcal{F}_1\{\mathcal{S}_V\} - \tan^{-1} \dfrac{ |\mathcal{F}_1\{\mathcal{S}_V\}| \sin(\angle \mathcal{F}_1\{\mathcal{S}_V\}) - N_s |\delta| \sin(\hat{\theta} + \angle\delta)}{|\mathcal{F}_1\{\mathcal{S}_V\}| \cos(\angle \mathcal{F}_1\{\mathcal{S}_V\}) - N_s |\delta| \cos(\hat{\theta} + \angle\delta)} \nonumber \\
+\end{align}
+\qedsymbol
