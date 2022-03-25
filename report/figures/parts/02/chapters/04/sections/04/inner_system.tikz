@@ -1,0 +1,92 @@
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,542); %set diagram left start at 0, and has height of 542
+
+%Straight Lines [id:da5372026622110897]
+\draw    (126.5,63) -- (126.5,329.29) ;
+%Straight Lines [id:da7972290663823844]
+\draw    (260.5,64) -- (260.5,108) ;
+\draw [shift={(260.5,110)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da2357744220142839]
+\draw    (260.5,138.86) -- (260.5,167.86) ;
+\draw [shift={(260.5,169.86)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da9232696254114303]
+\draw    (352.5,193.29) -- (328.5,193.29) ;
+\draw [shift={(326.5,193.29)}, rotate = 359.69] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7890748320756154]
+\draw    (259.5,278.86) -- (259.5,311.86) ;
+\draw [shift={(259.5,313.86)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da3579629949332166]
+\draw    (260.5,342.86) -- (260.5,364.86) ;
+\draw [shift={(260.5,366.86)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8737381615370248]
+\draw    (141.5,63) -- (141.5,329.29) ;
+%Straight Lines [id:da6971384120103545]
+\draw    (156.5,63) -- (156.5,329.29) ;
+%Straight Lines [id:da8422749343405824]
+\draw    (178.5,126.4) -- (156.5,126.4) ;
+\draw [shift={(156.5,126.4)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]      (0, 0) circle [x radius= 1.35, y radius= 1.35]   ;
+\draw [shift={(180.5,126.4)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da4007753539436163]
+\draw    (156.5,126.4) -- (141.5,126.4) ;
+\draw [shift={(141.5,126.4)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]      (0, 0) circle [x radius= 1.35, y radius= 1.35]   ;
+%Straight Lines [id:da579363628601445]
+\draw    (141.5,126.4) -- (126.5,126.4) ;
+%Straight Lines [id:da5833842782446357]
+\draw    (357.5,329.43) -- (333.5,329.43) ;
+\draw [shift={(331.5,329.43)}, rotate = 359.69] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7806442385955334]
+\draw    (260.5,214.86) -- (260.5,246.86) ;
+\draw [shift={(260.5,248.86)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da6458571735202372]
+\draw    (194.5,194.4) -- (156.5,194.4) ;
+\draw [shift={(156.5,194.4)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][fill={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]      (0, 0) circle [x radius= 1.35, y radius= 1.35]   ;
+\draw [shift={(196.5,194.4)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da3539392704501798]
+\draw    (156.5,194.5) -- (141.5,194.5) ;
+%Straight Lines [id:da41656320353747733]
+\draw    (185.5,329.4) -- (126.5,329.4) ;
+\draw [shift={(187.5,329.4)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Shape: Rectangle [id:dp8185193791005427]
+\draw  [dash pattern={on 0.84pt off 2.51pt}] (105,75) -- (424,75) -- (424,350) -- (105,350) -- cycle ;
+\draw (360,65) node  {One-step Pose Correction};
+
+% Text Node
+\draw    (184,114) -- (339,114) -- (339,139) -- (184,139) -- cycle  ;
+\draw (189,120) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ \ Orientation Correction};
+% Text Node
+\draw (119,47) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\nu$};
+% Text Node
+\draw (131,44) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\mathcal{S}_{R}$};
+% Text Node
+\draw (258,40.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}$};
+% Text Node
+\draw (150,44.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\bm{M}$};
+% Text Node
+\draw  [color={rgb, 255:red, 0; green, 0; blue, 0 }  ,draw opacity=1 ]  (200,174) -- (322,174) -- (322,215) -- (200,215) -- cycle  ;
+\draw (203,180) node [anchor=north west][inner sep=0.75pt]  [align=left] {\ \ \ \ \ \ Rehearsal \\ \ Position Correction};
+% Text Node
+\draw    (191,253) -- (330,253) -- (330,279) -- (191,279) -- cycle  ;
+\draw (194,257) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ \ \ $\bm{C} = \text{CAER}(\hat{\bm{P}}_{RPC})$};
+% Text Node
+\draw (358,187) node [anchor=north west][inner sep=0.75pt]   [align=left] {$I = 1$};
+% Text Node
+\draw    (192,317) -- (327,317) -- (327,342) -- (192,342) -- cycle  ;
+\draw (196,323) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ \ Position Correction};
+% Text Node
+\draw (253,372.67) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}^{\prime }$};
+% Text Node
+\draw (271,145.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{P}}_{OC} = \text{OC}(\hat{\bm{p}}, \nu)$};
+% Text Node
+\draw (363,323) node [anchor=north west][inner sep=0.75pt]   [align=left] {$I = f( \nu )$};
+% Text Node
+\draw (271,223.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{P}}_{RPC} = \text{RPC}(\hat{\bm{P}}_{OC})$};
+% Text Node
+\draw (188,284.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}_{C} \in \hat{\bm{P}}_{OC} : \text{CAER}(\text{RPC}(\hat{\bm{p}}_C)) = \min\{\bm{C}\}$};
+
+
+\end{tikzpicture}
+

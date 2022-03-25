@@ -1,0 +1,89 @@
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,1001); %set diagram left start at 0, and has height of 1001
+
+%Flowchart: Decision [id:dp5485531374796404]
+\draw   (240.5,167) -- (311.5,202) -- (240.5,237) -- (169.5,202) -- cycle ;
+%Straight Lines [id:da5877536487984554]
+\draw    (240.5,52.67) -- (240.5,108.67) ;
+\draw [shift={(240.5,110.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7274819726754627]
+\draw    (240.5,237) -- (240.5,261.67) ;
+\draw [shift={(240.5,263.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da7064477442798851]
+\draw    (309.5,202) -- (382.5,202) -- (382.5,422) ;
+\draw [shift={(382.5,423)}, rotate = 270.0] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Flowchart: Decision [id:dp1133428099178595]
+\draw   (240.5,266) -- (311.5,301) -- (240.5,336) -- (169.5,301) -- cycle ;
+%Flowchart: Decision [id:dp5073654995853492]
+\draw   (239.5,422) -- (310.5,457) -- (239.5,492) -- (168.5,457) -- cycle ;
+%Straight Lines [id:da1335991408375894]
+\draw    (239.5,492) -- (239.5,533.67) ;
+\draw [shift={(239.5,535.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da5471544644867792]
+\draw    (234.5,82.67) -- (130.5,82.67) -- (130.5,517.33) ;
+\draw [shift={(236.5,82.67)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da06493806045400974]
+\draw    (310.5,457) -- (329,457.03) -- (332,457.03) ;
+\draw [shift={(332,457)}, rotate = 539.01] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da02699596164541651]
+\draw    (240.5,137) -- (240.5,161.67) ;
+\draw [shift={(240.5,163.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da5283272652442879]
+\draw    (240.5,336) -- (240.5,360.67) ;
+\draw [shift={(240.5,362.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da11468273552980146]
+\draw    (239.5,392.33) -- (239.5,417) ;
+\draw [shift={(239.5,419)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da44842589807001]
+\draw    (169.5,301) -- (136,300.69) ;
+\draw [shift={(134,300.67)}, rotate = 360.53999999999996] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da5521661750319236]
+\draw    (382,488.67) -- (382,517.33) -- (130.5,517.33) ;
+
+% Text Node
+\draw    (161,113) -- (322,113) -- (322,138) -- (161,138) -- cycle  ;
+\draw (164,117) node [anchor=north west][inner sep=0.75pt]   [align=center] {One-step Pose Correction};
+% Text Node
+\draw    (241.84, 37.33) circle [x radius= 24.75, y radius= 14.85]   ;
+\draw (241.84,37.33) node   [align=left] {Start};
+% Text Node
+\draw (208,185) node [anchor=north west][inner sep=0.75pt]  [align=center] {Recovery\\Conditions};
+% Text Node
+\draw (202,285) node [anchor=north west][inner sep=0.75pt]  [align=center] {Convergence\\Conditions};
+% Text Node
+\draw    (336,427.67) -- (429,427.67) -- (429,487.67) -- (336,487.67) -- cycle  ;
+\draw (339,431.67) node [anchor=north west][inner sep=0.75pt]  [align=center] {Generate new \\ $\hat{\bm{p}}^\prime$ around $\hat{\bm{p}}$; \\ $\nu$ = $\nu_{\min}$};
+% Text Node
+\draw (324,182.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
+% Text Node
+\draw (251,245.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {N};
+% Text Node
+\draw    (218,366.67) -- (263,366.67) -- (263,392.67) -- (218,392.67) -- cycle  ;
+\draw (221,375.67) node [anchor=north west][inner sep=0.75pt]   [align=center] {$\nu$ ++};
+% Text Node
+\draw (251,343.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
+% Text Node
+\draw (252,74.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\nu$, $\mathcal{S}_R$, $\bm{M}$, $\hat{\bm{p}}$};
+% Text Node
+\draw (204,442) node [anchor=north west][inner sep=0.75pt] [align=center] {Termination\\Conditions};
+% Text Node
+\draw    (239.93, 555.33) circle [x radius= 48.79, y radius= 14.85]   ;
+\draw (239.93,555.33) node   [align=left] {Terminate};
+% Text Node
+\draw (147,276.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {N};
+% Text Node
+\draw (251,399.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
+% Text Node
+\draw (314,437.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {N};
+% Text Node
+\draw (251,145.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}^\prime$};
+% Text Node
+\draw (250,493.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
+
+
+\end{tikzpicture}
+
