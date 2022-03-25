@@ -60,24 +60,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Η μέθοδος του Προκρούστη}{49}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}Η κλίνη της διακριτικής γωνίας του αισθητήρα}{57}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}Η κλίνη της διακριτικής γωνίας του αισθητήρα}{55}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.5}Η μέθοδος του Πιτυοκάμπτη Σίνι}{58}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.5}Η μέθοδος του Πιτυοκάμπτη Σίνι}{57}{subsection.4.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.6}Η μέθοδος του Θησέα}{61}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.6}Η μέθοδος του Θησέα}{60}{subsection.4.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Μεθοδολογία ευθυγράμμισης θέσης}{65}{section.4.3}
+\contentsline {section}{\numberline {4.3}Μεθοδολογία ευθυγράμμισης θέσης}{64}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{72}{section.4.4}
+\contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{69}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Παθογένειες των μεθόδων γωνιακής ευθυγράμμισης σε πραγματικές συνθήκες}{74}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Περιορισμοί των μεθόδων γωνιακής ευθυγράμμισης υπό γενικές συνθήκες}{69}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{78}{section.4.5}
+\contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{72}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Συμπεράσματα και περαιτέρω έρευνα}{78}{section.4.6}
+\contentsline {section}{\numberline {4.6}Συμπεράσματα και περαιτέρω έρευνα}{72}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Συμπεράσματα}{79}{part.3}
+\contentsline {part}{III\hspace {1em}Συμπεράσματα}{81}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Παραπομπές}{81}{part.4}
+\contentsline {part}{IV\hspace {1em}Παραπομπές}{83}{part.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Παραρτήματα}{113}{part.5}
+\contentsline {part}{V\hspace {1em}Παραρτήματα}{115}{part.5}
