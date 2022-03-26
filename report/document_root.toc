@@ -68,9 +68,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.7}Θανάσιμοι περιορισμοί υπό γενικές συνθήκες}{64}{subsection.4.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Μεθοδολογία ευθυγράμμισης θέσης}{70}{section.4.3}
+\contentsline {section}{\numberline {4.3}Μεθοδολογία ευθυγράμμισης θέσης}{71}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{75}{section.4.4}
+\contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{74}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Αντιμετώπιση των περιορισμών υπό γενικές συνθήκες}{75}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 

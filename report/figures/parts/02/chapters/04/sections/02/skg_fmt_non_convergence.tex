@@ -3,9 +3,7 @@
 \definecolor{svf}{RGB}{179,143,59}
 \definecolor{g}{RGB}{0,178,93}
 \definecolor{k}{RGB}{0,0,0}
-\definecolor{m}{RGB}{255,0,255}
 \definecolor{y}{RGB}{221,179,16}
-
 
 % GNUPLOT: LaTeX picture with Postscript
 \begingroup
@@ -90,8 +88,58 @@
     \setlength{\fboxsep}{1pt}%
 \begin{picture}(8000.00,4000.00)%
     \gplgaddtomacro\gplbacktext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,647){\makebox(0,0)[r]{\strut{}$2^{-3}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,942){\makebox(0,0)[r]{\strut{}$2^{-2}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,1237){\makebox(0,0)[r]{\strut{}$2^{-1}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,1533){\makebox(0,0)[r]{\strut{}$2^{0}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,1828){\makebox(0,0)[r]{\strut{}$2^{1}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,2123){\makebox(0,0)[r]{\strut{}$2^{2}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,2418){\makebox(0,0)[r]{\strut{}$2^{3}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,2713){\makebox(0,0)[r]{\strut{}$2^{4}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,3009){\makebox(0,0)[r]{\strut{}$2^{5}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,3304){\makebox(0,0)[r]{\strut{}$2^{6}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1468,3599){\makebox(0,0)[r]{\strut{}$2^{7}$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1780,180){\makebox(0,0){\strut{}$1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2500,180){\makebox(0,0){\strut{}$5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3399,180){\makebox(0,0){\strut{}$10$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      % SKG
+      \put(2500,4719){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.4cm}{0.5mm}}}}}
+      \put(2710,4719){\makebox(0,0){\strut{}{\color{y}{\rule[0.6mm]{0.4cm}{0.5mm}}}}}
+      \put(2920,4719){\makebox(0,0){\strut{}{\color{litegray}{\rule[0.6mm]{0.4cm}{0.5mm}}}}}
+      \put(3500,4744){\makebox(0,0){\strut{}$\dfrac{|\theta-\hat{\theta}[k]|}{\gamma}$}}
+      \put(2439,-250){\makebox(0,0){\strut{}Αριθμός επαναλήψεων $k$}}%
+      \put(2439,4219){\makebox(0,0){\strut{}Πρώτων Αρχών}}%
+
+      % FMT
+      \put(4600,4719){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-1}$}}%
+      \put(5400,4719){\makebox(0,0){\strut{}{\color{m}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-4}$}}%
+
+      \put(5100,3869){\makebox(0,0){\strut{}$\nu$}}%
+      \put(5400,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn0}{\rule{0pt}{6pt}\rule{6pt}{0pt} 0}}} %
+      \put(5800,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn1}{\rule{0pt}{6pt}\rule{6pt}{0pt} 1}}} %
+      \put(6200,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn2}{\rule{0pt}{6pt}\rule{6pt}{0pt} 2}}} %
+      \put(6600,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn3}{\rule{0pt}{6pt}\rule{6pt}{0pt} 3}}} %
+
+      \put(5899,-250){\makebox(0,0){\strut{}Αριθμός επαναλήψεων $k$}}%
+      \put(5899,4219){\makebox(0,0){\strut{}Προκρούστειες}}%
+
     }%
     \gplgaddtomacro\gplbacktext{%
       \colorrgb{0.15,0.15,0.15}%
@@ -130,31 +178,9 @@
       \put(6799,180){\makebox(0,0){\strut{}$4$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
-      \put(5300,4700){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.2cm}{0.5mm}}}}}
-      \put(5400,4700){\makebox(0,0){\strut{}{\color{y}{\rule[0.6mm]{0.2cm}{0.5mm}}}}}
-      \put(5500,4700){\makebox(0,0){\strut{}{\color{litegray}{\rule[0.6mm]{0.2cm}{0.5mm}}}}}
-      \put(6200,4720){\makebox(0,0){\strut{}$\dfrac{|\theta-\hat{\theta}[k]|}{\gamma}$}}
-
-      \put(5400,4219){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-1}$}}%
-      \put(6400,4219){\makebox(0,0){\strut{}{\color{m}{\rule[0.6mm]{0.5cm}{0.5mm}}} $2^{-4}$}}%
-
-      \put(1100,3919){\makebox(0,0){\strut{}{\color{k}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\bm{M}$}}%
-      \put(1850,3919){\makebox(0,0){\strut{}{\color{sr}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\bm{p}$}}%
-      \put(2600,3919){\makebox(0,0){\strut{}{\color{svi}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\hat{\bm{p}}[0]$}}%
-      \put(3600,3919){\makebox(0,0){\strut{}{\color{svf}{\rule[0.6mm]{0.5cm}{0.5mm}}} $\hat{\bm{p}}[4]$}}%
-
-      \put(5100,3869){\makebox(0,0){\strut{}$\nu$}}%
-      \put(5400,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn0}{\rule{0pt}{6pt}\rule{6pt}{0pt} 0}}} %
-      \put(5800,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn1}{\rule{0pt}{6pt}\rule{6pt}{0pt} 1}}} %
-      \put(6200,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn2}{\rule{0pt}{6pt}\rule{6pt}{0pt} 2}}} %
-      \put(6600,3869){\makebox(0,0){\strut{}\fcolorbox{black}{sinisn3}{\rule{0pt}{6pt}\rule{6pt}{0pt} 3}}} %
-
-      \put(2300,-250){\makebox(0,0){\strut{} Προκρούστειες Μέθοδοι}}%
-
-      \put(5899,-250){\makebox(0,0){\strut{}Αριθμός επαναλήψεων $k$}}%
     }%
     \gplbacktext
-    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/fmt_non_convergence}}%
+    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/skg_fmt_non_convergence}}%
     \gplfronttext
   \end{picture}%
 \endgroup
