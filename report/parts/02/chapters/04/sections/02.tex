@@ -86,7 +86,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
 Ο Αλγόριθμος \ref{alg:algorithm_fmrc} παρουσιάζει σε ψευδοκώδικα τη διαδικασία
 διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/02/rc_fm.tex}
   \vspace{0.5cm}
@@ -101,7 +101,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
   \label{fig:02_04_02:rc_fm}
 \end{figure}
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/times_rc_fm.tex}
   \caption{\small Ο μέσος χρόνος εκτέλεσης μίας επανάληψης της μεθόδου
            Fourier-Mellin μίας διάστασης για δέκα εκτελέσεις, ανά μέγεθος
@@ -109,7 +109,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
   \label{fig:02_04_02:rc_fm_exec_time}
 \end{figure}
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{rc\_fm}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
@@ -254,7 +254,7 @@ $\dfrac{|\mathcal{F}_1\{\mathcal{S}_V\}|}{|\mathcal{F}_1\{\mathcal{S}_R\}|}
 \end{corollary}
 
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/02/phi_rc_x1.tex}
   \vspace{1.0cm}
@@ -281,14 +281,14 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Πρώ�
 $N_s$. Ο Αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει σε ψευδοκώδικα τη
 διαδικασία διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/times_rc_x1.tex}
   \caption{\small Ο μέσος χρόνος εκτέλεσης μίας επανάληψης της μεθόδου
            Πρώτων Αρχών για δέκα εκτελέσεις, ανά μέγεθος σαρώσεων εισόδου $N_s$}
   \label{fig:02_04_02:rc_x1_exec_time}
 \end{figure}
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/02/rc_x1.tex}
   \vspace{0.5cm}
@@ -303,7 +303,7 @@ $N_s$. Ο Αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει �
   \label{fig:02_04_02:rc_x1}
 \end{figure}
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{rc\_x1}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
@@ -484,7 +484,7 @@ $\mod(\Delta\theta, \gamma) = \phi \in [-\dfrac{\gamma}{2},+\dfrac{\gamma}{2}]$.
 DBH έναντι της αφελούς μεθόδου σε χρόνο εκτέλεσης για αύξοντες αριθμούς
 εκπεμπόμενων από τον αισθητήρα σάρωσης ακτίνων $N_s$.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{1.0cm}
   \input{./figures/parts/02/chapters/04/sections/02/ku_vs_dbh.tex}
   \vspace{0.5cm}
@@ -506,7 +506,7 @@ $N_s$. Ο Αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει �
 διαδικασία διόρθωσης προσανατολισμού με βάση την εν λόγω μέθοδο. Ο Αλγόριθμος
 \ref{alg:algorithm_core_ufrc} παρουσιάζει σε ψευδοκώδικα τη μέθοδο DBH.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/times_rc_uf.tex}
   \caption{\small Ο μέσος χρόνος εκτέλεσης μίας επανάληψης της μεθόδου
            Προκρούστη διάστασης για δέκα εκτελέσεις, ανά μέγεθος σαρώσεων εισόδου
@@ -514,7 +514,7 @@ $N_s$. Ο Αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει �
   \label{fig:02_04_02:rc_uf_exec_time}
 \end{figure}
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/02/rc_uf.tex}
   \vspace{0.5cm}
@@ -530,7 +530,7 @@ $N_s$. Ο Αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει �
 \end{figure}
 
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{rc\_uf}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
@@ -550,7 +550,7 @@ $N_s$. Ο Αλγόριθμος \ref{alg:algorithm_x1rc} παρουσιάζει �
 \end{algorithm}
 
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{rc\_uf\_core}}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
@@ -712,7 +712,7 @@ $\gamma^{(\nu)} = \gamma / 2^\nu$, $\nu \in \mathbb{Z}_{> 0}$. Όσο αφορά
 εξαρτάται από το μέγεθος της διακριτικής γωνίας του αισθητήρα, τον ρυθμό
 υπερδειγματοληψίας, και τον χάρτη ως ανεξάρτητη μεταβλητή.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/02/false_oversampling.tex}
   \vspace{1.0cm}
@@ -751,7 +751,7 @@ $\gamma^{(\nu)} = \gamma / 2^\nu$, $\nu \in \mathbb{Z}_{> 0}$. Όσο αφορά
 προς την προηγούμενη τιμή της πάνω από $\gamma/2$ rad, έως ότου $\nu =
 \nu_{\max} = 3$.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/sinis.tex}
   \caption{\small Η λανθασμένη προσέγγιση ελάττωσης του γωνιακού σφάλματος
            εκτίμησης της μεθόδου Πιτυοκάμπτη Σίνι για διαδοχική
@@ -780,7 +780,7 @@ $\gamma^{(\nu)} = \gamma / 2^\nu$, $\nu \in \mathbb{Z}_{> 0}$. Όσο αφορά
 διαταράσσονται από θόρυβο και ο χάρτης αναπαριστά το περιβάλλον τέλεια, για
 $\nu = 2$ και $\gamma = 2\pi/360$.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/correct_oversampling.tex}
   \caption{\small Μεγέθυνση της μη γραμμικής περιοχής που περικλείεται με
            κόκκινο χρώμα στο σχήμα \ref{fig:02_02:the_problem}. Οι κόκκινες
@@ -898,7 +898,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
 επίλοιπα σφάλματα εμφανίζουν τα μέγιστα ποσοστά διάκρισης, σε συνέπεια με την
 εξίσωση (\ref{eq:phi_theseus}) και την ανάλυση της παρούσας ενότητας.
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \vspace{1.0cm}
   \input{./figures/parts/02/chapters/04/sections/02/theseus.tex}
   \vspace{0.5cm}
@@ -911,7 +911,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
   \label{fig:02_04_02:theseus}
 \end{figure}
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/02/times_rc_fm_DBH.tex}
   \caption{\small Μέσος χρόνος εκτέλεσης της μεθόδου Fourier-Mellin μίας
            διάστασης με χρήση της μεθόδου του Θησέα για
@@ -920,7 +920,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
   \label{fig:02_04_02:theseus_exec_times}
 \end{figure}
 
-\begin{figure}[h]\centering
+\begin{figure}[!h]\centering
   \begin{subfigure}{0.5\linewidth}
     \setlength{\DTbaselineskip}{20pt}
     \dirtree{%
@@ -1020,7 +1020,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
 \{\texttt{rc\_fm}, \texttt{rc\_uf}\}$ (Αλγόριθμοι \ref{alg:algorithm_fmrc} και
 \ref{alg:algorithm_ufrc}).
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{rc\_theseus}}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
@@ -1035,7 +1035,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
   \label{alg:theseus}
 \end{algorithm}
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{rc\_theseus\_core}}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
@@ -1058,7 +1058,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
   \label{alg:core_theseus}
 \end{algorithm}
 
-\begin{algorithm}[h]
+\begin{algorithm}[!h]
   \caption{\texttt{scan\_map}}
   \begin{spacing}{1.3}
     \begin{algorithmic}[1]
@@ -1077,3 +1077,173 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
   \end{spacing}
   \label{alg:scan_map}
 \end{algorithm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Θανάσιμοι περιορισμοί υπό γενικές συνθήκες}
+\label{subsection:02_04_04:07}
+
+Οι μέθοδοι εκτίμησης του προσανατολισμού της στάσης $\hat{\bm{p}}$ που
+παρουσιάζονται σε αυτή την ενότητα εμφανίζουν σε πραγματικές συνθήκες
+περιορισμούς ως προς την τελική τους εκτίμηση.
+
+Η μέθοδος Πρώτων Αρχών (ενότητα \ref{subsection:02_04_02:02}) εμφανίζει μη
+προβλέψιμη και ασταθή συμπεριφορά όταν ο χάρτης του περιβάλλοντος δεν το
+αναπαριστά τέλεια. Στο σχήμα \ref{fig:02_04_04:errorbar_x1} απεικονίζεται το
+μέσο σφάλμα προσανατολισμού της μεθόδου Πρώτων Αρχών και η τυπική του απόκλιση
+σε εκατό επαναλήψεις πειραμάτων με ένα σύνολο δεδομένων $778$ περιβαλλόντων και
+χαρτών. Στο αριστερό σχήμα ο χάρτης αναπαριστά στην εντέλεια το περιβάλλον, σε
+αντίθεση με το δεξιό σχήμα, στο οποίο ο χάρτης είναι διεφθαρμένος.
+
+Εδώ παρατηρούμε ότι ενώ στην πρώτη περίπτωση το σφάλμα προσανατολισμού
+αυξάνεται με συνέπεια για αυξανόμενο επίπεδο διαταραχών και μειώνεται με
+συνέπεια για αυξανόμενο αριθμό εκπεμπόμενων ακτίνων, στη δεύτερη δεν εμφανίζει
+καμία συνέπεια. Ταυτόχρονα παρατηρούμε τον μεγαλύτερο περιορισμό της μεθόδου,
+ήτοι την αδιαφορία του σφάλματος ως προς τον αριθμό εκπεμπόμενων ακτίνων όταν
+ο χάρτης δεν αναπαριστά τέλεια το περιβάλλον, η οποία είναι η γενική περίπτωση.
+Αυτή η ιδιότητα είναι κρίσιμη γιατί η μέθοδος λειτουργεί στον συνεχή γωνιακό
+χώρο και, σε αντίθεση με τις Προκρούστειες μεθόδους των ενοτήτων
+\ref{subsection:02_04_02:01} και \ref{subsection:02_04_02:03}, δεν είναι δυνατή
+η εφαρμογή \textit{εσωτερικής} μεθόδου επιπρόσθετης μείωσης των σφαλμάτων της,
+όπως η μέθοδος του Θησέα.
+
+\begin{figure}[!h]\centering
+  \vspace{2cm}
+  \input{./figures/parts/02/chapters/04/sections/04/errorbar_x1.tex}
+  \vspace{1cm}
+  \caption{\small Μέσο σφάλμα προσανατολισμού της μεθόδου Πρώτων Αρχών και η
+           τυπική του απόκλιση σε εκατό πειράματα, όπου το αρχικό σφάλμα
+           προσανατολισμού $\Delta \theta = \theta-\hat{\theta}$ εξήχθη από
+           ομοιόμορφη κατανομή $\Delta \theta \in
+           U(-\overline{\delta}_{\theta}, +\overline{\delta}_{\theta})$, όπου
+           $\overline{\delta}_{\theta} = \pi$. Τα δύο σχήματα απεικονίζουν τα
+           σφάλματα προσανατολισμού για αυξανόμενη τυπική απόκλιση $\sigma_R$
+           των κανονικά κατανεμημένων και μηδενικής μέσης τιμής διαταραχών της
+           πραγματικής σάρωσης
+           $\mathcal{S}_R$, $\sigma_R \in \{0.01,0.03,0.05,0.10\}$ m, και
+           αυξανόμενο αριθμό εκπεμπόμενων ακτίνων $N_s$. Στο αριστερό σχήμα ο
+           χάρτης αναπαριστά στην εντέλεια το περιβάλλον, σε αντίθεση με το
+           δεξιό σχήμα, στο οποίο ο χάρτης είναι διεφθαρμένος}
+  \label{fig:02_04_04:errorbar_x1}
+\end{figure}
+
+Έπειτα, οι μέθοδοι διακριτού χώρου Fourier-Mellin και Προκρούστη, με και δίχως
+τη χρήση της μεθόδου του Θησέα, επηρεάζονται από διαφορετικά προβλήματα που
+αναδύονται στη γενική περίπτωση, η οποία αφορά στη γενική συνθήκη όπου η
+εκτίμηση θέσης δεν συμπέφτει ακριβώς με την πραγματική θέση. Όσο αφορά στην
+πρώτη περίπτωση, το σφάλμα εκτίμησης προσανατολισμού δεν είναι δυνατό να
+μειωθεί κάτω από $\gamma/2$ σε ένα βήμα λόγω του γεγονότος ότι από διαφορετικές
+θέσεις είναι ορατά διαφορετικά σημεία του περιβάλλοντος και του χάρτη, με
+συνέπεια μεγαλύτερη αναντιστοιχία μεταξύ των σαρώσεων εισόδου. Στη δεύτερη
+περίπτωση, όταν δηλαδή χρησιμοποιείται η μέθοδος του Θησέα για την περαιτέρω
+μείωση του σφάλματος προσανατολισμού, το αναδυόμενο πρόβλημα είναι μεγαλύτερης
+βαρύτητας διότι η μη σύμπτωση των δύο θέσεων διαταράσσει την ευθεία αντιστοιχία
+ανάμεσα στα αύξοντα Ποσοστά Διάκρισης των σφαλμάτων προσανατολισμού και τα
+φθίνοντα μέτρα τους. Με άλλα λόγια, στη γενική περίπτωση, όπου η εκτίμηση θέσης
+δεν ισούται με την πραγματική θέση, το υψηλότερο Ποσοστό Διάκρισης δεν
+αντιστοιχεί στο ελάχιστο σφάλμα προσανατολισμού. Αυτά τα δύο προβλήματα
+εκτίθενται στο σχήμα \ref{fig:02_04_02:theseus_false_pd}.
+
+\begin{figure}[!h]\centering
+  \begin{subfigure}{\linewidth}
+    \vspace{2cm}
+    \input{./figures/parts/02/chapters/04/sections/04/fmt_non_convergence.tex}
+  \end{subfigure}\\ \vspace{1cm}\hspace{-1cm}
+  \begin{subfigure}{0.30\linewidth}\vspace{2.68cm}
+    \begin{onion}{0.7cm}
+      \annulus[sinisn0]{0}{0}{360}[$\phi^{(0)}$]
+      \annulus[sinisn0]{1}{0}{180}[$\phi_0^{(1)}$]
+      \annulus[sinisn1]{1}{180}{360}[$\phi_1^{(1)}$]
+      \annulus[sinisn2]{2}{180}{225}[$\phi_0^{(2)}$]
+      \annulus[sinisn0]{2}{225}{270}[$\phi_1^{(2)}$]
+      \annulus[sinisn0]{2}{270}{315}[$\phi_2^{(2)}$]
+      \annulus[sinisn0]{2}{315}{360}[$\phi_3^{(2)}$]
+      \annulus[sinisn3]{3}{180}{185.625}
+      \annulus[sinisn0]{3}{185.625}{191.25}
+      \annulus[sinisn0]{3}{191.25}{196.875}
+      \annulus[sinisn0]{3}{196.875}{202.5}
+      \annulus[sinisn0]{3}{202.5}{208.125}
+      \annulus[sinisn0]{3}{208.125}{213.75}
+      \annulus[sinisn0]{3}{213.75}{219.375}
+      \annulus[sinisn0]{3}{219.375}{225}
+    \end{onion}
+  \end{subfigure}%
+  \begin{subfigure}{0.30\linewidth}
+    \begin{onion}{0.7cm}
+      \annulus[sinisn0]{0}{0}{360}[$\phi^{\prime (0)}$]
+      \annulus[sinisn1]{1}{0}{180}[$\phi_0^{\prime (1)}$]
+      \annulus[sinisn0]{1}{180}{360}[$\phi_1^{\prime (1)}$]
+      \annulus[sinisn0]{2}{0}{45}[$\phi_0^{\prime (2)}$]
+      \annulus[sinisn0]{2}{45}{90}[$\phi_1^{\prime (2)}$]
+      \annulus[sinisn0]{2}{90}{135}[$\phi_2^{\prime (2)}$]
+      \annulus[sinisn2]{2}{135}{180}[$\phi_3^{\prime (2)}$]
+      \annulus[sinisn0]{3}{45}{50.625}
+      \annulus[sinisn0]{3}{50.625}{56.25}
+      \annulus[sinisn0]{3}{56.25}{61.875}
+      \annulus[sinisn0]{3}{61.875}{67.5}
+      \annulus[sinisn3]{3}{67.5}{73.125}
+      \annulus[sinisn0]{3}{73.125}{78.75}
+      \annulus[sinisn0]{3}{78.75}{84.375}
+      \annulus[sinisn0]{3}{84.375}{90}
+    \end{onion}
+  \end{subfigure}%
+  \begin{subfigure}{0.30\linewidth}
+    \begin{onion}{0.7cm}
+      \annulus[sinisn0]{0}{0}{360}[PD$^{\prime (0)}$]
+      \annulus[litegray]{1}{0}{180}[PD$_0^{\prime (1)}$]
+      \annulus[sinisn0]{1}{180}{360}[PD$_1^{\prime (1)}$]
+      \annulus[sinisn0]{2}{0}{45}[PD$_0^{\prime (2)}$]
+      \annulus[litegray]{2}{45}{90}[PD$_1^{\prime (2)}$]
+      \annulus[sinisn0]{2}{90}{135}[PD$_2^{\prime (2)}$]
+      \annulus[sinisn0]{2}{135}{180}[PD$_3^{\prime (2)}$]
+      \annulus[sinisn0]{3}{45}{50.625}
+      \annulus[sinisn0]{3}{50.625}{56.25}
+      \annulus[sinisn0]{3}{56.25}{61.875}
+      \annulus[sinisn0]{3}{61.875}{67.5}
+      \annulus[sinisn0]{3}{67.5}{73.125}
+      \annulus[sinisn0]{3}{73.125}{78.75}
+      \annulus[sinisn0]{3}{78.75}{84.375}
+      \annulus[litegray]{3}{84.375}{90}
+    \end{onion}
+  \end{subfigure}
+\vspace{-1cm}
+\caption{Στην άνω σειρά διενεργούμε το ίδιο πείραμα με αυτό του σχήματος
+         \ref{fig:02_04_02:theseus} για την ίδια εκτίμηση στάσης, μετατοπισμένη
+         όμως κατά $-0.12$ m στον οριζόντιο άξονα. Στο δεξιό γράφημα της άνω
+         σειράς παρατηρούμε πως σε αυτή την περίπτωση το μέτρο του σφάλματος
+         εκτίμησης προσανατολισμού δεν ήταν δυνατό να μειωθεί λιγότερο από
+         $\gamma/2$ στο τέλος της πρώτης επανάληψης. Στην κάτω σειρά: στα
+         αριστερά παρατίθεται η βέλτιστη πορεία κατάτμησης του αρχικού
+         επίλοιπου σφάλματος (σχήμα \ref{fig:02_04_02:theseus_pd}), στη μέση η
+         κατάτμηση των επίλοιπων σφάλματων προσανατολισμού ανά βαθμό
+         δειγματοληψίας $\nu$ με βάση τη μέθοδο του Θησέα σε αυτό το πείραμα,
+         και με χρώμα τα πραγματικά ελάχιστα σφάλματα, και στα δεξιά με γκρι τα
+         αντιστοιχούντα μέγιστα ποσοστά διάκρισης ανά βαθμό δειγματοληψίας.
+         Παρατηρήστε πως πλέον δεν υφίσταται ευθεία αντιστοιχία του μέγιστου
+         ποσοστού διάκρισης με το ελάχιστο επίλοιπο σφάλμα προσανατολισμού}
+\label{fig:02_04_02:theseus_false_pd}
+\end{figure}
+
+Κατά συνέπεια:
+
+\begin{itemize}
+  \item Στη μεν μέθοδο Πρώτων Αρχών είναι αδόκιμη η εφαρμογή μεθόδου
+        υπερδειγματολειψίας του χάρτη και εσωτερικής ιεράρχησης των σφαλμάτων
+        προσανατολισμού---σε αντιστοιχία με τη μέθοδο του Θησέα---για την
+        περαιτέρω μείωση του σφάλματος προσανατολισμού λόγω της συνεχούς φύσεώς
+        της. Επιπρόσθετα, ακόμα και να ήταν δυνατή η εφαρμογή τέτοιας μεθόδου,
+        η μη φθίνουσα σχέση του σφάλματος εκτίμησης προσανατολισμού με τον
+        αύξοντα βαθμό δειγματολειψίας στη γενική συνθήκη όπου ο χάρτης του
+        περιβάλλοντος δεν το αναπαριστά τέλεια θα καθιστούσε οποιαδήποτε
+        εσωτερική σύγκριση αδιάφορη.
+  \item Στις δε Προκρούστειες μεθόδους με εφαρμογή της μεθόδου του Θησέα η
+        εσωτερική σύγκριση μεταξύ των τιμών της μετρικής του Ποσοστού Διάκρισης
+        οδηγεί σε μη βέλτιστα σφάλματα προσανατολισμού, ακόμα και όταν ο χάρτης
+        αναπαριστά το περιβάλλον τέλεια και ο αισθητήρας σαρώσεων δεν
+        επηρεάζεται από διαταραχές.
+\end{itemize}
+
+
+Λόγω των παραπάνω είναι αναγκαία η εφεύρεση επιπρόσθετων μεθόδων, και εξωτερικών
+ως προς τις παραπάνω προσεγγίσεις, για τη σύγκλιση στο βέλτιστο κατά περίπτωση
+σφάλμα προσανατολισμού.
