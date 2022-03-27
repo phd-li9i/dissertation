@@ -1,16 +1,20 @@
 Έστω τώρα το αντίστροφο ως προς την προηγούμενη ενότητα πρόβλημα:
 έστω ότι η πραγματική και η εκτιμώμενη στάση είναι ίσες ως προς τον
 προσανατολισμό $\hat{\theta} = \theta$, αλλά άνισες ως προς τη θέση
-$\hat{\bm{l}} \neq \bm{l}$. Εάν ο χάρτης αναπαριστά το περιβάλλον τέλεια και ο
-φυσικός αισθητήρας αναφέρει μετρήσεις χωρίς διαταραχές, τότε η εκτίμηση της
-θέσης του αισθητήρα μπορεί να οδηγηθεί αυθαίρετα κοντά στην πραγματική θέση. Σε
-πραγματικές συνθήκες, όταν οι ακτίνες των πραγματικών σαρώσεων ή/και των
-εικονικών σαρώσεων αλλοιώνονται από προσθετικό θόρυβο πεπερασμένου μέγιστου
-μέτρου, η εκτίμηση θέσης μπορεί να φραχθεί σε μια γειτονιά της πραγματικής
-θέσης του αισθητήρα. Τα Θεωρήματα \ref{prop:theorem_without_disturbance} και
-\ref{prop:theorem_with_disturbance} τυποποιούν αυτές τις δηλώσεις
-\cite{Filotheou2022d}.
+$\hat{\bm{l}} \neq \bm{l}$.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Η μέθοδος Πρώτων Αρχών}
+\label{subsection:02_04_03:01}
+
+Εάν ο χάρτης αναπαριστά το περιβάλλον τέλεια και ο φυσικός αισθητήρας αναφέρει
+μετρήσεις χωρίς διαταραχές, τότε η εκτίμηση της θέσης του αισθητήρα μπορεί να
+οδηγηθεί αυθαίρετα κοντά στην πραγματική θέση. Σε πραγματικές συνθήκες, όταν οι
+ακτίνες των πραγματικών σαρώσεων ή/και των εικονικών σαρώσεων αλλοιώνονται από
+προσθετικό θόρυβο πεπερασμένου μέγιστου μέτρου, η εκτίμηση θέσης μπορεί να
+φραχθεί σε μια γειτονιά της πραγματικής θέσης του αισθητήρα. Το Θεώρημα
+\ref{prop:theorem_without_disturbance} τυποποιεί αυτή τη δήλωση
+\cite{Filotheou2022d}.
 
 \begin{bw_box}
 \begin{theorem}
@@ -83,6 +87,127 @@ $\hat{\bm{l}}^{\prime} = \hat{\bm{l}}[k_{stop}]$ τότε
 $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 < \|\bm{e}(\bm{l}, \hat{\bm{l}}[0])\|_2$,
 και επομένως ο στόχος (\ref{objective:02_04}) ικανοποιείται.
 
+Στο σχήμα \ref{fig:02_04_03:map_convergence} απεικονίζονται οι τροχιές της
+εκτίμησης θέσης βάσει εφαρμογής του Θεωρήματος
+\ref{prop:theorem_without_disturbance} για έναν αισθητήρα $N_s = 360$ ακτίνων,
+με θέση $\bm{l} = (0.83, -0.98)$ [m] και αρχική εκτίμηση θέσης $\hat{\bm{l}} =
+(4.0,-4.0)$ [m]. Οι ακτίνες της πραγματικής σάρωσης $\mathcal{S}_R$ και των
+εικονικών σαρώσεων $\mathcal{S}_V$ διαταράσσονται από θόρυβο κανονικά
+κατανεμημένο με μηδενική μέση τιμή και τυπική απόκλιση $\sigma_R$ και
+$\sigma_V$ αντίστοιχα. Η άνω σειρά απεικονίζει τις τροχιές εκτίμησης για
+τυπικές αποκλίσεις $\sigma_R = \sigma_V = 0.0$ m, και η κάτω σειρά για
+$\sigma_R = \sigma_V = 0.05$ m.
+
+\begin{figure}[!h]\centering\vspace{1cm}
+  \input{./figures/parts/02/chapters/04/sections/03/translation_map_convergence.tex}
+\caption{\small Οι τροχιές της εκτίμησης θέσης βάσει εφαρμογής του Θεωρήματος
+         \ref{prop:theorem_without_disturbance} για επίπεδο διαταραχών
+         αποστάσεων $\sigma_R = \sigma_V = 0.0$ m (άνω σειρά) και
+         $\sigma_R = \sigma_V = 0.05$ m (κάτω σειρά). Τα τελικά σφάλματα
+         εκτίμησης θέσης είναι $2.04$e-$07$ m και $5.72$e-$03$ m αντίστοιχα.
+         Η εκτίμηση θέσης συγκλίνει ομοιόμορφα ασυμπτωτικά στην πρώτη περίπτωση
+         (Θεώρημα \ref{prop:theorem_without_disturbance}), ενώ στη δεύτερη
+         είναι ομοιόμορφα φραγμένη σε μία γειτονιά της πραγματικής θέσης
+         (Θεώρημα \ref{prop:theorem_with_disturbance})}
+\label{fig:02_04_03:map_convergence}
+\end{figure}
+
+Το σχήμα \ref{fig:02_04_03:execution_times} απεικονίζει το μέσο χρόνο εκτέλεσης
+μίας επανάληψης της μεθόδου διόρθωσης της εκτίμησης θέσης σε δέκα εκτελέσεις
+για μέγιστο αριθμό εσωτερικών επαναλήψεων $I_T = 20$, για αυξανόμενο μέγεθος
+σαρώσεων $N_s$. Ο αλγόριθμος \ref{alg:icte} παραθέτει σε ψευδοκώδικα τη μέθοδο
+εκτίμησης της θέσης για δεδομένη και γνωστή εκτίμηση προσανατολισμού.
+
+\begin{figure}[!h]\centering
+  \input{./figures/parts/02/chapters/04/sections/03/translation_times_without_disturbance.tex}
+\caption{\small Ο μέσος χρόνος εκτέλεσης μίας επανάληψης της μεθόδου διόρθωσης
+         της εκτίμησης θέσης για δέκα εκτελέσεις, ανά μέγεθος σαρώσεων εισόδου
+         $N_s$}
+\label{fig:02_04_03:execution_times}
+\end{figure}
+
+\begin{algorithm}[!h]
+  \caption{\texttt{tc\_x1}}
+  \begin{spacing}{1.4}
+    \begin{algorithmic}[1]
+      \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$, $k_{max}$, $\varepsilon_u$, $N_s$
+      \ENSURE $\hat{\bm{p}}^\prime(\hat{x}^{\prime}, \hat{y}^{\prime}, \hat{\theta})$
+      \STATE $k \leftarrow 0$
+      \WHILE {$k < k_{max}$}
+      \STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(M, \hat{\bm{p}}, N_s)$
+      \STATE $X_1 \leftarrow \texttt{diff\_dft}(\mathcal{S}_R, \mathcal{S}_V)$
+      \STATE $(X_{1,r}, X_{1,i}) \leftarrow (\texttt{re}(X_1), \texttt{im}(X_1))$
+      \STATE $\bm{u}_k = \begin{bmatrix}
+              u_x \\ u_y
+             \end{bmatrix}
+             =
+             \dfrac{1}{N_s}
+             \begin{bmatrix}
+               \cos\hat{\theta} & \sin\hat{\theta} \\
+               \sin\hat{\theta} & -\cos\hat{\theta}
+             \end{bmatrix}
+             \begin{bmatrix}
+               X_{1,r} \\ X_{1,i}
+             \end{bmatrix}
+             $
+      \STATE $\hat{\bm{p}}\leftarrow \hat{\bm{p}}+ \bm{u}_k$
+      \IF {$\|\bm{u}_k\|_2 < \varepsilon_u$}
+        \STATE \texttt{break}
+      \ENDIF
+      \STATE $k \leftarrow k + 1$
+      \ENDWHILE
+      \STATE $\hat{\bm{p}}^\prime \leftarrow \hat{\bm{p}}$
+      \RETURN $\hat{\bm{p}}^\prime$
+    \end{algorithmic}
+  \end{spacing}
+  \label{alg:icte}
+\end{algorithm}
+
+\begin{algorithm}[!h]
+  \caption{\texttt{diff\_dft}}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\mathcal{S}_R, \mathcal{S}_V$
+      \ENSURE $X_1$
+      \STATE \texttt{assert} $|\mathcal{S}_R| = |\mathcal{S}_V|$
+      \STATE $N_s \leftarrow |\mathcal{S}_R|$
+      \STATE {$\bm{\Delta} \leftarrow \{\varnothing\}$}
+      \FOR{$n = 0:N_s-1$}
+      \STATE $d_n \leftarrow \mathcal{S}_R[n] - \mathcal{S}_V[n]$
+      \STATE \texttt{append} $d$ to $\bm{\Delta}$
+      \ENDFOR
+      \STATE $\bm{X} \leftarrow \mathcal{F}\{\bm{\Delta}\}$
+      \STATE $X_1 \leftarrow \bm{X}[1]$
+      \RETURN $X_1$
+    \end{algorithmic}
+  \end{spacing}
+  \label{alg:diff_dft}
+\end{algorithm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Θανάσιμοι περιορισμοί υπό γενικές συνθήκες}
+\label{subsection:02_04_03:02}
+
+Σε αντιστοιχία με τις μεθόδους ευθυγράμμισης προσανατολισμού, το σφάλμα θέσης
+της μεθόδου ευθυγράμμισης θέσης Πρώτων Αρχών αυξάνει σε γενικές συνθήκες μη
+σύμπτωσης της εκτίμησης προσανατολισμού με τον πραγματικό προσανατολισμό του
+αισθητήρα, και σε συνθήκες διαταραχών των μετρήσεων του φυσικού αισθητήρα και
+μη απολύτου σύμπτωσης του χάρτη με το περιβάλλον που αναπαριστά.
+
+Το σχήμα \ref{fig:02_04_03:tc_x1_non_convergence} απεικονίζει την εξέλιξη του
+μέτρου του σφάλματος εκτίμησης θέσης για αυξανόμενες τιμές του σφάλματος
+εκτίμησης προσανατολισμού $|\theta - \hat{\theta}|$ σε ένα πείραμα όπου το
+αρχικό σφάλμα θέσης είναι $[-0.1165, 0.188]$ m.
+
+\begin{figure}[!h]\centering
+  \input{./figures/parts/02/chapters/04/sections/03/tc_x1_non_convergence.tex}
+  \caption{\small Η εξέλιξη του μέτρου σφάλματος εκτίμησης θέσης για αυξανόμενες
+           τιμές του μέτρου του σφάλματος εκτίμησης προσανατολισμού. Το τελικό
+           σφάλμα θέσης είναι ανάλογο του αρχικού σφάλματος προσανατολισμού}
+  \label{fig:02_04_03:tc_x1_non_convergence}
+\end{figure}
+
 \begin{gg_box}
 \begin{remark}
   \label{remark:loc_prop_or}
@@ -91,6 +216,15 @@ $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 < \|\bm{e}(\bm{l}, \hat{\bm{l}}[0])
   σφάλμα προσανατολισμού.
 \end{remark}
 \end{gg_box}
+
+Επιπρόσθετα, σε πραγματικές συνθήκες, όταν οι ακτίνες των πραγματικών σαρώσεων
+ή/και των εικονικών σαρώσεων αλλοιώνονται από προσθετικό θόρυβο πεπερασμένου
+μέγιστου μέτρου, η εκτίμηση θέσης δεν είναι ικανή να προσεγγίσει ασυμπτώτικά
+την πραγματική θέση με την εφαρμογή του Θεωρήματος
+\ref{prop:theorem_without_disturbance}. Παρ' όλα αυτά, η εκτίμηση θέσης μπορεί
+να φραχθεί σε μια γειτονιά της πραγματικής θέσης του αισθητήρα. Το Θεώρημα
+\ref{prop:theorem_with_disturbance} τυποποιεί αυτή τη δήλωση
+\cite{Filotheou2022d}.
 
 \begin{bw_box}
 \begin{theorem}
@@ -126,102 +260,3 @@ $\|\bm{e}(\bm{l}, \hat{\bm{l}}^{\prime})\|_2 < \|\bm{e}(\bm{l},
 \hat{\bm{l}}[0])\|_2$---αυτό που είναι βέβαιο σε αυτή την περίπτωση, όμως,
 είναι ότι $\|\bm{e}(\bm{l}, \hat{\bm{l}}[k])\|_2 \ngtr B$ για όλα κάθε $k \geq
 0$.
-
-Στο σχήμα \ref{fig:02_04_03:map_convergence} απεικονίζονται οι τροχιές της
-εκτίμησης θέσης βάσει εφαρμογής του Θεωρήματος
-\ref{prop:theorem_without_disturbance} για έναν αισθητήρα $N_s = 360$ ακτίνων,
-με θέση $\bm{l} = (0.83, -0.98)$ [m] και αρχική εκτίμηση θέσης $\hat{\bm{l}} =
-(4.0,-4.0)$ [m]. Οι ακτίνες της πραγματικής σάρωσης $\mathcal{S}_R$ και των
-εικονικών σαρώσεων $\mathcal{S}_V$ διαταράσσονται από θόρυβο κανονικά
-κατανεμημένο με μηδενική μέση τιμή και τυπική απόκλιση $\sigma_R$ και
-$\sigma_V$ αντίστοιχα. Η άνω σειρά απεικονίζει τις τροχιές εκτίμησης για
-τυπικές αποκλίσεις $\sigma_R = \sigma_V = 0.0$ m, και η κάτω σειρά για
-$\sigma_R = \sigma_V = 0.05$ m.
-
-\begin{figure}[h]\centering\vspace{1cm}
-  \input{./figures/parts/02/chapters/04/sections/03/translation_map_convergence.tex}
-\caption{\small Οι τροχιές της εκτίμησης θέσης βάσει εφαρμογής του Θεωρήματος
-         \ref{prop:theorem_without_disturbance} για επίπεδο διαταραχών
-         αποστάσεων $\sigma_R = \sigma_V = 0.0$ m (άνω σειρά) και
-         $\sigma_R = \sigma_V = 0.05$ m (κάτω σειρά). Τα τελικά σφάλματα
-         εκτίμησης θέσης είναι $2.04$e-$07$ m και $5.72$e-$03$ m αντίστοιχα.
-         Η εκτίμηση θέσης συγκλίνει ομοιόμορφα ασυμπτωτικά στην πρώτη περίπτωση
-         (Θεώρημα \ref{prop:theorem_without_disturbance}), ενώ στη δεύτερη
-         είναι ομοιόμορφα φραγμένη σε μία γειτονιά της πραγματικής θέσης
-         (Θεώρημα \ref{prop:theorem_with_disturbance})}
-\label{fig:02_04_03:map_convergence}
-\end{figure}
-
-Το σχήμα \ref{fig:02_04_03:execution_times} απεικονίζει το μέσο χρόνο εκτέλεσης
-μίας επανάληψης της μεθόδου διόρθωσης της εκτίμησης θέσης σε δέκα εκτελέσεις
-για αυξανόμενο μέγεθος σαρώσεων $N_s$. Ο αλγόριθμος \ref{alg:icte} παραθέτει σε
-ψευδοκώδικα τη μέθοδο εκτίμησης της θέσης για δεδομένη και γνωστή εκτίμηση
-προσανατολισμού.
-
-\begin{figure}[h]\centering
-  \input{./figures/parts/02/chapters/04/sections/03/translation_times_without_disturbance.tex}
-\caption{\small Ο μέσος χρόνος εκτέλεσης μίας επανάληψης της μεθόδου διόρθωσης
-         της εκτίμησης θέσης για δέκα εκτελέσεις, ανά μέγεθος σαρώσεων εισόδου
-         $N_s$}
-\label{fig:02_04_03:execution_times}
-\end{figure}
-
-
-
-\begin{algorithm}[h]
-  \caption{\texttt{tc\_x1}}
-  \begin{spacing}{1.3}
-    \begin{algorithmic}[1]
-      \REQUIRE $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$, $k_{max}$, $\varepsilon_u$, $N_s$
-      \ENSURE $\hat{\bm{p}}^\prime(\hat{x}^{\prime}, \hat{y}^{\prime}, \hat{\theta})$
-      \STATE $k \leftarrow 0$
-      \WHILE {$k < k_{max}$}
-      \STATE $\mathcal{S}_V^{[k]} \leftarrow \texttt{scan\_map}(M, \hat{\bm{p}}, N_s)$
-      \STATE $X_1 \leftarrow \texttt{diff\_dft}(\mathcal{S}_R, \mathcal{S}_V^{[k]})$
-      \STATE $(X_{1,r}, X_{1,i}) \leftarrow (\texttt{re}(X_1), \texttt{im}(X_1))$
-      \STATE $\bm{u}_k = \begin{bmatrix}
-              u_x \\ u_y
-             \end{bmatrix}
-             =
-             \dfrac{1}{N_s}
-             \begin{bmatrix}
-               \cos\hat{\theta} & \sin\hat{\theta} \\
-               \sin\hat{\theta} & -\cos\hat{\theta}
-             \end{bmatrix}
-             \begin{bmatrix}
-               X_{1,r} \\ X_{1,i}
-             \end{bmatrix}
-             $
-      \STATE $\hat{\bm{p}}\leftarrow \hat{\bm{p}}+ \bm{u}_k$
-      \IF {$\|\bm{u}_k\|_2 < \varepsilon_u$}
-        \STATE \texttt{break}
-      \ENDIF
-      \STATE $k \leftarrow k + 1$
-      \ENDWHILE
-      \STATE $\hat{\bm{p}}^\prime \leftarrow \hat{\bm{p}}$
-      \RETURN $\hat{\bm{p}}^\prime$
-    \end{algorithmic}
-  \end{spacing}
-  \label{alg:icte}
-\end{algorithm}
-
-\begin{algorithm}[h]
-  \caption{\texttt{diff\_dft}}
-  \begin{spacing}{1.3}
-    \begin{algorithmic}[1]
-      \REQUIRE $\mathcal{S}_R, \mathcal{S}_V$
-      \ENSURE $X_1$
-      \STATE \texttt{assert} $|\mathcal{S}_R| = |\mathcal{S}V^{[k]}|$
-      \STATE $N_s \leftarrow |\mathcal{S}_R|$
-      \STATE {$\bm{\Delta} \leftarrow \{\varnothing\}$}
-      \FOR{$n = 0:N_s-1$}
-      \STATE $d_n \leftarrow \mathcal{S}_R[n] - \mathcal{S}_V^{[k]}[n]$
-      \STATE \texttt{append} $d$ to $\bm{\Delta}$
-      \ENDFOR
-      \STATE $\bm{X} \leftarrow \mathcal{F}\{\bm{\Delta}\}$
-      \STATE $X_1 \leftarrow \bm{X}[1]$
-      \RETURN $X_1$
-    \end{algorithmic}
-  \end{spacing}
-  \label{alg:diff_dft}
-\end{algorithm}

@@ -1,3 +1,7 @@
+\definecolor{r}{RGB}{228,26,28}
+\definecolor{g}{RGB}{77,175,74}
+\definecolor{b}{RGB}{55,126,184}
+
 % GNUPLOT: LaTeX picture with Postscript
 \begingroup
   \makeatletter
@@ -82,19 +86,23 @@
 \begin{picture}(4800.00,3600.00)%
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(946,704){\makebox(0,0)[r]{\strut{}$0.02$}}%
+      \put(814,704){\makebox(0,0)[r]{\strut{}$0.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(946,1377){\makebox(0,0)[r]{\strut{}$0.06$}}%
+      \put(814,1175){\makebox(0,0)[r]{\strut{}$1.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(946,2050){\makebox(0,0)[r]{\strut{}$0.10$}}%
+      \put(814,1646){\makebox(0,0)[r]{\strut{}$2.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(946,2723){\makebox(0,0)[r]{\strut{}$0.14$}}%
+      \put(814,2117){\makebox(0,0)[r]{\strut{}$3.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(1078,484){\makebox(0,0){\strut{}$360$$\cdot$$2^0$}}%
+      \put(814,2588){\makebox(0,0)[r]{\strut{}$4.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(2143,484){\makebox(0,0){\strut{}$360$$\cdot$$2^1$}}%
+      \put(814,3059){\makebox(0,0)[r]{\strut{}$5.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(3207,484){\makebox(0,0){\strut{}$360$$\cdot$$2^2$}}%
+      \put(946,484){\makebox(0,0){\strut{}$360$$\cdot$$2^0$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2055,484){\makebox(0,0){\strut{}$360$$\cdot$$2^1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3163,484){\makebox(0,0){\strut{}$360$$\cdot$$2^2$}}%
       \colorrgb{0.15,0.15,0.15}%
       \put(4272,484){\makebox(0,0){\strut{}$360$$\cdot$$2^3$}}%
     }%
@@ -102,11 +110,13 @@
       \colorrgb{0.15,0.15,0.15}%
       \put(176,1881){\rotatebox{90}{\makebox(0,0){\strut{}Χρόνος εκτέλεσης [ms]}}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(2675,154){\makebox(0,0){\strut{}Αριθμός ακτίνων $N_s$}}%
+      \put(2609,154){\makebox(0,0){\strut{}Αριθμός ακτίνων $N_s$}}%
       \colorrgb{0.00,0.00,0.00}%
-      \put(2675,3269){\makebox(0,0){\strut{}$T_{\texttt{rc\_x1}}$}}%
+      \put(1500,3269){\makebox(0,0){\strut{}{\color{b}{\rule[0.6mm]{0.5cm}{0.5mm}}} $T_{\texttt{rc\_fm}}$}}%
+      \put(2600,3269){\makebox(0,0){\strut{}{\color{g}{\rule[0.6mm]{0.5cm}{0.5mm}}} $T_{\texttt{rc\_x1}}$}}%
+      \put(3700,3269){\makebox(0,0){\strut{}{\color{r}{\rule[0.6mm]{0.5cm}{0.5mm}}} $T_{\texttt{rc\_uf}}$}}%
     }%
-    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/times_rc_x1}}%
+    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/exec_times_all_rotations_default}}%
     \gplfronttext
   \end{picture}%
 \endgroup

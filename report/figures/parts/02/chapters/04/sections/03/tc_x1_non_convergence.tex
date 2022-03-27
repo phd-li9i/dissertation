@@ -1,3 +1,8 @@
+\definecolor{a}{RGB}{244 224 127}
+\definecolor{b}{RGB}{168 198 113}
+\definecolor{c}{RGB}{96 168 109}
+\definecolor{d}{RGB}{0 135 108}
+
 % GNUPLOT: LaTeX picture with Postscript
 \begingroup
   \makeatletter
@@ -82,35 +87,41 @@
 \begin{picture}(4800.00,3600.00)%
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(814,704){\makebox(0,0)[r]{\strut{}$0.0$}}%
+      \put(946,704){\makebox(0,0)[r]{\strut{}$0.0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(814,1175){\makebox(0,0)[r]{\strut{}$1.0$}}%
+      \put(946,1175){\makebox(0,0)[r]{\strut{}$0.05$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(814,1646){\makebox(0,0)[r]{\strut{}$2.0$}}%
+      \put(946,1646){\makebox(0,0)[r]{\strut{}$0.10$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(814,2117){\makebox(0,0)[r]{\strut{}$3.0$}}%
+      \put(946,2117){\makebox(0,0)[r]{\strut{}$0.15$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(814,2588){\makebox(0,0)[r]{\strut{}$4.0$}}%
+      \put(946,2588){\makebox(0,0)[r]{\strut{}$0.20$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(814,3059){\makebox(0,0)[r]{\strut{}$5.0$}}%
+      \put(946,3059){\makebox(0,0)[r]{\strut{}$0.25$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(946,484){\makebox(0,0){\strut{}$360$$\cdot$$2^0$}}%
+      \put(1078,484){\makebox(0,0){\strut{}$0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(2055,484){\makebox(0,0){\strut{}$360$$\cdot$$2^1$}}%
+      \put(1909,484){\makebox(0,0){\strut{}$5$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(3163,484){\makebox(0,0){\strut{}$360$$\cdot$$2^2$}}%
+      \put(2741,484){\makebox(0,0){\strut{}$10$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(4272,484){\makebox(0,0){\strut{}$360$$\cdot$$2^3$}}%
+      \put(3572,484){\makebox(0,0){\strut{}$15$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4403,484){\makebox(0,0){\strut{}$20$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(176,1881){\rotatebox{90}{\makebox(0,0){\strut{}Χρόνος εκτέλεσης [ms]}}}%
+      \put(176,1881){\rotatebox{90}{\makebox(0,0){\strut{}Σφάλμα θέσης [m]}}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(2609,154){\makebox(0,0){\strut{}Αριθμός ακτίνων $N_s$}}%
+      \put(2740,154){\makebox(0,0){\strut{}Δείκτης επανάληψης}}%
       \colorrgb{0.00,0.00,0.00}%
-      \put(2609,3269){\makebox(0,0){\strut{}$T_{\texttt{rc\_uf}}$}}%
+      \put(1000,3469){\makebox(0,0){\strut{}$|\theta - \hat{\theta}|$ [rad]}}%
+      \put(2000,3469){\makebox(0,0){\strut{}{\color{a}{\rule[0.6mm]{0.5cm}{0.5mm}}} \small $0.0$}}%
+      \put(2800,3469){\makebox(0,0){\strut{}{\color{b}{\rule[0.6mm]{0.5cm}{0.5mm}}} \small $0.01$}}%
+      \put(3600,3469){\makebox(0,0){\strut{}{\color{c}{\rule[0.6mm]{0.5cm}{0.5mm}}} \small $0.05$}}%
+      \put(4400,3469){\makebox(0,0){\strut{}{\color{d}{\rule[0.6mm]{0.5cm}{0.5mm}}} \small $0.10$}}%
     }%
-    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/times_rc_uf}}%
+    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/03/tc_x1_non_convergence}}%
     \gplfronttext
   \end{picture}%
 \endgroup

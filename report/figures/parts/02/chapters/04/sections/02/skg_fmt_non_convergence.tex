@@ -36,7 +36,7 @@
   % define a \g@addto@macro without @ in the name:
   \let\gplgaddtomacro\g@addto@macro
   % define empty templates for all commands taking text:
-  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
   \gdef\gplfronttext{}%
   \makeatother
   \ifGPblacktext
@@ -87,7 +87,7 @@
     \setlength{\fboxrule}{0.5pt}%
     \setlength{\fboxsep}{1pt}%
 \begin{picture}(8000.00,4000.00)%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
       \put(1468,647){\makebox(0,0)[r]{\strut{}$2^{-3}$}}%
       \colorrgb{0.15,0.15,0.15}%
@@ -141,7 +141,7 @@
       \put(5899,4219){\makebox(0,0){\strut{}Προκρούστειες}}%
 
     }%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
       \put(4868,400){\makebox(0,0)[r]{\strut{}$2^{-5}$}}%
       \colorrgb{0.15,0.15,0.15}%
@@ -179,7 +179,6 @@
     }%
     \gplgaddtomacro\gplfronttext{%
     }%
-    \gplbacktext
     \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/02/skg_fmt_non_convergence}}%
     \gplfronttext
   \end{picture}%
