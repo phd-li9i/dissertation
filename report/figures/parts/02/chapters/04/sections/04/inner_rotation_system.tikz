@@ -74,7 +74,7 @@
 \draw (150,44.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\bm{M}$};
 % Text Node
 \draw  [fill=alg2,opacity=.25]  (201,174) -- (341,174) -- (341,215) -- (201,215) -- cycle  ;
-\draw (203,180) node [anchor=north west][inner sep=0.75pt]  [align=left] {\ \ \ \ \ \ \ Rehearsal \\ \ Position Estimation};
+\draw (203,179.5) node [anchor=north west][inner sep=0.75pt]  [align=left] {\ \ \ \ \ \ \ Rehearsal \\ \ Position Estimation};
 % Text Node
 \draw  [fill=alg3,opacity=.25]  (196.5,253) -- (345.5,253) -- (345.5,279) -- (196.5,279) -- cycle  ;
 \draw (235,259) node [anchor=north west][inner sep=0.75pt]   [align=left] {Scan Map};

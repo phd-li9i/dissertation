@@ -39,14 +39,14 @@
 \draw    (239.5,392.33) -- (239.5,417) ;
 \draw [shift={(239.5,419)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 %Straight Lines [id:da44842589807001]
-\draw    (169.5,301) -- (136,300.69) ;
+\draw    (169.5,301) -- (136,301) ;
 \draw [shift={(134,300.67)}, rotate = 360.53999999999996] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 %Straight Lines [id:da5521661750319236]
 \draw    (382,488.67) -- (382,517.33) -- (130.5,517.33) ;
 
 % Text Node
-\draw    (161,113) -- (332,113) -- (332,138) -- (161,138) -- cycle  ;
-\draw (164,119) node [anchor=north west][inner sep=0.75pt]   [align=center] {One-step Pose Correction};
+\draw (161,113) -- (336,113) -- (336,138) -- (161,138) -- cycle  ;
+\draw (164,119) node [anchor=north west][inner sep=0.75pt]   [align=center] {One-step Pose Estimation};
 % Text Node
 \draw    (241.84, 37.33) circle [x radius= 24.75, y radius= 14.85]   ;
 \draw (241.84,37.33) node   [align=left] {Start};
