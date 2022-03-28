@@ -42,7 +42,7 @@
 \draw (235,174) -- (379,174) -- (379,200) -- (235,200) -- cycle  ;
 \draw (235,180) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ \ Position Estimation};
 
-\draw (425,179) node [anchor=north west][inner sep=0.75pt]   [align=left] {$I = f( \nu )$};
+\draw (425,179) node [anchor=north west][inner sep=0.75pt]   [align=left] {$I_T = f( \nu )$};
 \draw (379,187) -- (415.5,187) ; % I = fn line to position estimation
 \draw [shift={(379,187)}, rotate = 0] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;% I = fn arrow to position estimation
 

@@ -79,7 +79,7 @@
 \draw  [fill=alg3,opacity=.25]  (196.5,253) -- (345.5,253) -- (345.5,279) -- (196.5,279) -- cycle  ;
 \draw (235,259) node [anchor=north west][inner sep=0.75pt]   [align=left] {Scan Map};
 % Text Node
-\draw (376,187) node [anchor=north west][inner sep=0.75pt]   [align=left] {$I = 1$};
+\draw (376,187) node [anchor=north west][inner sep=0.75pt]   [align=left] {$I_T = 1$};
 % Text Node
 \draw   [fill=alg3,opacity=.25] (199,317) -- (343,317) -- (343,342) -- (199,342) -- cycle  ;
 % Text Node
