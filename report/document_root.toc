@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Μεθοδολογία ευθυγράμμισης από κοινού}{40}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Αντιμετώπιση των περιορισμών υπό γενικές συνθήκες}{41}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Αντιμετώπιση των υπό γενικές συνθήκες γωνιακών περιορισμών}{41}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Το σύστημα από κοινού ευθυγράμμισης}{46}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
