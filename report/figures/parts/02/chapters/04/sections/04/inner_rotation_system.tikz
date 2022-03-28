@@ -58,7 +58,8 @@
 %Shape: Rectangle [id:dp8185193791005427]
 \draw  [dash pattern={on 0.84pt off 2.51pt}] (105,75) -- (420,75) -- (420,350) -- (105,350) -- cycle ;
 
-\draw (369,65) node  {One-step Orientation Estimation};
+\draw (379,45) node  {CAER-based};
+\draw (379,63) node  {Orientation Estimation};
 
 % Text Node
 \draw    (184,114) -- (358,114) -- (358,139) -- (184,139) -- cycle  ;

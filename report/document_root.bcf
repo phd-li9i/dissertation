@@ -2045,88 +2045,10 @@
     <bcf:datasource type="file" datatype="bibtex">./parts/bibliography/bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">thrun2005probabilistic</bcf:citekey>
-    <bcf:citekey order="2">liddell_scott</bcf:citekey>
-    <bcf:citekey order="3">Wang2019</bcf:citekey>
-    <bcf:citekey order="4">Williford2018</bcf:citekey>
-    <bcf:citekey order="5">Vasconez2019</bcf:citekey>
-    <bcf:citekey order="5">Noguchi2011</bcf:citekey>
-    <bcf:citekey order="6">Sheetz2020</bcf:citekey>
-    <bcf:citekey order="7">Dikmen2016</bcf:citekey>
-    <bcf:citekey order="7">Lima2018</bcf:citekey>
-    <bcf:citekey order="7">Simpson2019</bcf:citekey>
-    <bcf:citekey order="8">Dimitriou2021</bcf:citekey>
-    <bcf:citekey order="9">Khan2020</bcf:citekey>
-    <bcf:citekey order="10">security_robots</bcf:citekey>
-    <bcf:citekey order="10">hotel_robots</bcf:citekey>
-    <bcf:citekey order="10">Chen2021</bcf:citekey>
-    <bcf:citekey order="10">Nicholson2008</bcf:citekey>
-    <bcf:citekey order="11">Beer2014</bcf:citekey>
-    <bcf:citekey order="12">Panigrahi2021</bcf:citekey>
-    <bcf:citekey order="13">Qi2020</bcf:citekey>
-    <bcf:citekey order="14">Qi2020</bcf:citekey>
-    <bcf:citekey order="15">Mallick2014</bcf:citekey>
-    <bcf:citekey order="16">Oliver2012</bcf:citekey>
-    <bcf:citekey order="17">Oliver2012</bcf:citekey>
-    <bcf:citekey order="18">Sighencea2021</bcf:citekey>
-    <bcf:citekey order="19">statista1</bcf:citekey>
-    <bcf:citekey order="20">statista2</bcf:citekey>
-    <bcf:citekey order="21">Sighencea2021</bcf:citekey>
-    <bcf:citekey order="22">statista1</bcf:citekey>
-    <bcf:citekey order="23">statista2</bcf:citekey>
-    <bcf:citekey order="24">Vasiljevic2016a</bcf:citekey>
-    <bcf:citekey order="25">Maybeck1979</bcf:citekey>
-    <bcf:citekey order="26">Thrun2002a</bcf:citekey>
-    <bcf:citekey order="26">Gustafsson2002</bcf:citekey>
-    <bcf:citekey order="27">Dellaert</bcf:citekey>
-    <bcf:citekey order="28">thrun2005probabilistic</bcf:citekey>
-    <bcf:citekey order="29">thrun2005probabilistic</bcf:citekey>
-    <bcf:citekey order="30">Fox2001</bcf:citekey>
-    <bcf:citekey order="31">Cooper2018a</bcf:citekey>
-    <bcf:citekey order="32">Gutmann</bcf:citekey>
-    <bcf:citekey order="32">Hahnel</bcf:citekey>
-    <bcf:citekey order="32">Chieh-ChihWang</bcf:citekey>
-    <bcf:citekey order="33">Lacroix2002a</bcf:citekey>
-    <bcf:citekey order="33">Minguez</bcf:citekey>
-    <bcf:citekey order="33">Montesano2008a</bcf:citekey>
-    <bcf:citekey order="34">Schulz</bcf:citekey>
-    <bcf:citekey order="35">Casasent1976</bcf:citekey>
-    <bcf:citekey order="35">Qin-ShengChen1994a</bcf:citekey>
-    <bcf:citekey order="35">Reddy1996</bcf:citekey>
-    <bcf:citekey order="36">Qin-ShengChen1994a</bcf:citekey>
-    <bcf:citekey order="37">Riemann1851</bcf:citekey>
-    <bcf:citekey order="38">Ng2009</bcf:citekey>
-    <bcf:citekey order="39">Schonemann1966a</bcf:citekey>
-    <bcf:citekey order="40">Umeyama1991</bcf:citekey>
-    <bcf:citekey order="41">Dogan2015</bcf:citekey>
-    <bcf:citekey order="42">Filotheou2022d</bcf:citekey>
-    <bcf:citekey order="43">Filotheou2022d</bcf:citekey>
+    <bcf:citekey order="1">Schonemann1966a</bcf:citekey>
+    <bcf:citekey order="2">Umeyama1991</bcf:citekey>
+    <bcf:citekey order="3">Dogan2015</bcf:citekey>
+    <bcf:citekey order="4">Filotheou2022d</bcf:citekey>
+    <bcf:citekey order="5">Filotheou2022d</bcf:citekey>
   </bcf:section>
-  <bcf:sortlist section="0" name="ynt/global" type="entry" sortscheme="ynt" sortnamekeyscheme="global">
-  <bcf:sorting>
-    <bcf:sort order="1">
-      <bcf:sortitem order="1">presort</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="2" final="1">
-      <bcf:sortitem order="1">sortkey</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="3">
-      <bcf:sortitem order="1">sortyear</bcf:sortitem>
-      <bcf:sortitem order="2">year</bcf:sortitem>
-      <bcf:sortitem order="3">9999</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="4">
-      <bcf:sortitem order="1">sortname</bcf:sortitem>
-      <bcf:sortitem order="2">author</bcf:sortitem>
-      <bcf:sortitem order="3">editor</bcf:sortitem>
-      <bcf:sortitem order="4">translator</bcf:sortitem>
-      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="6">title</bcf:sortitem>
-    </bcf:sort>
-    <bcf:sort order="5">
-      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
-      <bcf:sortitem order="2">title</bcf:sortitem>
-    </bcf:sort>
-  </bcf:sorting>
-  </bcf:sortlist>
 </bcf:controlfile>
