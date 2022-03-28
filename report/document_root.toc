@@ -66,23 +66,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.6}Η μέθοδος του Θησέα}{60}{subsection.4.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.7}Θανάσιμοι περιορισμοί υπό γενικές συνθήκες}{64}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.7}Περιορισμοί και ιδιότητες υπό γενικές συνθήκες}{64}{subsection.4.2.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Μεθοδολογία ευθυγράμμισης θέσης}{70}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Η μέθοδος Πρώτων Αρχών}{71}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Θανάσιμοι περιορισμοί υπό γενικές συνθήκες}{74}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Ιδιότητες υπό γενικές συνθήκες}{74}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Μεθοδολογία ευθυγράμμισης από κοινού}{76}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}Αντιμετώπιση των περιορισμών υπό γενικές συνθήκες}{77}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Το σύστημα από κοινού ευθυγράμμισης}{78}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Το σύστημα από κοινού ευθυγράμμισης}{80}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{83}{section.4.5}
+\contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{84}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Συμπεράσματα και περαιτέρω έρευνα}{83}{section.4.6}
+\contentsline {section}{\numberline {4.6}Συμπεράσματα και περαιτέρω έρευνα}{84}{section.4.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{85}{part.3}
 \defcounter {refsection}{0}\relax 
