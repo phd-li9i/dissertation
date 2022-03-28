@@ -165,24 +165,24 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
     \ENSURE $\hat{\bm{p}}_C(\hat{x}, \hat{y}, \hat{\theta}_C)$
-    \STATE $\hat{\bm{P}}_{OE} \leftarrow \{\varnothing\}$
+    \STATE \tikzmk{A}$\hat{\bm{P}}_{OE} \leftarrow \{\varnothing\}$
     \FOR{$k = 0 : 2^\nu-1$}
       \STATE $\hat{\bm{p}}_k \leftarrow (\hat{x}, \hat{y}, \hat{\theta} + k \cdot \gamma/2^\nu)$
       \STATE $\mathcal{S}_V^k \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}_k, N_s)$ \hfill (αλγ. \ref{alg:scan_map})
       \STATE $\hat{\theta}^\prime \leftarrow \texttt{rcm}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}_k, \gamma)$ \hfill (αλγ. \ref{alg:02_04_04:rc})
       \STATE $\texttt{append} \ \ \hat{\theta}_k = \hat{\theta}^\prime + k \cdot \gamma/2^\nu$ to $\hat{\bm{P}}_{OE}$
       \STATE $k \leftarrow k + 1$
-    \ENDFOR
-    \STATE $\hat{\bm{P}}_{RPE} \leftarrow \{\varnothing\}$
+    \ENDFOR \tikzmk{B}\boxit{alg1}
+    \STATE \tikzmk{A}$\hat{\bm{P}}_{RPE} \leftarrow \{\varnothing\}$
     \FOR{$k = 0 : 2^\nu-1$}
       \STATE $\hat{\bm{p}}_k^\prime \leftarrow \texttt{tc\_x1}(\bm{M}, \mathcal{S}_R, \hat{\bm{P}}_{OE}[k], 1, \infty, N_s)$ \hfill (αλγ. \ref{alg:icte})
       \STATE $\texttt{append} \ \ \hat{\bm{p}}_k^\prime$ to $\hat{\bm{P}}_{RPE}$
-    \ENDFOR
-    \STATE $\bm{C} \leftarrow \{\varnothing\}$
+    \ENDFOR\tikzmk{B}\boxit{alg2}
+    \STATE \tikzmk{A}$\bm{C} \leftarrow \{\varnothing\}$
     \FOR{$k = 0 : 2^\nu-1$}
       \STATE $\mathcal{S}_V^{k \prime} \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{P}}_{RPE}[k], N_s)$
       \STATE $\texttt{append} \ \ \texttt{CAER}(\mathcal{S}_R, \mathcal{S}_V^{k \prime})$ to $\bm{C}$ \hfill (εξ. \ref{eq:caer_normal})
-    \ENDFOR
+    \ENDFOR\tikzmk{B}\boxit{alg3}
     \STATE $k_{\min} \leftarrow \arg\min \{C\}$
     \STATE $\hat{\theta}_C \leftarrow \hat{\bm{P}}_{OE}[k_{\min}]$
     \RETURN $\hat{\bm{p}}_C(\hat{x}, \hat{y}, \hat{\theta}_C)$
@@ -191,6 +191,7 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
   \label{}
 \end{algorithm}
 
+
 \begin{algorithm}[!h]
   \caption{\texttt{rcm}}
   \begin{spacing}{1.5}
@@ -198,11 +199,11 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
     \REQUIRE \texttt{rc}, $\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma$
     \ENSURE $\hat{\theta}^\prime$
     \IF{$\texttt{rc} = \texttt{rc\_fm}$}
-      \STATE $(\hat{\theta}^\prime, \cdot) \leftarrow \texttt{rc\_fm}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma)$
+      \STATE $(\hat{\theta}^\prime, \cdot) \leftarrow \texttt{rc\_fm}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma)$ \hfill (αλγ. \ref{alg:algorithm_fmrc})
     \ELSIF{$\texttt{rc} = \texttt{rc\_x1}$}
-      \STATE $\hat{\theta}^\prime \leftarrow \texttt{rc\_x1}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}))$
+      \STATE $\hat{\theta}^\prime \leftarrow \texttt{rc\_x1}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}))$ \hfill (αλγ. \ref{alg:algorithm_x1rc})
     \ELSIF{$\texttt{rc} = \texttt{rc\_uf}$}
-      \STATE $(\hat{\theta}^\prime, \cdot) \leftarrow \texttt{rc\_uf}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma)$
+      \STATE $(\hat{\theta}^\prime, \cdot) \leftarrow \texttt{rc\_uf}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma)$ \hfill (αλγ. \ref{alg:algorithm_ufrc})
     \ENDIF
     \RETURN $\hat{\theta}^\prime$
   \end{algorithmic}

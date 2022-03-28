@@ -91,7 +91,7 @@
 \usepackage{framed}
 \pgfplotsset{compat=1.8}
 \usepgfplotslibrary{statistics}
-\usetikzlibrary{calc}
+\usetikzlibrary{fit,calc}
 \usepackage{gnuplot-lua-tikz}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 
@@ -410,3 +410,14 @@
             \raisebox{\depth-\dp0}{\scalebox{1}[-1]{*}}\cr}%
   }%
 }
+
+
+
+% Highlight algorithm parts with color
+\newcommand*{\tikzmk}[1]{\tikz[remember picture,overlay,] \node (#1) {};\ignorespaces}
+%define a boxing command, argument = colour of box
+\newcommand{\boxit}[1]{\tikz[remember picture,overlay]{\node[yshift=3pt,fill=#1,opacity=.25,fit={($(A)+(-0.038\linewidth,.3\baselineskip)$)($(B)+(.9\linewidth,-.3\baselineskip)$)}] {};}\ignorespaces}
+
+\definecolor{alg1}{RGB}{251,180,174}
+\definecolor{alg2}{RGB}{255,255,204}
+\definecolor{alg3}{RGB}{241,226,204}
