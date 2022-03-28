@@ -84,13 +84,13 @@
 \draw    (199,317) -- (343,317) -- (343,342) -- (199,342) -- cycle  ;
 % Text Node
 % Text Node
-\draw (271,145.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{P}}_{OC} = \text{OC}(\hat{\bm{p}})$};
+\draw (271,145.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{P}}_{OE} = \text{OE}(\hat{\bm{p}})$};
 % Text Node
-\draw (271,223.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{P}}_{RPC} = \text{RPC}(\hat{\bm{P}}_{OC})$};
+\draw (271,223.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{P}}_{RPE} = \text{RPE}(\hat{\bm{P}}_{OE})$};
 % Text Node
 \draw (271,289.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\bm{\mathcal{S}}_V$};
 \draw (190,322) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ \ \ $\bm{C} = \text{CAER}(\mathcal{S}_R, \bm{\mathcal{S}}_V)$};
-\draw (73,372.67) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}_{C} \in \hat{\bm{P}}_{OC} : \text{CAER}(\mathcal{S}_R, \texttt{scan\_map}(\bm{M}, \text{RPC}(\hat{\bm{p}}_C))) = \min\{\bm{C}\}$};
+\draw (73,372.67) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}_{C} \in \hat{\bm{P}}_{OE} : \text{CAER}(\mathcal{S}_R, \texttt{scan\_map}(\bm{M}, \text{RPE}(\hat{\bm{p}}_C))) = \min\{\bm{C}\}$};
 
 
 \end{tikzpicture}

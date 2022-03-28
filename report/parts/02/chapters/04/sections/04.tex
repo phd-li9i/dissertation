@@ -73,7 +73,6 @@ Error per Ray (CAER), η οποία δίνεται από την εξίσωση 
 διαταραχών των μετρήσεων του φυσικού αισθητήρα και επίπεδα διαφθοράς του χάρτη
 ως προς το περιβάλλον που αναπαριστά, σε αντιστοιχία με το σχήμα
 \ref{fig:02_04_02:errorbar_x1}.
-
 \begin{align}
   \text{CAER}(\mathcal{S}_R, \mathcal{S}_V) \triangleq & \sum\limits_{n=0}^{N_s-1} \Bigg|
     \mathcal{S}_R[n]\Big|_{(x, y, \theta)} -
@@ -135,22 +134,22 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
 μετρήσεις του φυσικού αισθητήρα και η ταύτιση του χάρτη με το περιβάλλον που
 αναπαριστά είναι διεφθαρμένες από θόρυβο.
 
-Σε αυτό το σημείο έχουμε εκμεταλλευτεί μόνο την ιδιότητα
+Σε αυτό το σημείο έχουμε εκμεταλλευτεί μόνο την ιδιότητα της παρατήρησης
 \ref{remark:02_04_02:01}. Για τον επιπρόσθετο διαχωρισμό ανάμεσα στις
 εκτιμήσεις προσανατολισμού εκμεταλλευόμαστε την καμπυλότητα της CAER και την
-ιδιότητα \ref{remark:loc_prop_or} με τον εξής τρόπο: δεδομένου ότι εκτιμήσεις
-στάσης μεγαλύτερου σφάλματος  προσανατολισμού οδηγούν σε (α) υψηλότερα σφάλματα
-θέσης όταν εισαχθούν στη μέθοδο εκτίμησης θέσης Πρώτων Αρχών, και (β)
-υψηλότερες τιμές CAER, αν εισάγουμε τις $2^\nu$ εκτιμήσεις στάσης που έχουν
-προέλθει από τις τρεις μεθόδους εκτίμησης προσανατολισμού στη μέθοδο εκτίμησης
-θέσης για έναν περιορισμένο αριθμό επαναλήψεων, τότε οι περισσότερο ανακριβείς
-ως προς τον προσανατολισμό στάσεις θα οδηγηθούν σε περισσότερο ανακριβείς
-θέσεις, και, κατά συνέπεια, οι εικονικές σαρώσεις που συλλαμβάνονται από αυτές
-θα οδηγήσουν σε μεγαλύτερες τιμές CAER σε σχέση με τις λιγότερο ανακριβείς
-στάσεις κατά προσανατολισμό. Ταυτόχρονα, με αυτόν τον τρόπο, γίνεται εφικτό
-να εισαχθεί μόνο μία εκτίμηση στάσης από τις $2^\nu$ στη μέθοδο εκτίμησης
-θέσης (αυτή με τη χαμηλότερη τιμή CAER), με αποτέλεσμα χαμηλότερο χρόνο
-εκτέλεσης της από κοινού μεθόδου ευθυγράμμισης.
+ιδιότητα της παρατήρησης \ref{remark:loc_prop_or} με τον εξής τρόπο: δεδομένου
+ότι εκτιμήσεις στάσης μεγαλύτερου σφάλματος  προσανατολισμού οδηγούν σε (α)
+υψηλότερα σφάλματα θέσης όταν εισαχθούν στη μέθοδο εκτίμησης θέσης Πρώτων
+Αρχών, και (β) υψηλότερες τιμές CAER, αν εισάγουμε τις $2^\nu$ εκτιμήσεις
+στάσης που έχουν προέλθει από τις τρεις μεθόδους εκτίμησης προσανατολισμού στη
+μέθοδο εκτίμησης θέσης για έναν περιορισμένο αριθμό επαναλήψεων, τότε οι
+περισσότερο ανακριβείς ως προς τον προσανατολισμό στάσεις θα οδηγηθούν σε
+περισσότερο ανακριβείς θέσεις, και, κατά συνέπεια, οι εικονικές σαρώσεις που
+συλλαμβάνονται από αυτές θα οδηγήσουν σε μεγαλύτερες τιμές CAER σε σχέση με τις
+λιγότερο ανακριβείς στάσεις κατά προσανατολισμό. Ταυτόχρονα, με αυτόν τον
+τρόπο, γίνεται εφικτό να εισαχθεί μόνο μία εκτίμηση στάσης από τις $2^\nu$ στη
+μέθοδο εκτίμησης θέσης (αυτή με τη χαμηλότερη τιμή CAER), με αποτέλεσμα
+χαμηλότερο χρόνο εκτέλεσης της από κοινού μεθόδου ευθυγράμμισης.
 
 
 \begin{figure}[!h]\centering
@@ -159,6 +158,57 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
   \label{fig:02_04_04:inner_rotation_system}
 \end{figure}
 
+
+\begin{algorithm}[!h]
+  \caption{\texttt{caer-based\_orientation\_estimation}}
+  \begin{spacing}{1.5}
+  \begin{algorithmic}[1]
+    \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
+    \ENSURE $\hat{\bm{p}}_C(\hat{x}, \hat{y}, \hat{\theta}_C)$
+    \STATE $\hat{\bm{P}}_{OE} \leftarrow \{\varnothing\}$
+    \FOR{$k = 0 : 2^\nu-1$}
+      \STATE $\hat{\bm{p}}_k \leftarrow (\hat{x}, \hat{y}, \hat{\theta} + k \cdot \gamma/2^\nu)$
+      \STATE $\mathcal{S}_V^k \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}_k, N_s)$ \hfill (αλγ. \ref{alg:scan_map})
+      \STATE $\hat{\theta}^\prime \leftarrow \texttt{rcm}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}_k, \gamma)$ \hfill (αλγ. \ref{alg:02_04_04:rc})
+      \STATE $\texttt{append} \ \ \hat{\theta}_k = \hat{\theta}^\prime + k \cdot \gamma/2^\nu$ to $\hat{\bm{P}}_{OE}$
+      \STATE $k \leftarrow k + 1$
+    \ENDFOR
+    \STATE $\hat{\bm{P}}_{RPE} \leftarrow \{\varnothing\}$
+    \FOR{$k = 0 : 2^\nu-1$}
+      \STATE $\hat{\bm{p}}_k^\prime \leftarrow \texttt{tc\_x1}(\bm{M}, \mathcal{S}_R, \hat{\bm{P}}_{OE}[k], 1, \infty, N_s)$ \hfill (αλγ. \ref{alg:icte})
+      \STATE $\texttt{append} \ \ \hat{\bm{p}}_k^\prime$ to $\hat{\bm{P}}_{RPE}$
+    \ENDFOR
+    \STATE $\bm{C} \leftarrow \{\varnothing\}$
+    \FOR{$k = 0 : 2^\nu-1$}
+      \STATE $\mathcal{S}_V^{k \prime} \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{P}}_{RPE}[k], N_s)$
+      \STATE $\texttt{append} \ \ \texttt{CAER}(\mathcal{S}_R, \mathcal{S}_V^{k \prime})$ to $\bm{C}$ \hfill (εξ. \ref{eq:caer_normal})
+    \ENDFOR
+    \STATE $k_{\min} \leftarrow \arg\min \{C\}$
+    \STATE $\hat{\theta}_C \leftarrow \hat{\bm{P}}_{OE}[k_{\min}]$
+    \RETURN $\hat{\bm{p}}_C(\hat{x}, \hat{y}, \hat{\theta}_C)$
+  \end{algorithmic}
+  \end{spacing}
+  \label{}
+\end{algorithm}
+
+\begin{algorithm}[!h]
+  \caption{\texttt{rcm}}
+  \begin{spacing}{1.5}
+  \begin{algorithmic}[1]
+    \REQUIRE \texttt{rc}, $\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma$
+    \ENSURE $\hat{\theta}^\prime$
+    \IF{$\texttt{rc} = \texttt{rc\_fm}$}
+      \STATE $(\hat{\theta}^\prime, \cdot) \leftarrow \texttt{rc\_fm}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma)$
+    \ELSIF{$\texttt{rc} = \texttt{rc\_x1}$}
+      \STATE $\hat{\theta}^\prime \leftarrow \texttt{rc\_x1}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}))$
+    \ELSIF{$\texttt{rc} = \texttt{rc\_uf}$}
+      \STATE $(\hat{\theta}^\prime, \cdot) \leftarrow \texttt{rc\_uf}(\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma)$
+    \ENDIF
+    \RETURN $\hat{\theta}^\prime$
+  \end{algorithmic}
+  \end{spacing}
+  \label{alg:02_04_04:rc}
+\end{algorithm}
 
 
 
