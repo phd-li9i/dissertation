@@ -1,0 +1,578 @@
+% GNUPLOT: LaTeX picture with Postscript
+\begingroup
+  \makeatletter
+  \providecommand\color[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package color not loaded in conjunction with
+      terminal option `colourtext'%
+    }{See the gnuplot documentation for explanation.%
+    }{Either use 'blacktext' in gnuplot or load the package
+      color.sty in LaTeX.}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\includegraphics[2][]{%
+    \GenericError{(gnuplot) \space\space\space\@spaces}{%
+      Package graphicx or graphics not loaded%
+    }{See the gnuplot documentation for explanation.%
+    }{The gnuplot epslatex terminal needs graphicx.sty or graphics.sty.}%
+    \renewcommand\includegraphics[2][]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \@ifundefined{ifGPcolor}{%
+    \newif\ifGPcolor
+    \GPcolorfalse
+  }{}%
+  \@ifundefined{ifGPblacktext}{%
+    \newif\ifGPblacktext
+    \GPblacktexttrue
+  }{}%
+  % define a \g@addto@macro without @ in the name:
+  \let\gplgaddtomacro\g@addto@macro
+  % define empty templates for all commands taking text:
+  \gdef\gplfronttext{}%
+  \gdef\gplfronttext{}%
+  \makeatother
+  \ifGPblacktext
+    % no textcolor at all
+    \def\colorrgb#1{}%
+    \def\colorgray#1{}%
+  \else
+    % gray or color?
+    \ifGPcolor
+      \def\colorrgb#1{\color[rgb]{#1}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color[rgb]{1,0,0}}%
+      \expandafter\def\csname LT1\endcsname{\color[rgb]{0,1,0}}%
+      \expandafter\def\csname LT2\endcsname{\color[rgb]{0,0,1}}%
+      \expandafter\def\csname LT3\endcsname{\color[rgb]{1,0,1}}%
+      \expandafter\def\csname LT4\endcsname{\color[rgb]{0,1,1}}%
+      \expandafter\def\csname LT5\endcsname{\color[rgb]{1,1,0}}%
+      \expandafter\def\csname LT6\endcsname{\color[rgb]{0,0,0}}%
+      \expandafter\def\csname LT7\endcsname{\color[rgb]{1,0.3,0}}%
+      \expandafter\def\csname LT8\endcsname{\color[rgb]{0.5,0.5,0.5}}%
+    \else
+      % gray
+      \def\colorrgb#1{\color{black}}%
+      \def\colorgray#1{\color[gray]{#1}}%
+      \expandafter\def\csname LTw\endcsname{\color{white}}%
+      \expandafter\def\csname LTb\endcsname{\color{black}}%
+      \expandafter\def\csname LTa\endcsname{\color{black}}%
+      \expandafter\def\csname LT0\endcsname{\color{black}}%
+      \expandafter\def\csname LT1\endcsname{\color{black}}%
+      \expandafter\def\csname LT2\endcsname{\color{black}}%
+      \expandafter\def\csname LT3\endcsname{\color{black}}%
+      \expandafter\def\csname LT4\endcsname{\color{black}}%
+      \expandafter\def\csname LT5\endcsname{\color{black}}%
+      \expandafter\def\csname LT6\endcsname{\color{black}}%
+      \expandafter\def\csname LT7\endcsname{\color{black}}%
+      \expandafter\def\csname LT8\endcsname{\color{black}}%
+    \fi
+  \fi
+    \setlength{\unitlength}{0.0500bp}%
+    \ifx\gptboxheight\undefined%
+      \newlength{\gptboxheight}%
+      \newlength{\gptboxwidth}%
+      \newsavebox{\gptboxtext}%
+    \fi%
+    \setlength{\fboxrule}{0.5pt}%
+    \setlength{\fboxsep}{1pt}%
+\begin{picture}(8400.00,2400.00)%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,1308){\makebox(0,0)[r]{\strut{}\footnotesize $75\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,1521){\makebox(0,0)[r]{\strut{}\footnotesize $80\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,1735){\makebox(0,0)[r]{\strut{}\footnotesize $85\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,1948){\makebox(0,0)[r]{\strut{}\footnotesize $90\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,2162){\makebox(0,0)[r]{\strut{}\footnotesize $95\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,2375){\makebox(0,0)[r]{\strut{}\footnotesize $100\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(112,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(273,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(433,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(593,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(754,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-798,1841){\rotatebox{90}{\makebox(0,0){\strut{}\small $\sigma_{\bm{M}} = 0.0$ m}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(433,2595){\makebox(0,0){\strut{}\footnotesize PLICP}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1045,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1206,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1366,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1526,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1687,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(1366,2595){\makebox(0,0){\strut{}\footnotesize NDT}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1978,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2139,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2299,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2459,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2620,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2299,2595){\makebox(0,0){\strut{}\footnotesize FastGICP}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2911,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3072,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3232,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3392,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3553,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3232,2595){\makebox(0,0){\strut{}\footnotesize FastVGICP}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3845,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4005,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4166,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4326,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4486,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4165,2595){\makebox(0,0){\strut{}\footnotesize NDT-PSO}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4778,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4939,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5099,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5259,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5420,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5099,2595){\makebox(0,0){\strut{}\footnotesize TEASER}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5712,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5872,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6033,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6193,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6353,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6032,2595){\makebox(0,0){\strut{}\footnotesize \texttt{x1}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6645,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6805,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6966,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7126,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7286,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(6965,2595){\makebox(0,0){\strut{}\footnotesize \texttt{uf}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,1308){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,1521){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,1735){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,1948){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,2162){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,2375){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7578,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7738,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7899,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(8059,1088){\makebox(0,0){\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(8219,1088){\makebox(0,0){\strut{}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7898,2595){\makebox(0,0){\strut{}\footnotesize \texttt{fm}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,24){\makebox(0,0)[r]{\strut{}\footnotesize $75\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,237){\makebox(0,0)[r]{\strut{}\footnotesize $80\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,451){\makebox(0,0)[r]{\strut{}\footnotesize $85\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,664){\makebox(0,0)[r]{\strut{}\footnotesize $90\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,878){\makebox(0,0)[r]{\strut{}\footnotesize $95\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-132,1091){\makebox(0,0)[r]{\strut{}\footnotesize $100\%$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(112,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(273,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(433,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(593,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(754,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(-798,557){\rotatebox{90}{\makebox(0,0){\strut{}\small $\sigma_{\bm{M}} = 0.05$ m}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(801,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1045,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1206,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1366,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1526,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1687,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1734,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(1978,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2139,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2299,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2459,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2620,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2667,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(2911,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3072,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3232,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3392,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3553,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3601,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(3845,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4005,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4166,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4326,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4486,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4534,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4778,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4939,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5099,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5259,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5420,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5468,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5712,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(5872,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6033,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6193,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6353,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6401,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6645,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6805,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(6966,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7126,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7286,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,24){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,237){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,451){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,664){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,878){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7334,1091){\makebox(0,0)[r]{\strut{}}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7578,-196){\makebox(0,0){\strut{}\scriptsize $1$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7738,-196){\makebox(0,0){\strut{}\scriptsize $3$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(7899,-196){\makebox(0,0){\strut{}\scriptsize $5$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(8059,-196){\makebox(0,0){\strut{}\scriptsize $10$}}%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(8219,-196){\makebox(0,0){\strut{}\scriptsize $20$}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.15,0.15,0.15}%
+      \put(4199,-526){\makebox(0,0){\strut{}Τυπική απόκλιση διαταραχών $\sigma_R$ [cm]}}%
+    }%
+    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/05/pose_improvement_percent}}%
+    \gplfronttext
+  \end{picture}%
+\endgroup

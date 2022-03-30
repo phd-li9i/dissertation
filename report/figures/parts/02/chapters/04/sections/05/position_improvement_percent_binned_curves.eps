@@ -1,0 +1,5733 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: /media/li9i/var/elements/PhD/fourier_scan_to_map_scan_matcher/struct/scripts_phd/experiments/improvement_percent/position_improvement_percent_binned_curves.tex
+%%Creator: gnuplot 5.0 patchlevel 3
+%%CreationDate: Wed Mar 30 20:24:01 2022
+%%DocumentFonts: 
+%%BoundingBox: 50 50 450 290
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext true def
+/Solid false def
+/Dashlength 2 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -73 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 450 50 lineto 450 290 lineto 50 290 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (/media/li9i/var/elements/PhD/fourier_scan_to_map_scan_matcher/struct/scripts_phd/experiments/improvement_percent/position_improvement_percent_binned_curves.tex)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 3)
+  /Author (li9i)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Wed Mar 30 20:24:01 2022)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 80 2448 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 2448 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 2909 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 3369 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 3830 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 4290 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 4751 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1583 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 748 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 429 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 227 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 0.15 0.15 0.15 C LTb
+LCb setrgbcolor
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+2.000 UP
+3.000 UL
+LTb
+0.00 0.45 0.74 C 1583 4710 M
+-225 13 V
+-160 13 V
+-124 -4 V
+-101 5 V
+-85 2 V
+-74 1 V
+-66 1 V
+-58 1 V
+-53 0 V
+-48 1 V
+-45 0 V
+-41 0 V
+-38 2 V
+-36 -1 V
+-34 2 V
+-31 0 V
+-30 0 V
+-29 0 V
+-27 -1 V
+-26 1 V
+-25 0 V
+-23 1 V
+-23 -1 V
+-22 0 V
+-21 2 V
+-20 -2 V
+-19 5 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 1583 2773 M
+-225 221 V
+-160 162 V
+-124 157 V
+973 3440 L
+-85 111 V
+-74 61 V
+-66 99 V
+-58 33 V
+-53 71 V
+-48 51 V
+-45 26 V
+-41 49 V
+-38 24 V
+-36 33 V
+-34 15 V
+-31 17 V
+-30 24 V
+-29 15 V
+-27 18 V
+-26 24 V
+-25 24 V
+-23 5 V
+-23 44 V
+-22 15 V
+-21 25 V
+-20 26 V
+99 4144 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 1583 3845 M
+-225 143 V
+-160 133 V
+-124 68 V
+-101 63 V
+-85 39 V
+-74 31 V
+-66 16 V
+-58 34 V
+-53 24 V
+-48 26 V
+-45 13 V
+-41 15 V
+-38 8 V
+-36 23 V
+-34 13 V
+-31 4 V
+-30 12 V
+-29 9 V
+-27 7 V
+-26 5 V
+-25 21 V
+-23 -6 V
+-23 7 V
+-22 20 V
+-21 -14 V
+-20 -2 V
+-19 35 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 1583 3247 M
+-225 321 V
+-160 166 V
+-124 148 V
+-101 63 V
+-85 57 V
+-74 47 V
+-66 51 V
+-58 35 V
+-53 30 V
+-48 24 V
+-45 20 V
+-41 16 V
+-38 20 V
+-36 18 V
+-34 3 V
+-31 15 V
+-30 15 V
+-29 -2 V
+-27 12 V
+-26 6 V
+-25 12 V
+-23 9 V
+-23 -12 V
+-22 21 V
+-21 -11 V
+-20 36 V
+99 4191 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 1583 4117 M
+-225 187 V
+-160 -74 V
+-124 134 V
+-101 8 V
+-85 2 V
+-74 -50 V
+-66 26 V
+-58 24 V
+-53 18 V
+-48 -16 V
+-45 -17 V
+-41 24 V
+-38 -1 V
+-36 -15 V
+-34 21 V
+-31 20 V
+-30 -33 V
+-29 36 V
+-27 -10 V
+-26 -43 V
+-25 44 V
+-23 -20 V
+-23 -42 V
+-22 47 V
+-21 63 V
+118 4342 L
+99 4751 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 1583 4362 M
+-225 117 V
+-160 38 V
+-124 52 V
+-101 1 V
+-85 34 V
+-74 7 V
+-66 -33 V
+-58 16 V
+-53 11 V
+-48 -28 V
+-45 0 V
+-41 -20 V
+-38 -67 V
+-36 1 V
+-34 -39 V
+-31 -45 V
+-30 -24 V
+-29 -15 V
+-27 -20 V
+-26 -15 V
+-25 -32 V
+-23 -61 V
+-23 -39 V
+-22 -9 V
+-21 26 V
+-20 -7 V
+-19 79 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 1583 4627 M
+-225 64 V
+-160 21 V
+-124 16 V
+-101 2 V
+-85 7 V
+-74 3 V
+-66 -1 V
+-58 5 V
+-53 -2 V
+-48 0 V
+-45 4 V
+-41 -1 V
+-38 1 V
+-36 1 V
+-34 -2 V
+-31 1 V
+-30 1 V
+-29 -2 V
+-27 0 V
+-26 0 V
+-25 -2 V
+-23 1 V
+-23 -6 V
+-22 2 V
+-21 0 V
+-20 1 V
+-19 10 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 1583 4738 M
+-225 10 V
+-160 2 V
+-124 0 V
+-101 0 V
+-85 1 V
+-74 -1 V
+-66 1 V
+-58 0 V
+-53 0 V
+-48 0 V
+-45 0 V
+-41 0 V
+-38 0 V
+-36 0 V
+-34 0 V
+-31 0 V
+-30 0 V
+-29 0 V
+-27 0 V
+-26 0 V
+-25 0 V
+-23 0 V
+-23 -1 V
+-22 0 V
+-21 -1 V
+-20 -3 V
+-19 5 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 1583 4730 M
+-225 18 V
+-160 1 V
+-124 2 V
+-101 0 V
+-85 0 V
+-74 0 V
+-66 0 V
+-58 0 V
+-53 0 V
+-48 0 V
+-45 0 V
+-41 0 V
+-38 0 V
+-36 0 V
+-34 0 V
+-31 0 V
+-30 0 V
+-29 0 V
+-27 0 V
+-26 0 V
+-25 0 V
+-23 0 V
+-23 -1 V
+-22 1 V
+-21 -3 V
+-20 -2 V
+-19 5 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 80 2448 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 80 4751 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 80 2448 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1583 2448 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 1664 2448 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 2448 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 2909 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 3369 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 3830 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 4290 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 4751 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3167 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2332 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2013 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1811 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+2.000 UP
+3.000 UL
+LTb
+0.00 0.45 0.74 C 3167 4373 M
+-225 170 V
+-160 52 V
+-124 34 V
+-101 11 V
+-85 9 V
+-74 7 V
+-66 11 V
+-58 3 V
+-53 7 V
+-48 -3 V
+-45 -1 V
+-41 1 V
+-38 3 V
+-36 0 V
+-34 3 V
+-31 -1 V
+-30 0 V
+-29 5 V
+-27 -4 V
+-26 9 V
+-25 -5 V
+-23 0 V
+-23 2 V
+-22 -3 V
+-21 8 V
+-20 -3 V
+-19 -14 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 3167 2981 M
+-225 246 V
+-160 203 V
+-124 158 V
+-101 68 V
+-85 117 V
+-74 55 V
+-66 56 V
+-58 62 V
+-53 23 V
+-48 45 V
+-45 15 V
+-41 26 V
+-38 28 V
+-36 2 V
+-34 13 V
+-31 -1 V
+-30 7 V
+-29 -6 V
+-27 7 V
+-26 16 V
+-25 15 V
+-23 11 V
+-23 54 V
+-22 11 V
+-21 20 V
+-20 79 V
+-19 -52 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 3167 3701 M
+-225 258 V
+-160 134 V
+-124 77 V
+-101 66 V
+-85 32 V
+-74 54 V
+-66 23 V
+-58 29 V
+-53 19 V
+-48 30 V
+-45 17 V
+-41 11 V
+-38 11 V
+-36 18 V
+-34 10 V
+-31 12 V
+-30 13 V
+-29 6 V
+-27 8 V
+-26 9 V
+-25 6 V
+-23 4 V
+-23 7 V
+-22 22 V
+-21 -27 V
+-20 5 V
+-19 65 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 3167 3101 M
+-225 279 V
+-160 213 V
+-124 144 V
+-101 103 V
+-85 84 V
+-74 44 V
+-66 67 V
+-58 28 V
+-53 47 V
+-48 35 V
+-45 16 V
+-41 26 V
+-38 25 V
+-36 19 V
+-34 0 V
+-31 21 V
+-30 17 V
+-29 -1 V
+-27 15 V
+-26 6 V
+-25 10 V
+-23 3 V
+-23 16 V
+-22 11 V
+-21 9 V
+-20 8 V
+-19 18 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 3167 4074 M
+-225 164 V
+-160 99 V
+-124 -21 V
+-101 133 V
+-85 24 V
+-74 4 V
+-66 14 V
+-58 -8 V
+-53 15 V
+-48 9 V
+-45 0 V
+-41 16 V
+-38 19 V
+-36 -32 V
+-34 44 V
+-31 -39 V
+-30 31 V
+-29 7 V
+-27 -13 V
+-26 14 V
+-25 1 V
+-23 36 V
+-23 -5 V
+-22 -46 V
+-21 47 V
+-20 -79 V
+-19 66 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 3167 4371 M
+-225 39 V
+-160 154 V
+-124 -34 V
+-101 30 V
+-85 60 V
+-74 -57 V
+-66 19 V
+-58 10 V
+-53 12 V
+-48 19 V
+-45 -6 V
+-41 -18 V
+-38 34 V
+-36 -22 V
+-34 -19 V
+-31 -9 V
+-30 3 V
+-29 -19 V
+-27 24 V
+-26 -21 V
+-25 15 V
+-23 -64 V
+-23 6 V
+-22 46 V
+-21 -68 V
+-20 -39 V
+-19 -134 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 3167 4407 M
+-225 173 V
+-160 81 V
+-124 32 V
+-101 15 V
+-85 10 V
+-74 8 V
+-66 2 V
+-58 7 V
+-53 4 V
+-48 0 V
+-45 2 V
+-41 -1 V
+-38 1 V
+-36 -1 V
+-34 4 V
+-31 -2 V
+-30 1 V
+-29 -2 V
+-27 1 V
+-26 -1 V
+-25 1 V
+-23 -4 V
+-23 -2 V
+-22 1 V
+-21 -7 V
+-20 1 V
+-19 -27 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 3167 4648 M
+-225 78 V
+-160 5 V
+-124 11 V
+-101 3 V
+-85 2 V
+-74 1 V
+-66 1 V
+-58 1 V
+-53 0 V
+-48 0 V
+-45 0 V
+-41 1 V
+-38 0 V
+-36 0 V
+-34 -1 V
+-31 0 V
+-30 0 V
+-29 0 V
+-27 0 V
+-26 0 V
+-25 0 V
+-23 0 V
+-23 0 V
+-22 -2 V
+-21 0 V
+-20 -1 V
+-19 4 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 3167 4649 M
+-225 67 V
+-160 16 V
+-124 11 V
+-101 1 V
+-85 4 V
+-74 1 V
+-66 0 V
+-58 1 V
+-53 0 V
+-48 1 V
+-45 0 V
+-41 -1 V
+-38 1 V
+-36 0 V
+-34 0 V
+-31 -1 V
+-30 0 V
+-29 0 V
+-27 0 V
+-26 0 V
+-25 0 V
+-23 0 V
+-23 -1 V
+-22 -2 V
+-21 1 V
+-20 0 V
+-19 3 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 1664 2448 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1664 4751 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1664 2448 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3167 2448 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 3248 2448 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 2448 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 2909 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 3369 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 3830 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 4290 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 4751 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4751 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3916 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3597 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3395 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+2.000 UP
+3.000 UL
+LTb
+0.00 0.45 0.74 C 4751 3782 M
+-225 347 V
+-160 166 V
+-124 88 V
+-101 38 V
+-85 17 V
+-74 34 V
+-66 2 V
+-58 14 V
+-53 19 V
+-48 -3 V
+-45 11 V
+-41 6 V
+-38 -5 V
+-36 6 V
+-34 5 V
+-31 0 V
+-30 0 V
+-29 0 V
+-27 9 V
+-26 -3 V
+-25 9 V
+-23 -8 V
+-23 -2 V
+-22 2 V
+-21 20 V
+-20 -25 V
+-19 56 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 4751 2958 M
+-225 258 V
+-160 158 V
+-124 173 V
+-101 101 V
+-85 107 V
+-74 42 V
+-66 70 V
+-58 39 V
+-53 56 V
+-48 38 V
+-45 17 V
+-41 47 V
+-38 9 V
+-36 14 V
+-34 15 V
+-31 -1 V
+-30 12 V
+-29 -7 V
+-27 16 V
+-26 5 V
+-25 12 V
+-23 13 V
+-23 21 V
+-22 31 V
+-21 36 V
+-20 21 V
+-19 -39 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 4751 3386 M
+-225 435 V
+-160 159 V
+-124 146 V
+-101 51 V
+-85 58 V
+-74 51 V
+-66 43 V
+-58 42 V
+-53 13 V
+-48 27 V
+-45 19 V
+-41 14 V
+-38 15 V
+-36 11 V
+-34 4 V
+-31 15 V
+-30 15 V
+-29 14 V
+-27 3 V
+-26 11 V
+-25 -7 V
+-23 27 V
+-23 -3 V
+-22 2 V
+-21 12 V
+-20 -12 V
+-19 114 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 4751 2986 M
+-225 286 V
+-160 195 V
+-124 172 V
+-101 119 V
+-85 102 V
+-74 52 V
+-66 64 V
+-58 44 V
+-53 37 V
+-48 34 V
+-45 30 V
+-41 16 V
+-38 36 V
+-36 17 V
+-34 7 V
+-31 31 V
+-30 7 V
+-29 18 V
+-27 13 V
+-26 7 V
+-25 3 V
+-23 25 V
+-23 -6 V
+-22 4 V
+-21 34 V
+-20 -4 V
+-19 175 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 4751 3818 M
+-225 330 V
+-160 126 V
+-124 74 V
+-101 21 V
+-85 47 V
+-74 7 V
+-66 58 V
+-58 -40 V
+-53 39 V
+-48 -25 V
+-45 77 V
+-41 -14 V
+-38 12 V
+-36 -2 V
+-34 2 V
+-31 2 V
+-30 22 V
+-29 -10 V
+-27 -14 V
+-26 23 V
+-25 -15 V
+-23 47 V
+-23 -32 V
+-22 34 V
+-21 -6 V
+-20 16 V
+-19 154 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 4751 4331 M
+-225 60 V
+-160 143 V
+-124 -28 V
+-101 36 V
+-85 10 V
+-74 42 V
+-66 1 V
+-58 -25 V
+-53 23 V
+-48 4 V
+-45 0 V
+-41 11 V
+-38 -33 V
+-36 33 V
+-34 -6 V
+-31 17 V
+-30 -2 V
+-29 -21 V
+-27 -7 V
+-26 -3 V
+-25 25 V
+-23 -37 V
+-23 50 V
+-22 12 V
+-21 -30 V
+-20 47 V
+-19 -94 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 4751 4141 M
+-225 289 V
+-160 125 V
+-124 64 V
+-101 33 V
+-85 33 V
+-74 11 V
+-66 12 V
+-58 9 V
+-53 9 V
+-48 0 V
+-45 3 V
+-41 4 V
+-38 1 V
+-36 0 V
+-34 -1 V
+-31 0 V
+-30 3 V
+-29 -1 V
+-27 1 V
+-26 -6 V
+-25 2 V
+-23 1 V
+-23 0 V
+-22 -5 V
+-21 2 V
+-20 -15 V
+-19 9 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 4751 4529 M
+-225 124 V
+-160 51 V
+-124 18 V
+-101 15 V
+-85 3 V
+-74 5 V
+-66 1 V
+-58 0 V
+-53 2 V
+-48 -1 V
+-45 1 V
+-41 1 V
+-38 0 V
+-36 0 V
+-34 1 V
+-31 -1 V
+-30 1 V
+-29 0 V
+-27 -1 V
+-26 1 V
+-25 -1 V
+-23 -1 V
+-23 1 V
+-22 0 V
+-21 -2 V
+-20 -7 V
+-19 11 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 4751 4508 M
+-225 152 V
+-160 50 V
+-124 11 V
+-101 14 V
+-85 8 V
+-74 0 V
+-66 0 V
+-58 3 V
+-53 1 V
+-48 1 V
+-45 -1 V
+-41 1 V
+-38 2 V
+-36 -1 V
+-34 0 V
+-31 1 V
+-30 -1 V
+-29 0 V
+-27 0 V
+-26 1 V
+-25 -2 V
+-23 1 V
+-23 -1 V
+-22 -1 V
+-21 0 V
+-20 -4 V
+-19 8 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 3248 2448 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3248 4751 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3248 2448 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 4751 2448 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 4832 2448 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 2448 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 2909 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 3369 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 3830 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 4290 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 4751 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6335 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 5500 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 5181 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4979 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+2.000 UP
+3.000 UL
+LTb
+0.00 0.45 0.74 C 6335 2947 M
+-225 410 V
+-160 297 V
+-124 191 V
+-101 144 V
+-85 90 V
+-74 83 V
+-66 57 V
+-58 38 V
+-53 26 V
+-48 20 V
+-45 26 V
+-41 8 V
+-38 12 V
+-36 7 V
+-34 18 V
+-31 -6 V
+-30 13 V
+-29 5 V
+-27 16 V
+-26 -8 V
+-25 -5 V
+-23 9 V
+-23 1 V
+-22 11 V
+-21 17 V
+-20 -39 V
+-19 50 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 6335 2677 M
+-225 174 V
+-160 197 V
+-124 160 V
+-101 124 V
+-85 112 V
+-74 97 V
+-66 81 V
+-58 72 V
+-53 44 V
+-48 61 V
+-45 53 V
+-41 27 V
+-38 50 V
+-36 39 V
+-34 24 V
+-31 25 V
+-30 36 V
+-29 15 V
+-27 14 V
+-26 24 V
+-25 8 V
+-23 34 V
+-23 17 V
+-22 8 V
+-21 14 V
+-20 32 V
+-19 106 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 6335 2919 M
+-225 341 V
+-160 271 V
+-124 252 V
+-101 143 V
+-85 111 V
+-74 91 V
+-66 63 V
+-58 58 V
+-53 29 V
+-48 49 V
+-45 21 V
+-41 26 V
+-38 16 V
+-36 22 V
+-34 15 V
+-31 22 V
+-30 6 V
+-29 12 V
+-27 8 V
+-26 20 V
+-25 3 V
+-23 16 V
+-23 0 V
+-22 11 V
+-21 12 V
+-20 5 V
+-19 0 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 6335 2719 M
+-225 281 V
+-160 196 V
+-124 183 V
+-101 137 V
+-85 113 V
+-74 84 V
+-66 89 V
+-58 53 V
+-53 67 V
+-48 44 V
+-45 34 V
+-41 46 V
+-38 21 V
+-36 51 V
+-34 10 V
+-31 13 V
+-30 29 V
+-29 25 V
+-27 11 V
+-26 14 V
+-25 2 V
+-23 24 V
+-23 -2 V
+-22 16 V
+-21 18 V
+-20 41 V
+-19 -118 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 6335 3065 M
+-225 463 V
+-160 274 V
+-124 261 V
+-101 69 V
+-85 82 V
+-74 3 V
+-66 61 V
+-58 37 V
+-53 46 V
+-48 -8 V
+-45 29 V
+-41 -2 V
+-38 15 V
+-36 26 V
+-34 -18 V
+-31 9 V
+-30 19 V
+-29 -10 V
+-27 0 V
+-26 42 V
+-25 10 V
+-23 7 V
+-23 -22 V
+-22 -2 V
+-21 55 V
+-20 11 V
+-19 229 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 6335 3923 M
+-225 425 V
+-160 109 V
+-124 -9 V
+-101 88 V
+-85 -21 V
+-74 12 V
+-66 32 V
+-58 23 V
+-53 -28 V
+-48 6 V
+-45 18 V
+-41 -4 V
+-38 14 V
+-36 1 V
+-34 9 V
+-31 -17 V
+-30 20 V
+-29 -10 V
+-27 6 V
+-26 0 V
+-25 -30 V
+-23 35 V
+-23 -58 V
+-22 63 V
+-21 -2 V
+-20 -113 V
+-19 29 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 6335 3589 M
+-225 460 V
+-160 233 V
+-124 126 V
+-101 81 V
+-85 42 V
+-74 37 V
+-66 29 V
+-58 30 V
+-53 22 V
+-48 10 V
+-45 1 V
+-41 17 V
+-38 3 V
+-36 5 V
+-34 6 V
+-31 -1 V
+-30 9 V
+-29 -2 V
+-27 4 V
+-26 0 V
+-25 3 V
+-23 -1 V
+-23 -1 V
+-22 -1 V
+-21 -1 V
+-20 9 V
+-19 -19 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 6335 4123 M
+-225 324 V
+-160 125 V
+-124 67 V
+-101 36 V
+-85 28 V
+-74 10 V
+-66 6 V
+-58 8 V
+-53 7 V
+-48 2 V
+-45 1 V
+-41 1 V
+-38 4 V
+-36 -1 V
+-34 1 V
+-31 2 V
+-30 0 V
+-29 1 V
+-27 -1 V
+-26 1 V
+-25 -3 V
+-23 3 V
+-23 -2 V
+-22 -1 V
+-21 0 V
+-20 -3 V
+-19 12 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 6335 4100 M
+-225 334 V
+-160 149 V
+-124 67 V
+-101 30 V
+-85 24 V
+-74 14 V
+-66 4 V
+-58 5 V
+-53 7 V
+-48 0 V
+-45 4 V
+-41 3 V
+-38 -1 V
+-36 1 V
+-34 3 V
+-31 0 V
+-30 -2 V
+-29 2 V
+-27 2 V
+-26 -1 V
+-25 1 V
+-23 -2 V
+-23 -4 V
+-22 1 V
+-21 1 V
+-20 -2 V
+-19 11 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 4832 2448 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 4832 4751 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 4832 2448 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 6335 2448 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 6416 2448 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 2448 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 2909 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 3369 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 3830 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 4290 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 4751 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 7919 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 7084 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6765 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6563 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 2448 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+2.000 UP
+3.000 UL
+LTb
+0.00 0.45 0.74 C 7919 2592 M
+-225 162 V
+-160 181 V
+-124 167 V
+-101 145 V
+-85 159 V
+-74 101 V
+-66 130 V
+-58 70 V
+-53 86 V
+-48 88 V
+-45 40 V
+-41 48 V
+-38 44 V
+-36 40 V
+-34 38 V
+-31 19 V
+-30 34 V
+-29 17 V
+-27 30 V
+-26 10 V
+-25 16 V
+-23 9 V
+-23 13 V
+-22 31 V
+-21 -25 V
+-20 8 V
+-19 11 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 7919 2544 M
+-225 145 V
+-160 138 V
+-124 140 V
+-101 151 V
+-85 123 V
+-74 97 V
+-66 92 V
+-58 91 V
+-53 72 V
+-48 54 V
+-45 59 V
+-41 62 V
+-38 34 V
+-36 67 V
+-34 35 V
+-31 23 V
+-30 31 V
+-29 35 V
+-27 9 V
+-26 31 V
+-25 6 V
+-23 41 V
+-23 27 V
+-22 -6 V
+-21 20 V
+-20 1 V
+-19 140 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 7919 2587 M
+-225 173 V
+-160 183 V
+-124 172 V
+-101 180 V
+-85 136 V
+-74 162 V
+-66 87 V
+-58 103 V
+-53 77 V
+-48 88 V
+-45 55 V
+-41 49 V
+-38 53 V
+-36 47 V
+-34 43 V
+-31 28 V
+-30 32 V
+-29 34 V
+-27 25 V
+-26 8 V
+-25 27 V
+-23 20 V
+-23 19 V
+-22 20 V
+-21 -1 V
+-20 14 V
+-19 23 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 7919 2559 M
+-225 116 V
+-160 137 V
+-124 157 V
+-101 135 V
+-85 142 V
+-74 99 V
+-66 88 V
+-58 89 V
+-53 57 V
+-48 76 V
+-45 59 V
+-41 54 V
+-38 45 V
+-36 41 V
+-34 49 V
+-31 18 V
+-30 43 V
+-29 32 V
+-27 23 V
+-26 36 V
+-25 11 V
+-23 26 V
+-23 15 V
+-22 16 V
+-21 28 V
+-20 16 V
+-19 -166 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 7919 2527 M
+-225 121 V
+-160 184 V
+-124 135 V
+-101 206 V
+-85 163 V
+-74 90 V
+-66 130 V
+-58 131 V
+-53 63 V
+-48 74 V
+-45 90 V
+-41 83 V
+-38 -33 V
+-36 113 V
+-34 21 V
+-31 21 V
+-30 8 V
+-29 45 V
+-27 22 V
+-26 -15 V
+-25 69 V
+-23 -22 V
+-23 -17 V
+-22 -49 V
+-21 70 V
+-20 28 V
+-19 205 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 7919 3608 M
+-225 409 V
+-160 104 V
+-124 157 V
+-101 49 V
+-85 99 V
+-74 18 V
+-66 84 V
+-58 -88 V
+-53 67 V
+-48 25 V
+-45 3 V
+-41 -8 V
+-38 0 V
+-36 24 V
+-34 -1 V
+-31 3 V
+-30 7 V
+-29 -11 V
+-27 16 V
+-26 19 V
+-25 -17 V
+-23 1 V
+-23 9 V
+-22 -29 V
+-21 13 V
+-20 86 V
+-19 104 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 7919 2983 M
+-225 434 V
+-160 313 V
+-124 253 V
+-101 140 V
+-85 132 V
+-74 77 V
+-66 73 V
+-58 43 V
+-53 35 V
+-48 29 V
+-45 22 V
+-41 20 V
+-38 21 V
+-36 8 V
+-34 16 V
+-31 6 V
+-30 17 V
+-29 0 V
+-27 5 V
+-26 0 V
+-25 10 V
+-23 1 V
+-23 0 V
+-22 13 V
+-21 -5 V
+-20 3 V
+-19 -15 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 7919 3533 M
+-225 438 V
+-160 264 V
+-124 177 V
+-101 85 V
+-85 67 V
+-74 43 V
+-66 28 V
+-58 23 V
+-53 18 V
+-48 10 V
+-45 7 V
+-41 8 V
+-38 7 V
+-36 9 V
+-34 1 V
+-31 4 V
+-30 3 V
+-29 -1 V
+-27 3 V
+-26 2 V
+-25 -2 V
+-23 1 V
+-23 0 V
+-22 0 V
+-21 0 V
+-20 0 V
+-19 23 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 7919 3506 M
+-225 482 V
+-160 266 V
+-124 155 V
+-101 98 V
+-85 57 V
+-74 48 V
+-66 30 V
+-58 16 V
+-53 15 V
+-48 15 V
+-45 7 V
+-41 5 V
+-38 8 V
+-36 6 V
+-34 4 V
+-31 1 V
+-30 6 V
+-29 0 V
+-27 1 V
+-26 1 V
+-25 4 V
+-23 -4 V
+-23 2 V
+-22 0 V
+-21 -1 V
+-20 0 V
+-19 -3 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 6416 2448 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 6416 4751 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 6416 2448 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 7919 2448 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 80 48 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 48 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 509 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 969 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 1430 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 1890 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 2351 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1583 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 748 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 429 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 227 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 80 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 0.15 0.15 0.15 C LTb
+LCb setrgbcolor
+2.000 UP
+3.000 UL
+LTb
+0.00 0.45 0.74 C 1583 720 M
+-225 504 V
+-160 314 V
+-124 262 V
+973 1930 L
+-85 95 V
+-74 52 V
+-66 33 V
+-58 23 V
+-53 19 V
+-48 23 V
+-45 -5 V
+-41 12 V
+-38 5 V
+-36 1 V
+-34 11 V
+-31 3 V
+-30 -2 V
+-29 4 V
+-27 3 V
+-26 3 V
+-25 3 V
+-23 9 V
+-23 4 V
+-22 4 V
+-21 -3 V
+-20 9 V
+99 2140 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 1583 282 M
+1358 532 L
+1198 746 L
+1074 980 L
+973 1089 L
+-85 119 V
+-74 125 V
+-66 61 V
+-58 42 V
+-53 57 V
+-48 36 V
+-45 62 V
+-41 10 V
+-38 24 V
+-36 15 V
+-34 3 V
+-31 9 V
+-30 24 V
+-29 -3 V
+-27 10 V
+-26 14 V
+-25 26 V
+-23 7 V
+-23 28 V
+-22 25 V
+-21 12 V
+-20 38 V
+99 1697 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 1583 543 M
+1358 853 L
+-160 268 V
+-124 162 V
+-101 90 V
+-85 100 V
+-74 67 V
+-66 63 V
+-58 55 V
+-53 35 V
+-48 67 V
+-45 18 V
+-41 36 V
+-38 31 V
+-36 31 V
+-34 12 V
+-31 26 V
+-30 21 V
+-29 11 V
+-27 18 V
+-26 24 V
+-25 13 V
+-23 10 V
+-23 9 V
+-22 43 V
+-21 -19 V
+-20 7 V
+-19 15 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 1583 249 M
+1358 556 L
+1198 801 L
+-124 235 V
+973 1181 L
+-85 141 V
+-74 92 V
+-66 73 V
+-58 68 V
+-53 67 V
+-48 33 V
+-45 28 V
+-41 25 V
+-38 41 V
+-36 14 V
+-34 25 V
+-31 6 V
+-30 29 V
+-29 12 V
+-27 2 V
+-26 11 V
+-25 17 V
+-23 5 V
+-23 27 V
+-22 2 V
+-21 11 V
+-20 -15 V
+99 1696 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 1583 229 M
+1358 459 L
+1198 680 L
+1074 847 L
+973 957 L
+-85 145 V
+-74 94 V
+-66 21 V
+-58 30 V
+-53 111 V
+-48 -8 V
+-45 17 V
+-41 1 V
+-38 50 V
+-36 -7 V
+-34 45 V
+-31 -2 V
+-30 38 V
+-29 -43 V
+-27 27 V
+-26 56 V
+-25 -27 V
+-23 34 V
+-23 2 V
+-22 38 V
+-21 60 V
+-20 88 V
+99 2063 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 1583 1054 M
+-225 266 V
+-160 421 V
+-124 206 V
+-101 30 V
+-85 76 V
+-74 25 V
+-66 19 V
+-58 1 V
+-53 15 V
+-48 -4 V
+-45 -3 V
+-41 -15 V
+-38 -9 V
+-36 -47 V
+-34 7 V
+-31 -80 V
+-30 32 V
+-29 -75 V
+-27 6 V
+-26 17 V
+-25 -42 V
+-23 -15 V
+-23 17 V
+-22 -14 V
+-21 4 V
+-20 49 V
+99 1514 L
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 1583 480 M
+1358 808 L
+-160 311 V
+-124 221 V
+973 1550 L
+-85 117 V
+-74 117 V
+-66 97 V
+-58 47 V
+-53 76 V
+-48 44 V
+-45 33 V
+-41 29 V
+-38 26 V
+-36 31 V
+-34 9 V
+-31 9 V
+-30 17 V
+-29 11 V
+-27 4 V
+-26 6 V
+-25 13 V
+-23 2 V
+-23 2 V
+-22 9 V
+-21 1 V
+-20 -18 V
+-19 93 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 1583 737 M
+-225 416 V
+-160 379 V
+-124 229 V
+973 1916 L
+-85 101 V
+-74 85 V
+-66 38 V
+-58 52 V
+-53 25 V
+-48 18 V
+-45 15 V
+-41 12 V
+-38 8 V
+-36 8 V
+-34 8 V
+-31 6 V
+-30 4 V
+-29 6 V
+-27 -1 V
+-26 3 V
+-25 5 V
+-23 0 V
+-23 0 V
+-22 -10 V
+-21 14 V
+-20 4 V
+-19 13 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 1583 737 M
+-225 442 V
+-160 349 V
+-124 267 V
+973 1918 L
+-85 110 V
+-74 74 V
+-66 44 V
+-58 37 V
+-53 28 V
+-48 22 V
+-45 17 V
+-41 11 V
+-38 10 V
+-36 7 V
+-34 7 V
+-31 6 V
+-30 5 V
+-29 4 V
+-27 5 V
+-26 1 V
+-25 0 V
+-23 -1 V
+-23 3 V
+-22 2 V
+-21 -7 V
+-20 16 V
+99 2214 L
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 80 48 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 80 2351 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 80 48 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1583 48 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 1664 48 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 48 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 509 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 969 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 1430 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 1890 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 2351 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3167 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2332 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2013 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1811 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1664 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UP
+3.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.45 0.74 C 3167 703 M
+-225 478 V
+-160 361 V
+-124 251 V
+-101 134 V
+-85 93 V
+-74 57 V
+-66 28 V
+-58 34 V
+-53 16 V
+-48 26 V
+-45 1 V
+-41 6 V
+-38 1 V
+-36 12 V
+-34 -3 V
+-31 7 V
+-30 5 V
+-29 0 V
+-27 5 V
+-26 7 V
+-25 -10 V
+-23 17 V
+-23 -11 V
+-22 5 V
+-21 8 V
+-20 -12 V
+-19 82 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 3167 183 M
+2942 357 L
+2782 549 L
+2658 716 L
+2557 842 L
+-85 160 V
+-74 105 V
+-66 72 V
+-58 84 V
+-53 82 V
+-48 24 V
+-45 36 V
+-41 65 V
+-38 31 V
+-36 29 V
+-34 26 V
+-31 43 V
+-30 20 V
+-29 13 V
+-27 32 V
+-26 17 V
+-25 23 V
+-23 27 V
+-23 7 V
+-22 1 V
+-21 31 V
+-20 28 V
+-19 -66 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 3167 469 M
+2942 815 L
+-160 234 V
+-124 172 V
+-101 136 V
+-85 114 V
+-74 48 V
+-66 71 V
+-58 31 V
+-53 60 V
+-48 49 V
+-45 28 V
+-41 41 V
+-38 26 V
+-36 14 V
+-34 38 V
+-31 18 V
+-30 28 V
+-29 15 V
+-27 10 V
+-26 19 V
+-25 8 V
+-23 22 V
+-23 17 V
+-22 2 V
+-21 29 V
+-20 21 V
+-19 53 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 3167 266 M
+2942 494 L
+2782 754 L
+2658 957 L
+-101 162 V
+-85 144 V
+-74 111 V
+-66 73 V
+-58 71 V
+-53 49 V
+-48 38 V
+-45 42 V
+-41 34 V
+-38 24 V
+-36 40 V
+-34 20 V
+-31 16 V
+-30 20 V
+-29 6 V
+-27 20 V
+-26 16 V
+-25 3 V
+-23 15 V
+-23 9 V
+-22 9 V
+-21 16 V
+-20 5 V
+-19 -78 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 3167 295 M
+2942 595 L
+2782 901 L
+-124 229 V
+-101 79 V
+-85 106 V
+-74 72 V
+-66 40 V
+-58 20 V
+-53 29 V
+-48 52 V
+-45 7 V
+-41 0 V
+-38 38 V
+-36 20 V
+-34 10 V
+-31 -35 V
+-30 18 V
+-29 25 V
+-27 33 V
+-26 -8 V
+-25 11 V
+-23 14 V
+-23 -32 V
+-22 16 V
+-21 56 V
+-20 -62 V
+-19 -583 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 3167 919 M
+-225 544 V
+-160 161 V
+-124 214 V
+-101 80 V
+-85 115 V
+-74 50 V
+-66 3 V
+-58 47 V
+-53 16 V
+-48 6 V
+-45 -20 V
+-41 28 V
+-38 18 V
+-36 -12 V
+-34 2 V
+-31 1 V
+-30 -4 V
+-29 -17 V
+-27 -9 V
+-26 -10 V
+-25 6 V
+-23 -18 V
+-23 18 V
+-22 -43 V
+-21 -17 V
+-20 56 V
+-19 -167 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 3167 477 M
+2942 817 L
+-160 310 V
+-124 236 V
+-101 145 V
+-85 176 V
+-74 112 V
+-66 76 V
+-58 71 V
+-53 70 V
+-48 31 V
+-45 38 V
+-41 23 V
+-38 29 V
+-36 22 V
+-34 14 V
+-31 19 V
+-30 12 V
+-29 11 V
+-27 10 V
+-26 3 V
+-25 16 V
+-23 4 V
+-23 -9 V
+-22 6 V
+-21 4 V
+-20 31 V
+-19 -17 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 3167 731 M
+-225 433 V
+-160 360 V
+-124 252 V
+-101 144 V
+-85 112 V
+-74 73 V
+-66 50 V
+-58 37 V
+-53 29 V
+-48 18 V
+-45 17 V
+-41 4 V
+-38 14 V
+-36 6 V
+-34 9 V
+-31 7 V
+-30 3 V
+-29 2 V
+-27 4 V
+-26 0 V
+-25 3 V
+-23 0 V
+-23 -3 V
+-22 -5 V
+-21 11 V
+-20 -10 V
+-19 2 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 3167 724 M
+-225 433 V
+-160 349 V
+-124 271 V
+-101 141 V
+-85 105 V
+-74 77 V
+-66 45 V
+-58 50 V
+-53 22 V
+-48 21 V
+-45 11 V
+-41 15 V
+-38 11 V
+-36 12 V
+-34 1 V
+-31 7 V
+-30 6 V
+-29 0 V
+-27 6 V
+-26 -1 V
+-25 0 V
+-23 0 V
+-23 -3 V
+-22 4 V
+-21 1 V
+-20 3 V
+-19 -58 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 1664 48 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1664 2351 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1664 48 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3167 48 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 3248 48 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 48 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 509 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 969 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 1430 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 1890 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 2351 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4751 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3916 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3597 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3395 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3248 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UP
+3.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.45 0.74 C 4751 548 M
+4526 998 L
+-160 360 V
+-124 234 V
+-101 171 V
+-85 104 V
+-74 58 V
+-66 59 V
+-58 22 V
+-53 20 V
+-48 15 V
+-45 22 V
+-41 11 V
+-38 11 V
+-36 0 V
+-34 5 V
+-31 13 V
+-30 0 V
+-29 4 V
+-27 5 V
+-26 4 V
+-25 -10 V
+-23 7 V
+-23 9 V
+-22 -2 V
+-21 0 V
+-20 -35 V
+-19 100 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 4751 287 M
+4526 508 L
+4366 723 L
+4242 905 L
+-101 164 V
+-85 118 V
+-74 103 V
+-66 86 V
+-58 59 V
+-53 58 V
+-48 26 V
+-45 40 V
+-41 31 V
+-38 18 V
+-36 22 V
+-34 18 V
+-31 20 V
+-30 6 V
+-29 1 V
+-27 16 V
+-26 12 V
+-25 17 V
+-23 23 V
+-23 31 V
+-22 -18 V
+-21 26 V
+-20 62 V
+-19 -121 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 4751 398 M
+4526 727 L
+4366 963 L
+-124 201 V
+-101 123 V
+-85 105 V
+-74 68 V
+-66 76 V
+-58 41 V
+-53 77 V
+-48 26 V
+-45 50 V
+-41 34 V
+-38 35 V
+-36 28 V
+-34 8 V
+-31 34 V
+-30 26 V
+-29 20 V
+-27 20 V
+-26 17 V
+-25 28 V
+-23 3 V
+-23 13 V
+-22 12 V
+-21 34 V
+-20 -36 V
+-19 -7 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 4751 246 M
+4526 480 L
+4366 708 L
+4242 920 L
+-101 164 V
+-85 124 V
+-74 109 V
+-66 83 V
+-58 81 V
+-53 45 V
+-48 56 V
+-45 44 V
+-41 38 V
+-38 18 V
+-36 38 V
+-34 30 V
+-31 10 V
+-30 29 V
+-29 13 V
+-27 20 V
+-26 13 V
+-25 8 V
+-23 6 V
+-23 15 V
+-22 8 V
+-21 -10 V
+-20 14 V
+-19 -37 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 4751 348 M
+4526 686 L
+-160 324 V
+-124 274 V
+-101 133 V
+-85 37 V
+-74 -5 V
+-66 100 V
+-58 14 V
+-53 50 V
+-48 8 V
+-45 15 V
+-41 63 V
+-38 -20 V
+-36 20 V
+-34 4 V
+-31 34 V
+-30 -30 V
+-29 20 V
+-27 -23 V
+-26 92 V
+-25 -38 V
+-23 34 V
+-23 -27 V
+-22 30 V
+-21 -32 V
+-20 -98 V
+-19 302 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 4751 954 M
+-225 435 V
+-160 265 V
+-124 188 V
+-101 46 V
+-85 83 V
+-74 51 V
+-66 64 V
+-58 -5 V
+-53 12 V
+-48 39 V
+-45 8 V
+-41 22 V
+-38 -13 V
+-36 10 V
+-34 18 V
+-31 -6 V
+-30 6 V
+-29 18 V
+-27 -8 V
+-26 1 V
+-25 -17 V
+-23 -10 V
+-23 14 V
+-22 -19 V
+-21 13 V
+-20 -27 V
+-19 209 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 4751 470 M
+4526 835 L
+-160 265 V
+-124 237 V
+-101 186 V
+-85 159 V
+-74 95 V
+-66 92 V
+-58 76 V
+-53 46 V
+-48 47 V
+-45 48 V
+-41 23 V
+-38 24 V
+-36 19 V
+-34 15 V
+-31 17 V
+-30 15 V
+-29 9 V
+-27 6 V
+-26 15 V
+-25 2 V
+-23 7 V
+-23 18 V
+-22 -16 V
+-21 8 V
+-20 -12 V
+-19 52 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 4751 741 M
+-225 429 V
+-160 332 V
+-124 238 V
+-101 168 V
+-85 107 V
+-74 82 V
+-66 54 V
+-58 35 V
+-53 25 V
+-48 20 V
+-45 23 V
+-41 12 V
+-38 12 V
+-36 6 V
+-34 3 V
+-31 9 V
+-30 4 V
+-29 -1 V
+-27 9 V
+-26 -2 V
+-25 -4 V
+-23 -2 V
+-23 11 V
+-22 -10 V
+-21 3 V
+-20 -2 V
+-19 49 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 4751 738 M
+-225 448 V
+-160 292 V
+-124 267 V
+-101 174 V
+-85 99 V
+-74 79 V
+-66 50 V
+-58 34 V
+-53 32 V
+-48 26 V
+-45 10 V
+-41 17 V
+-38 8 V
+-36 10 V
+-34 4 V
+-31 5 V
+-30 7 V
+-29 1 V
+-27 3 V
+-26 1 V
+-25 3 V
+-23 1 V
+-23 -4 V
+-22 -1 V
+-21 3 V
+-20 0 V
+-19 44 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 3248 48 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3248 2351 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3248 48 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 4751 48 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 4832 48 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 48 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 509 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 969 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 1430 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 1890 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 2351 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6335 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 5500 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 5181 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4979 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4832 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UP
+3.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.45 0.74 C 6335 299 M
+6110 598 L
+5950 896 L
+-124 250 V
+-101 198 V
+-85 153 V
+-74 118 V
+-66 91 V
+-58 56 V
+-53 54 V
+-48 34 V
+-45 20 V
+-41 32 V
+-38 8 V
+-36 21 V
+-34 11 V
+-31 9 V
+-30 14 V
+-29 5 V
+-27 16 V
+-26 7 V
+-25 -16 V
+-23 25 V
+-23 -27 V
+-22 25 V
+-21 9 V
+-20 45 V
+-19 -106 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 6335 236 M
+6110 455 L
+5950 672 L
+5826 852 L
+-101 152 V
+-85 136 V
+-74 97 V
+-66 86 V
+-58 75 V
+-53 46 V
+-48 48 V
+-45 40 V
+-41 43 V
+-38 23 V
+-36 44 V
+-34 9 V
+-31 15 V
+-30 28 V
+-29 16 V
+-27 8 V
+-26 21 V
+-25 5 V
+-23 11 V
+-23 17 V
+-22 24 V
+-21 2 V
+-20 47 V
+-19 55 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 6335 216 M
+6110 467 L
+5950 685 L
+5826 888 L
+-101 187 V
+-85 126 V
+-74 80 V
+-66 89 V
+-58 93 V
+-53 62 V
+-48 47 V
+-45 41 V
+-41 29 V
+-38 51 V
+-36 31 V
+-34 34 V
+-31 37 V
+-30 28 V
+-29 18 V
+-27 27 V
+-26 15 V
+-25 4 V
+-23 27 V
+-23 19 V
+-22 30 V
+-21 -13 V
+-20 46 V
+-19 -110 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 6335 196 M
+6110 379 L
+5950 584 L
+5826 778 L
+5725 929 L
+-85 129 V
+-74 114 V
+-66 109 V
+-58 83 V
+-53 58 V
+-48 59 V
+-45 55 V
+-41 27 V
+-38 52 V
+-36 21 V
+-34 47 V
+-31 18 V
+-30 23 V
+-29 23 V
+-27 21 V
+-26 20 V
+-25 37 V
+-23 -10 V
+-23 5 V
+-22 33 V
+-21 33 V
+-20 -41 V
+-19 -122 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 6335 383 M
+6110 547 L
+5950 888 L
+-124 340 V
+-101 145 V
+-85 25 V
+-74 154 V
+-66 90 V
+-58 71 V
+-53 -31 V
+-48 42 V
+-45 34 V
+-41 -4 V
+-38 12 V
+-36 32 V
+-34 -24 V
+-31 80 V
+-30 -6 V
+-29 -32 V
+-27 14 V
+-26 15 V
+-25 32 V
+-23 -22 V
+-23 11 V
+-22 -75 V
+-21 74 V
+-20 52 V
+-19 -334 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 6335 840 M
+-225 439 V
+-160 268 V
+-124 255 V
+-101 72 V
+-85 49 V
+-74 67 V
+-66 63 V
+-58 -16 V
+-53 42 V
+-48 5 V
+-45 20 V
+-41 37 V
+-38 -3 V
+-36 -7 V
+-34 6 V
+-31 28 V
+-30 13 V
+-29 -21 V
+-27 16 V
+-26 4 V
+-25 8 V
+-23 -12 V
+-23 -3 V
+-22 16 V
+-21 9 V
+-20 18 V
+-19 138 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 6335 415 M
+6110 766 L
+-160 313 V
+-124 250 V
+-101 162 V
+-85 185 V
+-74 69 V
+-66 107 V
+-58 58 V
+-53 60 V
+-48 49 V
+-45 38 V
+-41 26 V
+-38 25 V
+-36 20 V
+-34 27 V
+-31 13 V
+-30 9 V
+-29 11 V
+-27 11 V
+-26 13 V
+-25 2 V
+-23 15 V
+-23 5 V
+-22 6 V
+-21 8 V
+-20 -9 V
+-19 -39 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 6335 714 M
+-225 420 V
+-160 339 V
+-124 248 V
+-101 153 V
+-85 110 V
+-74 67 V
+-66 76 V
+-58 35 V
+-53 34 V
+-48 21 V
+-45 19 V
+-41 21 V
+-38 0 V
+-36 15 V
+-34 8 V
+-31 8 V
+-30 4 V
+-29 5 V
+-27 0 V
+-26 0 V
+-25 4 V
+-23 -2 V
+-23 -6 V
+-22 7 V
+-21 -4 V
+-20 16 V
+-19 39 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 6335 694 M
+-225 412 V
+-160 356 V
+-124 249 V
+-101 174 V
+-85 121 V
+-74 58 V
+-66 58 V
+-58 43 V
+-53 26 V
+-48 31 V
+-45 13 V
+-41 22 V
+-38 5 V
+-36 12 V
+-34 6 V
+-31 4 V
+-30 5 V
+-29 4 V
+-27 1 V
+-26 6 V
+-25 -1 V
+-23 6 V
+-23 0 V
+-22 -4 V
+-21 2 V
+-20 4 V
+-19 -14 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 4832 48 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 4832 2351 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 4832 48 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 6335 48 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 64 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+  .9524 .9683 .9841 1 ] def
+/RedA [.267 .2727 .2771 .2804 .2824 .2832 .2828 .2812 .2785 .2747 .27 .2644 
+  .258 .2511 .2437 .2361 .2283 .2204 .2127 .2051 .1977 .1906 .1838 .1773 
+  .171 .1648 .1588 .153 .1471 .1414 .1358 .1306 .1259 .1222 .1199 .1196 .122 
+  .1277 .1368 .1496 .166 .1855 .208 .2331 .2605 .29 .3213 .3544 .3889 .4249 
+  .4622 .5008 .5403 .5809 .6222 .6641 .7064 .7489 .7913 .8333 .8747 .9153 
+  .9548 .9932 ] def
+/GreenA [.0049 .0258 .0509 .0742 .096 .1169 .1374 .1575 .1773 .197 .2163 
+  .2354 .2542 .2726 .2906 .3083 .3256 .3425 .3591 .3754 .3913 .4071 .4226 
+  .4379 .4531 .4681 .4831 .4981 .513 .5279 .5428 .5577 .5726 .5875 .6024 
+  .6173 .6321 .6469 .6616 .6761 .6905 .7047 .7187 .7324 .7458 .7588 .7715 
+  .7837 .7955 .8067 .8173 .8274 .8369 .8457 .8538 .8613 .8682 .8745 .8803 
+  .8858 .8909 .896 .901 .9062 ] def
+/BlueA [.3294 .3534 .3762 .3979 .4183 .4372 .4546 .4704 .4847 .4973 .5083 
+  .5177 .5258 .5325 .5381 .5427 .5463 .5493 .5516 .5535 .555 .5561 .557 
+  .5576 .558 .5581 .5581 .5577 .557 .5559 .5543 .5522 .5494 .546 .5418 .5368 
+  .5308 .5239 .516 .5069 .4968 .4854 .4729 .4591 .4441 .4278 .4103 .3915 
+  .3714 .3501 .3275 .3038 .2789 .253 .2262 .1989 .1715 .145 .1213 .1033 
+  .0954 .1005 .1179 .1439 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 1.00 1.00 C 1.000 6416 48 1502 2302 BoxColFill
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 48 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 509 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 969 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 1430 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 1890 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 2351 M
+88 0 V
+1415 0 R
+-88 0 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 7919 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 7084 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6765 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6563 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 6416 48 M
+0 88 V
+0 2215 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UP
+3.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.45 0.74 C 7919 138 M
+7694 269 L
+7534 423 L
+7410 579 L
+7309 722 L
+-85 159 V
+-74 150 V
+-66 90 V
+-58 115 V
+-53 79 V
+-48 79 V
+-45 61 V
+-41 68 V
+-38 40 V
+-36 52 V
+-34 27 V
+-31 40 V
+-30 23 V
+-29 40 V
+-27 3 V
+-26 29 V
+-25 23 V
+-23 9 V
+-23 14 V
+-22 15 V
+-21 -3 V
+-20 -10 V
+-19 91 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.85 0.33 0.10 C 7919 116 M
+7694 234 L
+7534 350 L
+7410 492 L
+7309 618 L
+-85 139 V
+-74 121 V
+-66 92 V
+-58 101 V
+-53 74 V
+-48 72 V
+-45 56 V
+-41 48 V
+-38 53 V
+-36 36 V
+-34 62 V
+-31 38 V
+-30 25 V
+-29 28 V
+-27 32 V
+-26 17 V
+-25 22 V
+-23 27 V
+-23 8 V
+-22 13 V
+-21 23 V
+-20 47 V
+-19 -178 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.93 0.69 0.13 C 7919 139 M
+-225 98 V
+7534 363 L
+7410 524 L
+7309 649 L
+-85 133 V
+-74 141 V
+-66 91 V
+-58 113 V
+-53 76 V
+-48 72 V
+-45 64 V
+-41 60 V
+-38 51 V
+-36 52 V
+-34 36 V
+-31 44 V
+-30 40 V
+-29 33 V
+-27 31 V
+-26 33 V
+-25 26 V
+-23 32 V
+-23 31 V
+-22 -7 V
+-21 56 V
+-20 2 V
+-19 17 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.49 0.18 0.56 C 7919 122 M
+-225 93 V
+7534 374 L
+7410 476 L
+7309 620 L
+-85 110 V
+-74 122 V
+-66 104 V
+-58 101 V
+-53 64 V
+-48 80 V
+-45 69 V
+-41 51 V
+-38 59 V
+-36 46 V
+-34 36 V
+-31 44 V
+-30 40 V
+-29 29 V
+-27 20 V
+-26 14 V
+-25 31 V
+-23 30 V
+-23 4 V
+-22 15 V
+-21 15 V
+-20 29 V
+-19 -1 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.47 0.67 0.19 C 7919 107 M
+-225 56 V
+7534 391 L
+-124 95 V
+7309 624 L
+-85 136 V
+-74 186 V
+-66 85 V
+-58 86 V
+-53 121 V
+-48 89 V
+-45 96 V
+-41 37 V
+-38 51 V
+-36 37 V
+-34 -19 V
+-31 106 V
+-30 29 V
+-29 46 V
+-27 -13 V
+-26 14 V
+-25 55 V
+-23 42 V
+-23 -52 V
+-22 30 V
+-21 -52 V
+-20 -17 V
+-19 -517 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.30 0.75 0.93 C 7919 757 M
+-225 362 V
+-160 224 V
+-124 212 V
+-101 121 V
+-85 114 V
+-74 131 V
+-66 -12 V
+-58 87 V
+-53 -10 V
+-48 18 V
+-45 67 V
+-41 -19 V
+-38 29 V
+-36 26 V
+-34 8 V
+-31 5 V
+-30 5 V
+-29 1 V
+-27 24 V
+-26 -37 V
+-25 44 V
+-23 -31 V
+-23 17 V
+-22 33 V
+-21 -46 V
+-20 57 V
+-19 164 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.98 0.71 0.73 C 7919 359 M
+7694 669 L
+7534 965 L
+-124 223 V
+-101 223 V
+-85 154 V
+-74 145 V
+-66 71 V
+-58 82 V
+-53 64 V
+-48 48 V
+-45 29 V
+-41 22 V
+-38 39 V
+-36 29 V
+-34 21 V
+-31 18 V
+-30 9 V
+-29 12 V
+-27 7 V
+-26 14 V
+-25 9 V
+-23 7 V
+-23 7 V
+-22 15 V
+-21 -4 V
+-20 23 V
+-19 -45 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.97 0.41 0.63 C 7919 659 M
+7694 986 L
+-160 363 V
+-124 228 V
+-101 179 V
+-85 142 V
+-74 83 V
+-66 74 V
+-58 52 V
+-53 39 V
+-48 26 V
+-45 22 V
+-41 24 V
+-38 16 V
+-36 11 V
+-34 10 V
+-31 5 V
+-30 8 V
+-29 9 V
+-27 3 V
+-26 2 V
+-25 0 V
+-23 8 V
+-23 3 V
+-22 0 V
+-21 -3 V
+-20 9 V
+-19 -82 V
+2.000 UP
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.00 0.00 1.00 C 7919 629 M
+7694 973 L
+-160 337 V
+-124 250 V
+-101 193 V
+-85 131 V
+-74 105 V
+-66 76 V
+-58 35 V
+-53 47 V
+-48 28 V
+-45 15 V
+-41 24 V
+-38 12 V
+-36 20 V
+-34 6 V
+-31 13 V
+-30 2 V
+-29 7 V
+-27 6 V
+-26 4 V
+-25 6 V
+-23 -7 V
+-23 -1 V
+-22 8 V
+-21 2 V
+-20 16 V
+-19 -37 V
+stroke
+2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 6416 48 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 6416 2351 M
+1503 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 6416 48 M
+0 2303 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 7919 48 M
+0 2303 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
