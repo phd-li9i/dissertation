@@ -1,3 +1,14 @@
+\definecolor{c1}{rgb}{0 0.4470 0.7410}
+\definecolor{c2}{rgb}{0.8500 0.3250 0.0980}
+\definecolor{c3}{rgb}{0.9290 0.6940 0.1250}
+\definecolor{c4}{rgb}{0.4940 0.1840 0.5560}
+\definecolor{c5}{rgb}{0.4660 0.6740 0.1880}
+\definecolor{c6}{rgb}{0.3010 0.7450 0.9330}
+\definecolor{c7}{RGB}{251,180,185}
+\definecolor{c8}{RGB}{247,104,161}
+\definecolor{c9}{RGB}{255,0,255}
+
+
 % GNUPLOT: LaTeX picture with Postscript
 \begingroup
   \makeatletter
@@ -111,6 +122,16 @@
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.00,0.00,0.00}%
       \put(4799,4179){\makebox(0,0){\strut{}$\sigma_{\bm{M}} = 0.0$ m---Πλήρης Άποψη}}%
+      \put(600,4700){\makebox(0,0){\strut{}{\color{c1}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small PLICP}}
+      \put(1600,4700){\makebox(0,0){\strut{}{\color{c2}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small NDT}}
+      \put(2600,4700){\makebox(0,0){\strut{}{\color{c3}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small FastGICP}}
+      \put(4000,4700){\makebox(0,0){\strut{}{\color{c4}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small FastVGICP}}
+      \put(5400,4700){\makebox(0,0){\strut{}{\color{c5}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small NDT-PSO}}
+      \put(6700,4700){\makebox(0,0){\strut{}{\color{c6}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small TEASER}}
+      \put(7600,4700){\makebox(0,0){\strut{}{\color{c7}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small x1}}
+      \put(8200,4700){\makebox(0,0){\strut{}{\color{c8}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small uf}}
+      \put(8800,4700){\makebox(0,0){\strut{}{\color{c9}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small fm}}
+      \put(4799,5200){\makebox(0,0){\strut{}Κατανομή σφαλμάτων στάσης}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
