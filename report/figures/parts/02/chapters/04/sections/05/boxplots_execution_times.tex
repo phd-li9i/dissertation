@@ -39,7 +39,7 @@
   % define a \g@addto@macro without @ in the name:
   \let\gplgaddtomacro\g@addto@macro
   % define empty templates for all commands taking text:
-  \gdef\gplbacktext{}%
+  \gdef\gplfronttext{}%
   \gdef\gplfronttext{}%
   \makeatother
   \ifGPblacktext
@@ -90,15 +90,15 @@
     \setlength{\fboxrule}{0.5pt}%
     \setlength{\fboxsep}{1pt}%
 \begin{picture}(9600.00,4000.00)%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,2656){\makebox(0,0)[r]{\strut{}$10^{-2}$}}%
+      \put(828,2656){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$-$$2$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,3051){\makebox(0,0)[r]{\strut{}$10^{-1}$}}%
+      \put(828,3051){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$-$$1$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,3445){\makebox(0,0)[r]{\strut{}$10^{0}$}}%
+      \put(828,3445){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$+$$0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,3840){\makebox(0,0)[r]{\strut{}$10^{1}$}}%
+      \put(828,3840){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$+$$1$}}%
       \colorrgb{0.15,0.15,0.15}%
       \put(1728,2160){\makebox(0,0){\strut{}}}%
       \colorrgb{0.15,0.15,0.15}%
@@ -124,33 +124,32 @@
       \put(8800,4700){\makebox(0,0){\strut{}{\color{c9}{\rule[0.6mm]{0.5cm}{0.5mm}}}\small fm}}
       \put(4799,5200){\makebox(0,0){\strut{}Κατανομή καθαρού χρόνου εκτέλεσης [sec]}}%
     }%
-    \gplgaddtomacro\gplbacktext{%
+    \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,316){\makebox(0,0)[r]{\strut{}$10^{-2}$}}%
+      \put(828,316){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$-$$2$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,711){\makebox(0,0)[r]{\strut{}$10^{-1}$}}%
+      \put(828,711){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$-$$1$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,1105){\makebox(0,0)[r]{\strut{}$10^{0}$}}%
+      \put(828,1105){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$+$$0$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(828,1500){\makebox(0,0)[r]{\strut{}$10^{1}$}}%
+      \put(828,1500){\makebox(0,0)[r]{\strut{}$10\texttt{e}$$+$$1$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(1728,-180){\makebox(0,0){\strut{}}}%
+      \put(1728,-180){\makebox(0,0){\strut{}$0.01$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(3264,-180){\makebox(0,0){\strut{}}}%
+      \put(3264,-180){\makebox(0,0){\strut{}$0.03$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(4800,-180){\makebox(0,0){\strut{}}}%
+      \put(4800,-180){\makebox(0,0){\strut{}$0.05$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(6335,-180){\makebox(0,0){\strut{}}}%
+      \put(6335,-180){\makebox(0,0){\strut{}$0.10$}}%
       \colorrgb{0.15,0.15,0.15}%
-      \put(7871,-180){\makebox(0,0){\strut{}}}%
+      \put(7871,-180){\makebox(0,0){\strut{}$0.20$}}%
     }%
     \gplgaddtomacro\gplfronttext{%
       \colorrgb{0.15,0.15,0.15}%
-      \put(4799,-510){\makebox(0,0){\strut{}Τυπική απόκλιση διαταραχών $\sigma_R$ [m]}}%
+      \put(4799,-610){\makebox(0,0){\strut{}Τυπική απόκλιση διαταραχών $\sigma_R$ [m]}}%
       \colorrgb{0.00,0.00,0.00}%
       \put(4799,1839){\makebox(0,0){\strut{}$\sigma_{\bm{M}} = 0.05$ m}}%
     }%
-    \gplbacktext
     \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/05/boxplots_execution_times}}%
     \gplfronttext
   \end{picture}%
