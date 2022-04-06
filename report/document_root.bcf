@@ -2050,5 +2050,27 @@
     <bcf:citekey order="3">Dogan2015</bcf:citekey>
     <bcf:citekey order="4">Filotheou2022d</bcf:citekey>
     <bcf:citekey order="5">Filotheou2022d</bcf:citekey>
+    <bcf:citekey order="6">velodyne_datasheet</bcf:citekey>
+    <bcf:citekey order="7">a2m8_datasheet</bcf:citekey>
+    <bcf:citekey order="7">ydlidar</bcf:citekey>
+    <bcf:citekey order="8">Peng2018a</bcf:citekey>
+    <bcf:citekey order="9">Bibera</bcf:citekey>
+    <bcf:citekey order="9">ndt_code</bcf:citekey>
+    <bcf:citekey order="10">Segal2009a</bcf:citekey>
+    <bcf:citekey order="10">fgicp_code</bcf:citekey>
+    <bcf:citekey order="11">Censi2008a</bcf:citekey>
+    <bcf:citekey order="11">plicp_code</bcf:citekey>
+    <bcf:citekey order="12">Koide2021a</bcf:citekey>
+    <bcf:citekey order="12">Xu2018b</bcf:citekey>
+    <bcf:citekey order="12">Sobreira2019b</bcf:citekey>
+    <bcf:citekey order="12">Pishehvari2019b</bcf:citekey>
+    <bcf:citekey order="12">Qingshan2019c</bcf:citekey>
+    <bcf:citekey order="12">Pham2021b</bcf:citekey>
+    <bcf:citekey order="13">Koide2021a</bcf:citekey>
+    <bcf:citekey order="13">fgicp_code</bcf:citekey>
+    <bcf:citekey order="14">Bouraine2021</bcf:citekey>
+    <bcf:citekey order="14">ndt_pso_code</bcf:citekey>
+    <bcf:citekey order="15">Yang2021</bcf:citekey>
+    <bcf:citekey order="15">teaser_code</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
