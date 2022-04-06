@@ -71,32 +71,75 @@
       \expandafter\def\csname LT8\endcsname{\color{black}}%
     \fi
   \fi
-    \setlength{\unitlength}{0.0500bp}%
-    \ifx\gptboxheight\undefined%
-      \newlength{\gptboxheight}%
-      \newlength{\gptboxwidth}%
-      \newsavebox{\gptboxtext}%
-    \fi%
-    \setlength{\fboxrule}{0.5pt}%
-    \setlength{\fboxsep}{1pt}%
-\begin{picture}(8000.00,5000.00)%
+  \setlength{\unitlength}{0.0500bp}%
+  \begin{picture}(8000.00,10000.00)%
     \gplgaddtomacro\gplfronttext{%
-      \put(-548,4375){\rotatebox{90}{\makebox(0,0){\strut{}\texttt{x1}}}}%
-      \put(-548,3125){\rotatebox{90}{\makebox(0,0){\strut{}\texttt{uf}}}}%
-      \put(-548,1875){\rotatebox{90}{\makebox(0,0){\strut{}\texttt{fm}}}}%
-      \put(-148,3125) {\rotatebox{90}{\makebox(0,0){\strut{}$\|\Delta \hat{\bm{l}}\|_2 \in [0, \sqrt{2} \cdot \overline{\delta}_{xy}]$}}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(716,10200){\makebox(0,0){\strut{}\small $\sigma_R = 0.01$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(2029,10200){\makebox(0,0){\strut{}\small $\sigma_R = 0.03$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(3343,10200){\makebox(0,0){\strut{}\small $\sigma_R = 0.05$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(4656,10200){\makebox(0,0){\strut{}\small $\sigma_R = 0.10$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(5969,10200){\makebox(0,0){\strut{}\small $\sigma_R = 0.20$ [m]}}%
     }%
     \gplgaddtomacro\gplfronttext{%
-      \colorrgb{0.15,0.15,0.15}%
-      \put(3999,5450){\makebox(0,0){\strut{}$\sigma_{\bm{M}} = 0.05$ m}}%
-      \put(816,5100) {\makebox(0,0){\strut{}$\sigma_R = 0.01$ m}}%
-      \put(2432,5100){\makebox(0,0){\strut{}$\sigma_R = 0.03$ m}}%
-      \put(4000,5100){\makebox(0,0){\strut{}$\sigma_R = 0.05$ m}}%
-      \put(5568,5100){\makebox(0,0){\strut{}$\sigma_R = 0.10$ m}}%
-      \put(7184,5100){\makebox(0,0){\strut{}$\sigma_R = 0.20$ m}}%
-      \put(3999,1056){\makebox(0,0){\strut{}$\Delta\hat{\theta} \in [-\overline{\delta}_\theta, +\overline{\delta}_\theta]$}}
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,9400){\rotatebox{90}{\makebox(0,0){\strut{}\small PLICP}}}%
     }%
-    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/05/recoveries_sm5}}%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,8300){\rotatebox{90}{\makebox(0,0){\strut{}\small NDT}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,7200){\rotatebox{90}{\makebox(0,0){\strut{}\small FastGICP}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,6100){\rotatebox{90}{\makebox(0,0){\strut{}\small FastVGICP}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,5000){\rotatebox{90}{\makebox(0,0){\strut{}\small NDT-PSO}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,3900){\rotatebox{90}{\makebox(0,0){\strut{}\small TEASER}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,2800){\rotatebox{90}{\makebox(0,0){\strut{}\small \texttt{x1}}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,1700){\rotatebox{90}{\makebox(0,0){\strut{}\small \texttt{uf}}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(-200,600){\rotatebox{90}{\makebox(0,0){\strut{}\small \texttt{fm}}}}%
+    }%
+    \gplgaddtomacro\gplfronttext{%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,100){\makebox(0,0)[l]{\strut{}$0.0$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,1516){\makebox(0,0)[l]{\strut{}$0.02$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,2933){\makebox(0,0)[l]{\strut{}$0.04$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,4349){\makebox(0,0)[l]{\strut{}$0.06$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,5766){\makebox(0,0)[l]{\strut{}$0.08$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,7182){\makebox(0,0)[l]{\strut{}$0.10$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,8599){\makebox(0,0)[l]{\strut{}$0.12$}}%
+      \colorrgb{0.00,0.00,0.00}%
+      \put(7800,9899){\makebox(0,0)[l]{\strut{}$> e^{\sigma_{\bm{M}}}_{\text{avg}} = 0.138$}}%
+    }%
+    \put(0,0){\includegraphics{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm0}}%
     \gplfronttext
   \end{picture}%
 \endgroup
