@@ -109,7 +109,9 @@ $\varepsilon_{\delta p} = 10^{-5}$.  Η συνθήκη τερματισμού ο
 CAER$(\hat{\bm{p}}^\prime) \leq (\hat{\sigma}_R + \hat{\sigma}_V)^{1/2}$, όπου
 $\hat{\sigma}_R$ και $\hat{\sigma}_V$ είναι εκτιμήσεις της τυπικής απόκλισης
 του θορύβου που επιδρά στις ακτίνες των πραγματικών μετρήσεων $\mathcal{S}_R$
-και εικονικών σαρώσεων $\mathcal{S}_V$ αντίστοιχα.
+και εικονικών σαρώσεων $\mathcal{S}_V$ αντίστοιχα. Για λόγους περιορισμού
+του χρόνου εκτέλεσης του FSMSM τέθηκε ανω όριο στον αριθμό επανεκκινήσεων,
+με τιμή $R_{\max} 100$ επανεκκινήσεις.
 
 Για σκοπούς σύγκρισης με τις μεθόδους ευθυγράμμισης σαρώσεων που μπορούν να
 χρησιμοποιηθούν στην ευθυγράμμιση πραγματικών με εικονικές σαρώσεις η
@@ -132,23 +134,25 @@ TEASER \cite{Yang2021,teaser_code}.
 \times \sum |D_k|\approx 4.5\cdot10^6$ φορές. Οι χρόνοι εκτέλεσης των NDT-PSO
 και TEASER μετρήθηκαν στην τάξη των δευτερολέπτων ανά στάση εισόδου---περίπου
 μια τάξη μεγέθους μεγαλύτερη από το χρόνο εκτέλεσης του FSMSM: η πειραματική
-διαδικασία επί των NDT-PSO και TEASER εκτελέστηκε μία φορά για κάθε δείγμα του
-$D$.
+διαδικασία επί των NDT-PSO και TEASER εκτελέστηκε $E=1$ φορά για κάθε δείγμα
+του $D$.
+
+Για κάθε τελική εκτίμηση στάσης $\hat{\bm{p}}_{k,e}^{d\prime}$ που εξάγεται από
+κάθε αλγόριθμο, $d = 1,2,\dots,|D_k|$, $k \in \{0,1,\dots,4\}$, $e=1,2,\dots,E$
+καταγράφεται η απόκλισή της από την πραγματική στάση $\bm{p}_k^d$ με τη μορφή
+του ολικού μέτρου σφάλματος στάσης. Το κριτήριο στο οποίο στηρίζεται η
+αξιολόγηση όλων των δοκιμών είναι το μέτρο του τελικού συνολικού σφάλματος
+στάσης---εξ. (\ref{eq:pose_error_def}), για $\bm{p} \leftarrow \bm{p}^d_k$ και
+$\hat{\bm{p}} \leftarrow \hat{\bm{p}}^{d\prime}_{k,e}$ όπου $\hat{\bm{p}}$
+είναι η αρχική εκτίμηση στάσης, και $\hat{\bm{p}}^\prime$ είναι η έξοδος κάθε
+υπό δοκιμή αλγορίθμου. Η μονάδα μέτρησης του είναι
+$(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στα σχήματα, αυτό έχει
+γίνει για λόγους οικονομίας χώρου και αναγνωσιμότητας.
 
 Τα πειράματα επί των FSMSM, FastGICP, FastVGICP, PLICP, και NDT
 πραγματοποιήθηκαν σε ένα μόνο νήμα, σε υπολογιστή με συχνότητα CPU $4.0$ GHz.
 Οι NDT-PSO και TEASER είναι παράλληλες υλοποιήσεις: τα πειράματά τους
 διεξήχθησαν σε τέσσερα νήματα, σε υπολογιστή με συχνότητα CPU $2.2$ GHz.
-
-Το κριτήριο στο οποίο στηρίζεται η αξιολόγηση όλων των δοκιμών είναι η το μέτρο
-του συνολικού σφάλματος στάσης---εξ. (??), όπου $\hat{\bm{p}}$ είναι η αρχική
-εκτίμηση στάσης, και $\hat{\bm{p}}^\prime$ είναι η έξοδος κάθε υπό δοκιμή
-αλγορίθμου. Για κάθε τελική εκτίμηση στάσης $\hat{\bm{p}}_k^{d\prime}$ που
-εξάγεται από κάθε αλγόριθμο, $d = 1,2,\dots,|D_k|$, $k \in \{0,1,\dots,4\}$,
-καταγράφεται η απόκλισή της από την πραγματική στάση $\bm{p}_k^d$ με τη μορφή
-του ολικού μέτρου σφάλματος στάσης. Η μονάδα μέτρησης του είναι
-$(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στα σχήματα, αυτό έχει
-γίνει για λόγους οικονομίας χώρου και αναγνωσιμότητας.
 
 
 
@@ -156,43 +160,93 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 \subsection{Αποτελέσματα}
 \label{subsection:02_04_05:02}
 
-\vspace{1cm}
-\begin{figure}[!h]\hspace{0.5cm}
+Το σχήμα \ref{fig:02_04_05:01} απεικονίζει το ποσοστό των εκτιμήσεων στάσης
+εισόδου για τις οποίες επετεύχθη ο στόχος (\ref{objective:02_04}) ανά υπό
+εξέταση αλγόριθμο, και επίπεδο διαφθοράς και χάρτη, ήτοι το κλάσμα του αριθμού
+των εκτιμήσεων στάσης των οποίων το σφάλμα μειώθηκε έπειτα από την εφαρμογή του
+κάθε αλγορίθμου προς τον ολικό αριθμό τροφοδοτηθέντων εκτιμήσεων στάσης.
+
+\begin{figure}[!h]\vspace{1.5cm}\hspace{0.6cm}
   \input{./figures/parts/02/chapters/04/sections/05/pose_improvement_percent.tex}
-  \vspace{1.25cm}
-  \caption{}
-  \label{}
+  \vspace{0.75cm}
+  \caption{\small Το ποσοστό επιτυχίας του στόχου (\ref{objective:02_04}) ανά
+           αλγόριθμο υπό δοκιμή, τυπική απόκλιση διαταραχών που επιδρούν στις
+           πραγματικές μετρήσεις $\sigma_R$, και τυπική απόκλιση διαταραχών
+           των συντεταγμένων του χάρτη $\sigma_{\bm{M}}$. Σ.τ.Σ.: Αυτό το
+           διάγραμμα είναι το σημαντικότερο του κεφαλαίου και ίσως το
+           σημαντικότερο της διατριβής}
+  \label{fig:02_04_05:01}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
-  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_binned_sm0.tex}
-  \vspace{1.25cm}
-  \caption{}
-  \label{}
+Στο σχήμα \ref{fig:02_04_05:02} απεικονίζονται οι κατανομες των καθαρών χρόνων
+εκτέλεσης του κάθε αλγορίθμου, δηλαδή ο ολικός χρόνος εκτέλεσης των άνευ του
+χρόνου εκτέλεσης υπολογισμού εικονικών σαρώσεων. Στην άνω σειρά του σχήματος
+\ref{fig:02_04_05:03} απεικονιζεται η κατανομή του αριθμού των εικονικών
+σαρώσεων που συνέλαβαν οι τρεις όψεις του FSMSM, και στη μεσαία ο ολικος χρόνος
+εκτέλεσής τους για τη διαμόρφωση που περιγράφηκε στην ενότητα
+\ref{subsection:02_04_05:01}. Στην τελευταία σειρά απεικονίζονται οι χρόνοι
+εκτέλεσης των τριων μεθοδων για την ίδια διαμόρφωση εάν όμως η αναπαράσταση του
+χάρτη γινόταν μέσω χάρτη πλέγματος. Η διαφορά ανάμεσα στους δύο χρόνους
+εκτέλεσης έγκειται στο γεγονός ότι ο υπολογισμός εικονικών σαρώσεων σε χάρτες
+πλέγματος γίνεται σε πολύ μικρότερο χρόνο ($\approx 30\%$) σε σχέση με την
+υλοποίηση που ακολουθήσαμε \cite{Walsh2018}. Με βάση τα στοιχεία του σχήματος
+\ref{fig:02_04_05:04}, ο λόγος για τις αυξημένες τιμές χρόνου εκτέλεσης της
+μεθόδου \texttt{x1} σε σχέση με αυτές των \texttt{uf} και \texttt{fm} οφείλεται
+στον αυξημένο αριθμό επανεκκινήσεων της πρώτης.
+
+\begin{figure}[!h]\vspace{3cm}
+  \input{./figures/parts/02/chapters/04/sections/05/boxplots_execution_times.tex}
+  \vspace{1cm}
+  \caption{\small Οι κατανομές των χρόνων εκτέλεσης όλων των αλγορίθμων χωρίς να
+           συνυπολογίζεται ο χρόνος υπολογισμού σαρώσεων χάρτη. Για τους
+           \texttt{x1}, \texttt{uf}, και \texttt{fm}, ο ολικός χρόνος εκτέλεσης
+           με βαση τη διαμόρφωση της ενότητας \ref{subsection:02_04_05:01}
+           απεικονίζεται στο σχήμα \ref{fig:02_04_05:03}. Παρατηρήστε πως η
+           εκτέλεση των μεθόδων NDT-PSO και TEASER σε τέσσερα επεξεργαστικά
+           νήματα έχει ως αποτέλεσμα χρόνους εκτέλεσης άνω του ενός
+           δευτερολέπτου, δηλαδή η εκτέλεσή τους γίνεται σε μη πραγματικό
+           χρόνο}
+  \label{fig:02_04_05:02}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
-  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_binned_sm5.tex}
-  \vspace{1.25cm}
-  \caption{}
-  \label{}
+\begin{figure}[!h]\vspace{2cm}
+  \input{./figures/parts/02/chapters/04/sections/05/boxplots_iterations.tex}
+  \vspace{1cm}
+  \caption{\small Οι κατανομές του αριθμού των συλληφθέντων σαρώσεων χάρτη (άνω
+           σειρά), των ολικών χρόνων εκτέλεσης με βάση τη διαμόρφωση της
+           ενότητας \ref{subsection:02_04_05:01} (μεσαία), και του ανηγμένου
+           χρόνου εκτέλεσης εάν ο χάρτης του κάθε περιβάλλοντος αναπαρίστατο
+           μέσω πλέγματος}
+  \label{fig:02_04_05:03}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
-  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm0.tex}
-  \vspace{1.25cm}
-  \caption{}
-  \label{}
+\begin{figure}[!h]\centering
+  \begin{subfigure}{\linewidth}
+    \input{./figures/parts/02/chapters/04/sections/05/recoveries_sm0.tex}
+    \vspace{1cm}
+  \end{subfigure}\\\vspace{1cm}%
+  \begin{subfigure}{\linewidth}
+    \input{./figures/parts/02/chapters/04/sections/05/recoveries_sm5.tex}
+  \end{subfigure}%
+\caption{\small Χάρτες θερμότητας του αριθμού των επανεκκινήσεων των
+         μεθόδων \texttt{x1}, \texttt{uf}, και \texttt{fm} ανά επίπεδο
+         διαταραχών των μετρήσεων της πραγματικής σάρωσης $\sigma_R$ και
+         διαφθορας του χάρτη $\sigma_{\bm{M}}$. Ο οριζόντιος άξονας κάθε χάρτη
+         θερμότητας αναφέρεται στο σφάλμα εκτίμησης προσανατολισμού
+         $\Delta\hat{\theta} = \theta-\hat{\theta}$ της αρχικής εκτίμησης
+         $\hat{\bm{p}}(\hat{x},\hat{y},\hat{\theta})$, ενώ ο καθετος άξονας
+         στο μέτρο του σφάλματος εκτίμησης θέσης
+         $\|\Delta \hat{\bm{l}}\|_2$, $\Delta\hat{\bm{l}} = (x-\hat{x}, y-\hat{y})$}
+\label{fig:02_04_05:04}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
-  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm5.tex}
-  \vspace{1.25cm}
-  \caption{}
-  \label{}
-\end{figure}
 
-
+Στο σχήμα \ref{fig:02_04_05:05} απεικονίζονται οι κατανομές των μέτρων των
+σφαλμάτων στάσης όλων των αλγορίθμων για τις διαφορες τιμές των διαταραχών
+μετρήσεων και διαφθοράς χάρτη. Στην πρώτη και τρίτη σειρά εμφανίζονται σε πλήρη
+άποψη οι κατανομές για $\sigma_{\bm{M}} = 0.0$ m και $\sigma_{\bm{M}} = 0.05$ m
+αντίστοιχα, ενώ στην δεύτερη και τέταρτη εμφανίζονται οι ίδιες κατανομές αλλά
+εστιασμένες προς τις ελαχιστες παρατηρούμενες τιμές.
 
 
 \begin{figure}[!h]\centering
@@ -206,8 +260,52 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
     \input{./figures/parts/02/chapters/04/sections/05/boxplots_pose_errors_sm5.tex}
     \vspace{1cm}
   \end{subfigure}%
-\caption{}
-\label{}
+\caption{\small Οι κατανομές των σφαλμάτων στάσης για κάθε αλγόριθμο με βάση
+         την πειραματική διάταξη της ενότητας \ref{subsection:02_04_05:01}.
+         Κάθε ορθογώνιο αντιπροσωπεύει τα στατιστικά $\approx 4.5\cdot10^5$
+         ευθυγραμμίσεων, με την εξαίρεση των μεθόδων NDT-PSO και TEASER οι
+         οποίες δοκιμάστηκαν $\approx 4.5 \cdot 10^4$ φορές}
+\label{fig:02_04_05:05}
+\end{figure}
+
+
+Τα σχήματα \ref{fig:02_04_05:06}, \ref{fig:02_04_05:07}, \ref{fig:02_04_05:08},
+και \ref{fig:02_04_05:09} αναπαριστούν τα μέτρα των τελικών σφαλμάτων στάσης ως
+προς τα αρχικά σφάλματα προσανατολισμού (οριζόντιος άξονας) και θέσης
+(κάθετος). Συγκεκριμένα, στα πρώτα δύο σχήματα απεικονίζονται τα τελικά
+σφάλματα για $\sigma_{\bm{M}} = 0.0$ m $\sigma_{\bm{M}} = 0.05$ αντίστοιχα,
+κατακερματισμένα σε ομάδες μέτρων σφάλματος. Στα δύο τελευταία σχήματα
+απεικονίζονται τα ίδια σφάλματα αλλά εστιασμένα ως προς τις ελάχιστες τιμές, με
+άνω όριο τον ολικό μέσο όρο σφαλμάτων εκτίμησης στάσης ανά επίπεδο διαφθοράς
+χάρτη.
+
+
+\begin{figure}[!h]\hspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_binned_sm0.tex}
+  \vspace{1.25cm}
+  \caption{}
+  \label{fig:02_04_05:06}
+\end{figure}
+
+\begin{figure}[!h]\hspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_binned_sm5.tex}
+  \vspace{1.25cm}
+  \caption{}
+  \label{fig:02_04_05:07}
+\end{figure}
+
+\begin{figure}[!h]\hspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm0.tex}
+  \vspace{1.25cm}
+  \caption{}
+  \label{fig:02_04_05:08}
+\end{figure}
+
+\begin{figure}[!h]\hspace{0.5cm}
+  \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm5.tex}
+  \vspace{1.25cm}
+  \caption{}
+  \label{fig:02_04_05:09}
 \end{figure}
 
 \begin{figure}[!h]\centering
@@ -215,7 +313,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \input{./figures/parts/02/chapters/04/sections/05/position_improvement_percent_binned_curves.tex}
   \vspace{1cm}
   \caption{}
-  \label{}
+  \label{fig:02_04_05:0}
 \end{figure}
 
 \begin{figure}[!h]\centering
@@ -223,7 +321,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \input{./figures/parts/02/chapters/04/sections/05/orientation_improvement_percent_binned_curves.tex}
   \vspace{1cm}
   \caption{}
-  \label{}
+  \label{fig:02_04_05:0}
 \end{figure}
 
 
@@ -232,48 +330,13 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \input{./figures/parts/02/chapters/04/sections/05/cross_position_improvement_percent_orientation_binned_curves.tex}
   \vspace{1cm}
   \caption{}
-  \label{}
+  \label{fig:02_04_05:0}
 \end{figure}
 
 \begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/05/orientation_wrt_gamma.tex}
   \caption{}
-  \label{}
-\end{figure}
-
-
-
-
-
-\begin{figure}[!h]\centering
-  \vspace{2cm}
-  \input{./figures/parts/02/chapters/04/sections/05/boxplots_execution_times.tex}
-  \vspace{1cm}
-  \caption{}
-  \label{}
-\end{figure}
-
-\begin{figure}[!h]\centering
-  \vspace{2cm}
-  \input{./figures/parts/02/chapters/04/sections/05/boxplots_iterations.tex}
-  \vspace{1cm}
-  \caption{}
-  \label{}
-\end{figure}
-
-\begin{figure}[!h]\centering
-  \begin{subfigure}{\linewidth}
-    \vspace{3cm}
-    \input{./figures/parts/02/chapters/04/sections/05/recoveries_sm0.tex}
-    \vspace{1cm}
-  \end{subfigure}\\%
-  \begin{subfigure}{\linewidth}
-    \vspace{0cm}
-    \input{./figures/parts/02/chapters/04/sections/05/recoveries_sm5.tex}
-    \vspace{1cm}
-  \end{subfigure}%
-\caption{}
-\label{}
+  \label{fig:02_04_05:0}
 \end{figure}
 
 

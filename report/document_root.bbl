@@ -292,6 +292,43 @@
       \verb https://www.hindawi.com/journals/complexity/2018/2327637/
       \endverb
     \endentry
+    \entry{Walsh2018}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=2730d64ad0bcdc3e9c9ede175faa7690}{%
+           family={Walsh},
+           family_i={W\bibinitperiod},
+           given={Corey\bibnamedelima H.},
+           given_i={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ca50b61c6d4e6ff567664ac59d4d3837}{%
+           family={Karaman},
+           family_i={K\bibinitperiod},
+           given={Sertac},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8bc0ffe94c7dfd0c68cb59a71aa40196}
+      \strng{fullhash}{8bc0ffe94c7dfd0c68cb59a71aa40196}
+      \field{labelalpha}{WK18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 IEEE International Conference on Robotics and Automation (ICRA)}
+      \field{isbn}{978-1-5386-3081-5}
+      \field{month}{05}
+      \field{title}{{CDDT: Fast Approximate 2D Ray Casting for Accelerated Localization}}
+      \field{year}{2018}
+      \field{pages}{3677\bibrangedash 3684}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICRA.2018.8460743
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8460743/
+      \endverb
+    \endentry
     \entry{Xu2018b}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=c2c6ff1aa81df99ccd974774b24c7324}{%
