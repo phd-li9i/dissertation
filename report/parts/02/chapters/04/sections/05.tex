@@ -131,11 +131,11 @@ TEASER \cite{Yang2021,teaser_code}.
 δείγματα των $D_k \in D \equiv \{$\texttt{aces}, \texttt{fr079}, \texttt{intel},
 \texttt{mit\_csail}, \texttt{mit\_killian}$\}$, $k \in \{0,1,\dots,4\}$.
 Επομένως κάθε μέθοδος δοκιμάστηκε συνολικά $N_{tot} = 10 \times 2 \times 5
-\times \sum |D_k|\approx 4.5\cdot10^6$ φορές. Οι χρόνοι εκτέλεσης των NDT-PSO
-και TEASER μετρήθηκαν στην τάξη των δευτερολέπτων ανά στάση εισόδου---περίπου
-μια τάξη μεγέθους μεγαλύτερη από το χρόνο εκτέλεσης του FSMSM: η πειραματική
-διαδικασία επί των NDT-PSO και TEASER εκτελέστηκε $E=1$ φορά για κάθε δείγμα
-του $D$.
+\times \sum |D_k|\approx 4.5$$\cdot10$$\texttt{e}$$+$$6$ φορές. Οι χρόνοι
+εκτέλεσης των NDT-PSO και TEASER μετρήθηκαν στην τάξη των δευτερολέπτων ανά
+στάση εισόδου---περίπου μια τάξη μεγέθους μεγαλύτερη από το χρόνο εκτέλεσης του
+FSMSM: η πειραματική διαδικασία επί των NDT-PSO και TEASER εκτελέστηκε $E=1$
+φορά για κάθε δείγμα του $D$.
 
 Για κάθε τελική εκτίμηση στάσης $\hat{\bm{p}}_{k,e}^{d\prime}$ που εξάγεται από
 κάθε αλγόριθμο, $d = 1,2,\dots,|D_k|$, $k \in \{0,1,\dots,4\}$, $e=1,2,\dots,E$
@@ -172,14 +172,32 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \caption{\small Τα ποσοστά επίτευξης του στόχου (\ref{objective:02_04}) ανά
            αλγόριθμο υπό δοκιμή, τυπική απόκλιση διαταραχών που επιδρούν στις
            πραγματικές μετρήσεις $\sigma_R$, και τυπική απόκλιση διαταραχών των
-           συντεταγμένων του χάρτη $\sigma_{\bm{M}}$. Σ.τ.Σ.: Αυτό το διάγραμμα
-           είναι το σημαντικότερο του κεφαλαίου και ίσως το σημαντικότερο της
-           διατριβής: οι σχεδιασθεντες σε αυτήν αλγόριθμοι \textit{διατηρούν
-           την ευρωστία τους κατά μήκος των διαταραχών που επιδρούν στις
-           μετρήσεις του φυσικού αισθητήρα \underline{και} εκτελούνται σε
-           πραγματικό χρόνο}, σε αντίθεση με όλους τους υπό δοκιμή αλγορίθμους
-           της βιβλιογραφίας}
+           συντεταγμένων του χάρτη $\sigma_{\bm{M}}$. Κάθε ράβδος αντιστοιχεί
+           σε $\approx 4.5$$\cdot$$10\texttt{e}$$+$$5$ πειράματα ευθυγράμμισης,
+           για όλες τις μεθόδους εκτός των NDT-PSO και TEASER, οι οποίες
+           δοκιμάσθηκαν στο ένα δέκατο αυτής της τιμής λόγω του υπέρογκου
+           χρόνου εκτέλεσής τους.  Σ.τ.Σ.: Αυτό το διάγραμμα είναι το
+           σημαντικότερο του κεφαλαίου και ίσως το σημαντικότερο της διατριβής:
+           οι σχεδιασθεντες σε αυτήν αλγόριθμοι \textit{διατηρούν την ευρωστία
+           τους κατά μήκος των διαταραχών που επιδρούν στις μετρήσεις του
+           φυσικού αισθητήρα δεδομένου ενός επιπέδου διαφθοράς χαρτη
+           \underline{και} εκτελούνται σε πραγματικό χρόνο}, σε αντίθεση με
+           όλους τους υπό δοκιμή αλγορίθμους της βιβλιογραφίας}
   \label{fig:02_04_05:01}
+\end{figure}
+
+\begin{figure}[!h]\vspace{3cm}%
+  \input{./figures/parts/02/chapters/04/sections/05/pose_improvement_circles_sm0.tex}
+  \vspace{1cm}
+  \caption{}
+  \label{}
+\end{figure}
+
+\begin{figure}[!h]\vspace{3cm}%
+  \input{./figures/parts/02/chapters/04/sections/05/pose_improvement_circles_sm5.tex}
+  \vspace{1cm}
+  \caption{}
+  \label{}
 \end{figure}
 
 Στο σχήμα \ref{fig:02_04_05:02} απεικονίζονται οι κατανομες των καθαρών χρόνων
@@ -198,7 +216,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 μεθόδου \texttt{x1} σε σχέση με αυτές των \texttt{uf} και \texttt{fm} οφείλεται
 στον αυξημένο αριθμό επανεκκινήσεων της πρώτης.
 
-\begin{figure}[!h]\vspace{3cm}
+\begin{figure}[!h]
   \input{./figures/parts/02/chapters/04/sections/05/boxplots_execution_times.tex}
   \vspace{1cm}
   \caption{\small Οι κατανομές των χρόνων εκτέλεσης όλων των αλγορίθμων χωρίς να
@@ -213,7 +231,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \label{fig:02_04_05:02}
 \end{figure}
 
-\begin{figure}[!h]\vspace{2cm}
+\begin{figure}[!h]
   \input{./figures/parts/02/chapters/04/sections/05/boxplots_iterations.tex}
   \vspace{1cm}
   \caption{\small Οι κατανομές του αριθμού των συλληφθέντων σαρώσεων χάρτη (άνω
@@ -224,12 +242,11 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \label{fig:02_04_05:03}
 \end{figure}
 
-\begin{figure}[!h]\centering
+\begin{figure}[!h]\centering\vspace{1.5cm}
   \begin{subfigure}{\linewidth}
     \input{./figures/parts/02/chapters/04/sections/05/recoveries_sm0.tex}
-    \vspace{1cm}
-  \end{subfigure}\\\vspace{1.2cm}%
-  \begin{subfigure}{\linewidth}
+  \end{subfigure}\\\vspace{2.2cm}%
+  \begin{subfigure}{\linewidth}\hspace{1.0cm}
     \input{./figures/parts/02/chapters/04/sections/05/recoveries_sm5.tex}
   \end{subfigure}%
   \vspace{-1cm}
@@ -257,23 +274,21 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 των συνιστώντων σφαλμάτων θέσης και προσανατολισμού.
 
 
-\begin{figure}[!h]\centering
-  \begin{subfigure}{\linewidth}
-    \vspace{1cm}
+\begin{figure}[!h]\centering\vspace{2cm}
+  \begin{subfigure}{\linewidth}\hspace{-1cm}
     \input{./figures/parts/02/chapters/04/sections/05/boxplots_pose_errors_sm0.tex}
-    \vspace{1cm}
-  \end{subfigure}\\%
-  \begin{subfigure}{\linewidth}
-    \vspace{1cm}
+  \end{subfigure}\\\vspace{3cm}%
+  \begin{subfigure}{\linewidth}\hspace{-1cm}
     \input{./figures/parts/02/chapters/04/sections/05/boxplots_pose_errors_sm5.tex}
-    \vspace{1cm}
   \end{subfigure}%
+  \vspace{1cm}
 \caption{\small Οι κατανομές των σφαλμάτων εκτίμησης στάσης για κάθε αλγόριθμο
          με βάση την πειραματική διάταξη της ενότητας
-         \ref{subsection:02_04_05:01}.  Κάθε ορθογώνιο αντιπροσωπεύει τα
-         στατιστικά $\approx 4.5\cdot10^5$ ευθυγραμμίσεων, με την εξαίρεση των
-         μεθόδων NDT-PSO και TEASER οι οποίες δοκιμάστηκαν $\approx 4.5 \cdot
-         10^4$ φορές}
+         \ref{subsection:02_04_05:01}. Κάθε ορθογώνιο αντιπροσωπεύει τα
+         στατιστικά $\approx 4.5$$\cdot$$10\texttt{e}$$+$$5$ ευθυγραμμίσεων, με
+         την εξαίρεση των μεθόδων NDT-PSO και TEASER οι οποίες δοκιμάστηκαν
+         $\approx 4.5$$\cdot$$10\texttt{e}$$+$$4$ φορές. Οι κουκίδες
+         αντιπροσωπεύουν ολικά μέσα σφάλματα εκτίμησης}
 \label{fig:02_04_05:05}
 \end{figure}
 
@@ -289,7 +304,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 διαφθοράς χάρτη.
 
 
-\begin{figure}[!h]\hspace{0.5cm}
+\begin{figure}[!h]\vspace{1cm}\hspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_binned_sm0.tex}
   \vspace{1cm}
   \caption{\small Χάρτες θερμότητας των μέτρων των τελικών σφαλμάτων εκτίμησης
@@ -302,7 +317,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \label{fig:02_04_05:06}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
+\begin{figure}[!h]\vspace{1cm}\hspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_binned_sm5.tex}
   \vspace{1cm}
   \caption{\small Χάρτες θερμότητας των μέτρων των τελικών σφαλμάτων εκτίμησης
@@ -315,7 +330,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \label{fig:02_04_05:07}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
+\begin{figure}[!h]\vspace{1cm}\hspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm0.tex}
   \vspace{1cm}
   \caption{\small Χάρτες θερμότητας των μέτρων των τελικών σφαλμάτων εκτίμησης
@@ -334,7 +349,7 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
   \label{fig:02_04_05:08}
 \end{figure}
 
-\begin{figure}[!h]\hspace{0.5cm}
+\begin{figure}[!h]\vspace{1cm}\hspace{0.5cm}
   \input{./figures/parts/02/chapters/04/sections/05/caer_style_pose_errors_sm5.tex}
   \vspace{1cm}
   \caption{\small Χάρτες θερμότητας των μέτρων των τελικών σφαλμάτων εκτίμησης
@@ -363,16 +378,23 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 \begin{figure}[!h]\centering
   \vspace{2cm}
   \input{./figures/parts/02/chapters/04/sections/05/orientation_improvement_percent_binned_curves.tex}
-  \vspace{1cm}
-  \caption{}
+  \vspace{1.5cm}
+  \caption{\small Οι καμπύλες εξέλιξης των ποσοστών επίτευξης του στόχου
+           \ref{objective:02_04} ως προς τη συνιστώσα του προσανατολισμού
+           συναρτήσει του μέτρου του αρχικού σφάλματος εκτίμησης
+           προσανατολισμού για όλες τις διαμορφώσεις της πειραματικής
+           διαδικασίας}
   \label{fig:02_04_05:10}
 \end{figure}
 
 \begin{figure}[!h]\centering
   \vspace{2cm}
   \input{./figures/parts/02/chapters/04/sections/05/position_improvement_percent_binned_curves.tex}
-  \vspace{1cm}
-  \caption{}
+  \vspace{1.5cm}
+  \caption{\small Οι καμπύλες εξέλιξης των ποσοστών επίτευξης του στόχου
+           \ref{objective:02_04} ως προς τη συνιστώσα της θέσης
+           συναρτήσει του μέτρου του αρχικού σφάλματος εκτίμησης
+           θέσης για όλες τις διαμορφώσεις της πειραματικής διαδικασίας}
   \label{fig:02_04_05:11}
 \end{figure}
 
@@ -380,15 +402,27 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 \begin{figure}[!h]\centering
   \vspace{2cm}
   \input{./figures/parts/02/chapters/04/sections/05/cross_position_improvement_percent_orientation_binned_curves.tex}
-  \vspace{1cm}
-  \caption{}
+  \vspace{1.5cm}
+  \caption{\small Οι καμπύλες εξέλιξης των ποσοστών επίτευξης του στόχου
+           \ref{objective:02_04} ως προς τη συνιστώσα της θέσης συναρτήσει του
+           μέτρου του αρχικού σφάλματος εκτίμησης προσανατολισμού για όλες τις
+           διαμορφώσεις της πειραματικής διαδικασίας}
   \label{fig:02_04_05:12}
 \end{figure}
 
+Το σχήμα \ref{fig:02_04_05:13} απεικονίζει για τις τρεις διαμορφώσεις του FSMSM
+και κάθε πειραματική διαμόρφωση τα ποσοστά των τελικών σφαλμάτων εκτίμησης
+προσανατολισμού τα οποία έχουν μέτρο μικρότερο από $\gamma / 2^{\nu+1}$, για
+$\nu = 0,1,\dots,\nu_{\max} = 5$.
+
 \begin{figure}[!h]\centering
   \input{./figures/parts/02/chapters/04/sections/05/orientation_wrt_gamma.tex}
-  \caption{}
-  \label{fig:02_04_05:0}
+  \vspace{-0.5cm}
+  \caption{\small Ποσοστά τελικών σφαλμάτων εκτίμησης προσανατολισμού των
+           τριών διαμορφώσεων του FSMSM με μέτρο μικρότερο από $\gamma /
+           2^{\nu+1}$, για $\nu = 0,1,\dots,\nu_{\max} = 5$, για όλες τις
+           διαμορφώσεις τις πειραματικής διαδικασίας}
+  \label{fig:02_04_05:13}
 \end{figure}
 
 
@@ -398,3 +432,29 @@ $(\text{m}^2+\text{rad}^2)^{1/2}$ και, όπου παραλείπεται στ
 \subsection{Εξέταση και αξιολόγηση αποτελεσμάτων}
 \label{subsection:02_04_05:03}
 
+Με βάση τα πειραματικά αποτελέσματα που εκτίθενται στα σχήματα
+\ref{fig:02_04_05:01}-\ref{fig:02_04_05:13} της ενότητας
+\ref{subsection:02_04_05:02}, δεδομένης της πειραματικής διάταξης της ενότητας
+\ref{subsection:02_04_05:01}, συνάγουμε πρώτα τα πιο βασικά συμπεράσματα:
+
+\begin{framed}
+\begin{itemize}
+  \item Ο στόχος (\ref{objective:02_04}) επιτυγχάνεται για τον \texttt{x1} σε
+        ποσοστό άνω του $97.5\%$ για όλα τα επίπεδα των υπό εξέταση διαταραχών
+        $\sigma_R$ και $\sigma_{\bm{M}}$, και για τους \texttt{uf} και
+        \texttt{fm} σε ποσοστό άνω του $99.2\%$ (σχήμα \ref{fig:02_04_05:01})
+  \item Οι τρεις άνωθεν μέθοδοι εκτελούνται σε πραγματικό χρόνο για αριθμό
+        ακτίνων $N_s = 360$, αλλά ο \texttt{x1} υπολείπεται σε χρόνο εκτέλεσης
+        σε χαμηλά επίπεδα διαταραχών των μετρήσεων του φυσικού αισθητήρα lidar
+        (σχήμα \ref{fig:02_04_05:03})
+  \item Τo μέσo σφάλμα εκτίμησης στάσης των \texttt{x1}, \texttt{uf}, και
+        \texttt{fm} έχει για άνω όριο τo ελάχιστo μέσο σφάλμα της καλύτερης
+        ανά διαμόρφωση μεθοδου (σχήμα \ref{fig:02_04_05:05})
+  \item Οι μέθοδοι \texttt{uf} και \texttt{fm} είναι πρακτικά ισοδύναμες ως προς
+        όλες τις μετρικές αξιολόγησης (ποσοστό επιτυχίας, σφάλματα εκτίμησης
+        θέσης και προσανατολισμού, αριθμό επανεκκινήσεων, χρόνο εκτέλεσης)
+\end{itemize}
+\end{framed}
+
+Ξεκινώντας από το σχήμα \ref{fig:02_04_05:01}, με βάση τα πειραματικά στοιχεία
+παρατηρούμε πως οι μέθο
