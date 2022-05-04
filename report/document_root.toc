@@ -208,6 +208,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.7}Συμπεράσματα και περαιτέρω έρευνα}{251}{section.7.7}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.1}Συμπεράσματα κεφαλαίου}{251}{subsection.7.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.7.2}Αιτίες περαιτέρω έρευνας}{252}{subsection.7.7.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{253}{part.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{IV\hspace {1em}Παραπομπές}{255}{part.4}
