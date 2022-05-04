@@ -112,6 +112,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
 
 \begin{algorithm}[!h]
   \caption{\texttt{rc\_fm}}
+  \label{alg:algorithm_fmrc}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$
@@ -123,7 +124,6 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Fourier
     \RETURN $(\hat{\theta}^\prime, q_{\max})$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:algorithm_fmrc}
 \end{algorithm}
 
 
@@ -299,6 +299,7 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Πρώ�
 
 \begin{algorithm}[!h]
   \caption{\texttt{rc\_x1}}
+  \label{alg:algorithm_x1rc}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$
@@ -310,7 +311,6 @@ $\bm{p}(x,y,\theta)$ ονομάζεται στο εξής μέθοδος Πρώ�
     \RETURN $\hat{\theta}^\prime$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:algorithm_x1rc}
 \end{algorithm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -519,6 +519,7 @@ DBH.
 
 \begin{algorithm}[!h]
   \caption{\texttt{rc\_uf}}
+  \label{alg:algorithm_ufrc}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$
@@ -533,12 +534,12 @@ DBH.
     \RETURN $(\hat{\theta}^\prime, T)$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:algorithm_ufrc}
 \end{algorithm}
 
 
 \begin{algorithm}[!h]
   \caption{\texttt{rc\_uf\_core}}
+  \label{alg:algorithm_core_ufrc}
   \begin{spacing}{1.3}
   \begin{algorithmic}[1]
     \REQUIRE $\bm{P}_R$, $\bm{P}_V$
@@ -570,7 +571,6 @@ DBH.
     \RETURN $(J,T_{\max})$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:algorithm_core_ufrc}
 \end{algorithm}
 
 
@@ -1009,6 +1009,7 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
 
 \begin{algorithm}[!h]
   \caption{\texttt{rc\_theseus}}
+  \label{alg:theseus}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
@@ -1019,11 +1020,11 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
     \RETURN $\hat{\theta}^\prime$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:theseus}
 \end{algorithm}
 
 \begin{algorithm}[!h]
   \caption{\texttt{rc\_theseus\_core}}
+  \label{alg:core_theseus}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
@@ -1042,11 +1043,11 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
     \RETURN $(\hat{\bm{\Theta}}, \textbf{PD})$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:core_theseus}
 \end{algorithm}
 
 \begin{algorithm}[!h]
   \caption{\texttt{scan\_map}}
+  \label{alg:scan_map}
   \begin{spacing}{1.3}
     \begin{algorithmic}[1]
       \REQUIRE $\bm{M}, \bm{p}(x, y, \theta), N_s$
@@ -1062,7 +1063,6 @@ $|\theta - \hat{\theta}| > \gamma / 2^{1+\nu}$ για δεδομένο βαθμ�
       \RETURN $\mathcal{S}_V$
     \end{algorithmic}
   \end{spacing}
-  \label{alg:scan_map}
 \end{algorithm}
 
 

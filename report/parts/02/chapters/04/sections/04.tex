@@ -163,6 +163,7 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
 
 \begin{algorithm}[!h]
   \caption{\texttt{caer-based\_orientation\_estimation}}
+  \label{alg:02_04_04:rc}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\bm{M}$, $\mathcal{S}_R$, $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$, $\gamma$, $N_s$, $\nu$
@@ -191,12 +192,12 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
     \RETURN $\hat{\bm{p}}_C$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:02_04_04:rc}
 \end{algorithm}
 
 
 \begin{algorithm}[!h]
   \caption{\texttt{rcm}}
+  \label{alg:02_04_04:rcm}
   \begin{spacing}{1.5}
   \begin{algorithmic}[1]
     \REQUIRE \texttt{rc}, $\mathcal{S}_R, \mathcal{S}_V, \hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta}), \gamma$
@@ -211,7 +212,6 @@ $\bm{M}$ και εισάγοντας την στη μετρική CAER παρά�
     \RETURN $\hat{\theta}^\prime$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:02_04_04:rcm}
 \end{algorithm}
 
 
