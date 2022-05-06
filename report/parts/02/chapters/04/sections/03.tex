@@ -135,8 +135,8 @@ $\sigma_R = \sigma_V = 0.05$ m.
       \ENSURE $\hat{\bm{p}}^\prime(\hat{x}^{\prime}, \hat{y}^{\prime}, \hat{\theta})$
       \STATE $k \leftarrow 0$
       \WHILE {$k < k_{max}$}
-      \STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(M, \hat{\bm{p}}, N_s)$
-      \STATE $X_1 \leftarrow \texttt{diff\_dft}(\mathcal{S}_R, \mathcal{S}_V)$
+      \STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(M, \hat{\bm{p}}, N_s)$ \hfill (Αλγόριθμος \ref{alg:scan_map})
+      \STATE $X_1 \leftarrow \texttt{diff\_dft}(\mathcal{S}_R, \mathcal{S}_V)$ \hfill (Αλγόριθμος \ref{alg:diff_dft})
       \STATE $(X_{1,r}, X_{1,i}) \leftarrow (\texttt{re}(X_1), \texttt{im}(X_1))$
       \STATE $\bm{u}_k = \begin{bmatrix}
               u_x \\ u_y
