@@ -359,4 +359,36 @@ $\nu$, σε χαμηλούς βαθμούς δειγματοληψίας χάρ�
 είναι ίσος με τον προσανατολισμό της $\hat{\bm{p}}_C$ που παράγει την ελάχιστη
 τιμή CAER με την πάροδο του χρόνου. Αυτή η προσθήκη εισάγει μια μορφή μνήμης
 στο σύστημα, η οποία το βοηθά στην αποφυγή αποκλίσεων και η οποία, ως εκ
-τούτου, ωφελεί την ταχύτητα εκτέλεσης.
+τούτου, ωφελεί την ταχύτητα εκτέλεσης. Ο αλγόριθμος \ref{alg:algorithm_fsmsm}
+παρουσιάζει σε ψευδοκώδικα τα βήματα εκτέλεσης του FSMSM.
+
+\begin{algorithm}
+  \caption{\texttt{FSMSM}}
+  \label{alg:algorithm_fsmsm}
+  \begin{spacing}{1.5}
+  \begin{algorithmic}[1]
+    \REQUIRE $\mathcal{S}_R$, $\mathbb{M}$, $\hat{\bm{p}}$, $\texttt{rc}$,  $\gamma$, $N_s$, $\nu_{\min}$, $\nu_{\max}$, $I_T$, $\varepsilon_{\delta p}$, $\sigma_1$, $\sigma_2$
+    \ENSURE $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$
+    \STATE $\nu \leftarrow \nu_{\min}$
+    \WHILE {$\nu \leq \nu_{\max}$}
+      \STATE $\hat{\bm{p}}_C \leftarrow \texttt{caer-based\_orientation\_estimation}(\texttt{rc}, \bm{M}, \mathcal{S}_R, \hat{\bm{p}}, \gamma, N_s, \nu)$ \hfill (Αλγ. \ref{alg:02_04_04:rc})
+      \STATE $\hat{\bm{p}}^{\prime} \leftarrow \texttt{tc\_x1}(\bm{M}, \mathcal{S}_R, \hat{\bm{p}}_C, I_T, \infty, N_s)$  \hfill (Αλγόριθμος \ref{alg:icte})
+       \IF{\tikzmk{A} $\hat{\bm{p}}^{\prime}$ not in $\bm{M}$}
+        \STATE generate new $\hat{\bm{p}}$; $\nu \leftarrow \nu_{\min}$; \texttt{continue}
+      \ENDIF \tikzmk{B}\boxit{alg4}
+       \IF{\tikzmk{A} $\|\hat{\bm{p}}^{\prime} - \hat{\bm{p}}\| < \varepsilon_{\delta p}$}
+        \STATE $\nu \leftarrow \nu + 1$
+      \ENDIF \tikzmk{B}\boxit{alg5}
+       \IF{\tikzmk{A} $\nu = \nu_{\max}$}
+        \IF{$\texttt{CAER}(\mathcal{S}_R, \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}^\prime)) \not\leq (\sigma_1 + \sigma_2)^{1/2}$}
+          \STATE generate new $\hat{\bm{p}}$; $\nu \leftarrow \nu_{\min}$; \texttt{continue}
+        \ELSE
+          \STATE $\hat{\bm{p}} \leftarrow \hat{\bm{p}}^{\prime}$; \texttt{break}
+        \ENDIF
+      \ENDIF \tikzmk{B}\boxit{alg6}
+      \STATE $\hat{\bm{p}} \leftarrow \hat{\bm{p}}^{\prime}$
+    \ENDWHILE
+    \RETURN $\hat{\bm{p}}$
+  \end{algorithmic}
+  \end{spacing}
+\end{algorithm}

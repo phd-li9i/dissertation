@@ -48,42 +48,42 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Πειραματική αξιολόγηση}{56}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Πειραματική διάταξη}{57}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Πειραματική διάταξη}{58}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Αποτελέσματα}{60}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Αποτελέσματα}{61}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Εξέταση και αξιολόγηση αποτελεσμάτων}{72}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.3}Εξέταση και αξιολόγηση αποτελεσμάτων}{73}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Χαρακτήρας και περιορισμοί}{81}{section.4.6}
+\contentsline {section}{\numberline {4.6}Χαρακτήρας και περιορισμοί}{82}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Συμπεράσματα και περαιτέρω έρευνα}{89}{section.4.7}
+\contentsline {section}{\numberline {4.7}Συμπεράσματα και περαιτέρω έρευνα}{90}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.1}Συμπεράσματα κεφαλαίου}{89}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.1}Συμπεράσματα κεφαλαίου}{90}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7.2}Αιτίες περαιτέρω έρευνας}{91}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.2}Αιτίες περαιτέρω έρευνας}{92}{subsection.4.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Μέθοδοι ευθυγράμμισης πραγματικών σαρώσεων χωρίς τον υπολογισμό αντιστοιχίσεων}{93}{chapter.5}
+\contentsline {chapter}{\numberline {5}Μέθοδοι ευθυγράμμισης πραγματικών σαρώσεων χωρίς τον υπολογισμό αντιστοιχίσεων}{95}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Στόχοι του κεφαλαίου και δομή}{93}{section.5.1}
+\contentsline {section}{\numberline {5.1}Στόχοι του κεφαλαίου και δομή}{95}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Μεθοδολογία}{94}{section.5.2}
+\contentsline {section}{\numberline {5.2}Μεθοδολογία}{96}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Πειραματική αξιολόγηση}{95}{section.5.3}
+\contentsline {section}{\numberline {5.3}Πειραματική αξιολόγηση}{97}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Πειραματική διάταξη}{95}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Πειραματική διάταξη}{97}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Αποτελέσματα}{95}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Αποτελέσματα}{97}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Εξέταση και αξιολόγηση των αποτελεσμάτων}{95}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}Εξέταση και αξιολόγηση των αποτελεσμάτων}{97}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Χαρακτήρας και περιορισμοί}{95}{section.5.4}
+\contentsline {section}{\numberline {5.4}Χαρακτήρας και περιορισμοί}{97}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Συμπεράσματα}{95}{section.5.5}
+\contentsline {section}{\numberline {5.5}Συμπεράσματα}{97}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{III\hspace {1em}Συμπεράσματα}{109}{part.3}
+\contentsline {part}{III\hspace {1em}Συμπεράσματα}{111}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{IV\hspace {1em}Παραπομπές}{111}{part.4}
+\contentsline {part}{IV\hspace {1em}Παραπομπές}{113}{part.4}
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{V\hspace {1em}Παραρτήματα}{113}{part.5}
+\contentsline {part}{V\hspace {1em}Παραρτήματα}{115}{part.5}

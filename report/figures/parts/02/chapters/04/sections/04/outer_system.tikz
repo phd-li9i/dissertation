@@ -6,7 +6,7 @@
 %uncomment if require: \path (0,1001); %set diagram left start at 0, and has height of 1001
 
 %Flowchart: Decision [id:dp5485531374796404]
-\draw   (240.5,167) -- (311.5,202) -- (240.5,237) -- (169.5,202) -- cycle ;
+\draw[fill=alg4,fill opacity=.25]  (240.5,167) -- (311.5,202) -- (240.5,237) -- (169.5,202) -- cycle ;
 %Straight Lines [id:da5877536487984554]
 \draw    (240.5,52.67) -- (240.5,108.67) ;
 \draw [shift={(240.5,110.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
@@ -17,9 +17,9 @@
 \draw    (309.5,202) -- (382.5,202) -- (382.5,422) ;
 \draw [shift={(382.5,423)}, rotate = 270.0] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 %Flowchart: Decision [id:dp1133428099178595]
-\draw   (240.5,266) -- (311.5,301) -- (240.5,336) -- (169.5,301) -- cycle ;
+\draw [fill=alg5, fill opacity=.25]  (240.5,266) -- (311.5,301) -- (240.5,336) -- (169.5,301) -- cycle ;
 %Flowchart: Decision [id:dp5073654995853492]
-\draw   (239.5,422) -- (310.5,457) -- (239.5,492) -- (168.5,457) -- cycle ;
+\draw [fill=alg6, fill opacity=.25]  (239.5,422) -- (310.5,457) -- (239.5,492) -- (168.5,457) -- cycle ;
 %Straight Lines [id:da1335991408375894]
 \draw    (239.5,492) -- (239.5,533.67) ;
 \draw [shift={(239.5,535.67)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
@@ -40,7 +40,7 @@
 \draw [shift={(239.5,419)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 %Straight Lines [id:da44842589807001]
 \draw    (169.5,301) -- (136,301) ;
-\draw [shift={(134,300.67)}, rotate = 360.53999999999996] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+\draw [shift={(134,300.67)}, rotate = 360] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 %Straight Lines [id:da5521661750319236]
 \draw    (382,488.67) -- (382,517.33) -- (130.5,517.33) ;
 

@@ -9,15 +9,15 @@
     \STATE $\hat{\bm{p}}_1 \leftarrow (0,0,0)$; $\nu \leftarrow \nu_{\min}$
     \STATE $\bm{M} \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_0, \hat{\bm{p}}_1)$
     \WHILE {$\nu \leq \nu_{\max}$}
-      \STATE $\hat{\bm{p}}_1^\prime \leftarrow \texttt{caer-based\_orientation\_estimation}(\texttt{fm}, \bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1, \gamma, N_s, \nu)$ \hfill (Αλγ. \ref{alg:02_04_04:rc})
-      \STATE $\hat{\bm{p}}_1^{\prime\prime} \leftarrow \texttt{tc\_x1}(\bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1^\prime, I_T, \infty, N_s)$  \hfill (Αλγόριθμος \ref{alg:icte})
-      \IF{$ \|\hat{\bm{p}}_1^{\prime\prime} - \hat{\bm{p}}_1\| < \varepsilon_{\delta p}$}
-        \STATE $\nu = \nu + 1$
+      \STATE $\hat{\bm{p}}_1^C\leftarrow \texttt{caer-based\_orientation\_estimation}(\texttt{fm}, \bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1, \gamma, N_s, \nu)$ \hfill (Αλγ. \ref{alg:02_04_04:rc})
+      \STATE $\hat{\bm{p}}_1^{\prime} \leftarrow \texttt{tc\_x1}(\bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1^C, I_T, \infty, N_s)$  \hfill (Αλγόριθμος \ref{alg:icte})
+      \IF{$\hat{\bm{p}}_1^{\prime}$ not in $\bm{M}$}
+        \STATE generate new $\hat{\bm{p}}_1$; $\nu \leftarrow \nu_{\min}$; \texttt{continue}
       \ENDIF
-      \IF{$\hat{\bm{p}}_1^{\prime\prime}$ not in $\bm{M}$}
-        \STATE generate new $\hat{\bm{p}}_1$; $\nu \leftarrow \nu_{\min}$; continue
+      \IF{$ \|\hat{\bm{p}}_1^{\prime} - \hat{\bm{p}}_1\| < \varepsilon_{\delta p}$}
+        \STATE $\nu \leftarrow \nu + 1$
       \ENDIF
-      \STATE $\hat{\bm{p}}_1 \leftarrow \hat{\bm{p}}_1^{\prime\prime}$
+      \STATE $\hat{\bm{p}}_1 \leftarrow \hat{\bm{p}}_1^{\prime}$
     \ENDWHILE
     \RETURN $\hat{\bm{p}}_1$
   \end{algorithmic}
