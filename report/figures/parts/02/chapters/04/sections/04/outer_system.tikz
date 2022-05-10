@@ -56,7 +56,7 @@
 \draw (202,285) node [anchor=north west][inner sep=0.75pt]  [align=center] {Convergence\\ \hspace{-3mm} Conditions};
 % Text Node
 \draw    (334,427.67) -- (433,427.67) -- (433,487.67) -- (334,487.67) -- cycle  ;
-\draw (339,431.67) node [anchor=north west][inner sep=0.75pt]  [align=center] {Generate new \\ $\hat{\bm{p}}^\prime$ around $\hat{\bm{p}}$; \\ $\nu$ = $\nu_{\min}$};
+\draw (339,431.67) node [anchor=north west][inner sep=0.75pt]  [align=center] {Generate new \\ $\hat{\bm{p}}^\prime$ around $\hat{\bm{p}}$; \\ $\nu \leftarrow \nu_{\min}$};
 % Text Node
 \draw (324,182.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {Y};
 % Text Node
