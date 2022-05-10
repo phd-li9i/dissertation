@@ -4,9 +4,9 @@
   \caption{\texttt{fsm}}
   \begin{spacing}{1.2}
   \begin{algorithmic}[1]
-    \REQUIRE $\mathcal{S}_0$, $\mathcal{S}_1$, $\gamma$, [$N_s$, $\nu_{\min}$, $\nu_{\max}$, $I_T$, $\varepsilon_{\delta p}$]
+    \REQUIRE $\mathcal{S}_0$, $\mathcal{S}_1$, $\gamma$, $N_s$, $\nu_{\min}$, $\nu_{\max}$, $I_T$, $\varepsilon_{\delta p}$
     \ENSURE $\hat{\bm{p}}_1(\hat{x}_1, \hat{y}_1, \hat{\theta}_1)$
-    \STATE $\hat{\bm{p}}_1 \leftarrow (0,0,0)$, $\nu \leftarrow \nu_{\min}$
+    \STATE $\hat{\bm{p}}_1 \leftarrow (0,0,0)$; $\nu \leftarrow \nu_{\min}$
     \STATE $\bm{M} \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_0, \hat{\bm{p}}_1)$
     \WHILE {$\nu \leq \nu_{\max}$}
       \STATE $\hat{\bm{p}}_1^\prime \leftarrow \texttt{caer-based\_orientation\_estimation}(\texttt{fm}, \bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1, \gamma, N_s, \nu)$ \hfill (Αλγ. \ref{alg:02_04_04:rc})
