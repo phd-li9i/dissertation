@@ -1,0 +1,26 @@
+%\floatstyle{spaceruled}% Select new float style
+%\restylefloat{algorithm}% Apply spaceruled float style to algorithm
+\begin{algorithm}
+  \caption{\texttt{fsm}}
+  \begin{spacing}{1.2}
+  \begin{algorithmic}[1]
+    \REQUIRE $\mathcal{S}_0$, $\mathcal{S}_1$, $\gamma$, [$N_s$, $\nu_{\min}$, $\nu_{\max}$, $I_T$, $\varepsilon_{\delta p}$]
+    \ENSURE $\hat{\bm{p}}_1(\hat{x}_1, \hat{y}_1, \hat{\theta}_1)$
+    \STATE $\hat{\bm{p}}_1 \leftarrow (0,0,0)$, $\nu \leftarrow \nu_{\min}$
+    \STATE $\bm{M} \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_0, \hat{\bm{p}}_1)$
+    \WHILE {$\nu \leq \nu_{\max}$}
+      \STATE $\hat{\bm{p}}_1^\prime \leftarrow \texttt{caer-based\_orientation\_estimation}(\texttt{fm}, \bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1, \gamma, N_s, \nu)$ \hfill (Αλγ. \ref{alg:02_04_04:rc})
+      \STATE $\hat{\bm{p}}_1^{\prime\prime} \leftarrow \texttt{tc\_x1}(\bm{M}, \mathcal{S}_1, \hat{\bm{p}}_1^\prime, I_T, \infty, N_s)$  \hfill (Αλγόριθμος \ref{alg:icte})
+      \IF{$ \|\hat{\bm{p}}_1^{\prime\prime} - \hat{\bm{p}}_1\| < \varepsilon_{\delta p}$}
+        \STATE $\nu = \nu + 1$
+      \ENDIF
+      \IF{$\hat{\bm{p}}_1^{\prime\prime}$ not in $\bm{M}$}
+        \STATE generate new $\hat{\bm{p}}_1$; $\nu \leftarrow \nu_{\min}$; continue
+      \ENDIF
+      \STATE $\hat{\bm{p}}_1 \leftarrow \hat{\bm{p}}_1^{\prime\prime}$
+    \ENDWHILE
+    \RETURN $\hat{\bm{p}}_1$
+  \end{algorithmic}
+  \end{spacing}
+  \label{alg:algorithm_fsm}
+\end{algorithm}

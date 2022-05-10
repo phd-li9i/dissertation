@@ -422,3 +422,12 @@
 \definecolor{alg1}{RGB}{251,180,174}
 \definecolor{alg2}{RGB}{255,255,204}
 \definecolor{alg3}{RGB}{179,205,227}
+
+% Manipulate vspace for algorithm
+\makeatletter
+\newcommand\fs@spaceruled{\def\@fs@cfont{\bfseries}\let\@fs@capt\floatc@ruled
+  \def\@fs@pre{\vspace{0.5\baselineskip}\hrule height.8pt depth0pt \kern2pt}%
+  \def\@fs@post{\kern2pt\hrule\relax}%
+  \def\@fs@mid{\kern2pt\hrule\kern2pt}%
+  \let\@fs@iftopcapt\iftrue}
+\makeatother
