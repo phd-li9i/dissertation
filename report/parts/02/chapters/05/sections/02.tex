@@ -1,7 +1,15 @@
+
+
+
+
+Ο αλγόριθμος \ref{alg:algorithm_fsm} παρουσιάζει σε ψευδοκώδικα τα βήματα
+εκτέλεσης του FSM.
+
 %\floatstyle{spaceruled}% Select new float style
 %\restylefloat{algorithm}% Apply spaceruled float style to algorithm
 \begin{algorithm}
   \caption{\texttt{fsm}}
+  \label{alg:algorithm_fsm}
   \begin{spacing}{1.2}
   \begin{algorithmic}[1]
     \REQUIRE $\mathcal{S}_0$, $\mathcal{S}_1$, $\gamma$, $N_s$, $\nu_{\min}$, $\nu_{\max}$, $I_T$, $\varepsilon_{\delta p}$
@@ -22,5 +30,4 @@
     \RETURN $\hat{\bm{p}}_1$
   \end{algorithmic}
   \end{spacing}
-  \label{alg:algorithm_fsm}
 \end{algorithm}
