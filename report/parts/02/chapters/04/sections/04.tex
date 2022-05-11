@@ -379,13 +379,13 @@ $\nu$, σε χαμηλούς βαθμούς δειγματοληψίας χάρ�
        \IF{\tikzmk{A} $\|\hat{\bm{p}}^{\prime} - \hat{\bm{p}}\| < \varepsilon_{\delta p}$}
         \STATE $\nu \leftarrow \nu + 1$
       \ENDIF \tikzmk{B}\boxit{alg5}
-       \IF{\tikzmk{A} $\nu = \nu_{\max}$}
+       \IF{\tikzmk{A} $\nu = \nu_{\max}$} \label{alg:fsmsm_termination_criterion_start}
         \IF{$\texttt{CAER}(\mathcal{S}_R, \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}^\prime)) \not\leq \overline{c}$}
           \STATE generate new $\hat{\bm{p}}$; $\nu \leftarrow \nu_{\min}$; \texttt{continue}
         \ELSE
           \STATE $\hat{\bm{p}} \leftarrow \hat{\bm{p}}^{\prime}$; \texttt{break}
         \ENDIF
-      \ENDIF \tikzmk{B}\boxit{alg6}
+      \ENDIF \tikzmk{B}\boxit{alg6} \label{alg:fsmsm_termination_criterion_end}
       \STATE $\hat{\bm{p}} \leftarrow \hat{\bm{p}}^{\prime}$
     \ENDWHILE
     \RETURN $\hat{\bm{p}}$
