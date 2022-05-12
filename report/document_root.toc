@@ -78,7 +78,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}Χαρακτήρας και περιορισμοί}{110}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Συμπεράσματα}{115}{section.5.5}
+\contentsline {section}{\numberline {5.5}Συμπεράσματα}{114}{section.5.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{117}{part.3}
 \defcounter {refsection}{0}\relax 
