@@ -228,7 +228,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.4}Χαρακτήρας και περιορισμοί}{274}{section.8.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Συμπεράσματα}{280}{section.8.5}
+\contentsline {section}{\numberline {8.5}Συμπεράσματα}{281}{section.8.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{III\hspace {1em}Συμπεράσματα}{283}{part.3}
 \defcounter {refsection}{0}\relax 
