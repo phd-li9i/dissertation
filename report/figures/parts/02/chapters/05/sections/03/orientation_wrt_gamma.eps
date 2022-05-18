@@ -1,0 +1,2705 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: /media/li9i/var/elements/PhD/fourier_scan_matcher/scripts_phd/g/orientation_wrt_gamma.tex
+%%Creator: gnuplot 5.0 patchlevel 3
+%%CreationDate: Wed May 18 15:27:13 2022
+%%DocumentFonts: 
+%%BoundingBox: 50 50 350 350
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext true def
+/Solid false def
+/Dashlength 2 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -73 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 350 50 lineto 350 350 lineto 50 350 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (/media/li9i/var/elements/PhD/fourier_scan_matcher/scripts_phd/g/orientation_wrt_gamma.tex)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 3)
+  /Author (li9i)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Wed May 18 15:27:13 2022)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 306 5939 N 306 4380 L 1553 4380 L 1553 5939 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  306 5939 M
+  1247 0 V
+  0 -1559 V
+  -1247 0 V
+  306 5939 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 27 string def
+  currentfile imagebuf readstring
+} {
+gsave
+306 5939 translate
+1247 -1559 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 4
+  /Height 5
+  /BitsPerComponent 8
+  /ImageMatrix [ 4 0 0 5 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+s7u$2rU\gLq<H.fl-H)1`L^QS~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 306 5783 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 306 5471 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 306 5160 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 306 4848 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 306 4536 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 306 4380 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 306 5939 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 306 4380 M
+0 1559 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1553 4380 M
+0 1559 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 2106 5939 N 2106 4380 L 3353 4380 L 3353 5939 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  2106 5939 M
+  1247 0 V
+  0 -1559 V
+  -1247 0 V
+  2106 5939 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 27 string def
+  currentfile imagebuf readstring
+} {
+gsave
+2106 5939 translate
+1247 -1559 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 4
+  /Height 5
+  /BitsPerComponent 8
+  /ImageMatrix [ 4 0 0 5 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+qt&mmq!?P3o]*lOilITl[uj`$~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2106 5783 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2106 5471 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2106 5160 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2106 4848 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2106 4536 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 2106 4380 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 2106 5939 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 2106 4380 M
+0 1559 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3353 4380 M
+0 1559 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 3906 5939 N 3906 4380 L 5153 4380 L 5153 5939 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  3906 5939 M
+  1247 0 V
+  0 -1559 V
+  -1247 0 V
+  3906 5939 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 27 string def
+  currentfile imagebuf readstring
+} {
+gsave
+3906 5939 translate
+1247 -1559 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 4
+  /Height 5
+  /BitsPerComponent 8
+  /ImageMatrix [ 4 0 0 5 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+p[6nWo]OMrn(td:gqf7TYD?!Z~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3906 5783 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3906 5471 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3906 5160 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3906 4848 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3906 4536 M
+1247 0 R
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 3906 4380 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3906 5939 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3906 4380 M
+0 1559 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 5153 4380 M
+0 1559 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 306 3779 N 306 2220 L 1553 2220 L 1553 3779 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  306 3779 M
+  1247 0 V
+  0 -1559 V
+  -1247 0 V
+  306 3779 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 27 string def
+  currentfile imagebuf readstring
+} {
+gsave
+306 3779 translate
+1247 -1559 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 4
+  /Height 5
+  /BitsPerComponent 8
+  /ImageMatrix [ 4 0 0 5 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+p[6nWo]OMrn(td:gqf7TYD?!Z~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 306 2220 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 306 3779 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 306 2220 M
+0 1559 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 1553 2220 M
+0 1559 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 2106 3779 N 2106 2220 L 3353 2220 L 3353 3779 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  2106 3779 M
+  1247 0 V
+  0 -1559 V
+  -1247 0 V
+  2106 3779 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 27 string def
+  currentfile imagebuf readstring
+} {
+gsave
+2106 3779 translate
+1247 -1559 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 4
+  /Height 5
+  /BitsPerComponent 8
+  /ImageMatrix [ 4 0 0 5 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+o]k)DnD_Q_le/h&f=[/>Vgq>=~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 2106 2220 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 2106 3779 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 2106 2220 M
+0 1559 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3353 2220 M
+0 1559 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 3906 3779 N 3906 2220 L 5153 2220 L 5153 3779 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  3906 3779 M
+  1247 0 V
+  0 -1559 V
+  -1247 0 V
+  3906 3779 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 27 string def
+  currentfile imagebuf readstring
+} {
+gsave
+3906 3779 translate
+1247 -1559 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 4
+  /Height 5
+  /BitsPerComponent 8
+  /ImageMatrix [ 4 0 0 5 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+o]k)Dn`%Z`le/h&fY!8>Vh%D>~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 3906 2220 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3906 3779 M
+1247 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 3906 2220 M
+0 1559 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 5153 2220 M
+0 1559 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.58 0.00 0.83 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 0 0 M
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 0 0 M
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 0 0 M
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 0 0 M
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+gsave % colour palette begin
+/maxcolors 256 def
+/HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
+  { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
+     /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
+	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
+	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
+	 {3 HSVi eq {HSVp HSVq HSVv}{4 HSVi eq {HSVt HSVp HSVv}
+	 {HSVv HSVp HSVq} ifelse} ifelse} ifelse} ifelse} ifelse
+  } ifelse} def
+/Constrain {
+  dup 0 lt {0 exch pop}{dup 1 gt {1 exch pop} if} ifelse} def
+/YIQ2RGB {
+  3 copy -1.702 mul exch -1.105 mul add add Constrain 4 1 roll
+  3 copy -0.647 mul exch -0.272 mul add add Constrain 5 1 roll
+  0.621 mul exch -0.956 mul add add Constrain 3 1 roll } def
+/CMY2RGB {  1 exch sub exch 1 exch sub 3 2 roll 1 exch sub 3 1 roll exch } def
+/XYZ2RGB {  3 copy -0.9017 mul exch -0.1187 mul add exch 0.0585 mul exch add
+  Constrain 4 1 roll 3 copy -0.0279 mul exch 1.999 mul add exch
+  -0.9844 mul add Constrain 5 1 roll -0.2891 mul exch -0.5338 mul add
+  exch 1.91 mul exch add Constrain 3 1 roll} def
+/SelectSpace {ColorSpace (HSV) eq {HSV2RGB}{ColorSpace (XYZ) eq {
+  XYZ2RGB}{ColorSpace (CMY) eq {CMY2RGB}{ColorSpace (YIQ) eq {YIQ2RGB}
+  if} ifelse} ifelse} ifelse} def
+/InterpolatedColor true def
+/grayindex {/gidx 0 def
+  {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
+/dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
+  GrayA gidx get sub div} def 
+/redvalue {RedA gidx get RedA gidx 1 sub get
+  RedA gidx get sub dgdxval mul add} def
+/greenvalue {GreenA gidx get GreenA gidx 1 sub get
+  GreenA gidx get sub dgdxval mul add} def
+/bluevalue {BlueA gidx get BlueA gidx 1 sub get
+  BlueA gidx get sub dgdxval mul add} def
+/interpolate {
+  grayindex grayv GrayA gidx get sub abs 1e-5 le
+    {RedA gidx get GreenA gidx get BlueA gidx get}
+    {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
+/GrayA [0 .0039 .0078 .0118 .0157 .0196 .0235 .0275 .0314 .0353 .0392 .0431 
+  .0471 .051 .0549 .0588 .0627 .0667 .0706 .0745 .0784 .0824 .0863 .0902 
+  .0941 .098 .102 .1059 .1098 .1137 .1176 .1216 .1255 .1294 .1333 .1373 
+  .1412 .1451 .149 .1529 .1569 .1608 .1647 .1686 .1725 .1765 .1804 .1843 
+  .1882 .1922 .1961 .2 .2039 .2078 .2118 .2157 .2196 .2235 .2275 .2314 .2353 
+  .2392 .2431 .2471 .251 .2549 .2588 .2627 .2667 .2706 .2745 .2784 .2824 
+  .2863 .2902 .2941 .298 .302 .3059 .3098 .3137 .3176 .3216 .3255 .3294 
+  .3333 .3373 .3412 .3451 .349 .3529 .3569 .3608 .3647 .3686 .3725 .3765 
+  .3804 .3843 .3882 .3922 .3961 .4 .4039 .4078 .4118 .4157 .4196 .4235 .4275 
+  .4314 .4353 .4392 .4431 .4471 .451 .4549 .4588 .4627 .4667 .4706 .4745 
+  .4784 .4824 .4863 .4902 .4941 .498 .502 .5059 .5098 .5137 .5176 .5216 
+  .5255 .5294 .5333 .5373 .5412 .5451 .549 .5529 .5569 .5608 .5647 .5686 
+  .5725 .5765 .5804 .5843 .5882 .5922 .5961 .6 .6039 .6078 .6118 .6157 .6196 
+  .6235 .6275 .6314 .6353 .6392 .6431 .6471 .651 .6549 .6588 .6627 .6667 
+  .6706 .6745 .6784 .6824 .6863 .6902 .6941 .698 .702 .7059 .7098 .7137 
+  .7176 .7216 .7255 .7294 .7333 .7373 .7412 .7451 .749 .7529 .7569 .7608 
+  .7647 .7686 .7725 .7765 .7804 .7843 .7882 .7922 .7961 .8 .8039 .8078 .8118 
+  .8157 .8196 .8235 .8275 .8314 .8353 .8392 .8431 .8471 .851 .8549 .8588 
+  .8627 .8667 .8706 .8745 .8784 .8824 .8863 .8902 .8941 .898 .902 .9059 
+  .9098 .9137 .9176 .9216 .9255 .9294 .9333 .9373 .9412 .9451 .949 .9529 
+  .9569 .9608 .9647 .9686 .9725 .9765 .9804 .9843 .9882 .9922 .9961 1 ] def
+/RedA [.2081 .2091 .2101 .2109 .2116 .2116 .2115 .2112 .2117 .2116 .2107 
+  .2096 .2083 .2058 .203 .1999 .1966 .1913 .1853 .179 .1724 .1627 .1518 
+  .1405 .1287 .1141 .098 .0816 .0648 .0514 .0398 .028 .0162 .0108 .0094 .008 
+  .0066 .0075 .0101 .0127 .0153 .0186 .0227 .0267 .0308 .0349 .0391 .0433 
+  .0474 .0512 .0545 .0577 .0609 .0638 .0661 .0684 .0707 .0727 .0742 .0756 
+  .077 .078 .0784 .0787 .0791 .0791 .078 .0769 .0758 .0744 .0717 .069 .0664 
+  .0635 .0597 .056 .0522 .0484 .0449 .0413 .0377 .0342 .0323 .0304 .0284 
+  .0265 .0259 .0252 .0246 .0239 .0237 .0235 .0233 .0231 .023 .0229 .0229 
+  .0228 .0236 .0246 .0255 .0265 .029 .032 .0349 .0377 .0423 .0475 .0525 
+  .0576 .0635 .0699 .0761 .0823 .0891 .0963 .1034 .1106 .1181 .126 .1339 
+  .1419 .1501 .1587 .1673 .176 .185 .1942 .2036 .2129 .2226 .2326 .2427 
+  .2528 .2632 .2739 .2847 .2955 .3065 .3178 .3292 .3406 .352 .3636 .3753 
+  .3869 .3985 .4101 .4216 .4332 .4445 .4548 .4652 .4756 .489 .4989 .5094 
+  .5203 .5314 .541 .5509 .5612 .5717 .581 .5905 .6003 .6103 .6192 .6283 
+  .6377 .6473 .6559 .6648 .6738 .683 .6914 .7 .7087 .7176 .7287 .7404 .7493 
+  .7521 .7595 .7678 .776 .7843 .7924 .8004 .8085 .8166 .8246 .8325 .8404 
+  .8484 .8563 .8641 .872 .8798 .8876 .8954 .9032 .911 .9187 .9263 .934 .9417 
+  .949 .9562 .9633 .9705 .9765 .9814 .9863 .9912 .9944 .9957 .997 .9983 
+  .9987 .9978 .9969 .9961 .9948 .993 .9911 .9892 .9872 .985 .9827 .9805 
+  .9782 .9759 .9737 .9714 .9693 .9675 .9658 .964 .9624 .9615 .9606 .9597 
+  .9589 .9591 .9594 .9596 .96 .9615 .9631 .9646 .9663 .9705 .9747 .9776 
+  .9763 ] def
+/GreenA [.1663 .172 .1777 .1836 .1895 .195 .2005 .2061 .2126 .219 .225 
+  .2312 .2377 .2437 .2499 .2564 .2631 .2694 .2759 .2828 .2901 .2972 .3047 
+  .3128 .3216 .3295 .3376 .3465 .3563 .3639 .3704 .3773 .3846 .3907 .3959 
+  .4011 .4064 .4112 .4157 .4201 .4245 .4288 .4329 .4369 .441 .4449 .4488 
+  .4526 .4564 .4602 .464 .4677 .4714 .4751 .4789 .4826 .4863 .49 .4938 .4976 
+  .5013 .5051 .5091 .5131 .517 .5211 .5254 .5297 .534 .5384 .5432 .548 .5528 
+  .5577 .5626 .5676 .5726 .5777 .5824 .5871 .592 .5968 .601 .6052 .6095 
+  .6137 .6174 .6211 .6248 .6285 .6318 .6351 .6383 .6415 .6445 .6474 .6503 
+  .6531 .6559 .6586 .6612 .6637 .6664 .6689 .6714 .6737 .6763 .6788 .6811 
+  .6832 .6856 .6881 .6903 .6922 .6971 .7032 .7031 .7019 .7028 .7048 .7068 
+  .7089 .7109 .7128 .7148 .7167 .7186 .7204 .7223 .7241 .7258 .7275 .7291 
+  .7308 .7323 .7338 .7352 .7367 .7381 .7393 .7404 .7416 .7427 .7436 .7444 
+  .7453 .7461 .7466 .7471 .7477 .7481 .7484 .7486 .7489 .7491 .7491 .7491 
+  .7491 .7491 .7489 .7488 .7487 .7485 .7482 .7479 .7476 .7473 .7469 .7464 
+  .746 .7456 .7451 .7446 .744 .7435 .7429 .7423 .7418 .7412 .7437 .7465 
+  .7461 .7394 .7384 .7381 .7372 .7359 .7355 .7351 .7343 .7331 .7326 .7321 
+  .7314 .7303 .7298 .7294 .7287 .7278 .7274 .7272 .7268 .7261 .726 .7263 
+  .7263 .7262 .727 .7284 .7297 .7309 .7332 .7366 .7401 .7436 .7477 .7525 
+  .7574 .7624 .7675 .7725 .7776 .7828 .788 .793 .798 .8032 .8083 .8133 .8184 
+  .8235 .8286 .8338 .8389 .8441 .8494 .8549 .8604 .866 .8716 .8776 .8836 
+  .8897 .8958 .9024 .909 .9157 .9225 .9297 .937 .9444 .9519 .9612 .9707 
+  .9789 .9831 ] def
+/BlueA [.5292 .5412 .5532 .5651 .5771 .5893 .6015 .6136 .6258 .6382 .6506 
+  .6629 .6753 .6878 .7004 .713 .7255 .7382 .7509 .7635 .7762 .7889 .8015 
+  .8141 .8267 .837 .8464 .8558 .8652 .8706 .8739 .8773 .8807 .8821 .8823 
+  .8825 .8827 .8822 .8812 .8802 .8791 .8778 .8761 .8745 .8728 .871 .8691 
+  .8671 .8652 .8631 .861 .8589 .8568 .8546 .8525 .8503 .8481 .846 .844 .8419 
+  .8398 .8379 .8361 .8343 .8325 .8309 .8297 .8285 .8273 .8262 .8256 .825 
+  .8244 .8239 .8236 .8234 .8231 .8228 .822 .8213 .8206 .8198 .8182 .8166 
+  .8151 .8135 .8111 .8087 .8063 .8039 .8008 .7977 .7946 .7916 .788 .7844 
+  .7809 .7773 .7734 .7694 .7654 .7615 .7573 .753 .7488 .7446 .7401 .7356 
+  .7312 .7267 .722 .7172 .7125 .7077 .7054 .7042 .697 .6889 .6824 .6771 
+  .6718 .6668 .6613 .6556 .6501 .6449 .6392 .6332 .6275 .622 .6162 .6099 
+  .604 .5985 .5925 .586 .58 .5744 .5685 .562 .556 .5505 .5449 .5384 .5326 
+  .5276 .5225 .5161 .5106 .5061 .5015 .4946 .4887 .4839 .4831 .4787 .4743 
+  .4699 .4655 .4614 .4573 .4531 .449 .4451 .4413 .4374 .4335 .4298 .4261 
+  .4225 .4188 .4152 .4117 .4081 .4046 .4011 .3977 .3942 .3908 .3875 .3841 
+  .3807 .3773 .3742 .3709 .3675 .364 .3608 .3575 .3542 .3506 .3474 .3441 
+  .3406 .3371 .3336 .3302 .3266 .323 .3193 .3156 .3117 .3078 .3037 .2994 
+  .2951 .2906 .2856 .2803 .2749 .2693 .2633 .2569 .2504 .2438 .2375 .2316 
+  .2257 .2198 .2143 .2094 .2045 .1997 .195 .1907 .1865 .1822 .178 .174 .1701 
+  .1661 .1622 .1582 .1543 .1504 .1465 .1424 .1383 .1342 .1301 .1257 .1213 
+  .117 .1126 .108 .1035 .099 .0944 .0896 .0849 .0801 .0753 .07 .0646 .0592 
+  .0538 ] def
+/pm3dround {maxcolors 0 gt {dup 1 ge
+	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
+/pm3dGamma 1.0 1.5 Gamma mul div def
+/ColorSpace (RGB) def
+Color InterpolatedColor or { % COLOUR vs. GRAY map
+  InterpolatedColor { %% Interpolation vs. RGB-Formula
+    /g {stroke pm3dround /grayv exch def interpolate
+        SelectSpace setrgbcolor} bind def
+  }{
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+       SelectSpace setrgbcolor} bind def
+  } ifelse
+}{
+  /g {stroke pm3dround pm3dGamma exp setgray} bind def
+} ifelse
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.58 0.00 0.83 C %%%%BeginImage
+gsave 60 1533 N 60 1260 L 5399 1260 L 5399 1533 L Z clip
+InterpretLevel1 {
+  %% Construct a box instead of image
+  LTb
+  60 1533 M
+  5339 0 V
+  0 -273 V
+  -5339 0 V
+  60 1533 L
+  40 -110 R
+  (PS level 2 image) Lshow
+  % Read data but ignore it
+  /imagebuf 650 string def
+  currentfile imagebuf readstring
+} {
+gsave
+60 1533 translate
+5339 -273 scale
+%%%%BeginPalette
+[ /Indexed
+  /DeviceRGB 255
+  <
+   352a87 352c8a 362d8d 362f90 363093 363296 363399 36359c
+   3636a0 3638a3 3639a6 353ba9 353dac 343eaf 3440b3 3341b6
+   3243b9 3145bc 2f46bf 2e48c3 2c4ac6 294cc9 274ecc 2450d0
+   2152d3 1d54d5 1956d8 1558da 115bdd 0d5dde 0a5edf 0760e0
+   0462e1 0364e1 0265e1 0266e1 0268e1 0269e1 036ae1 036be0
+   046ce0 056de0 066edf 076fdf 0870df 0971de 0a72de 0b73dd
+   0c74dd 0d75dc 0e76dc 0f77db 1078da 1079da 117ad9 117bd9
+   127cd8 137dd8 137ed7 137fd7 1480d6 1481d6 1482d5 1483d5
+   1484d4 1485d4 1486d4 1487d3 1388d3 1389d3 128bd3 128cd2
+   118dd2 108ed2 0f8fd2 0e91d2 0d92d2 0c93d2 0b95d2 0b96d1
+   0a97d1 0998d1 0899d1 089ad0 079bd0 079ccf 079dcf 069ece
+   069fce 06a0cd 06a1cc 06a2cb 06a3cb 06a4ca 06a4c9 06a5c8
+   06a6c7 06a7c6 06a7c5 06a8c4 07a9c3 07a9c2 07aac1 08abc0
+   09abbf 0aacbe 0bacbd 0cadbc 0daeba 0faeb9 10afb8 12afb7
+   13b0b6 15b1b4 17b2b4 19b3b4 1ab3b2 1cb3b0 1eb3ae 20b4ad
+   22b4ab 24b5aa 26b5a9 28b6a7 2bb6a6 2db7a4 2fb7a3 32b8a1
+   34b8a0 36b99f 39b99d 3bba9c 3eba9a 40ba99 43bb97 46bb95
+   49bb94 4bbc92 4ebc91 51bd8f 54bd8e 57bd8c 5abd8b 5dbe89
+   60be88 63be87 66be85 69be84 6cbf82 6ebf81 71bf80 74bf7e
+   77bf7d 79bf7b 7dbf7b 7fbf7a 82bf79 85bf78 87bf77 8abf76
+   8cbf75 8fbf74 92bf73 94bf72 97bf71 99bf70 9cbf6f 9ebe6e
+   a0be6d a3be6c a5be6b a7be6a aabe69 acbe68 aebe67 b0bd66
+   b2bd65 b5bd65 b7bd64 babe63 bdbe62 bfbe61 c0bd60 c2bc5f
+   c4bc5f c6bc5e c8bc5d cabc5c ccbb5b cebb5a d0bb59 d2bb59
+   d4bb58 d6ba57 d8ba56 daba55 dcba54 deba53 e0ba52 e2b951
+   e4b950 e6b94f e8b94e eab94d ecb94c eeb94b f0b94a f2b949
+   f4ba47 f6ba46 f7ba45 f9bb43 fabc42 fcbd40 fdbe3e febf3d
+   fec03b fec13a ffc238 ffc437 fec535 fec634 fec833 fec932
+   fdca31 fdcc30 fccd2e fcce2d fbcf2c fbd12b fad22a f9d329
+   f9d528 f8d627 f8d726 f7d925 f7da24 f6db23 f6dd22 f5de21
+   f5e020 f5e11f f5e31e f5e41d f5e61c f5e81a f5ea19 f5eb18
+   f5ed17 f6ef16 f6f114 f6f313 f7f512 f9f810 f9fa0f f9fb0e
+  >
+] setcolorspace
+%%%%EndPalette
+<<
+  /ImageType 1
+  /Width 256
+  /Height 2
+  /BitsPerComponent 8
+  /ImageMatrix [ 256 0 0 2 0 0 ]
+  /Decode [ 0 255 ]
+  /DataSource currentfile /ASCII85Decode filter
+  /MultipleDataSources false
+  /Interpolate false
+>>
+image
+} ifelse
+!!*-'"9eu7#RLhG$k3[W&.oNg'GVB"(`=52*$$(B+<_pR,UFcb-n-Vr/1iJ-0JP==1c70M3&s#]4?Y
+km5X@_(6q'R884cEH9MJ8X:f1+h<)lt#=BSg3>[:ZC?t!MSA7]@cBPD3sCi+'.E,fo>FEMbNG^4U^I
+!pHnJ:W<)KS>/9Ll%"IN/`jYOHG]iPa.Q$R$jD4S=Q7DTV8*TUnsrdW2ZetXKAY/Yd(L?['d?O\@K2
+_]Y2%o^qmn*`5Ta:aN;TJbg"GZd*^:jeCE.%f\,!5gtgiEi8N\UjQ5OekiqBum-X60nF?)@o_%qPq"
+ad`r;HWp!!*-'"9eu7#RLhG$k3[W&.oNg'GVB"(`=52*$$(B+<_pR,UFcb-n-Vr/1iJ-0JP==1c70M
+3&s#]4?Ykm5X@_(6q'R884cEH9MJ8X:f1+h<)lt#=BSg3>[:ZC?t!MSA7]@cBPD3sCi+'.E,fo>FEM
+bNG^4U^I!pHnJ:W<)KS>/9Ll%"IN/`jYOHG]iPa.Q$R$jD4S=Q7DTV8*TUnsrdW2ZetXKAY/Yd(L?[
+'d?O\@K2_]Y2%o^qmn*`5Ta:aN;TJbg"GZd*^:jeCE.%f\,!5gtgiEi8N\UjQ5OekiqBum-X60nF?)
+@o_%qPq"ad`r;HWp~>
+InterpretLevel1 not {
+  grestore
+} if
+grestore
+%%%%EndImage
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 60 1260 M
+0 88 V
+0 185 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 1128 1260 M
+0 88 V
+0 185 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2196 1260 M
+0 88 V
+0 185 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 3263 1260 M
+0 88 V
+0 185 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 4331 1260 M
+0 88 V
+0 185 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 5399 1260 M
+0 88 V
+0 185 R
+0 -88 V
+stroke
+0.15 0.15 0.15 C 1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C 2.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+1.000 UP
+0.500 UL
+LTb
+0.15 0.15 0.15 C 60 1260 M
+5339 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 60 1533 M
+5339 0 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 60 1260 M
+0 273 V
+stroke
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.15 0.15 0.15 C 5399 1260 M
+0 273 V
+stroke
+1.000 UL
+LTb
+LCb setrgbcolor
+[] 0 setdash
+0.00 0.00 0.00 C grestore % colour palette end
+stroke
+grestore
+end
+showpage
+%%Trailer
