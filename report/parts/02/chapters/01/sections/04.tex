@@ -5,10 +5,10 @@
 Τα πακέτα \texttt{navfn} και \texttt{global\_planner} θεωρούνται ότι είναι οι
 προεπιλεγμένες επιλογές για αλγορίθμους χάραξης μονοπατιών στο \texttt{ROS}:
 είναι οι παλαιότερες και (θεωρούνται ότι είναι οι---) ασφαλέστερες επιλογές για
-το έργο της πλοήγησης. Επιπλέον, απαιτούν ελάχιστη παραμετροποίηση.
+το έργο της πλοήγησης. Επιπλέον απαιτούν ελάχιστη παραμετροποίηση.
 Συντηρούνται συνεχώς από την απαρχή του \texttt{ROS} (αυτό ισχύει ειδικά για το
 \texttt{navfn}) και, ως οι de facto global planners του \texttt{ROS}, θα
-θεωρηθούν ως το βασικό μέτρο σύγκρισης για όλους τους άλλους global planners
+θεωρηθούν ως το βασικό μέτρο σύγκρισης για όλους τους υπόλοιπους global planners
 που θα περάσουν από την αρχική φάση διαλογής.
 
 Θεωρούμε ότι το πακέτο \texttt{asr\_navfn} είναι περιττό καθώς (α) η
@@ -103,7 +103,7 @@
 των ενοτήτων \ref{subsubsection:02_01_02:03_01} και
 \ref{subsubsection:02_01_02:03_02}.
 
-\begin{table}\hspace{-1cm}
+\begin{table}[h]\hspace{-1cm}
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{lccccccccc|c}
   & \multicolumn{7}{c}{Ποιοτικές Μετρικές} \\
@@ -141,7 +141,7 @@
 χρησιμοποιούνται στη συνέχεια στην επικεφαλίδα των πινάκων είναι συντομογραφία
 των φράσεων ``Global Planner" και ``Local Planner`" αντίστοιχα.
 
-\begin{table}\centering
+\begin{table}[h]\centering
 \begin{tabular}{l|l}
   Global planners (GP) & Local planners (LP) \\ \toprule
   \texttt{navfn} & \texttt{dwa\_local\_planner} \\
