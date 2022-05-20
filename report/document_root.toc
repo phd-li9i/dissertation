@@ -92,15 +92,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Σχετική βιβλιογραφία}{91}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar}{91}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Ευθυγράμμιση δισδιάστατων μετρήσεων αισθητήρα lidar}{91}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Ευθυγράμμιση μετρήσεων δισδιάστατου αισθητήρα lidar με σαρώσεις χάρτη}{99}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.2}Ευθυγράμμιση δισδιάστατων μετρήσεων αισθητήρα lidar με σαρώσεις χάρτη}{99}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Μεθοδολογία ελάττωσης σφάλματος εκτίμησης στάσης}{104}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Μέσω επιλογής σωματιδίων}{104}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Μέσω διαλογής σωματιδίων}{104}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Μέσω ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{109}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Μέσω ευθυγράμμισης πραγματικών μετρήσεων με σαρώσεις χάρτη}{109}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.3}Μέσω ανάδρασης}{110}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
@@ -112,17 +112,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Αποτελέσματα}{120}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση μεθόδων επιλογής σωματιδίων}{120}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Αξιολόγηση μεθόδων επιλογής σωματιδίων}{121}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Αξιολόγηση ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{124}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.4}Αξιολόγηση ευθυγράμμισης μετρήσεων με σαρώσεις χάρτη}{125}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.5}Αξιολόγηση μεθόδων ανάδρασης}{125}{subsection.4.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Συμπεράσματα και περαιτέρω έρευνα}{126}{section.4.5}
+\contentsline {section}{\numberline {4.5}Συμπεράσματα και περαιτέρω έρευνα}{127}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Συμπεράσματα κεφαλαίου}{126}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}Συμπεράσματα κεφαλαίου}{127}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Αιτίες περαιτέρω έρευνας}{128}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.2}Αιτίες περαιτέρω έρευνας}{129}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Εκτίμηση στάσης βάσει καθολικής αβεβαιότητος χωρίς τον υπολογισμό αντιστοιχίσεων}{135}{chapter.5}
 \defcounter {refsection}{0}\relax 
