@@ -148,13 +148,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.1}Πειραματική διαδικασία}{159}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Αποτελέσματα}{166}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Αποτελέσματα}{167}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.3}Αξιολόγηση}{167}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Συμπεράσματα και περαιτέρω έρευνα}{171}{section.5.5}
+\contentsline {section}{\numberline {5.5}Συμπεράσματα και περαιτέρω έρευνα}{172}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Συμπεράσματα κεφαλαίου}{171}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.1}Συμπεράσματα κεφαλαίου}{172}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.2}Αιτίες περαιτέρω έρευνας}{173}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
@@ -232,6 +232,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{V\hspace {1em}Παραρτήματα}{323}{part.5}
 \defcounter {refsection}{0}\relax 
+\select@language {greek}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {\Greeknumber {\c@chapter }}Αξιολόγηση αλγορίθμων αυτόνομης πλοήγησης}{325}{appendix.Alph3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Τύποι αναλογικότητας μετρικών αξιολόγησης μεθόδων αυτόνομης πλοήγησης}{325}{section.Alph3.1}
@@ -250,7 +252,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.1}Σχετικά με τους αλγορίθμους κατασκευής μονοπατιών}{335}{subsubsection.Alph3.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.2}Σχετικά με τους ελεγκτές κίνησης}{336}{subsubsection.Alph3.2.2.2}
+\contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.2}Σχετικά με τους ελεγκτές κίνησης}{337}{subsubsection.Alph3.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {\Greeknumber {\c@chapter }.2.2.3}Σχετικά με το συνδυασμό τους}{338}{subsubsection.Alph3.2.2.3}
 \defcounter {refsection}{0}\relax 
