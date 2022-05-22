@@ -7,28 +7,39 @@
 \input{./parts/00/00.front_matter.tex}
 
 % ------------------------------------------------------------------------------
+\addtocontents{toc}{\let\protect\contentsline\protect\nopagecontentsline}
 \part{Εισαγωγή}
+\addtocontents{toc}{\let\protect\contentsline\protect\oldcontentsline}
 \label{part:01}
+  \pagenumbering{arabic}
   \input{parts/01/chapters.tex}
 
 % ------------------------------------------------------------------------------
+\addtocontents{toc}{\let\protect\contentsline\protect\nopagecontentsline}
 \part{Προβλήματα---Λύσεις---Συμβολές}
+\addtocontents{toc}{\let\protect\contentsline\protect\oldcontentsline}
 \label{part:02}
   \input{parts/02/chapters.tex}
 
 % ------------------------------------------------------------------------------
+\addtocontents{toc}{\let\protect\contentsline\protect\nopagecontentsline}
 \part{Συμπεράσματα}
+\addtocontents{toc}{\let\protect\contentsline\protect\oldcontentsline}
 \label{part:03}
 
 % ------------------------------------------------------------------------------
+\addtocontents{toc}{\let\protect\contentsline\protect\nopagecontentsline}
 \part{Παραπομπές}
+\addtocontents{toc}{\let\protect\contentsline\protect\oldcontentsline}
 \label{part:04}
 \selectlanguage{english}
 %\printbibliography[heading=bibintoc,title={\textgreek{Αναφορές}}]
 \printbibliography[heading=none]
 
 % ------------------------------------------------------------------------------
+\addtocontents{toc}{\let\protect\contentsline\protect\nopagecontentsline}
 \part{Παραρτήματα}
+\addtocontents{toc}{\let\protect\contentsline\protect\oldcontentsline}
 \label{part:05}
 \appendix
 \selectlanguage{greek}

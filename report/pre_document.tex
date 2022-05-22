@@ -437,3 +437,9 @@
   \def\@fs@mid{\kern2pt\hrule\kern2pt}%
   \let\@fs@iftopcapt\iftrue}
 \makeatother
+
+% Do not number parts
+\usepackage{nonumonpart}
+
+\let\oldcontentsline\contentsline
+\newcommand{\nopagecontentsline}[3]{\oldcontentsline{#1}{#2}{}}
