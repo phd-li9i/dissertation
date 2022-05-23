@@ -60,6 +60,6 @@
     \put(0.23385294,0.44741463){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}_0$\end{tabular}}}}%
     \put(0.23385294,-0.03130686){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}_1 = $ ?\end{tabular}}}}%
     \put(0.85439114,0.25257279){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}_0$\end{tabular}}}}%
-    \put(0.87999241,0.09413919){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}_1 \approx \textcolor{magenta}{\bm{q}}^{-1} \cdot \bm{p}_0$\end{tabular}}}}%
+    \put(0.87999241,0.09413919){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}_1 \simeq\textcolor{magenta}{\bm{q}}^{-1} \cdot \bm{p}_0$\end{tabular}}}}%
   \end{picture}%
 \endgroup%

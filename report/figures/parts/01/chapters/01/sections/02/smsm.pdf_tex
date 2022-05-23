@@ -57,9 +57,9 @@
     \put(0.47932806,0.32463564){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}smsm\end{tabular}}}}%
     \put(0.33517787,0.38787674){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\bm{p}$\end{tabular}}}}%
     \put(0.37865613,0.30696765){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hat{\bm{p}}$\end{tabular}}}}%
-    \put(0.91225296,0.38182931){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hat{\bm{p}}^\prime \approx \bm{p}$\end{tabular}}}}%
+    \put(0.91225296,0.38182931){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\hat{\bm{p}}^\prime \simeq \bm{p}$\end{tabular}}}}%
     \put(0.03873518,0.02057233){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_V$\end{tabular}}}}%
     \put(0.28379447,0.0255249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_R$\end{tabular}}}}%
-    \put(0.8083004,0.0255249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_V^\prime \approx \mathcal{S}_R$\end{tabular}}}}%
+    \put(0.8083004,0.0255249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$\mathcal{S}_V^\prime \simeq \mathcal{S}_R$\end{tabular}}}}%
   \end{picture}%
 \endgroup%
