@@ -176,7 +176,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.2}Η μέθοδος Πρώτων Αρχών}{177}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Η μέθοδος του Προκρούστη}{182}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.3}\href {https://www.youtube.com/watch?v=AeYNkEwGmYU}{Η μέθοδος του Προκρούστη}}{182}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.4}Η κλίνη της διακριτικής γωνίας του αισθητήρα}{189}{subsection.6.2.4}
 \defcounter {refsection}{0}\relax 
@@ -188,23 +188,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.3}Μεθοδολογία ευθυγράμμισης θέσης}{203}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Η μέθοδος Πρώτων Αρχών}{203}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.1}Η μέθοδος Πρώτων Αρχών}{204}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Ιδιότητες υπό γενικές συνθήκες}{205}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Ιδιότητες υπό γενικές συνθήκες}{207}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.4}Μεθοδολογία ευθυγράμμισης από κοινού}{209}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Αντιμετώπιση των υπό γενικές συνθήκες γωνιακών περιορισμών}{209}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Αντιμετώπιση των υπό γενικές συνθήκες γωνιακών περιορισμών}{210}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Το σύστημα από κοινού ευθυγράμμισης}{215}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.2}Το σύστημα από κοινού ευθυγράμμισης}{216}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Πειραματική αξιολόγηση}{218}{section.6.5}
+\contentsline {section}{\numberline {6.5}Πειραματική αξιολόγηση}{220}{section.6.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5.1}Πειραματική διάταξη}{220}{subsection.6.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5.2}Αποτελέσματα}{223}{subsection.6.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5.3}Εξέταση και αξιολόγηση αποτελεσμάτων}{239}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.3}Εξέταση και αξιολόγηση αποτελεσμάτων}{228}{subsection.6.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.6}Χαρακτήρας και περιορισμοί}{244}{section.6.6}
 \defcounter {refsection}{0}\relax 
