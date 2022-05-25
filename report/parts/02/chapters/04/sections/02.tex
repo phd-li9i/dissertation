@@ -531,8 +531,8 @@ DBH.
     \REQUIRE $\mathcal{S}_R$, $\mathcal{S}_V$, $\hat{\bm{p}}(x, y, \hat{\theta})$, $\gamma$
     \ENSURE $\hat{\theta}^\prime$, $T$
     %\STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \hat{\bm{p}}, N_s)$
-    \STATE $\bm{P}_R \leftarrow \texttt{project}(\mathcal{S}_R, (0,0,0))$
-    \STATE $\bm{P}_V \leftarrow \texttt{project}(\mathcal{S}_V, (0,0,0))$
+    \STATE $\bm{P}_R \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_R, (0,0,0))$
+    \STATE $\bm{P}_V \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_V, (0,0,0))$
     \STATE $(J,T) \leftarrow \texttt{rc\_uf\_core}(\bm{P}_R, \bm{P}_V)$ \hfill (Αλγόριθμος \ref{alg:algorithm_core_ufrc})
     \STATE $N_s = 2 \pi / \gamma$
     \STATE $\psi = N_s - 1 - J$
