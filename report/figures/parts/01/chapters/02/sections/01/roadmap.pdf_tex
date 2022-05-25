@@ -77,11 +77,11 @@
     \put(0.41074355,0.8235863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{αντιστοιχίσεων}}}%
     \put(0.70057663,0.65643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
     \put(0.70057663,0.62507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
-    \put(0.00531108,1.023747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:01}}}}%
-    \put(0.59408194,0.731603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:02}}}}%
-    \put(0.02959029,0.53182826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:03}}}}%
-    \put(0.61077390,0.3989197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:04}}}}%
-    \put(0.05386950,0.027){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:05}}}}%
+    \put(0.00531108,1.023747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Α.-Κεφ. \ref{part:02:chapter:01}}}}%
+    \put(0.59408194,0.731603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Β.-Κεφ. \ref{part:02:chapter:02}}}}%
+    \put(0.02959029,0.53182826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γ.-Κεφ. \ref{part:02:chapter:03}}}}%
+    \put(0.61077390,0.3989197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ.-Κεφ. \ref{part:02:chapter:04}}}}%
+    \put(0.05386950,0.027){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε.-Κεφ. \ref{part:02:chapter:05}}}}%
     \put(0.19596358,0.37150237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
 
     \put(0.44716237,1.0752){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_01_05:02}}}}%

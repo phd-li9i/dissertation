@@ -157,6 +157,11 @@
   {\renewcommand\theinnercustomhypothesis{#1}\innercustomhypothesis}
   {\endinnercustomhypothesis}
 
+\newtheorem{innercustomcontribution}{Συμβολή}
+\newenvironment{customcontribution}[1]
+  {\renewcommand\theinnercustomcontribution{#1}\innercustomcontribution}
+  {\endinnercustomcontribution}
+
 \renewcommand\theproposition{\Roman{proposition}}
 \newtheorem{objective}{Objective}
 \renewcommand\theobjective{\Roman{objective}}
