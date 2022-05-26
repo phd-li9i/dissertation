@@ -7034,6 +7034,110 @@
       \verb https://ieeexplore.ieee.org/document/9305519/
       \endverb
     \endentry
+    \entry{Filotheou2020c}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{fullhash}{415a9d21574cd79b7ddeecd43639e777}
+      \field{labelalpha}{Fil+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{12}
+      \field{number}{3-4}
+      \field{title}{{Pose Selection and Feedback Methods in Tandem Combinations of Particle Filters with Scan-Matching for 2D Mobile Robot Localisation}}
+      \field{volume}{100}
+      \field{year}{2020}
+      \field{pages}{925\bibrangedash 944}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s10846-020-01253-6
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10846-020-01253-6
+      \endverb
+    \endentry
+    \entry{Filotheou2020b}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{fullhash}{415a9d21574cd79b7ddeecd43639e777}
+      \field{labelalpha}{Fil+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{06}
+      \field{number}{3-4}
+      \field{title}{{Quantitative and Qualitative Evaluation of ROS-Enabled Local and Global Planners in 2D Static Environments}}
+      \field{volume}{98}
+      \field{year}{2020}
+      \field{pages}{567\bibrangedash 601}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/s10846-019-01086-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10846-019-01086-y
+      \endverb
+    \endentry
     \entry{Khan2020}{article}{}
       \name{author}{3}{}{%
         {{hash=4fb4f470d85945b0c46532401d0a73d5}{%
@@ -7805,6 +7909,67 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S0921889021002323
+      \endverb
+    \endentry
+    \entry{Filotheou2022e}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ec31f59f041f30c77205eb2bf5fcd3d8}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={George},
+           given_i={G\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{fullhash}{fbc9b41831f6920f83f41f2677a07c34}
+      \field{labelalpha}{Fil+22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{Passive Global Localisation of Mobile Robot via 2D Fourier-Mellin Invariant Matching}}
+      \field{volume}{104}
+      \field{year}{2022}
+      \field{pages}{26}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10846-021-01535-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10846-021-01535-7
       \endverb
     \endentry
     \entry{hotel_robots}{url}{}
