@@ -538,7 +538,7 @@ $\theta_{\bm{h}_i^\prime} = \theta_{\bm{h}_i} + \xi_i$. Τα δύο σύνολα
 $\bm{h}_i^\prime$ διορθώνεται στη συνέχεια με την πρόσθεση σε αυτήν της
 διαφοράς θέσης μεταξύ των δύο κεντροειδών $\bm{C}_V^i$ και $\bm{C}_R$, και η
 διαδικασία αυτή επαναλαμβάνεται έως ότου επιτευχθεί σύγκλιση ή συμπληρωθεί ένας
-μέγιστος αριθμός επαναλήψεων. Εάν η θέση της υπόθεσης $\bm{h}_i^\prime$
+μέγιστος αριθμός επαναλήψεων $I_T$. Εάν η θέση της υπόθεσης $\bm{h}_i^\prime$
 βρίσκεται σε μία γειτονιά της πραγματικής θέσης του ρομπότ, τότε η διαφορά των
 συντεταγμένων των κεντροειδών προσεγγίζει τη διαφορά των δύο αυτών
 θέσεων---λόγω των παρατηρήσεων \ref{remark:smsm_benefit} και
@@ -602,3 +602,169 @@ $\mathcal{S}_R$ και $\mathcal{S}_V^i$, και συνεπώς για την ε
 συστήματος PGL-FMIC. Ένα παράδειγμα της διαδικασίας ευθυγράμμισης που ακολουθεί
 η προτεινόμενη μέθοδος παρατίθεται στο παράρτημα \ref{appendix:03:illustration}
 στην εικόνα \ref{fig:pgl_fmic_illustration}.
+
+Το συνολικό σύστημα εκτίμησης της στάσης ενός πανοραμικού αισθητήρα
+δισδιάστατων μετρήσεων βάσει καθολικής αβεβαιότητος που προτείνουμε προς
+επίλυση του προβλήματος \ref{prob:02_03:the_problem} δεδομένων των παραδοχών
+\ref{assumption:02_03_01:01}, \ref{assumption:02_03_01:02}, και
+\ref{assumption:02_03_01:03}, και ονομάζουμε PGL-FMIC, απεικονίζεται σε μορφή
+μπλοκ διαγράμματος στο σχήμα \ref{fig:02_03_03:overall_system}  και σε μορφή
+ψευδοκώδικα στον Αλγόριθμο \ref{alg:02_03_03:pgl_fmic}.
+
+
+\begin{algorithm}
+  \caption{\texttt{pgl\_fmic}}
+  \label{alg:02_03_03:pgl_fmic}
+  \begin{spacing}{1.2}
+  \begin{algorithmic}[1]
+    \REQUIRE $\mathcal{S}_R$, $\bm{M}$, $|\mathcal{H}|$, $N_G$, $I_T$, $\underline{\sigma}$, $\overline{\sigma}$
+    \ENSURE $\hat{\bm{p}}(\hat{x}, \hat{y}, \hat{\theta})$
+    \STATE $\mathcal{H} \leftarrow \texttt{generate\_hypotheses}(\bm{M}, |\mathcal{H}|)$ \hfill (Αλγόριθμος \ref{alg:02_03_03:generate_hypotheses})
+    \STATE $\mathcal{M} \leftarrow \{\varnothing\}$
+    \FOR{$\bm{h}_i \in \mathcal{H}$}
+      \STATE $\{\bm{h}^{\prime\prime}, \sigma_i, w_i\} \leftarrow \texttt{fmic}(\mathcal{S}_R, \bm{M}, \bm{h}_i, N_G)$ \hfill (Αλγόριθμος \ref{alg:02_03_03:fmic})
+      \STATE \texttt{append} $\{\bm{h}^{\prime\prime}, \sigma_i, w_i\}$ to $\mathcal{M}$
+    \ENDFOR
+    \STATE $\hat{\bm{p}} \leftarrow \texttt{select\_fittest\_hypothesis}(\mathcal{M}, \underline{\sigma}, \overline{\sigma})$ \hfill (Αλγόριθμος \ref{alg:02_03_03:select_fittest_hypothesis})
+    \RETURN $\hat{\bm{p}}$
+  \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+
+\begin{algorithm}
+  \caption{\texttt{generate\_hypotheses}}
+  \label{alg:02_03_03:generate_hypotheses}
+  \begin{spacing}{1.2}
+  \begin{algorithmic}[1]
+    \REQUIRE $\bm{M}$, $|\mathcal{H}|$
+    \ENSURE $\mathcal{H}$
+    \STATE $\mathcal{H} \leftarrow \{\varnothing\}$
+    \FOR{$i \leftarrow 0 : |\mathcal{H}|-1$}
+      \WHILE{\texttt{true}}
+        \STATE $x \leftarrow \texttt{rand}()$;\hspace{0.2cm} $y \leftarrow \texttt{rand}()$;\hspace{0.2cm} $\theta \leftarrow \texttt{rand}()$
+        \STATE $\bm{h} \leftarrow (x,y,\theta)$
+        \IF{$\bm{h} \in \bm{M}$ \texttt{AND} $\texttt{is\_occupied}(\bm{M}(x,y)) = \texttt{false}$}
+        \STATE \texttt{append} $\bm{h}$ to $\mathcal{H}$
+        \STATE \texttt{break}
+        \ENDIF
+      \ENDWHILE
+    \ENDFOR
+    \RETURN $\mathcal{H}$
+  \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+
+\begin{algorithm}
+  \caption{\texttt{fmic}}
+  \label{alg:02_03_03:fmic}
+  \begin{spacing}{1.2}
+  \begin{algorithmic}[1]
+    \REQUIRE $\mathcal{S}_R$, $\bm{M}$, $\bm{h}$, $N_G$, $I_T$
+    \ENSURE $\{\bm{h}^{\prime\prime}, \sigma, w\}$
+    \STATE $\{\xi, \sigma, w\} \leftarrow \texttt{orientation\_estimation}(\mathcal{S}_R, \bm{M}, \bm{h}, N_G)$ \hfill (Αλγόριθμος \ref{alg:02_03_03:orientation_estimation})
+    \STATE $\bm{h}^\prime \leftarrow \bm{h} + (0,0,\xi)$
+    \STATE $\bm{h}^{\prime\prime} \leftarrow \texttt{position\_estimation}(\mathcal{S}_R, \bm{M}, \bm{h}^\prime, I_T)$ \hfill (Αλγόριθμος \ref{alg:02_03_03:position_estimation})
+    \RETURN $\{\bm{h}^{\prime\prime}, \sigma, w\}$
+  \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+
+\begin{algorithm}[!h]
+  \caption{\texttt{select\_fittest\_hypothesis}}
+  \label{alg:02_03_03:select_fittest_hypothesis}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\{\bm{h}_i, \sigma_i, w_i\}, \underline{\sigma}, \overline{\sigma}$
+      \ENSURE $\hat{\bm{p}}$
+      \STATE $\{\bm{h}_i^\prime, \sigma_i^\prime, w_i^\prime\} \leftarrow \{\bm{h}_i, \sigma_i, w_i\} : \sigma_i \in [\underline{\sigma},\overline{\sigma}]$
+      \STATE $K \leftarrow \arg\max\limits_{w_i^\prime} \{\bm{h}_i^\prime, \sigma_i^\prime, w_i^\prime\}$
+      \STATE $\hat{\bm{p}} = \bm{h}_K$
+      \RETURN $\hat{\bm{p}}$
+    \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+\begin{algorithm}
+  \caption{\texttt{orientation\_estimation}}
+  \label{alg:02_03_03:orientation_estimation}
+  \begin{spacing}{1.2}
+  \begin{algorithmic}[1]
+    \REQUIRE $\mathcal{S}_R$, $\bm{M}$, $\bm{h}$, $N_G$
+    \ENSURE $\{\xi, \sigma, w\}$
+    \STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \bm{h}, |\mathcal{S}_R|)$ \hfill (Αλγόριθμος \ref{alg:scan_map})
+    \STATE $\mathcal{P}_R \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_R, (0,0,0))$
+    \STATE $\mathcal{P}_V \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_V, (0,0,0))$
+    \STATE $\bm{r} \leftarrow \texttt{discretise}(\mathcal{P}_R, N_G)$ \hfill (Αλγόριθμος \ref{alg:discretise})
+    \STATE $\bm{v} \leftarrow \texttt{discretise}(\mathcal{P}_V, N_G)$
+    \STATE $\{(\cdot,\cdot), \xi, \sigma, w\} \leftarrow \texttt{FMI-SPOMF}(r,v)$  \hfill (Αλγόριθμος \ref{alg:image_registration})
+    \RETURN $\{\xi, \sigma, w\}$
+  \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+
+\begin{algorithm}[!h]
+  \caption{\texttt{position\_estimation}}
+  \label{alg:02_03_03:position_estimation}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\mathcal{S}_R$, $\bm{M}$, $\bm{h}^\prime(x^\prime,y^\prime,\theta^\prime)$, $I_T$
+      \ENSURE $\bm{h}^{\prime\prime}$
+      \STATE $\bm{h}^{\prime\prime} \leftarrow \bm{h}^\prime$
+      \FOR{$i \leftarrow 0:I_T-1$}
+        \STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \bm{h}^{\prime\prime}, |\mathcal{S}_R|)$
+        \STATE $\mathcal{P}_R \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_R, (0,0,\theta^\prime))$
+        \STATE $\mathcal{P}_V \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_V, (0,0,\theta^\prime))$
+        \STATE $\bm{C}_R \leftarrow \texttt{compute\_centroid}(\mathcal{P}_R)$ \hfill (εξ. \ref{eq:centroid_x}, \ref{eq:centroid_y})
+        \STATE $\bm{C}_V \leftarrow \texttt{compute\_centroid}(\mathcal{P}_V)$
+        \STATE $\bm{h}^{\prime\prime} \leftarrow \bm{h}^{\prime\prime} + (\bm{C}_V-\bm{C}_R,0)$
+      \ENDFOR
+      \RETURN $\bm{h}^{\prime\prime}$
+    \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+
+\begin{algorithm}[!h]
+  \caption{\texttt{discretise}}
+  \label{alg:discretise}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\mathcal{P}$, $N_G$
+      \ENSURE $\bm{P}$
+      \STATE $\texttt{occupied} \leftarrow \texttt{true}$
+      %\STATE $W \leftarrow \max \mathcal{P}.x - \min \mathcal{P}.x$
+      \STATE $H \leftarrow \max \mathcal{P}.y - \min \mathcal{P}.y$
+      \STATE $\bm{P} \leftarrow \texttt{grid}(N_G,N_G, !\texttt{occupied})$
+      \FOR{$i \leftarrow 0: |\mathcal{P}|-1$}
+        \STATE $x \leftarrow \texttt{round}((\mathcal{P}.x - \min \mathcal{P}.x) \cdot N_G)$
+        \STATE $y \leftarrow \texttt{round}(H-(\mathcal{P}.y - \min \mathcal{P}.y) \cdot N_G)$
+        \STATE $\bm{P}(x,y) \leftarrow \texttt{occupied}$
+      \ENDFOR
+      \RETURN$\bm{P}$
+    \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
+
+\begin{algorithm}[!h]
+  \caption{\texttt{scan\_map}}
+  \label{alg:scan_map}
+  \begin{spacing}{1.3}
+    \begin{algorithmic}[1]
+      \REQUIRE $\bm{M}, \bm{p}(x, y, \theta), N_s$
+      \ENSURE $\mathcal{S}_V$
+      \STATE $\mathcal{S}_V \leftarrow \{\varnothing\}$
+      \FOR{$n = 0:N_s-1$}
+      \STATE $\lambda_n \leftarrow -\pi + \dfrac{2\pi}{N_s} n$
+      \STATE $\theta_n \leftarrow \lambda_n + \theta$
+      \STATE $(x_n,y_n) \leftarrow \texttt{intersect}(\bm{M}, (x,y, \theta_n))$
+      \STATE $d_n \leftarrow \|(x- x_n, y-y_n)\|_2$
+      \STATE \texttt{append} $(d_n, \lambda_n)$ to $\mathcal{S}_V$
+      \ENDFOR
+      \RETURN $\mathcal{S}_V$
+    \end{algorithmic}
+  \end{spacing}
+\end{algorithm}
