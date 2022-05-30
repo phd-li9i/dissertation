@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,1.30474971)%
-    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/parts/01/chapters/02/sections/01/roadmap.pdf}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/parts/01/chapters/02/sections/01/roadmap.eps}}%
     \put(0.72685888,0.72382407){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
     \put(0.60318665,0.81790601){\color[rgb]{0.26666667,0.26666667,0.26666667}\rotatebox{90}{\makebox(0,0)[b]{\smash{}}}}%
     \put(0.91274659,0.73141132){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[b]{\smash{}}}%
@@ -70,23 +70,30 @@
     \put(0.43716237,1.18687917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σφάλματων }}}%
     \put(0.43716237,1.15551854){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{εκτίμησης}}}%
     \put(0.43716237,1.12415788){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{στάσης}}}%
-    \put(0.41074355,0.9490289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Παρατηρήσεις}}}%
-    \put(0.41074355,0.91766825){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ευαισθησίας λύσης }}}%
-    \put(0.41074355,0.88630761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε παραμέτρους }}}%
-    \put(0.41074355,0.85494694){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{και θόρυβο λόγω}}}%
-    \put(0.41074355,0.8235863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{αντιστοιχίσεων}}}%
-    \put(0.70057663,0.65643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
-    \put(0.70057663,0.62507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
-    \put(0.00531108,1.023747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Α.-Κεφ. \ref{part:02:chapter:01}}}}%
-    \put(0.59408194,0.731603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Β.-Κεφ. \ref{part:02:chapter:02}}}}%
-    \put(0.02959029,0.53182826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γ.-Κεφ. \ref{part:02:chapter:03}}}}%
-    \put(0.61077390,0.3989197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ.-Κεφ. \ref{part:02:chapter:04}}}}%
-    \put(0.05386950,0.027){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε.-Κεφ. \ref{part:02:chapter:05}}}}%
-    \put(0.19596358,0.37150237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
+    \put(0.41074355,0.9290289){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Παρατηρήσεις}}}%
+    \put(0.41074355,0.89766825){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{ευαισθησίας λύσης }}}%
+    \put(0.41074355,0.86630761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε παραμέτρους }}}%
+    \put(0.41074355,0.83494694){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{και θόρυβο λόγω}}}%
+    \put(0.41074355,0.8035863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{αντιστοιχίσεων}}}%
+    \put(0.70057663,0.61643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
+    \put(0.70057663,0.58507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
 
-    \put(0.44716237,1.0752){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_01_05:02}}}}%
-    \put(0.505,0.764){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_02_05:02}}}}%
-    \put(0.463,0.556){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_03_05:02}}}}%
-    \put(0.554,0.406){\rotatebox{48.4}{\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_04_07:02}}}}}%
+    \put(0.00531108,1.003747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Α}}}%
+    \put(0.59408194,0.711603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Β}}}%
+    \put(0.02959029,0.51182826){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γ}}}%
+    \put(0.61077390,0.3789197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ}}}%
+    \put(0.05386950,0.01){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε}}}%
+
+    \put(0.00531108,0.973747098){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:01}}}}%
+    \put(0.59408194,0.681603){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:02}}}}%
+    \put(0.02959029,0.48182826){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:03}}}}%
+    \put(0.61077390,0.3489197){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:04}}}}%
+    \put(0.05386950,-0.02){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:05}}}}%
+    \put(0.19596358,0.35150237){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
+
+    \put(0.44716237,1.0552){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_01_05:02}}}}%
+    \put(0.505,0.744){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_02_05:02}}}}%
+    \put(0.463,0.536){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_03_05:02}}}}%
+    \put(0.554,0.386){\rotatebox{48.4}{\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_04_07:02}}}}}%
   \end{picture}%
 \endgroup%
