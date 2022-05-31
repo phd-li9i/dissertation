@@ -75,8 +75,8 @@
     \put(0.41074355,0.86630761){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε παραμέτρους }}}%
     \put(0.41074355,0.83494694){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{και θόρυβο λόγω}}}%
     \put(0.41074355,0.8035863){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{αντιστοιχίσεων}}}%
-    \put(0.70057663,0.61643404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
-    \put(0.70057663,0.58507341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
+    \put(0.70057663,0.62543404){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Λύσεις εκτελούμενες}}}%
+    \put(0.70057663,0.59407341){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{σε πραγματικό χρόνο}}}%
 
     \put(0.00531108,1.003747098){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Α}}}%
     \put(0.59408194,0.711603){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Β}}}%
@@ -84,16 +84,29 @@
     \put(0.61077390,0.3789197){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Δ}}}%
     \put(0.05386950,0.01){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Ε}}}%
 
-    \put(0.00531108,0.973747098){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:01}}}}%
-    \put(0.59408194,0.681603){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:02}}}}%
-    \put(0.02959029,0.48182826){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:03}}}}%
-    \put(0.61077390,0.3489197){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:04}}}}%
+    \put(0.00531108,0.97){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:01}}}}%
+    \put(0.59408194,0.68){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:02}}}}%
+    \put(0.02959029,0.48){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:03}}}}%
+    \put(0.61077390,0.349){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:04}}}}%
     \put(0.05386950,-0.02){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Κεφ. \ref{part:02:chapter:05}}}}%
-    \put(0.19596358,0.35150237){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
+    \put(0.19596358,0.35150237){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Γενίκευση χρήσης ερήμην χάρτη}}}%
 
-    \put(0.44716237,1.0552){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_01_05:02}}}}%
-    \put(0.505,0.744){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_02_05:02}}}}%
-    \put(0.463,0.536){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_03_05:02}}}}%
+    \put(0.44716237,1.0535){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_01_05:02}}}}%
+    \put(0.505,0.7432){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_02_05:02}}}}%
+    \put(0.463,0.5355){\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_03_05:02}}}}%
     \put(0.554,0.386){\rotatebox{48.4}{\color[rgb]{0.5,0.5,0.5}\makebox(0,0)[lb]{\smash{\ref{subsection:02_04_07:02}}}}}%
+
+    \put(0.6885129, 0.03){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\smash{−2}}}%
+    \put(0.74801214,0.03){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\smash{0}}}%
+    \put(0.80749621,0.03){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\smash{2}}}%
+    \put(0.86699545,0.03){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\smash{4}}}%
+    \put(0.92647951,0.03){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[t]{\smash{6}}}%
+
+    \put(0.66,0.05571533){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\smash{6}}}%
+    \put(0.66,0.10440729){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\smash{8}}}%
+    \put(0.66,0.15111442){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\smash{10}}}%
+    \put(0.66,0.19780638){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\smash{12}}}%
+    \put(0.66,0.24449834){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\smash{14}}}%
+    \put(0.66,0.29119029){\color[rgb]{0.26666667,0.26666667,0.26666667}\makebox(0,0)[rt]{\smash{16}}}%
   \end{picture}%
 \endgroup%
