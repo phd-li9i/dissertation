@@ -13,9 +13,9 @@
 προς το εύρος των τομέων χρήσης της και του αριθμού των εφαρμογών της. Αυτόνομα
 επίγεια και ιπτάμενα ρομπότ χρησιμοποιούνται σε αποθήκες για την απογραφή και
 εύρεση της θέσης προϊόντων, σε νοσοκομεία για την απολύμανση χώρων, στη γεωργία
-για παρακολούθηση και στοχευμένη προσαρμογή στόχων όσο αφορά σε καλλιέργειες,
-και για τη μεταφορά εμπορευμάτων ή ανθρώπων. Σε όλες τις περιπτώσεις η γνώση
-της στάσης ενός οχήματος στο χώρο, δηλαδή της θέσης και του προσανατολισμού
+για παρακολούθηση καλλιεργιών και αυτοματοποίηση διαδικασιών, και για τη
+μεταφορά εμπορευμάτων ή ανθρώπων. Σε όλες τις περιπτώσεις η γνώση της στάσης
+ενός οχήματος στο χώρο από το ίδιο, δηλαδή της θέσης και του προσανατολισμού
 του, είναι απαραίτητη για την αυτόνομη κίνησή του και την ικανοποίηση των
 στόχων της αποστολής του. Σε εσωτερικούς χώρους ή συμφραζόμενα όπου εξωτερικές
 υποδομές αδυνατούν να προσδώσουν τη στάση του η μόνη εναλλακτική είναι η
@@ -24,8 +24,8 @@
 
 Το αντικείμενο της παρούσας διατριβής είναι η ρομποτική αυτόνομης κινητής βάσης
 σε συμφραζόμενα απουσίας μέτρησης της στάσης της. Το κυρίως περιεχόμενο της
-αφορά στην εκτίμηση της στάσης μίας κινητής βάσης βάσει μετρήσεων που
-προέρχονται από έναν αισθητήρα αποστάσεων τύπου lidar και στην ελάττωση του
+αφορά στην εκτίμηση της στάσης μίας κινητής βάσης βάσει δισδιάστατων μετρήσεων
+που προέρχονται από έναν αισθητήρα αποστάσεων τύπου lidar και στην ελάττωση του
 σφάλματος εκτίμησης, η οποία εκτίμηση προέρχεται από παραδοσιακές μεθόδους της
 βιβλιογραφίας. Πιο συγκεκριμένα το περιεχόμενο της διατριβής εκτυλίσσεται σε
 δύο επίπεδα: σε επίπεδο εφαρμογών και σε επίπεδο εργαλείων.  Κατά βάθος
@@ -60,6 +60,49 @@
 \end{center}
 \noindent
 \end{quotation}
+\selectlanguage{english}
 
+During the last decade mobile robotics has been on the rise in terms of its
+range of use and number of applications. Autonomous ground and aerial robots
+are used in warehouses for inventorying and localising products, in hospitals
+for decontamination purposes, in agriculture for monitoring crops and process
+automation, and for transporting goods or people. In all cases the
+self-knowledge of a vehicle's pose in space, i.e. its position and orientation,
+is essential for its autonomous motion and the satisfaction of objectives of
+its mission. In indoor areas or contexts where external infrastructure is
+unable to provide its pose the only alternative is its estimation, and the
+estimation process is undertaken by the vehicle itself, based on the sensors it
+is equiped with.
+
+The subject of this dissertation is autonomous mobile robotics in the context
+of the absence of pose measurements. Its main content is conserned with the
+estimation of the pose of a mobile base on the basis of two dimensional
+measurements derived from a lidar range sensor and the reduction of the
+estimation error, with the pose estimate being derived from traditional methods
+of the literature. Specifically, the content of the dissertation unfolds in two
+levels: at the level of applications and at the level of tools. At the second
+level we explore ways in which matching measurements from the physical sensor
+against virtual scans---computed either from the map of the environment or from
+a second measurement---can be used to satisfy the two above-stated objectives,
+with performance superior to that of established and state-of-the-art methods
+of the literature.
+
+We first design a methodology for evaluating autonomous navigation algorithms,
+and through its implementation we observe the existence of pose estimate
+errors. We then investigate ways of reducing these errors with methods intenal
+and external to the mechanisms of a particle filter. One of these external ways
+is prosthetic scan--to--map-scan matching. Discovering that scan-matching is
+performed in the literature in a manner that is not robust to measurement
+noise, the magnitude of position estimate errors, and tuning parameters, we
+propose scan--to--map-scan-matching methods that replace the relevant
+pathogenic state-of-the-art mechanisms with mechanisms based on the Fourier
+transform and its properties. At the application level we design systems that
+given the map of the mobile base environment aim at solving the global
+localisation problem, and reducing the pose error during pose tracking.
+Finally, we generalize our approach in the absence of a map in order to
+generate odometry based on a lidar's range measurements.
+
+
+\selectlanguage{greek}
 \restoregeometry
 \doublespace
