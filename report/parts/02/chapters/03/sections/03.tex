@@ -48,8 +48,8 @@ for translation), απεικονίζεται στο σχήμα \ref{fig:02_03_03
 διαδικασίας διαλογής και κατάταξης η οποία απορρίπτει τις υποψήφιες εκτιμήσεις
 στάσης του συνόλου $\{\bm{h}_i^{\prime\prime}\}$ με βάση τον αναφερόμενο
 συντελεστή κλίμακας $\sigma_i$, προτού επιλέξει εκείνη της οποίας το μέτρο
-ομοιότητας $w_i$ είναι το υψηλότερο μεταξύ όλων των υποψηφίων εκτιμήσεων
-(ενότητα \ref{subsection:02_03_03:04}).
+ομοιότητας $w_i$ είναι το υψηλότερο μεταξύ όλων των εναπομείναντων
+υποψηφίων εκτιμήσεων (ενότητα \ref{subsection:02_03_03:04}).
 
 \begin{figure}[h]\centering
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
@@ -664,7 +664,7 @@ $\mathcal{S}_R$ και $\mathcal{S}_V^i$, και συνεπώς για την ε
     \REQUIRE $\mathcal{S}_R$, $\bm{M}$, $\bm{h}$, $N_G$, $I_T$
     \ENSURE $\{\bm{h}^{\prime\prime}, \sigma, w\}$
     \STATE $\{\xi, \sigma, w\} \leftarrow \texttt{orientation\_estimation}(\mathcal{S}_R, \bm{M}, \bm{h}, N_G)$ \hfill (Αλγόριθμος \ref{alg:02_03_03:orientation_estimation})
-    \STATE $\bm{h}^\prime \leftarrow \bm{h} + (0,0,\xi)$
+    \STATE $\bm{h}^\prime \leftarrow \bm{h} + [0,0,\xi]^\top$
     \STATE $\bm{h}^{\prime\prime} \leftarrow \texttt{position\_estimation}(\mathcal{S}_R, \bm{M}, \bm{h}^\prime, I_T)$ \hfill (Αλγόριθμος \ref{alg:02_03_03:position_estimation})
     \RETURN $\{\bm{h}^{\prime\prime}, \sigma, w\}$
   \end{algorithmic}
@@ -720,7 +720,7 @@ $\mathcal{S}_R$ και $\mathcal{S}_V^i$, και συνεπώς για την ε
         \STATE $\mathcal{P}_V \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_V, (0,0,\theta^\prime))$
         \STATE $\bm{C}_R \leftarrow \texttt{compute\_centroid}(\mathcal{P}_R)$ \hfill (εξ. \ref{eq:centroid_x}, \ref{eq:centroid_y})
         \STATE $\bm{C}_V \leftarrow \texttt{compute\_centroid}(\mathcal{P}_V)$
-        \STATE $\bm{h}^{\prime\prime} \leftarrow \bm{h}^{\prime\prime} + (\bm{C}_V-\bm{C}_R,0)$
+        \STATE $\bm{h}^{\prime\prime} \leftarrow \bm{h}^{\prime\prime} + [\bm{C}_V-\bm{C}_R,0]^\top$
       \ENDFOR
       \RETURN $\bm{h}^{\prime\prime}$
     \end{algorithmic}
