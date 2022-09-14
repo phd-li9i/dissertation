@@ -307,3 +307,7 @@
 \contentsline {section}{\numberline {\Greeknumber {\c@chapter }.1}Απόδειξη του Λήμματος \ref {lemma:02_04_02:02}}{381}{section.Alph6.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\Greeknumber {\c@chapter }.2}Σφάλματα εκτίμησης θέσης και προσανατολισμού}{383}{section.Alph6.2}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\select@language {greek}
