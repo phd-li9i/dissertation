@@ -7937,6 +7937,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{month}{10}
       \field{title}{FSM: Correspondenceless scan-matching of panoramic 2D range scans}
       \field{year}{2022}
       \field{pages}{6968\bibrangedash 6975}

@@ -1,0 +1,52 @@
+\usepackage[many]{tcolorbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{fontspec,xgreek,polyglossia}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{CMU Serif}
+\setdefaultlanguage{greek}
+\setotherlanguage[variant=modern]{greek}
+\setsansfont{CMU Serif}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage{animate}
+\usepackage{xcolor}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[textfont={scriptsize}]{caption}
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage[normalem]{ulem}
+\definecolor{my_red}{rgb}{0.894,0.102,0.110}
+\definecolor{my_blue}{rgb}{0.215,0.494,0.721}
+
+\usetheme{Boadilla}
+
+\newcommand\email[1]{\def\insertemail{#1}}
+\providecommand\insertemail{\texttt{alefilot@auth.gr}}
+
+\setbeamertemplate{footline}
+{%
+  \leavevmode%
+  \hbox%
+  {%
+    \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor, \insertshortinstitute
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=1ex,center]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertemail{}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.05\paperwidth,ht=2.25ex,dp=1ex,center]{pg in head/foot}%
+    \usebeamerfont{pg in head/foot}\insertframenumber/\inserttotalframenumber
+    \end{beamercolorbox}
+  }%
+  \vskip0pt%
+}
+
+%remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
