@@ -1,0 +1,88 @@
+%% Creator: Inkscape inkscape 0.92.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'roadmap_1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%%
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{846.75bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.61395593)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{./figures/slides/01/roadmap_1.pdf}}%
+    \put(0.3934721,0.0412624){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}−2\end{tabular}}}}%
+    \put(0.42820195,0.0412624){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}0\end{tabular}}}}%
+    \put(0.46292294,0.0412624){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}2\end{tabular}}}}%
+    \put(0.49765279,0.0412624){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}4\end{tabular}}}}%
+    \put(0.53237378,0.0412624){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}6\end{tabular}}}}%
+    \put(0.38441098,0.05675399){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}6\end{tabular}}}}%
+    \put(0.38441098,0.08416763){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}8\end{tabular}}}}%
+    \put(0.38441098,0.11158127){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}10\end{tabular}}}}%
+    \put(0.38441098,0.13899491){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}12\end{tabular}}}}%
+    \put(0.38441098,0.16640855){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}14\end{tabular}}}}%
+    \put(0.38441098,0.19381333){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[rt]{\lineheight{1.25}\smash{\begin{tabular}[t]{r}16\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{./figures/slides/01/roadmap_1.pdf}}%
+    \put(0.24977857,0.57498339){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Παρατήρηση \end{tabular}}}}%
+    \put(0.24977857,0.55638286){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}σφάλματων \end{tabular}}}}%
+    \put(0.24977857,0.53778233){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}εκτίμησης\end{tabular}}}}%
+    \put(0.24977857,0.5191818){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}στάσης\end{tabular}}}}%
+    \put(0.60673162,0.59624114){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Παρατηρήσεις\end{tabular}}}}%
+    \put(0.60673162,0.57764061){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ευαισθησίας λύσης \end{tabular}}}}%
+    \put(0.60673162,0.55904008){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}σε παραμέτρους \end{tabular}}}}%
+    \put(0.60673162,0.54043955){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}και θόρυβο\end{tabular}}}}%
+    \put(0.60673162,0.52183902){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}λόγω αντιστοιχίσεων\end{tabular}}}}%
+    \put(0.00354296,0.42445527){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Κεφ. 3\end{tabular}}}}%
+    \put(0.34720992,0.25350753){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Κεφ. 4\end{tabular}}}}%
+    \put(0.74844996,0.38412644){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Κεφ. 5\end{tabular}}}}%
+    \put(0.6891054,0.30811891){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Λύσεις εκτελούμενες\end{tabular}}}}%
+    \put(0.6891054,0.28951838){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}σε πραγματικό χρόνο\end{tabular}}}}%
+    \put(0.76616475,0.05781444){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Κεφ. 6\end{tabular}}}}%
+    \put(0.02302923,0.0193678){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Κεφ. 7\end{tabular}}}}%
+    \put(0.61204606,0.11262733){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Γενίκευση χρήσης \end{tabular}}}}%
+    \put(0.61204606,0.09402679){\color[rgb]{0.76862745,0.76862745,0.76862745}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ερήμην χάρτη\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
