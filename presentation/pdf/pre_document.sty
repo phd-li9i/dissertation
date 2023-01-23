@@ -13,6 +13,7 @@
 
 \usepackage{animate}
 \usepackage{xcolor}
+\usepackage{colortbl}
 \usepackage[absolute,overlay]{textpos}
 \usepackage[textfont={scriptsize}]{caption}
 \usepackage{booktabs}
@@ -46,6 +47,14 @@
     \end{beamercolorbox}
   }%
   \vskip0pt%
+}
+
+
+\NewEnviron{bw_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback=white!10, colframe=black!80!, arc=0pt,outer arc=0pt, breakable]
+    \BODY
+  \end{tcolorbox}
 }
 
 %remove navigation symbols
