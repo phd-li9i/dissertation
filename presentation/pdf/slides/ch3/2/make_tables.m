@@ -1,30 +1,35 @@
 % https://tex.stackexchange.com/questions/544528/how-to-generate-beamer-frames-in-a-foreach-loop
+% Add to preamble:
+% \usepackage{array}\newcolumntype{R}{@{\hspace{\dimexpr2\tabcolsep+0.05em}}c}
+% https://tex.stackexchange.com/questions/89148/equivalent-addlinespace-command-for-table-columns#comment193536_89148 for 0.05em
+% https://tex.stackexchange.com/questions/509393/table-cellcolor-any-way-to-paint-only-part-of-cell
+% and then remove red!xxx to make neat red
 
 rc = {'green', 'red'};
-rcv = 10:50;
+rcv = 10:10:100;
 
-str1 = '\begin{frame}{Η ανάγκη για πρακτική αξιολόγηση του state-of-the-art}';
+str1 = '\begin{frame}{Η ανάγκη για πειραματική αξιολόγηση του state-of-the-art}';
 str_dur = '\transduration{1}';
 str2  = '{\footnotesize';
 str3  = '\begin{table}[h]';
-str4  = '\begin{tabular}{lcccc}';
+str4  = '\begin{tabular}{lRRRR}';
 str5  = '  & \multicolumn{3}{c}{Local planners} \\';
 str6  = '  \cline{2-4}';
-str7  = '  Global Planners                     & \texttt{dwa}                               & \texttt{eband}                             & \texttt{teb} \\ \toprule';
+str7  = '  Global Planners                     & \texttt{dwa}                               & \texttt{eband}                             & \texttt{teb} \\ \addlinespace[.05em]\toprule';
 
 
 
 % rc positions: 2, 6, 10
 % rcv positions: 4, 8, 12
-str8  = {'  \texttt{navfn}                     & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str9  = {'  \texttt{global\_planner}           & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str10 = {'  \texttt{asr\_navfn}                & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str11 = {'  \texttt{MoveIt!}                   & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str12 = {'  \texttt{sbpl\_lattice\_planner}    & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str13 = {'  \texttt{sbpl\_dynamic\_env}        & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str14 = {'  \texttt{lattice\_planner}          & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str15 = {'  \texttt{waypoint\_global\_planner} & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\'};
-str16 = {'  \texttt{voronoi\_planner}          & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\ \bottomrule'};
+str8  = {'  \texttt{navfn}                     & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str9  = {'  \texttt{global\_planner}           & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str10 = {'  \texttt{asr\_navfn}                & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str11 = {'  \texttt{MoveIt!}                   & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str12 = {'  \texttt{sbpl\_lattice\_planner}    & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str13 = {'  \texttt{sbpl\_dynamic\_env}        & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str14 = {'  \texttt{lattice\_planner}          & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str15 = {'  \texttt{waypoint\_global\_planner} & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em]'};
+str16 = {'  \texttt{voronoi\_planner}          & $\cellcolor{', '', '!', '', '}{?}$         & $\cellcolor{', '', '!', '', '}{?}$            & $\cellcolor{', '', '!', '', '}{?}$         \\\addlinespace[.05em] \bottomrule'};
 
 str17 = '\end{tabular}';
 str18 = '\end{table}';

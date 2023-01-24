@@ -19,6 +19,7 @@
 \usepackage{booktabs}
 \usepackage{bm}
 \usepackage[normalem]{ulem}
+\usepackage{subcaption}
 
 \definecolor{my_red}{rgb}{0.894,0.102,0.110}
 \definecolor{my_blue}{rgb}{0.215,0.494,0.721}
@@ -67,3 +68,5 @@
 \special{pdf: put @thispage <</Group << /S /Transparency /I true /CS /DeviceRGB>> >>}%
 \makeatother%
 }
+
+\usepackage{array}\newcolumntype{R}{@{\hspace{\dimexpr2\tabcolsep+0.05em}}c}

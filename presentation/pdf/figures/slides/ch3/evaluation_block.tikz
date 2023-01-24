@@ -1,0 +1,33 @@
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,417); %set diagram left start at 0, and has height of 417
+
+%Image [id:dp22107901622245474]
+\draw (119.15,73.18) node  {\includegraphics[width=133.72pt,height=81.27pt]{./figures/slides/ch3/evaluation_block1.png}};
+%Image [id:dp8003738546120753]
+\draw (116.65,213.67) node  {\includegraphics[width=165.97pt,height=70.01pt]{./figures/slides/ch3/evaluation_block2.png}};
+%Image [id:dp5136430097579301]
+\draw (467.9,159) node  {\includegraphics[width=146.25pt,height=90.42pt]{./figures/slides/ch3/evaluation_block3.png}};
+%Straight Lines [id:da6034922283007988]
+\draw    (208.3,73) -- (288.3,73) ;
+%Straight Lines [id:da7363346740088992]
+\draw    (225.3,213) -- (289.3,213) ;
+%Straight Lines [id:da2730802055774586]
+\draw    (288.3,73) -- (288.3,129) ;
+\draw [shift={(288.3,131)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da23079113072453739]
+\draw    (289.3,213) -- (289.3,188) ;
+\draw [shift={(289.3,186)}, rotate = 90] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da9396912379713516]
+\draw    (334.3,159) -- (364.3,159) ;
+\draw [shift={(366.3,159)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+
+% Text Node
+\draw    (241.76,135.5) -- (333.76,135.5) -- (333.76,181.5) -- (241.76,181.5) -- cycle  ;
+\draw (287.76,158.5) node   [align=center] {Μέθοδος \\Αξιολόγησης};
+
+
+\end{tikzpicture}
