@@ -1,0 +1,41 @@
+\begin{frame}{Ευθυγράμμιση πραγματικών σαρώσεων (\texttt{sm})}
+
+
+\definecolor{r}{RGB}{255 69 0}
+\definecolor{b}{RGB}{51 102 153}
+
+
+  \noindent\makebox[\linewidth][c]{%
+  \begin{minipage}{\linewidth}
+    \begin{minipage}{0.45\linewidth}
+      \begin{figure}
+        \animategraphics[scale=0.1,autoplay,loop]{2}{./figures/slides/ch4/sm}{1}{2}
+        \caption{\scriptsize Περιβάλλον, διαδοχικές στάσεις ρομπότ, και οι αντίστοιχες
+                 σαρώσεις από την κάθεμία}
+      \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\linewidth}
+      \begin{figure}
+        \animategraphics[scale=0.22,autoplay,loop]{10}{./figures/slides/ch4/sm_gif/imgs/pic}{0}{19}
+        \caption{\scriptsize Ευθυγράμμιση σαρώσεων $\rightarrow$ εκτίμηση μετασχηματισμού στάσεων από τις οποίες συνελήφθησαν οι σαρώσεις}
+
+        \begin{textblock}{4}(7.3,2.4)
+          \scriptsize $\textcolor{r}{\mathcal{S}(\bm{p}_k)}$
+        \end{textblock}
+        \begin{textblock}{4}(8.8,2.4)
+          \scriptsize $\textcolor{b}{\mathcal{S}(\bm{p}_{k+1})}$
+        \end{textblock}
+        \begin{textblock}{11}(8.4,2.4)
+          \scriptsize $\textcolor{b}{\Delta} \textcolor{r}{\bm{p}} = \texttt{sm}(\textcolor{r}{\mathcal{S}(\bm{p}_k)},\textcolor{b}{\mathcal{S}(\bm{p}_{k+1})})$
+        \end{textblock}
+      \end{figure}
+
+
+    \end{minipage}
+
+  \end{minipage}
+  }
+
+
+\end{frame}
