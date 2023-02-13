@@ -1,7 +1,29 @@
-\begin{frame}{Τρωτά σημεία μεθόδων ευθυγράμμισης}
+\begin{frame}{Τρωτά σημεία μεθόδων ευθυγράμμισης: εξωκείμενα σημεία (outliers)}
 
-  \begin{figure}
-    \input{./figures/slides/ch4/correspondence_is_the_culprit/4.tikz}
-  \end{figure}
+  \definecolor{r}{RGB}{255 69 0}
+  \definecolor{b}{RGB}{51 102 153}
+
+  \vspace{0.5cm}
+  \begin{center}
+  \footnotesize Ευθυγράμμιση σάρωσης \textcolor{b}{$\mathcal{S}_{k}$} ως προς \textcolor{r}{$\mathcal{S}_{k+1}$}
+  \end{center}
+
+  \noindent\makebox[\linewidth][c]{%
+  \begin{minipage}{\linewidth}
+
+    \begin{minipage}{0.45\linewidth}
+      \begin{figure}
+        \animategraphics[scale=0.3,autoplay]{10}{./figures/slides/ch4/sm_gif_reverse_side_by_side/icp_sigma_0/pic}{0}{50}
+      \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\linewidth}
+      \begin{figure}
+        \animategraphics[scale=0.3,autoplay]{10}{./figures/slides/ch4/sm_gif_reverse_side_by_side/icp_sigma_0_reverse/pic}{0}{50}
+      \end{figure}
+    \end{minipage}
+
+  \end{minipage}
+  }
 
 \end{frame}
