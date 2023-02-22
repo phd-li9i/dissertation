@@ -74,7 +74,7 @@
 \draw    (283.16,165) -- (375.35,165) -- (375.35,190) -- (283.16,190) -- cycle  ;
 \draw (329.16,177.5) node   [align=left] {\texttt{FMI\_SPOMF}};
 % Text Node
-\draw (279,276) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small \sout{$(\Delta x, \Delta_y)$}, $\Delta \theta$, \textcolor{g}{$\sigma$}};
+\draw (270,276) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small \sout{$(\Delta x, \Delta_y)$}, $\Delta \theta$, \textcolor{g}{$\sigma$}, $w$};
 % Text Node
 \draw (3,79.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {Περιβάλλον};
 % Text Node

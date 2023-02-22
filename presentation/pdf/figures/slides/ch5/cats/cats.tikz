@@ -34,7 +34,7 @@
 \draw    (130.66,84) -- (221.66,84) -- (221.66,109) -- (130.66,109) -- cycle  ;
 \draw (176.16,96.5) node   [align=left] {\texttt{FMI\_SPOMF}};
 % Text Node
-\draw (178,164) node [anchor=north west][inner sep=0.75pt]   [align=left] {$(\Delta x, \Delta y)$, $\Delta \theta$, $\sigma$};
+\draw (173,164) node [anchor=north west][inner sep=0.75pt]   [align=left] {$(\Delta x, \Delta y)$, $\Delta \theta$, $\sigma$, $w$};
 
 
 \end{tikzpicture}
