@@ -1,0 +1,34 @@
+\begin{frame}{Ευθυγράμμιση \texttt{sm2} δίχως αντιστοιχίσεις, υπό χρονικούς περιορισμούς}
+
+  \definecolor{g}{RGB}{0 150 0}
+  \definecolor{r}{RGB}{180 0 0}
+
+
+
+  Πρόβλημα:\\
+  \vspace{0.5cm}
+
+  Κατασκευή $h$: \texttt{sm2} χωρίς αντιστοιχίσεις, δεδομένων:
+  \begin{itemize}
+    \item Πραγματική σάρωση $\mathcal{S}_R(\bm{p})$: FOV = $360^\circ$
+    \item Χάρτης $\bm{M}$ του περιβάλλοντος
+    \item Εκτίμηση $\textcolor{r}{\hat{\bm{p}}}(\hat{\bm{l}}, \hat{\theta})$
+    \item Η εκτίμηση θέσης $\hat{\bm{l}} = (\hat{x},\hat{y})$ είναι σε μία γειτονιά της $\bm{l} = (x,y)$
+  \end{itemize}
+
+  \vspace{0.5cm}
+  τέτοιας ώστε
+  \begin{itemize}
+    \item $\textcolor{g}{\hat{\bm{p}}^\prime} \leftarrow h(\mathcal{S}_R, \bm{M}, \textcolor{r}{\hat{\bm{p}}})$:
+          \begin{align}
+            \|\textcolor{g}{\hat{\bm{p}}^\prime} - \bm{p}\| < \|\textcolor{r}{\hat{\bm{p}}} - \bm{p}\| \nonumber
+          \end{align}
+    \item $f_{\text{exec}}(h) \geq f_{\text{exec}}(\texttt{pf})$
+  \end{itemize}
+
+
+
+
+
+
+\end{frame}

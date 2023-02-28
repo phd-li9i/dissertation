@@ -1,0 +1,46 @@
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,542); %set diagram left start at 0, and has height of 542
+
+%Straight Lines [id:da7972290663823844]
+\draw    (280.83,65.33) -- (280.83,109.33) ;
+\draw [shift={(280.83,111.33)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da2357744220142839]
+\draw    (280.5,138.86) -- (280.5,167.86) ;
+\draw [shift={(280.5,169.86)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8737381615370248]
+\draw    (114.5,63) -- (114.5,184.5) ;
+%Straight Lines [id:da6971384120103545]
+\draw    (156.5,63) -- (156.5,184.4) ;
+%Straight Lines [id:da3539392704501798]
+\draw    (156.5,184.5) -- (114.5,184.5) ;
+%Straight Lines [id:da9268042351726278]
+\draw    (280.5,196) -- (280.5,226.6) -- (462.6,226.6) -- (462.6,81.4) -- (280.5,81.4) ;
+\draw [shift={(283,81.4)}, rotate = 360] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da14503031560842916]
+\draw    (156.5,184.1) -- (218.67,184.1) ;
+\draw [shift={(220.67,184.07)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8398648469461081]
+\draw    (114.5,126.4) -- (181,126.4) ;
+\draw [shift={(183,126.5)}, rotate = 180] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+
+% Text Node
+\draw    (184,114) -- (378,114) -- (378,139) -- (184,139) -- cycle  ;
+\draw (193,119) node [anchor=north west][inner sep=0.75pt]   [align=left] {Εκτίμηση Προσανατολισμού};
+% Text Node
+\draw (194,173) node [anchor=north west][inner sep=0.75pt]   [align=left] {$ $};
+% Text Node
+\draw (103,44) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle \mathcal{S}_{R}$};
+% Text Node
+\draw (276.33,44.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\displaystyle \hat{p}$};
+% Text Node
+\draw (150,44.57) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\bm{M}$};
+% Text Node
+\draw    (222.5,171) -- (339.5,171) -- (339.5,196) -- (222.5,196) -- cycle  ;
+\draw (227.5,175) node [anchor=north west][inner sep=0.75pt]   [align=left] {Εκτίμηση Θέσης};
+
+
+\end{tikzpicture}

@@ -1,0 +1,32 @@
+\begin{frame}{Εκτίμηση προσανατολισμού όταν $\hat{\bm{l}} = \bm{l}$ (\texttt{rc\_fm}---3/3)}
+
+  \definecolor{r}{RGB}{250 0 0}
+
+
+  Έστω
+  \begin{itemize}
+    \item $\bm{P}_R, \bm{P}_V$ οι προβολές των $\mathcal{S}_R, \mathcal{S}_V$
+          στο οριζόντιο επίπεδο
+    \item $\bm{U} \bm{D} \bm{V}^\top = \texttt{svd}(\bm{P}_R \bm{P}_V^\top)$
+    \item $\bm{S} = \text{diag}(1,\det{(\bm{U}\bm{V})})$
+  \end{itemize}
+  Τότε $\text{tr}(\bm{DS})$ είναι μέτρο ευθυγράμμισης ανάμεσα στα σύνολα $\bm{P}_R, \bm{P}_V$
+  και
+  \begin{align}
+    \bm{R}^\star &= \bm{U} \bm{S} \bm{V}^\top =
+                  \operatorname*{arg\,min}\limits_{\bm{R}} \|\bm{P}_R - \bm{R} \cdot \bm{P}_V\|_F^2 \nonumber
+  \end{align}
+   \textit{εάν $\theta$ γνωστή} [1].
+
+   Όμως $\theta$ θεμελιωδώς άγνωστη $\Rightarrow$ περιστροφή $\bm{P}_V$ κατά
+   $k\cdot\gamma$, $0 \leq k < N_s$.
+
+   Τότε εάν $\hat{\theta}^\prime = \hat{\theta} + k^\star \gamma$,
+   $k^\star = \operatorname*{arg\,min}\limits_k \text{tr}(\bm{DS})$, το επίλοιπο σφάλμα:
+
+  \begin{align}
+    \phi \leq \dfrac{\textcolor{r}{\gamma}}{2} \nonumber
+  \end{align}
+
+  \placebottom{\tiny [1] \ \ S. Umeyama, ``Least-squares estimation of transformation parameters between two point patterns", \textit{IEEE Transactions on Pattern Analysis and Machine Intelligence}, Apr. 1991}
+\end{frame}
