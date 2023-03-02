@@ -25,14 +25,15 @@
         \texttt{mit\_killian} & $17479$             \\ \midrule
                               & $\sum |D| = 45402$      \\  \bottomrule
         \end{tabular}
-        \caption{\tiny Πηγή: SLAM evaluation datasets, Dept. of Computer Science, University of Freiburg}
+        \caption{\tiny Πηγή: Σύνολα δεδομένων αξιολόγησης SLAM, Τμήμα Επιστήμης
+        των Υπολογιστών, Πανεπιστήμιο του Φράιμπουργκ}
       \end{table}
     \end{minipage}
     \hfill
     \begin{minipage}{0.56\linewidth}
+      \vspace{-0.7cm}
       \begin{bw_box}
       \scriptsize
-      Μέγεθος σαρώσεων: $N_s = 360$\\
 
       Τυπική απόκλιση θορύβου μέτρησης και συντεταγμένων χάρτη
       \begin{align}
@@ -47,15 +48,23 @@
         \Delta\hat{\theta}_0 &\sim U(-\dfrac{\pi}{4}, +\dfrac{\pi}{4})  \text{ [rad]}\nonumber
       \end{align}
 
+      Συνολικός αριθμός ευθυγραμμίσεων ανά μέθοδο:
+
+      $10 \times \sum |D| \times |\sigma_R| \times |\sigma_{\bm{M}}| \simeq 4.5 \cdot 10^6$\\
+
+      Μέγεθος σαρώσεων: $N_s = 360$\\
+
+      $\nu \in (\nu_{\min}, \nu_{\max}) = (2,5)$ \\
+
+      $I_T = 1+\nu$
 
       \end{bw_box}
 
+      \vspace{-0.5cm}
 
       \scriptsize
       \begin{center}
-      Συνολικός αριθμός ευθυγραμμίσεων ανά μέθοδο:
 
-      $10 \times |\sigma_R| \times |\sigma_{\bm{M}}| \times \sum |D| \simeq 4.5 \cdot 10^6$
       \end{center}
     \end{minipage}
   \end{minipage}

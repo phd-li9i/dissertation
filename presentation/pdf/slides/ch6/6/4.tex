@@ -1,0 +1,28 @@
+\begin{frame}{Προκλήσεις μετατροπής \texttt{fsm2} σε \texttt{fsm}}
+
+  \definecolor{r}{RGB}{208,2,27}
+  \definecolor{b}{RGB}{51,101,152}
+
+  \begin{itemize}
+    \item $\mathcal{S}_V(\hat{\bm{p}}_0)$ ατελής προσέγγιση του χάρτη $\bm{M} \Rightarrow$ απαίτηση ευρωστίας σε ``κενές αντιστοιχίσεις"
+          \vspace{0.3cm}
+          \begin{figure}\centering
+            \resizebox{4cm}{!}{\input{./figures/slides/ch7/sv_m_discrepancy.eps_tex}}
+            \begin{textblock}{14}(-1.3,8.5)
+              $\textcolor{b}{\mathcal{S}_V(\hat{\bm{p}}_0)}$
+            \end{textblock}
+            \begin{textblock}{14}(4.1,8.5)
+              $\textcolor{b}{\mathcal{S}_V(\hat{\bm{p}}_N)}$
+            \end{textblock}
+            \begin{textblock}{14}(1.4,5.8)
+              $\textcolor{r}{\mathcal{S}_R(\bm{p})}$
+            \end{textblock}
+            \begin{textblock}{14}(1.6,8.15)
+              \tiny \texttt{fsm2}
+            \end{textblock}
+          \end{figure}
+    \item $t_{\text{exec}}^{\texttt{\ sm}} \leq \dfrac{1.0}{20\text{ Hz}} = 50 \text{ ms}$ \ \ ($\overline{t}_{\text{exec},\min}^{\texttt{\ fsm2}} = \overline{t}_{\text{exec}}^{\texttt{\ fm}} \simeq 100 \text{ ms}$)
+  \end{itemize}
+
+
+\end{frame}
