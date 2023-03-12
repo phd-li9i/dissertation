@@ -1,0 +1,94 @@
+\usepackage[many]{tcolorbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{fontspec,xgreek,polyglossia}
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[Mapping=tex-text]{CMU Serif}
+\setdefaultlanguage{greek}
+\setotherlanguage[variant=modern]{greek}
+\setsansfont{CMU Serif}
+\setmonofont{CMU Typewriter Text}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{animate}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage[textfont={scriptsize}]{caption}
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage[normalem]{ulem}
+\usepackage{subcaption}
+\usepackage{dashrule}
+
+\usepackage{tikz}
+\usetikzlibrary{matrix,backgrounds}
+\usetikzlibrary{arrows.meta,chains,decorations.pathreplacing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{angles, quotes}
+\newcommand{\tikzxmark}{%
+\tikz[scale=0.23] {
+    \draw[line width=0.7,line cap=round] (0,0) to [bend left=6] (1,1);
+    \draw[line width=0.7,line cap=round] (0.2,0.95) to [bend right=3] (0.8,0.05);
+}}
+\newcommand{\tikzcmark}{%
+\tikz[scale=0.23] {
+    \draw[line width=0.7,line cap=round] (0.25,0) to [bend left=10] (1,1);
+    \draw[line width=0.8,line cap=round] (0,0.35) to [bend right=1] (0.23,0);
+}}
+\definecolor{my_red}{rgb}{0.894,0.102,0.110}
+\definecolor{my_blue}{rgb}{0.215,0.494,0.721}
+
+\usetheme{Boadilla}
+
+\newcommand\email[1]{\def\insertemail{#1}}
+\providecommand\insertemail{\texttt{alefilot@auth.gr}}
+
+\setbeamertemplate{footline}
+{%
+  \leavevmode%
+  \hbox%
+  {%
+    \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor, \insertshortinstitute
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=2.25ex,dp=1ex,center]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertemail{}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.05\paperwidth,ht=2.25ex,dp=1ex,center]{pg in head/foot}%
+    \usebeamerfont{pg in head/foot}\insertframenumber/\inserttotalframenumber
+    \end{beamercolorbox}
+  }%
+  \vskip0pt%
+}
+
+
+\NewEnviron{bw_box}{%
+  \vspace{0.5cm}
+  \begin{tcolorbox}[colback=white!10, colframe=black!80!, arc=0pt,outer arc=0pt, breakable]
+    \BODY
+  \end{tcolorbox}
+}
+
+%remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% Adobe reader messes up the colours
+\usepackage{eso-pic}
+\AddToShipoutPicture{%
+\makeatletter%
+\special{pdf: put @thispage <</Group << /S /Transparency /I true /CS /DeviceRGB>> >>}%
+\makeatother%
+}
+
+\usepackage{array}\newcolumntype{R}{@{\hspace{\dimexpr2\tabcolsep+0.05em}}c}
+
+\newcommand{\placebottom}{\vskip0pt plus 1filll}
+
+\usepackage{picture}

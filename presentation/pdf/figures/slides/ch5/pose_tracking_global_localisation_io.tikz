@@ -46,7 +46,7 @@
 % Text Node
 \draw (180,5.75) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small $\hat{\bm{u}}_t$};
 % Text Node
-\draw (204,8.75) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small $\bm{z}$};
+\draw (204,8.75) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small $\bm{z}_t$};
 % Text Node
 \draw (265.6,61) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small $\hat{\bm{p}}_{t}$};
 % Text Node

@@ -1,0 +1,50 @@
+\begin{frame}{Τρωτά σημεία μεθόδων ευθυγράμμισης}
+
+  \vspace{0.25cm}
+  \noindent\makebox[0.65\linewidth][c]{%
+  \begin{minipage}{0.5\linewidth}
+
+    \begin{minipage}{0.3\linewidth}
+      \begin{figure}
+        \includegraphics[scale=0.2]{./figures/slides/ch4/correspondence_is_the_culprit/pic0.png}
+        \caption{\scriptsize Α}
+      \end{figure}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.7\linewidth}
+      \begin{figure}
+        \animategraphics[scale=0.3,autoplay,loop]{1}{./figures/slides/ch4/correspondence_is_the_culprit/plicp/frame_}{0}{3}
+        \caption{\scriptsize Β}
+      \end{figure}
+    \end{minipage} \\
+
+  \begin{minipage}{\linewidth}
+    \begin{figure}
+      \includegraphics[scale=0.2]{./figures/slides/ch4/correspondence_is_the_culprit/gicp.png}
+        \caption{\scriptsize Γ}
+    \end{figure}
+  \end{minipage}
+  \end{minipage}
+  }
+  \noindent\makebox[0.3\linewidth][c]{%
+    \begin{minipage}{0.3\linewidth}\scriptsize\vspace{-1cm}
+    Α: ICP επί της αρχής (σημείο προς σημείο) \\
+
+    Β: plicp: σημείο προς ευθύγραμμο τμήμα \\
+
+    Γ: (a) Κατανομή προς κατανομή, (b) Σημείο προς κατανομή, (c) Κατανομή προς κατανομές \\\\
+
+    \tiny
+    Πηγές:\\
+    Α:  Igor Bogoslavskyi, \url{https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb} \\
+
+    B: A. Censi, ``An ICP variant using a point-to-line metric," 2008 IEEE International Conference on Robotics and Automation, Pasadena, CA, USA, 2008, pp. 19-25 \\
+
+    Γ: K. Koide, M. Yokozuka, S. Oishi and A. Banno, ``Voxelized GICP for Fast and Accurate 3D Point Cloud Registration," 2021 IEEE International Conference on Robotics and Automation (ICRA), Xi'an, China, 2021, pp. 11054-11059
+
+  \end{minipage}
+  }
+
+
+
+\end{frame}

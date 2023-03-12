@@ -1,0 +1,74 @@
+\begin{frame}{Πειραματική διαδικασία}
+
+
+
+  \noindent\makebox[\linewidth][c]{%
+  \begin{minipage}{\linewidth}
+    \begin{minipage}{0.35\linewidth}\scriptsize
+      \begin{bw_box}
+        Στόχοι:
+        \begin{itemize}
+          \item[(Σ1)] $\|\hat{\bm{p}}^{\prime}-\bm{p}\| < \|\hat{\bm{p}}-\bm{p}\|$
+          \item[(Σ2)] $f_{\text{exec}}^{\texttt{\ fsm2}} \geq f_{\text{exec}}^{\texttt{\ pf}}$
+        \end{itemize}
+      \end{bw_box}
+      \vspace{0.25cm}
+      Πέντε benchmark περιβάλλοντα δοκιμής
+      \vspace{-0.05cm}
+      \begin{table}[h]\centering
+        \begin{tabular}{lc}
+        Σύνολο δεδομένων D    & Πληθικότητα         \\  \toprule
+        \texttt{aces}         & $7373$              \\
+        \texttt{fr079}        & $4933$              \\
+        \texttt{intel}        & $13630$             \\
+        \texttt{mit\_csail}   & $1987$              \\
+        \texttt{mit\_killian} & $17479$             \\ \midrule
+                              & $\sum |D| = 45402$      \\  \bottomrule
+        \end{tabular}
+        \caption{\tiny Πηγή: Σύνολα δεδομένων αξιολόγησης SLAM, Τμήμα Επιστήμης
+        των Υπολογιστών, Πανεπιστήμιο του Φράιμπουργκ}
+      \end{table}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.56\linewidth}
+      \vspace{-0.7cm}
+      \begin{bw_box}
+      \scriptsize
+
+      Τυπική απόκλιση θορύβου μέτρησης και συντεταγμένων χάρτη
+      \begin{align}
+        \sigma_R &= \{0.01, 0.03, 0.05, 0.10, 0.20\} \text{ [m]} \nonumber \\
+        \sigma_{\bm{M}}  &= \{0.0, 0.05\} \text{ [m]} \nonumber
+      \end{align}
+
+      Παραγωγή τυχαίων αρχικών συνθηκών σφάλμάτων στάσης
+      \begin{align}
+        \Delta \hat{x}_0     &\sim U(-0.20,+0.20) \text{ [m]} \nonumber \\
+        \Delta \hat{y}_0     &\sim U(-0.20,+0.20)  \text{ [m]}\nonumber \\
+        \Delta\hat{\theta}_0 &\sim U(-\dfrac{\pi}{4}, +\dfrac{\pi}{4})  \text{ [rad]}\nonumber
+      \end{align}
+
+      Συνολικός αριθμός ευθυγραμμίσεων ανά μέθοδο:
+
+      $10 \times \sum |D| \times |\sigma_R| \times |\sigma_{\bm{M}}| \simeq 4.5 \cdot 10^6$\\
+
+      Μέγεθος σαρώσεων: $N_s = 360$\\
+
+        $\nu \in [\nu_{\min}, \nu_{\max}] = [2,5]$ \\
+
+      $I_T = 1+\nu$
+
+      \end{bw_box}
+
+      \vspace{-0.5cm}
+
+      \scriptsize
+      \begin{center}
+
+      \end{center}
+    \end{minipage}
+  \end{minipage}
+  }
+
+
+\end{frame}

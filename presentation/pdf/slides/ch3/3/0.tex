@@ -1,24 +1,26 @@
 \begin{frame}{Προκαταρκτική αξιολόγηση: ποιοτικά κριτήρια λογισμικού}
 
+\definecolor{gr}{RGB}{128 128 128}
+
 {\footnotesize
 \begin{table}[h]%\hspace{-1cm}
 %\renewcommand{\arraystretch}{1.3}
 \begin{tabular}{lccccccc|c}
   & \multicolumn{7}{c}{Ποιοτικές Μετρικές} \\
   \cline{2-8}
-  Planner                              & DOC                       & UTD         & INST              & SC/C      & PARAM                   & CON              & COMP                    & Αποδοχή      \\ \toprule
-  \texttt{navfn}                       & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
-  \texttt{global\_planner}             & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
-  \texttt{asr\_navfn}                  & $\bullet$                 & $\circ$     & $\bullet$         & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\circ$      \\
-  \texttt{MoveIt!}                     & $\bullet\bullet\bullet$   & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet\bullet$ & ?                & $\bullet\bullet\bullet$ & $\circ$      \\
-  \texttt{sbpl\_lattice\_planner}      & $\bullet\bullet$          & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$ & $\bullet$               & $\bullet$    \\
-  \texttt{sbpl\_dynamic\_env}          & $\bullet$                 & $\circ$     & $\bullet$         & $\circ$   & $\bullet$               & ?                & $\bullet$               & $\circ$      \\
-  \texttt{lattice\_planner}            & $\bullet$                 & $\circ$     & $\bullet$         & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\circ$      \\
-  \texttt{waypoint\_global\_planner}   & $\bullet$                 & $\circ$     & $\bullet$         & $\circ$   & $\circ$                 & $\bullet$        & $\bullet$               & $\circ$      \\
-  \texttt{voronoi\_planner}            & $\bullet$                 & $\circ$     & $\bullet$         & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\circ$      \\ \midrule
-  \texttt{dwa\_local\_planner}         & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
-  \texttt{eband\_local\_planner}       & $\bullet$                 & $\circ$     & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet$        & $\bullet$        & $\bullet\bullet$        & $\bullet$    \\
-  \texttt{teb\_local\_planner}         & $\bullet\bullet\bullet$   & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet$        & $\bullet$    \\ \bottomrule
+  Planner                                            & DOC                       & UTD         & INST              & SC/C      & PARAM                   & CON              & COMP                    & Αποδοχή      \\ \toprule
+  \texttt{navfn}                                     & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
+  \texttt{global\_planner}                           & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
+  \textcolor{gr}{\texttt{asr\_navfn}}                & \textcolor{gr}{$\bullet$}                 & \textcolor{gr}{$\circ$}     & \textcolor{gr}{$\bullet$}         & \textcolor{gr}{$\bullet$} & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\bullet$}        & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\circ$}      \\
+  \textcolor{gr}{\texttt{MoveIt!}}                   & \textcolor{gr}{$\bullet\bullet\bullet$}   & \textcolor{gr}{$\bullet$}   & \textcolor{gr}{$\bullet\bullet$}  & \textcolor{gr}{$\bullet$} & \textcolor{gr}{$\bullet\bullet\bullet$} & \textcolor{gr}{?}                & \textcolor{gr}{$\bullet\bullet\bullet$} & \textcolor{gr}{$\circ$}      \\
+  \texttt{sbpl\_lattice\_planner}                    & $\bullet\bullet$          & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$ & $\bullet$               & $\bullet$    \\
+  \textcolor{gr}{\texttt{sbpl\_dynamic\_env}}        &\textcolor{gr}{$\bullet$}                 & \textcolor{gr}{$\circ$}     & \textcolor{gr}{$\bullet$}         & \textcolor{gr}{$\circ$}   & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{?}                & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\circ$}      \\
+  \textcolor{gr}{\texttt{lattice\_planner}}          &\textcolor{gr}{$\bullet$}                 & \textcolor{gr}{$\circ$}     & \textcolor{gr}{$\bullet$}         & \textcolor{gr}{$\bullet$} & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\bullet$}        & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\circ$}      \\
+  \textcolor{gr}{\texttt{waypoint\_global\_planner}} &\textcolor{gr}{$\bullet$}                 & \textcolor{gr}{$\circ$}     & \textcolor{gr}{$\bullet$}         & \textcolor{gr}{$\circ$}   & \textcolor{gr}{$\circ$}                 & \textcolor{gr}{$\bullet$}        & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\circ$}      \\
+  \textcolor{gr}{ \texttt{voronoi\_planner}}         &\textcolor{gr}{$\bullet$}                 & \textcolor{gr}{$\circ$}     & \textcolor{gr}{$\bullet$}         & \textcolor{gr}{$\bullet$} & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\bullet$}        & \textcolor{gr}{$\bullet$}               & \textcolor{gr}{$\circ$}      \\ \midrule
+  \texttt{dwa\_local\_planner}                       & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
+  \texttt{eband\_local\_planner}                     & $\bullet$                 & $\circ$     & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet$        & $\bullet$        & $\bullet\bullet$        & $\bullet$    \\
+  \texttt{teb\_local\_planner}                       & $\bullet\bullet\bullet$   & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet$        & $\bullet$    \\ \bottomrule
 \end{tabular}
 \caption{\tiny Αξιολόγηση των πακέτων \texttt{ROS} που αποτελούν
          συνιστώσες αυτόνομους πλοήγησης με βάση ποιοτικές μετρικές

@@ -1,0 +1,29 @@
+\begin{frame}{Τι ήταν προηγουμένως αδύνατον και τώρα είναι εφικτό}
+
+  \definecolor{g}{RGB}{0 150 0}
+  \definecolor{r}{RGB}{180 0 0}
+
+  \vspace{1cm}
+  Τρεις μέθοδοι ευθυγράμμισης πραγματικών με εικονικές (δισδιάστατες και
+  πανοραμικές) σαρώσεις \textit{χωρίς τον υπολογισμό αντιστοιχίσεων}:
+  $\textcolor{g}{\hat{\bm{p}}^\prime} \leftarrow h(\mathcal{S}_R, \bm{M},
+  \textcolor{r}{\hat{\bm{p}}})$:
+
+  \begin{itemize}
+    \item<2-> Εύρωστη βελτίωση ακρίβειας pose tracking ($\Rightarrow$ navigation) σε πραγματικό χρόνο:
+      $f_{\text{exec}}(\textcolor{g}{h}) \geq f_{\text{exec}}(\texttt{\textcolor{r}{pf}})$
+    \item<3-> Global localisation
+      \begin{itemize}
+        \item Χωρίς ad hoc παραμετροποίηση (features ή μεταβλητές)
+        \item Ταχύτερα από \texttt{FMI-SPOMF} ($\Rightarrow$ περισσότερες υποθέσεις)
+      \end{itemize}
+    \item<4-> \{Αναγνώριση, ευθυγράμμιση\} κλειστών (convex ή non-convex) 2D σχημάτων
+              (π.χ. computer vision $[1]$)
+              \vspace{1.8cm}
+  \placebottom{\tiny [1] G. Doğan, J. Bernal, C. Hagwood, ``FFT-based Alignment of 2D Closed Curves with Application to Elastic Shape Analysis", \textit{Proceedings of the 1st International Workshop on DIFFerential Geometry in Computer Vision for Analysis of Shapes, Images and Trajectories 2015}; British Machine Vision Association, 2015}
+
+  \end{itemize}
+
+
+
+\end{frame}

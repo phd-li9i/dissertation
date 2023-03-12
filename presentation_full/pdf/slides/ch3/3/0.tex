@@ -1,0 +1,32 @@
+\begin{frame}{Προκαταρκτική αξιολόγηση: ποιοτικά κριτήρια λογισμικού}
+
+{\footnotesize
+\begin{table}[h]%\hspace{-1cm}
+%\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lccccccc|c}
+  & \multicolumn{7}{c}{Ποιοτικές Μετρικές} \\
+  \cline{2-8}
+  Planner                              & DOC                       & UTD         & INST              & SC/C      & PARAM                   & CON              & COMP                    & Αποδοχή      \\ \toprule
+  \texttt{navfn}                       & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
+  \texttt{global\_planner}             & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
+  \texttt{asr\_navfn}                  & $\bullet$                 & $\circ$     & $\bullet$         & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\circ$      \\
+  \texttt{MoveIt!}                     & $\bullet\bullet\bullet$   & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet\bullet$ & ?                & $\bullet\bullet\bullet$ & $\circ$      \\
+  \texttt{sbpl\_lattice\_planner}      & $\bullet\bullet$          & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$ & $\bullet$               & $\bullet$    \\
+  \texttt{sbpl\_dynamic\_env}          & $\bullet$                 & $\circ$     & $\bullet$         & $\circ$   & $\bullet$               & ?                & $\bullet$               & $\circ$      \\
+  \texttt{lattice\_planner}            & $\bullet$                 & $\circ$     & $\bullet$         & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\circ$      \\
+  \texttt{waypoint\_global\_planner}   & $\bullet$                 & $\circ$     & $\bullet$         & $\circ$   & $\circ$                 & $\bullet$        & $\bullet$               & $\circ$      \\
+  \texttt{voronoi\_planner}            & $\bullet$                 & $\circ$     & $\bullet$         & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\circ$      \\ \midrule
+  \texttt{dwa\_local\_planner}         & $\bullet$                 & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet$               & $\bullet$        & $\bullet$               & $\bullet$    \\
+  \texttt{eband\_local\_planner}       & $\bullet$                 & $\circ$     & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet$        & $\bullet$        & $\bullet\bullet$        & $\bullet$    \\
+  \texttt{teb\_local\_planner}         & $\bullet\bullet\bullet$   & $\bullet$   & $\bullet\bullet$  & $\bullet$ & $\bullet\bullet\bullet$ & $\bullet\bullet$ & $\bullet\bullet$        & $\bullet$    \\ \bottomrule
+\end{tabular}
+\caption{\tiny Αξιολόγηση των πακέτων \texttt{ROS} που αποτελούν
+         συνιστώσες αυτόνομους πλοήγησης με βάση ποιοτικές μετρικές
+         λογισμικού, και απόφαση αποδοχής για συμπερίληψη στην πειραματική
+         αξιολόγηση. Οι κενές κουκκίδες υποδηλώνουν ανεπάρκεια σε σχέση με
+         κάθε μετρική. Τα ερωτηματικά υποδηλώνουν άγνωστη κατάσταση}
+\end{table}
+}
+
+
+\end{frame}

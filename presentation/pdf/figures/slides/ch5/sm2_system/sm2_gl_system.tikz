@@ -90,7 +90,7 @@
 \draw    (79,132) -- (199,132) -- (199,156) -- (79,156) -- cycle  ;
 \draw (139,146) node   [align=left] {\texttt{any\ sm2\ method}};
 % Text Node
-\draw (90,170) node   [align=left] {$\{\bm{h}_i^{\prime\prime}$, $w_i$/$d_i\}$};
+\draw (90,170) node   [align=left] {$\{\bm{h}_i^{\prime\prime}$, $\{w_i$|$d_i\}\}$};
 % Text Node
 \draw (338,86) node   [align=left] {$\mathcal{H} = \{\bm{h}_i\}$};
 % Text Node

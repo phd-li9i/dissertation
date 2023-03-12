@@ -2,7 +2,7 @@
 %%Title: /home/li9i/catkin_ws/src/pipeline_evaluator/experiments/scripts_phd_presentation/boxplots/corridor_mean_total_errors_per_selection_smsm.tex
 %%Creator: gnuplot 4.6 patchlevel 6
 %%CreationDate: Wed Feb  8 11:48:05 2023
-%%DocumentFonts: 
+%%DocumentFonts:
 %%BoundingBox: 50 50 550 250
 %%EndComments
 %%BeginProlog
@@ -22,7 +22,7 @@ gnudict begin
 /ClipToBoundingBox false def
 /SuppressPDFMark false def
 /TransparentPatterns false def
-/gnulinewidth 5.000 def
+/gnulinewidth 10.000 def
 /userlinewidth gnulinewidth def
 /Gamma 1.0 def
 /BackgroundColor {-1.000 -1.000 -1.000} def
@@ -63,11 +63,11 @@ gnudict begin
 /Gshow {show} def   % May be redefined later in the file to support UTF-8
 /vpt2 vpt 2 mul def
 /hpt2 hpt 2 mul def
-/Lshow {currentpoint stroke M 0 vshift R 
+/Lshow {currentpoint stroke M 0 vshift R
 	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
 /Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
 	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
-/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R
 	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
 /UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
   /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
@@ -269,7 +269,7 @@ gnudict begin
 /PentE {stroke [] 0 setdash gsave
   translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
   closepath stroke grestore} def
-/CircE {stroke [] 0 setdash 
+/CircE {stroke [] 0 setdash
   hpt 0 360 arc stroke} def
 /Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
 /DiaW {stroke [] 0 setdash vpt add M
@@ -289,7 +289,7 @@ gnudict begin
 /PentW {stroke [] 0 setdash gsave
   translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
   Opaque stroke grestore} def
-/CircW {stroke [] 0 setdash 
+/CircW {stroke [] 0 setdash
   hpt 0 360 arc Opaque stroke} def
 /BoxFill {gsave Rec 1 setgray fill grestore} def
 /Density {
@@ -341,7 +341,7 @@ gnudict begin
 	bind def
 /KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
 << Tile8x8
- /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke}
 >> matrix makepattern
 /Pat1 exch def
 << Tile8x8
@@ -420,7 +420,7 @@ Level1 {Level1PatternFill} {Level2PatternFill} ifelse
 /Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
 dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
 currentdict end definefont pop
-Level1 SuppressPDFMark or 
+Level1 SuppressPDFMark or
 {} {
 /SDict 10 dict def
 systemdict /pdfmark known not {
@@ -452,7 +452,7 @@ gsave % colour palette begin
 /HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
   { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
      /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
-	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def
 	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
 	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
 	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
@@ -477,7 +477,7 @@ gsave % colour palette begin
 /grayindex {/gidx 0 def
   {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
 /dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
-  GrayA gidx get sub div} def 
+  GrayA gidx get sub div} def
 /redvalue {RedA gidx get RedA gidx 1 sub get
   RedA gidx get sub dgdxval mul add} def
 /greenvalue {GreenA gidx get GreenA gidx 1 sub get
@@ -488,23 +488,23 @@ gsave % colour palette begin
   grayindex grayv GrayA gidx get sub abs 1e-5 le
     {RedA gidx get GreenA gidx get BlueA gidx get}
     {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
-/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
-  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
-  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
-  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
-  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365
   .9524 .9683 .9841 1 ] def
-/RedA [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .0238 .0873 .1508 
-  .2143 .2778 .3413 .4048 .4683 .5317 .5952 .6587 .7222 .7857 .8492 .9127 
-  .9762 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 .9444 .881 .8175 .754 .6905 .627 
+/RedA [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .0238 .0873 .1508
+  .2143 .2778 .3413 .4048 .4683 .5317 .5952 .6587 .7222 .7857 .8492 .9127
+  .9762 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 .9444 .881 .8175 .754 .6905 .627
   .5635 .5 ] def
-/GreenA [0 0 0 0 0 0 0 0 .0079 .0714 .1349 .1984 .2619 .3254 .3889 .4524 
-  .5159 .5794 .6429 .7063 .7698 .8333 .8968 .9603 1 1 1 1 1 1 1 1 1 1 1 1 1 
-  1 1 1 .9603 .8968 .8333 .7698 .7063 .6429 .5794 .5159 .4524 .3889 .3254 
+/GreenA [0 0 0 0 0 0 0 0 .0079 .0714 .1349 .1984 .2619 .3254 .3889 .4524
+  .5159 .5794 .6429 .7063 .7698 .8333 .8968 .9603 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 1 1 .9603 .8968 .8333 .7698 .7063 .6429 .5794 .5159 .4524 .3889 .3254
   .2619 .1984 .1349 .0714 .0079 0 0 0 0 0 0 0 0 ] def
-/BlueA [.5 .5635 .627 .6905 .754 .8175 .881 .9444 1 1 1 1 1 1 1 1 1 1 1 1 1 
-  1 1 1 .9762 .9127 .8492 .7857 .7222 .6587 .5952 .5317 .4683 .4048 .3413 
-  .2778 .2143 .1508 .0873 .0238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+/BlueA [.5 .5635 .627 .6905 .754 .8175 .881 .9444 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 1 1 .9762 .9127 .8492 .7857 .7222 .6587 .5952 .5317 .4683 .4048 .3413
+  .2778 .2143 .1508 .0873 .0238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
   0 0 ] def
 /pm3dround {maxcolors 0 gt {dup 1 ge
 	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
@@ -515,7 +515,7 @@ Color InterpolatedColor or { % COLOUR vs. GRAY map
     /g {stroke pm3dround /grayv exch def interpolate
         SelectSpace setrgbcolor} bind def
   }{
-  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain
        SelectSpace setrgbcolor} bind def
   } ifelse
 }{
@@ -1054,7 +1054,7 @@ gsave % colour palette begin
 /HSV2RGB {  exch dup 0.0 eq {pop exch pop dup dup} % achromatic gray
   { /HSVs exch def /HSVv exch def 6.0 mul dup floor dup 3 1 roll sub
      /HSVf exch def /HSVi exch cvi def /HSVp HSVv 1.0 HSVs sub mul def
-	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def 
+	 /HSVq HSVv 1.0 HSVs HSVf mul sub mul def
 	 /HSVt HSVv 1.0 HSVs 1.0 HSVf sub mul sub mul def
 	 /HSVi HSVi 6 mod def 0 HSVi eq {HSVv HSVt HSVp}
 	 {1 HSVi eq {HSVq HSVv HSVp}{2 HSVi eq {HSVp HSVv HSVt}
@@ -1079,7 +1079,7 @@ gsave % colour palette begin
 /grayindex {/gidx 0 def
   {GrayA gidx get grayv ge {exit} if /gidx gidx 1 add def} loop} def
 /dgdx {grayv GrayA gidx get sub GrayA gidx 1 sub get
-  GrayA gidx get sub div} def 
+  GrayA gidx get sub div} def
 /redvalue {RedA gidx get RedA gidx 1 sub get
   RedA gidx get sub dgdxval mul add} def
 /greenvalue {GreenA gidx get GreenA gidx 1 sub get
@@ -1090,23 +1090,23 @@ gsave % colour palette begin
   grayindex grayv GrayA gidx get sub abs 1e-5 le
     {RedA gidx get GreenA gidx get BlueA gidx get}
     {/dgdxval dgdx def redvalue greenvalue bluevalue} ifelse} def
-/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746 
-  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651 
-  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556 
-  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746 
-  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365 
+/GrayA [0 .0159 .0317 .0476 .0635 .0794 .0952 .1111 .127 .1429 .1587 .1746
+  .1905 .2063 .2222 .2381 .254 .2698 .2857 .3016 .3175 .3333 .3492 .3651
+  .381 .3968 .4127 .4286 .4444 .4603 .4762 .4921 .5079 .5238 .5397 .5556
+  .5714 .5873 .6032 .619 .6349 .6508 .6667 .6825 .6984 .7143 .7302 .746
+  .7619 .7778 .7937 .8095 .8254 .8413 .8571 .873 .8889 .9048 .9206 .9365
   .9524 .9683 .9841 1 ] def
-/RedA [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .0238 .0873 .1508 
-  .2143 .2778 .3413 .4048 .4683 .5317 .5952 .6587 .7222 .7857 .8492 .9127 
-  .9762 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 .9444 .881 .8175 .754 .6905 .627 
+/RedA [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .0238 .0873 .1508
+  .2143 .2778 .3413 .4048 .4683 .5317 .5952 .6587 .7222 .7857 .8492 .9127
+  .9762 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 .9444 .881 .8175 .754 .6905 .627
   .5635 .5 ] def
-/GreenA [0 0 0 0 0 0 0 0 .0079 .0714 .1349 .1984 .2619 .3254 .3889 .4524 
-  .5159 .5794 .6429 .7063 .7698 .8333 .8968 .9603 1 1 1 1 1 1 1 1 1 1 1 1 1 
-  1 1 1 .9603 .8968 .8333 .7698 .7063 .6429 .5794 .5159 .4524 .3889 .3254 
+/GreenA [0 0 0 0 0 0 0 0 .0079 .0714 .1349 .1984 .2619 .3254 .3889 .4524
+  .5159 .5794 .6429 .7063 .7698 .8333 .8968 .9603 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 1 1 .9603 .8968 .8333 .7698 .7063 .6429 .5794 .5159 .4524 .3889 .3254
   .2619 .1984 .1349 .0714 .0079 0 0 0 0 0 0 0 0 ] def
-/BlueA [.5 .5635 .627 .6905 .754 .8175 .881 .9444 1 1 1 1 1 1 1 1 1 1 1 1 1 
-  1 1 1 .9762 .9127 .8492 .7857 .7222 .6587 .5952 .5317 .4683 .4048 .3413 
-  .2778 .2143 .1508 .0873 .0238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+/BlueA [.5 .5635 .627 .6905 .754 .8175 .881 .9444 1 1 1 1 1 1 1 1 1 1 1 1 1
+  1 1 1 .9762 .9127 .8492 .7857 .7222 .6587 .5952 .5317 .4683 .4048 .3413
+  .2778 .2143 .1508 .0873 .0238 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
   0 0 ] def
 /pm3dround {maxcolors 0 gt {dup 1 ge
 	{pop 1} {maxcolors mul floor maxcolors 1 sub div} ifelse} if} def
@@ -1117,7 +1117,7 @@ Color InterpolatedColor or { % COLOUR vs. GRAY map
     /g {stroke pm3dround /grayv exch def interpolate
         SelectSpace setrgbcolor} bind def
   }{
-  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain 
+  /g {stroke pm3dround dup cF7 Constrain exch dup cF5 Constrain exch cF15 Constrain
        SelectSpace setrgbcolor} bind def
   } ifelse
 }{
