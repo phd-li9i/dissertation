@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdataset_utils_lib.a  CMakeFiles/dataset_utils_lib.dir/src/dataset_utils.cpp.o
+/usr/bin/ranlib libdataset_utils_lib.a

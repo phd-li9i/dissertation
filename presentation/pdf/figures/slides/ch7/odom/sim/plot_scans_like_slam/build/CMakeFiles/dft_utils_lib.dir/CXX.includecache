@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/defines.h
+
+../include/dft_utils.h
+iostream
+-
+assert.h
+-
+chrono
+-
+stdlib.h
+-
+time.h
+-
+cmath
+-
+vector
+-
+algorithm
+-
+fftw3.h
+-
+defines.h
+-
+
+/media/li9i/var2/elements/PhD/dissertation/presentation/pdf/figures/slides/ch7/odom/sim/plot_scans_like_slam/src/dft_utils.cpp
+dft_utils.h
+/media/li9i/var2/elements/PhD/dissertation/presentation/pdf/figures/slides/ch7/odom/sim/plot_scans_like_slam/src/dft_utils.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscan_completion_lib.a  CMakeFiles/scan_completion_lib.dir/src/scan_completion.cpp.o
+/usr/bin/ranlib libscan_completion_lib.a

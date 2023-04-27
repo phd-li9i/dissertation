@@ -1,0 +1,2 @@
+/usr/bin/ar qc libintersections_lib.a  CMakeFiles/intersections_lib.dir/src/intersections.cpp.o
+/usr/bin/ranlib libintersections_lib.a

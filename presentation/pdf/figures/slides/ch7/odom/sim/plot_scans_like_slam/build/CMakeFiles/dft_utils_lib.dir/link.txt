@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdft_utils_lib.a  CMakeFiles/dft_utils_lib.dir/src/dft_utils.cpp.o
+/usr/bin/ranlib libdft_utils_lib.a

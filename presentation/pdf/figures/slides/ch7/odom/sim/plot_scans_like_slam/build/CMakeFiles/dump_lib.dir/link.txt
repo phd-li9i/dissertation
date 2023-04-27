@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdump_lib.a  CMakeFiles/dump_lib.dir/src/dump.cpp.o
+/usr/bin/ranlib libdump_lib.a

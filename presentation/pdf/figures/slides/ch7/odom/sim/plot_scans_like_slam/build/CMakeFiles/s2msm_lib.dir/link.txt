@@ -1,0 +1,2 @@
+/usr/bin/ar qc libs2msm_lib.a  CMakeFiles/s2msm_lib.dir/src/s2msm.cpp.o
+/usr/bin/ranlib libs2msm_lib.a

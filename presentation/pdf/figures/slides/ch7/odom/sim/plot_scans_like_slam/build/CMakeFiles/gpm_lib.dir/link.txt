@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgpm_lib.a  CMakeFiles/gpm_lib.dir/src/gpm.cpp.o
+/usr/bin/ranlib libgpm_lib.a

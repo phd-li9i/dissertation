@@ -7,17 +7,19 @@
 \end{center}
 \noindent
 
-Την τελευταία δεκαετία η τροχιά της ρομποτικής κινητής βάσης βαίνει ανοδικώς ως
-προς το εύρος των τομέων χρήσης της και του αριθμού των εφαρμογών της. Αυτόνομα
-επίγεια και ιπτάμενα ρομπότ χρησιμοποιούνται σε αποθήκες για την απογραφή και
-εύρεση της θέσης προϊόντων, σε νοσοκομεία για την απολύμανση χώρων, στη γεωργία
-για παρακολούθηση καλλιεργιών και αυτοματοποίηση διαδικασιών, και για τη
-μεταφορά εμπορευμάτων ή ανθρώπων. Σε όλες τις περιπτώσεις η γνώση της στάσης
-ενός οχήματος στο χώρο από το ίδιο, δηλαδή της θέσης και του προσανατολισμού
-του, είναι απαραίτητη για την αυτόνομη κίνησή του και την ικανοποίηση των
-στόχων της αποστολής του. Σε εσωτερικούς χώρους ή συμφραζόμενα όπου εξωτερικές
-υποδομές αδυνατούν να προσδώσουν τη μέτρηση της στάσης του η μόνη εναλλακτική
-είναι η εκτίμηση της, και η διαδικασία εκτίμησης αναλαμβάνεται από το ίδιο το
+Η ρομποτική κινητής βάσης είναι ένας ολοένα ανερχόμενος κλάδος της ρομποτικής,
+τόσο ως προς το εύρος των τομέων χρήσης της όσο και ως προς το περιεχόμενο των
+εφαρμογών της. Αυτόνομα επίγεια και ιπτάμενα ρομπότ χρησιμοποιούνται σε
+αποθήκες για την απογραφή προϊόντων και την εύρεση της θέσης τους, σε
+νοσοκομεία για την απολύμανση χώρων, στη γεωργία για παρακολούθηση καλλιεργιών
+και αυτοματοποίηση διαδικασιών, και για τη μεταφορά εμπορευμάτων ή ανθρώπων. Σε
+όλες τις περιπτώσεις είναι απαραίτητη η γνώση της στάσης ενός οχήματος στο χώρο
+από το ίδιο το όχημα, δηλαδή της θέσης και του προσανατολισμού του, για την
+αυτόνομη κίνησή του στο χώρο και για την ικανοποίηση των στόχων της αποστολής
+του. Σε εσωτερικούς χώρους, όπου είναι αδύνατη η πρόσβαση σε δορυφορικώς
+μεταδιδόμενες πληροφορίες στάσης, ή σε συμφραζόμενα όπου υποδομές μέτρησης
+εσωτερικού χώρου απουσιάζουν, η μόνη εναλλακτική είναι η εκτίμηση του
+διανύσματος στάσεως, και η διαδικασία εκτίμησης αναλαμβάνεται από το ίδιο το
 όχημα, με βάση τους αισθητήρες που αυτό φέρει.
 
 Το αντικείμενο της παρούσας διατριβής είναι η ρομποτική αυτόνομης επίγειας
@@ -61,16 +63,17 @@ lidar.
 \selectlanguage{english}
 
 During the last decade mobile robotics has been on the rise in terms of its
-range of use and number of applications. Autonomous ground and aerial robots
+range of use and content of applications. Autonomous ground and aerial robots
 are used in warehouses for inventorying and localising products, in hospitals
 for decontamination purposes, in agriculture for monitoring crops and process
 automation, and for transporting goods or people. In all cases the
 self-knowledge of a vehicle's pose in space, i.e. its position and orientation,
 is essential for its autonomous motion and the satisfaction of objectives of
-its mission. In indoor areas or contexts where external infrastructure is
-unable to provide its pose the only alternative is its estimation, and the
-estimation process is undertaken by the vehicle itself, based on the sensors it
-is equiped with.
+its mission. In indoor areas, where pose information transmitted via satellite
+is denied, or contexts where indoor measuring infrastructure is absent, the
+only alternative is the estimation of the pose vector, and the estimation
+process is undertaken by the vehicle itself, based on the sensors it is equiped
+with.
 
 The subject of this dissertation is autonomous ground mobile robotics in the
 context of the absence of pose measurements. Its main content is conserned with

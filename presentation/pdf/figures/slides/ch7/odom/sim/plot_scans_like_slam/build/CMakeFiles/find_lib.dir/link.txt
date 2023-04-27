@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfind_lib.a  CMakeFiles/find_lib.dir/src/find.cpp.o
+/usr/bin/ranlib libfind_lib.a
