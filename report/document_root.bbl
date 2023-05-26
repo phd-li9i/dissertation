@@ -3279,6 +3279,33 @@
       \verb http://ieeexplore.ieee.org/document/5152375/
       \endverb
     \endentry
+    \entry{russell2016artificial}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d6d1553382927100d0bb2b0b920e95d2}{%
+           family={Russell},
+           family_i={R\bibinitperiod},
+           given={Stuart\bibnamedelima J.},
+           given_i={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           family_i={N\bibinitperiod},
+           given={Peter},
+           given_i={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{d7352f76aabd2f7c8edfc679d6ad964a}
+      \strng{fullhash}{d7352f76aabd2f7c8edfc679d6ad964a}
+      \field{labelalpha}{RN09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Artificial Intelligence: a modern approach}
+      \field{year}{2009}
+    \endentry
     \entry{Sandberg2009a}{incollection}{}
       \name{author}{3}{}{%
         {{hash=10c93520a5acfc1b001268d6c5497bb0}{%
@@ -8022,6 +8049,51 @@
       \field{year}{2022}
       \verb{url}
       \verb https://www.revfine.com/hotel-robots/
+      \endverb
+    \endentry
+    \entry{Filotheou2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=1d5d14c93d0ae2e2c6c2fc7369cc886e}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas\bibnamedelima L.},
+           given_i={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cdc6ac75a5278441313b31dd8f3a4f77}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={Georgios\bibnamedelima D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{fullhash}{5324fed1af77817351316ad7f7fa8cde}
+      \field{labelalpha}{Fil+23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{25900056}
+      \field{journaltitle}{Array}
+      \field{month}{07}
+      \field{title}{{Correspondenceless scan-to-map-scan matching of 2D panoramic range scans}}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{pages}{100288}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.array.2023.100288
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2590005623000139
       \endverb
     \endentry
     \entry{csm_manual1}{url}{}

@@ -36,7 +36,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.5}Ευθυγράμμιση σαρώσεων lidar}{16}{subsection.1.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Ευθυγράμμιση σαρώσεων lidar με σαρώσεις χάρτη}{19}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.6}Ευθυγράμμιση σαρώσεων lidar με εικονικές σαρώσεις χάρτη}{19}{subsection.1.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.7}Αναλλοίωτη ευθυγράμμιση Fourier-Mellin σε δύο διαστάσεις}{22}{subsection.1.2.7}
 \defcounter {refsection}{0}\relax 
