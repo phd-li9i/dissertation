@@ -95,8 +95,10 @@
 \usepackage{picture}
 
 
-\usepackage{pgfpages}
-\setbeameroption{show notes on second screen=left}
+%\usepackage{pgfpages}
+%\setbeameroption{show notes on second screen=right}
+ %%https://tex.stackexchange.com/questions/71170/beamer-notes-on-the-second-screen-and-media9-problem
+%\setbeameroption{second mode text on second screen}
 
 % https://tex.stackexchange.com/questions/288408/beamer-show-notes-on-second-screen-with-xelatex-and-atbeginsection
 \AtBeginSection{
@@ -109,9 +111,25 @@
       \gdef\beamer@notes{}%
 }
 \makeatother
-\def\pgfsysdriver{pgfsys-dvipdfm.def}
+%\def\pgfsysdriver{pgfsys-dvipdfm.def}
 
 
 
 % Animategraphics does not agree with beamer in dual monitor mode
 \usepackage{xmpmulti}
+\usepackage{multimedia}
+\usepackage{media9}
+
+% Assume the setup:
+% presentation (beamer),
+% greek (i.e. xelatex),
+% animations (animategraphics)
+% DUAL MONITOR with notes on one and slides on the other:
+% This is tough to accomplish. You need both a pdfviewer that splits slides+notes
+% slides and notes, AND a pdf viewer that plays animations but not
+% \multiinclude or \movie animations... not gonna happen.
+% So construct two pdfs: one only slides, one only notes.
+% Then link them together somehow. Haven't done it yet.
+%\usepackage{osxadobebeamer}
+%\setbeameroption{hide notes}
+\setbeameroption{show only notes}
