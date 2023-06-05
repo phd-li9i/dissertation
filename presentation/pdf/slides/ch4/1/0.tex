@@ -5,13 +5,16 @@
   Εκτίμηση στάσης $\hat{\bm{p}} = [\hat{x}\ \hat{y}\ \hat{\theta}]^\top$
 
   \begin{align}
-    p(\hat{\bm{p}}_t | \bm{z}_{1:t}, \bm{u}_{0,t-1}, \bm{M}) \propto
-      \textcolor{g}{\underbrace{p(\bm{z}_t | \hat{\bm{p}}_t)}_\text{Μοντέλο παρατήρησης}} \cdot \int\limits_{} p(\hat{\bm{p}}_t | \hat{\bm{p}}^{\prime}, \bm{u}_{t-1})& \cdot p(\hat{\bm{p}}^{\prime} | \bm{z}_{1:t-1}, \bm{u}_{0:t-2}, \bm{M}) d\hat{\bm{p}}^{\prime} \nonumber
+    p(\hat{\bm{p}}_t | \bm{z}_{1:t}, \bm{u}_{1:t}, \bm{M}) \propto
+      \textcolor{g}{\underbrace{p(\bm{z}_t | \hat{\bm{p}}_t)}_\text{Μοντέλο παρατήρησης}} \cdot \int\limits_{} p(\hat{\bm{p}}_t | \hat{\bm{p}}^{\prime}, \bm{u}_{t})& \cdot p(\hat{\bm{p}}^{\prime} | \bm{z}_{1:t-1}, \bm{u}_{1:t-1}, \bm{M}) d\hat{\bm{p}}^{\prime} \nonumber
   \end{align}
+  \vspace{0.5cm}
 
-  Βάρος σωματιδίου $i$: $w_i = \textcolor{g}{p(\bm{z}| \hat{\bm{p}}^i)}$ \\ \vspace{0.5cm}
-  Πληθυσμός υποθέσεων $\mathcal{P} = \{(\hat{\bm{p}}_i, w_i)\}$ \\ \vspace{0.5cm}
-  Τελική εκτίμηση: $\hat{\bm{p}}(\mathcal{P}) = \dfrac{\sum w_i \cdot \hat{\bm{p}}_i}{\sum w_i}$ \\ \vspace{0.5cm}
+  \begin{itemize}
+    \item Πληθυσμός υποθέσεων $\mathcal{P} = \{(\hat{\bm{p}}^i, w^i)\}$                                   \vspace{0.35cm}
+    \item Βάρος σωματιδίου $i$: $w^i = \textcolor{g}{p(\bm{z}| \hat{\bm{p}}^i)}$                          \vspace{0.35cm}
+    \item Τελική εκτίμηση: $\hat{\bm{p}}(\mathcal{P}) = \dfrac{\sum w^i \cdot \hat{\bm{p}}^i}{\sum w^i}$  \vspace{0.35cm}
+  \end{itemize}
 
 
 \note{\footnotesize Όσο αφορά στην εκτίμηση της στάσης ενός οχήματος, όλοι οι

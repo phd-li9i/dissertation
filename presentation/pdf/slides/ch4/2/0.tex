@@ -5,14 +5,14 @@
     Έστω
 
     \vspace{0.25cm}
-    $\mathcal{P} = \{(\hat{\bm{p}_i}, w_i)\}$ o συνολικός πληθυσμός.
+    $\mathcal{P} = \{(\hat{\bm{p}^i}, w^i)\}$ o συνολικός πληθυσμός.
 
     \vspace{0.25cm}
-    $\mathcal{Q} = \texttt{sort}(\mathcal{P} | w) = \{(\hat{\bm{p}}_j, w_j)\} : w_0 \geq w_1 \geq \dots$
+    $\mathcal{Q} = \texttt{sort}(\mathcal{P} | w) = \{(\hat{\bm{p}}^j, w^j)\} : w^0 \geq w^1 \geq \dots$
 
     \vspace{0.25cm}
     $\overline{\mathcal{Q}} \subset \mathcal{Q} :
-    \overline{\mathcal{Q}} = \{(\hat{\bm{p}}_0, w_0), (\hat{\bm{p}}_1, w_1), \dots\}$
+    \overline{\mathcal{Q}} = \{(\hat{\bm{p}}^0, w^0), (\hat{\bm{p}}^1, w^1), \dots\}$
     και $|\overline{\mathcal{Q}}| < |\mathcal{Q}|$.
 
     \vspace{0.75cm}
@@ -20,11 +20,15 @@
 
     \vspace{0.25cm}
     $\|\bm{p}-\hat{\bm{p}}(\overline{\mathcal{Q}})\| < \|\bm{p}-\hat{\bm{p}}(\mathcal{P})\|$
+
+    \vspace{0.05cm}
+    (\rotatebox[origin=c]{180}{$\Lsh$} \scriptsize ψηφοφορία βαρύτερων σωματιδίων $\overline{\mathcal{Q}}$ αντί για ${\mathcal{P}}$ $\Rightarrow$ μικρότερο σφάλμα)
   \end{bw_box}
 
-\note{\footnotesize Με βάση αυτον τον συλλογισμό τυποποιούμε την πρώτη υπόθεση,
-  η οποία λέει ότι εάν για την εξαγωγή της εκτίμησης του φίλτρου χρησιμοποιηθεί
-  ένα υποσύνολο των πιο βαρέων σωματιδίων αντί για όλο τον πληθυσμό, τότε
-  αναμένουμε η εκτίμηση του φίλτρου να έχει χαμηλότερο σφάλμα εκτίμησης.}
+\note{\footnotesize
+Με βάση αυτον τον συλλογισμό τυποποιούμε την πρώτη υπόθεση, η οποία εν ολίγοις
+αναφέρει ότι εάν για την εξαγωγή της εκτίμησης του φίλτρου χρησιμοποιηθεί ένα
+υποσύνολο των πιο βαρέων σωματιδίων αντί για όλο τον πληθυσμό, τότε
+αναμένουμε η εκτίμηση του φίλτρου να έχει χαμηλότερο σφάλμα εκτίμησης.}
 
 \end{frame}
