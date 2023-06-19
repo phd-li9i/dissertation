@@ -681,7 +681,7 @@ $\mathcal{S}_R$ και $\mathcal{S}_V^i$, και συνεπώς για την ε
       \ENSURE $\hat{\bm{p}}$
       \STATE $\{\bm{h}_i^\prime, \sigma_i^\prime, w_i^\prime\} \leftarrow \{\bm{h}_i, \sigma_i, w_i\} : \sigma_i \in [\underline{\sigma},\overline{\sigma}]$
       \STATE $K \leftarrow \arg\max\limits_{w_i^\prime} \{\bm{h}_i^\prime, \sigma_i^\prime, w_i^\prime\}$
-      \STATE $\hat{\bm{p}} = \bm{h}_K$
+      \STATE $\hat{\bm{p}} = \bm{h}_K^{\prime}$
       \RETURN $\hat{\bm{p}}$
     \end{algorithmic}
   \end{spacing}
@@ -713,12 +713,12 @@ $\mathcal{S}_R$ και $\mathcal{S}_V^i$, και συνεπώς για την ε
     \begin{algorithmic}[1]
       \REQUIRE $\mathcal{S}_R$, $\bm{M}$, $\bm{h}^\prime(x^\prime,y^\prime,\theta^\prime)$, $I_T$
       \ENSURE $\bm{h}^{\prime\prime}$
+      \STATE $\mathcal{P}_R \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_R, (0,0,\theta^\prime))$
+      \STATE $\bm{C}_R \leftarrow \texttt{compute\_centroid}(\mathcal{P}_R)$ \hfill (εξ. \ref{eq:centroid_x}, \ref{eq:centroid_y})
       \STATE $\bm{h}^{\prime\prime} \leftarrow \bm{h}^\prime$
       \FOR{$i \leftarrow 0:I_T-1$}
         \STATE $\mathcal{S}_V \leftarrow \texttt{scan\_map}(\bm{M}, \bm{h}^{\prime\prime}, |\mathcal{S}_R|)$
-        \STATE $\mathcal{P}_R \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_R, (0,0,\theta^\prime))$
         \STATE $\mathcal{P}_V \leftarrow \texttt{project\_to\_2d}(\mathcal{S}_V, (0,0,\theta^\prime))$
-        \STATE $\bm{C}_R \leftarrow \texttt{compute\_centroid}(\mathcal{P}_R)$ \hfill (εξ. \ref{eq:centroid_x}, \ref{eq:centroid_y})
         \STATE $\bm{C}_V \leftarrow \texttt{compute\_centroid}(\mathcal{P}_V)$
         \STATE $\bm{h}^{\prime\prime} \leftarrow \bm{h}^{\prime\prime} + [\bm{C}_V-\bm{C}_R,0]^\top$
       \ENDFOR
