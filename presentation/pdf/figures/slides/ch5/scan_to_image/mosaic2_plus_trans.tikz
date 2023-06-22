@@ -87,5 +87,9 @@
 \draw    (62.5,212.5) -- (79.5,212.5) -- (79.5,237.5) -- (62.5,237.5) -- cycle  ;
 \draw (65,217) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\hat{\bm{p}}$};
 
+\draw (479.88,200) node  {\tiny Βαρύκεντρο $(x_c,y_c)$ πολυγώνου $C = \delta D$:};
+\draw (479.88,220) node  {\tiny $(x_c,y_c) = (\dfrac{1}{A}\int\int\limits_{A} xdxdy,\dfrac{1}{A}\int\int\limits_{A} ydxdy)$};
+\draw (479.88,240) node  {\tiny $A = \int\int\limits_{D} dA$, $A = \text{εμβαδό}(D)$};
+
 
 \end{tikzpicture}

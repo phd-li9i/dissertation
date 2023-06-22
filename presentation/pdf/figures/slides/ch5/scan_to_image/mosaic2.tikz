@@ -76,9 +76,13 @@
 % Text Node
 \draw (270,276) node [anchor=north west][inner sep=0.75pt]   [align=left] {\small \sout{$(\Delta x, \Delta_y)$}, $\Delta \theta$, \textcolor{g}{$\sigma$}, $w$};
 % Text Node
-\draw (3,79.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {Περιβάλλον};
+\draw (7, 49.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {Περιβάλλον};
+\draw (34,69.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {+};
+\draw (14,86.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {Σάρωση};
 % Text Node
 \draw (16,267) node [anchor=north west][inner sep=0.75pt]   [align=left] {Χάρτης};
+\draw (33,287) node [anchor=north west][inner sep=0.75pt]   [align=left] {+};
+\draw (10,304) node [anchor=north west][inner sep=0.75pt]   [align=left] {Εκτίμηση};
 % Text Node
 \draw (121,77.39) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\mathcal{S}_R(\bm{p})$};
 % Text Node
@@ -91,6 +95,9 @@
 \draw (412.1,44) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textcolor{b}{$\texttt{I}_R$}, \textcolor{r}{$\texttt{I}_V^{\text{rot}}$}};
 % Text Node
 \draw (385.1,300) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textcolor{b}{$\mathcal{S}_R$}(\textcolor{b}{$\bm{p}$}), \textcolor{r}{$\mathcal{S}_V^{\text{rot}}$}(\textcolor{r}{$\hat{\bm{p}}^{\text{rot}}$})};
+
+
+\draw [draw=white, fill=white, opacity=0.0] (77,44) -- (512,44) -- (512,320) -- (77,320) -- cycle;
 
 
 \end{tikzpicture}

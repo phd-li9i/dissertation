@@ -1,0 +1,34 @@
+\begin{frame}{Ευθυγράμμιση πανοραμικών σαρώσεων από ευθυγράμμιση εικόνων;}
+
+  {\small
+  \texttt{FMI\_SPOMF} [1]: Fourier-Mellin Invariant (descriptor using) Symmetric Phase-Only Matched Filtering
+  }
+
+  \begin{figure}
+    \input{./figures/slides/ch5/cats/cats_2.tikz}
+  \end{figure}
+
+
+\begin{textblock}{14}(12.6,6.5)
+{\tiny $Q(u,v) = \dfrac{\mathcal{F}\{\texttt{I}_1\}^{\ast} \odot \mathcal{F}\{\texttt{I}_2\}}{|\mathcal{F}\{\texttt{I}_1\}| \cdot |\mathcal{F}\{\texttt{I}_2\}|}$}\\
+{\tiny $q(\theta, \lambda) = \mathcal{F}^{-1}\{Q\}$}\\
+{\tiny $\Delta \theta = \operatorname*{arg\,max}\limits_\theta q$}\\
+{\tiny $\sigma = \exp{\operatorname*{arg\,max}\limits_\lambda q}$}\\
+{\tiny $w = \max q$}
+\end{textblock}
+
+  \placebottom
+  \tiny
+  [1] Qin-Sheng Chen, M. Defrise and F. Deconinck, ``Symmetric phase-only matched filtering of Fourier-Mellin transforms for image registration and recognition," \textit{IEEE Transactions on Pattern Analysis and Machine Intelligence}, 1994
+
+
+
+\note{\footnotesize
+Μέσα από την αναζήτησή μου βρήκα τη μέθοδο FMI-SPOMF, η οποία χρησιμοποιείται
+στον κλάδο της υπολογιστικής όρασης για την εκτίμηση ανάμεσα σε δύο εικόνες
+της μετατόπισης τους, της διαφοράς της γωνίας περιστροφής τους, της κλιμάκωσης
+τους, και του βαθμού ομοιότητάς τους. Αυτές οι παράμετροι υπολογίζονται με
+κλειστό τρόπο και χωρίς να υπολογίζονται αντιστοιχίσεις ανάμεσα
+στις δύο εικόνες.}
+
+\end{frame}
