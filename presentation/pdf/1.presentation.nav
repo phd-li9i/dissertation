@@ -235,8 +235,10 @@
 \headcommand {\beamer@framepages {119}{119}}
 \headcommand {\slideentry {0}{0}{118}{120/120}{}{0}}
 \headcommand {\beamer@framepages {120}{120}}
-\headcommand {\beamer@partpages {1}{120}}
-\headcommand {\beamer@subsectionpages {1}{120}}
-\headcommand {\beamer@sectionpages {1}{120}}
-\headcommand {\beamer@documentpages {120}}
-\headcommand {\def \inserttotalframenumber {118}}
+\headcommand {\slideentry {0}{0}{119}{121/121}{}{0}}
+\headcommand {\beamer@framepages {121}{121}}
+\headcommand {\beamer@partpages {1}{121}}
+\headcommand {\beamer@subsectionpages {1}{121}}
+\headcommand {\beamer@sectionpages {1}{121}}
+\headcommand {\beamer@documentpages {121}}
+\headcommand {\def \inserttotalframenumber {119}}
