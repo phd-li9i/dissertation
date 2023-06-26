@@ -69,7 +69,7 @@
     \put(0.23977857,0.57498339){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}Παρατήρηση \end{tabular}}}}%
     \put(0.23977857,0.55638286){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}σφάλματων \end{tabular}}}}%
     \put(0.23977857,0.53778233){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}εκτίμησης\end{tabular}}}}%
-    \put(0.23977857,0.5191818){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}στάσης\end{tabular}}}}%
+    \put(0.23977857,0.5191818){\color[rgb] {0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}στάσης\end{tabular}}}}%
     \put(0.59093162,0.59624114){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}Παρατηρήσεις\end{tabular}}}}%
     \put(0.59093162,0.57764061){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}ευαισθησίας λύσης \end{tabular}}}}%
     \put(0.59093162,0.55904008){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\Large\begin{tabular}[t]{l}σε παραμέτρους \end{tabular}}}}%
