@@ -683,7 +683,7 @@
            given={M.H.},
            given_i={M\bibinitperiod}}}%
       }
-      \strng{namehash}{83deb2857ef8d179c15d040ed6410225}
+      \strng{namehash}{3513ba884e73495c5b646e8fbe23f765}
       \strng{fullhash}{3513ba884e73495c5b646e8fbe23f765}
       \field{labelalpha}{Kav+96}
       \field{sortinit}{1}
@@ -970,7 +970,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{f90d4c5a9aed77207596a7bb7facce6a}
+      \strng{namehash}{a5a60b0e9bd15404709e0e22acbe18ce}
       \strng{fullhash}{a5a60b0e9bd15404709e0e22acbe18ce}
       \field{labelalpha}{Del+99}
       \field{sortinit}{1}
@@ -1297,7 +1297,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{f83a1b41a5053cb2c6bc23bfa3f37a50}
+      \strng{namehash}{747ea00a68f17a78393485a966b02246}
       \strng{fullhash}{747ea00a68f17a78393485a966b02246}
       \field{labelalpha}{Sch+01}
       \field{sortinit}{2}
@@ -1423,7 +1423,7 @@
       \list{publisher}{1}{%
         {IEEE Comput. Soc}%
       }
-      \strng{namehash}{81643fb4ca5e6271f956ac1422e46d32}
+      \strng{namehash}{929fb47f9ce661184ea723750c2290d7}
       \strng{fullhash}{929fb47f9ce661184ea723750c2290d7}
       \field{labelalpha}{Che+02}
       \field{sortinit}{2}
@@ -1481,7 +1481,7 @@
            given={Per\bibnamedelima Johan},
            given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{2a942d98772ae89fcdc642e4f55a5e84}
+      \strng{namehash}{58f2cbb17e6c78e066d8f5c4ebc4017f}
       \strng{fullhash}{58f2cbb17e6c78e066d8f5c4ebc4017f}
       \field{labelalpha}{Gus+02}
       \field{sortinit}{2}
@@ -1536,7 +1536,7 @@
            given={Raja},
            given_i={R\bibinitperiod}}}%
       }
-      \strng{namehash}{1b839286d671878e3570278cc0b46956}
+      \strng{namehash}{d7e34ed00fc15a33940bf82205728fd0}
       \strng{fullhash}{d7e34ed00fc15a33940bf82205728fd0}
       \field{labelalpha}{Lac+02}
       \field{sortinit}{2}
@@ -1585,7 +1585,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{6b75b57219d475e7ea6bfdb4329fc564}
+      \strng{namehash}{98403303495e200542e6ce5cd88572fc}
       \strng{fullhash}{98403303495e200542e6ce5cd88572fc}
       \field{labelalpha}{Pfi+02}
       \field{sortinit}{2}
@@ -1731,7 +1731,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{aea64d396a63047b48effc82b9e8c06f}
+      \strng{namehash}{db4348599e047ff1f88a93fb7b4ddc5b}
       \strng{fullhash}{db4348599e047ff1f88a93fb7b4ddc5b}
       \field{labelalpha}{Hah+03}
       \field{sortinit}{2}
@@ -2210,7 +2210,7 @@
            given={Sebastian},
            given_i={S\bibinitperiod}}}%
       }
-      \strng{namehash}{6d6276c79aabe1aee7905cadb4bc33b8}
+      \strng{namehash}{a1a88c63c41c6feb6c6200ca6ffe3357}
       \strng{fullhash}{a1a88c63c41c6feb6c6200ca6ffe3357}
       \field{labelalpha}{Lik+05}
       \field{sortinit}{2}
@@ -2244,7 +2244,7 @@
            given={Hartmut},
            given_i={H\bibinitperiod}}}%
       }
-      \strng{namehash}{fb0d70b121dfe6a9498beb45301da083}
+      \strng{namehash}{ec148ed132bb3ddd43132a572cb76212}
       \strng{fullhash}{ec148ed132bb3ddd43132a572cb76212}
       \field{labelalpha}{Lin+05}
       \field{sortinit}{2}
@@ -2537,7 +2537,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{f5db90452dfe6aca5617d78c5edc15b5}
+      \strng{namehash}{94a8b80ada477202303ef95bc3e28232}
       \strng{fullhash}{94a8b80ada477202303ef95bc3e28232}
       \field{labelalpha}{Gar+06}
       \field{sortinit}{2}
@@ -2689,7 +2689,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{11ae8f08a508c67d3301a65d0666cda2}
+      \strng{namehash}{760d3954ddd9dc9b97c4a21143e52596}
       \strng{fullhash}{760d3954ddd9dc9b97c4a21143e52596}
       \field{labelalpha}{Gas+07}
       \field{sortinit}{2}
@@ -3547,7 +3547,7 @@
            given={Laurent},
            given_i={L\bibinitperiod}}}%
       }
-      \strng{namehash}{41822f97f1dd662fb08d3805e949fc75}
+      \strng{namehash}{52afbab24bd664f2bb3bebdadc16a6a8}
       \strng{fullhash}{52afbab24bd664f2bb3bebdadc16a6a8}
       \field{labelalpha}{Che+10}
       \field{sortinit}{2}
@@ -3705,7 +3705,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{78b87597dc00ffec8dade056ff4f0b8f}
+      \strng{namehash}{accee41ee3df98339e1781a80f594a59}
       \strng{fullhash}{accee41ee3df98339e1781a80f594a59}
       \field{labelalpha}{Pfi+10}
       \field{sortinit}{2}
@@ -3807,7 +3807,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{cd9a276487e2bfc78487f709c03fc303}
+      \strng{namehash}{3e668879fb84a81f41ddc47cc0974290}
       \strng{fullhash}{3e668879fb84a81f41ddc47cc0974290}
       \field{labelalpha}{Xie+10}
       \field{sortinit}{2}
@@ -4201,7 +4201,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{a072e3a36b0bec23720fb8a05d97d3a1}
+      \strng{namehash}{09d0942d1aa5647a601587108dde3076}
       \strng{fullhash}{09d0942d1aa5647a601587108dde3076}
       \field{labelalpha}{Hur+12}
       \field{sortinit}{2}
@@ -4251,7 +4251,7 @@
       \list{publisher}{1}{%
         {ACM Press}%
       }
-      \strng{namehash}{df1921c7ee7d494019fa64765b3c5e53}
+      \strng{namehash}{5a1760d33323fbbb6cb97719976efcbf}
       \strng{fullhash}{5a1760d33323fbbb6cb97719976efcbf}
       \field{labelalpha}{Oli+12}
       \field{sortinit}{2}
@@ -4299,7 +4299,7 @@
            given={Torsten},
            given_i={T\bibinitperiod}}}%
       }
-      \strng{namehash}{00ad2ae09387a0e3ad86c708380d9862}
+      \strng{namehash}{4134905e97aae51a6bc07f0c52bc78e3}
       \strng{fullhash}{4134905e97aae51a6bc07f0c52bc78e3}
       \field{labelalpha}{Rös+12}
       \field{sortinit}{2}
@@ -4349,7 +4349,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{fde3d0fcfcf3f914dd9d3d289d627ab0}
+      \strng{namehash}{a19b82e767ac0f61fb3271028adb20ec}
       \strng{fullhash}{a19b82e767ac0f61fb3271028adb20ec}
       \field{labelalpha}{Row+12}
       \field{sortinit}{2}
@@ -4557,7 +4557,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{a5da3c2e87f8550a507e77df79e8ea4c}
+      \strng{namehash}{bdfb8e761c12252b3f158503ef23734d}
       \strng{fullhash}{bdfb8e761c12252b3f158503ef23734d}
       \field{labelalpha}{Ok+13}
       \field{sortinit}{2}
@@ -4642,7 +4642,7 @@
            given={Roland},
            given_i={R\bibinitperiod}}}%
       }
-      \strng{namehash}{62eff4831c8d145a79f493959be29c25}
+      \strng{namehash}{9c62af9e06ac5828ac2324ff025f21b1}
       \strng{fullhash}{9c62af9e06ac5828ac2324ff025f21b1}
       \field{labelalpha}{Viv+13}
       \field{sortinit}{2}
@@ -4737,7 +4737,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{1e58abf756ed4b4288b1ab011cb25cd1}
+      \strng{namehash}{a2bad3f4ba17b74a40dfff3479634379}
       \strng{fullhash}{a2bad3f4ba17b74a40dfff3479634379}
       \field{labelalpha}{Him+14}
       \field{sortinit}{2}
@@ -4794,7 +4794,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{e3b08f52b00640595b9cade5d47f7731}
+      \strng{namehash}{3d99b77be1ef34924b67687504e4dc8f}
       \strng{fullhash}{3d99b77be1ef34924b67687504e4dc8f}
       \field{labelalpha}{Lyr+14}
       \field{sortinit}{2}
@@ -5128,7 +5128,7 @@
            given={Petr},
            given_i={P\bibinitperiod}}}%
       }
-      \strng{namehash}{5331cd8abb02924c284db2cffa8cd0f4}
+      \strng{namehash}{383d83e33cb91b6ba6e6b20a38ca55d8}
       \strng{fullhash}{383d83e33cb91b6ba6e6b20a38ca55d8}
       \field{labelalpha}{Kon+16}
       \field{sortinit}{2}
@@ -5172,7 +5172,7 @@
            given={Mingyao},
            given_i={M\bibinitperiod}}}%
       }
-      \strng{namehash}{4b9aa1a9f44df0127505f1022e77b0ec}
+      \strng{namehash}{3d390cd454d93e062b5f36cc6cb5b78c}
       \strng{fullhash}{3d390cd454d93e062b5f36cc6cb5b78c}
       \field{labelalpha}{Li+16}
       \field{sortinit}{2}
@@ -5243,7 +5243,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{651d2ae719e121a0fb1dc844bd9808e0}
+      \strng{namehash}{6ffb26cc18d546faa324339bc4ecb30c}
       \strng{fullhash}{6ffb26cc18d546faa324339bc4ecb30c}
       \field{labelalpha}{Roh+16}
       \field{sortinit}{2}
@@ -5292,7 +5292,7 @@
            given={Paolo},
            given_i={P\bibinitperiod}}}%
       }
-      \strng{namehash}{289719e21ab2c252253c80a8342d35e3}
+      \strng{namehash}{daa4a0b48f0d2e45d201529936dc327a}
       \strng{fullhash}{daa4a0b48f0d2e45d201529936dc327a}
       \field{labelalpha}{Vas+16}
       \field{sortinit}{2}
@@ -5427,7 +5427,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{b3debb18a28632c2e85e548940b51f23}
+      \strng{namehash}{40938c225ea6a9ce633a6e448dfebafe}
       \strng{fullhash}{40938c225ea6a9ce633a6e448dfebafe}
       \field{labelalpha}{Li+17}
       \field{sortinit}{2}
@@ -5476,7 +5476,7 @@
            given={Abu},
            given_i={A\bibinitperiod}}}%
       }
-      \strng{namehash}{e7b7e045e3865af352180800bf1c0787}
+      \strng{namehash}{e7397e9abc6efc56ba28edf75a63b0e6}
       \strng{fullhash}{e7397e9abc6efc56ba28edf75a63b0e6}
       \field{labelalpha}{Moh+17}
       \field{sortinit}{2}
@@ -5608,7 +5608,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{d57b4a599e12344ad1b76848640cfc30}
+      \strng{namehash}{518579cb178493cd9c3923c77d18c4e5}
       \strng{fullhash}{518579cb178493cd9c3923c77d18c4e5}
       \field{labelalpha}{Su+17}
       \field{sortinit}{2}
@@ -5658,7 +5658,7 @@
       \list{publisher}{1}{%
         {ACM Press}%
       }
-      \strng{namehash}{f643edd67ece3948fa830c3c7981adae}
+      \strng{namehash}{bc0b397c49607f1ff8068e077289956c}
       \strng{fullhash}{bc0b397c49607f1ff8068e077289956c}
       \field{labelalpha}{Zha+17}
       \field{sortinit}{2}
@@ -5709,7 +5709,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{d82b6e57da35c8cba95f3d4dca70eb45}
+      \strng{namehash}{19bfe12fe000a764f942d00cd29e54e0}
       \strng{fullhash}{19bfe12fe000a764f942d00cd29e54e0}
       \field{labelalpha}{Zho+17}
       \field{sortinit}{2}
@@ -5841,7 +5841,7 @@
            given={Yongsheng},
            given_i={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{40f1e99a6e5e24b96a22409650e392e0}
+      \strng{namehash}{4191d6e508ae9a28ee6f244a86efa6ed}
       \strng{fullhash}{4191d6e508ae9a28ee6f244a86efa6ed}
       \field{labelalpha}{Jia+18}
       \field{sortinit}{2}
@@ -5887,7 +5887,7 @@
            given={Bo},
            given_i={B\bibinitperiod}}}%
       }
-      \strng{namehash}{5845a3bfe11d3ba710b8eb0d9b4c2c97}
+      \strng{namehash}{802dbdd8c191a47a961e95d0e85ddacb}
       \strng{fullhash}{802dbdd8c191a47a961e95d0e85ddacb}
       \field{labelalpha}{Lim+18}
       \field{sortinit}{2}
@@ -5947,7 +5947,7 @@
            given={Dingxin},
            given_i={D\bibinitperiod}}}%
       }
-      \strng{namehash}{20e71b617e4c066b05b66eb2bee16649}
+      \strng{namehash}{6e066ed2fa1f2300b0679b60193595ef}
       \strng{fullhash}{6e066ed2fa1f2300b0679b60193595ef}
       \field{labelalpha}{Pen+18}
       \field{sortinit}{2}
@@ -6029,7 +6029,7 @@
            given={Abhijeet},
            given_i={A\bibinitperiod}}}%
       }
-      \strng{namehash}{dfbdbff657c38af151d2ee240b0d6fb7}
+      \strng{namehash}{479199f5497c5ecab65e78f62b2c3a4c}
       \strng{fullhash}{479199f5497c5ecab65e78f62b2c3a4c}
       \field{labelalpha}{Wan+18}
       \field{sortinit}{2}
@@ -6083,7 +6083,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{0eb74d260863afbf08550b64297d04ae}
+      \strng{namehash}{55930a477d49aaf8d697fab74a81e84a}
       \strng{fullhash}{55930a477d49aaf8d697fab74a81e84a}
       \field{labelalpha}{Wen+18}
       \field{sortinit}{2}
@@ -6231,7 +6231,7 @@
       \list{publisher}{1}{%
         {Elsevier}%
       }
-      \strng{namehash}{7078f6071f3b38f24915f7ff2b4524e4}
+      \strng{namehash}{fbfd078a7ccd27b4def203cf567da5ae}
       \strng{fullhash}{fbfd078a7ccd27b4def203cf567da5ae}
       \field{labelalpha}{Wil+18}
       \field{sortinit}{2}
@@ -6276,7 +6276,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{afb54c883204526cf3eb1e0f5d2cc43e}
+      \strng{namehash}{3cfaa5c7f84954cb974b3f556a55f64c}
       \strng{fullhash}{3cfaa5c7f84954cb974b3f556a55f64c}
       \field{labelalpha}{Xu+18}
       \field{sortinit}{2}
@@ -6461,7 +6461,7 @@
            given={Guanfeng},
            given_i={G\bibinitperiod}}}%
       }
-      \strng{namehash}{7ef4df74adbe8e2f4a0ef422a0d633e8}
+      \strng{namehash}{cefbf8ef7743ed815422a18a591b8fd4}
       \strng{fullhash}{cefbf8ef7743ed815422a18a591b8fd4}
       \field{labelalpha}{Che+19}
       \field{sortinit}{2}
@@ -6580,7 +6580,7 @@
            given={Xiaoqin},
            given_i={X\bibinitperiod}}}%
       }
-      \strng{namehash}{ada6a3f09cf2335007ad42402e695cb7}
+      \strng{namehash}{7974b8dba059c538aa52f96b5351272a}
       \strng{fullhash}{7974b8dba059c538aa52f96b5351272a}
       \field{labelalpha}{Liu+19}
       \field{sortinit}{2}
@@ -6602,6 +6602,77 @@
       \verb{url}
       \verb https://iopscience.iop.org/article/10.1088/1757-899X/611/1/012076
       \endverb
+    \endentry
+    \entry{8739486}{inproceedings}{}
+      \name{author}{11}{}{%
+        {{hash=87ad3b6ab215e6c089217399b010fba2}{%
+           family={Megalou},
+           family_i={M\bibinitperiod},
+           given={Spyros},
+           given_i={S\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=49b1b913082bf56687596f50d53dc828}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=c924253288923e3b0760c5e6a424823e}{%
+           family={Sahalos},
+           family_i={S\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+        {{hash=b53de7fee58cfaf9691c2f47ce4e12bb}{%
+           family={Bletsas},
+           family_i={B\bibinitperiod},
+           given={Aggelos},
+           given_i={A\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1b17a58281d1399ecc3eeecafbd76c19}
+      \strng{fullhash}{1b17a58281d1399ecc3eeecafbd76c19}
+      \field{labelalpha}{Meg+19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 13th European Conference on Antennas and Propagation (EuCAP)}
+      \field{title}{Fingerprinting Localization of RFID tags with Real-Time Performance-Assessment, using a Moving Robot}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
     \endentry
     \entry{Pishehvari2019b}{inproceedings}{}
       \name{author}{5}{}{%
@@ -6634,7 +6705,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{3caf21ed4ba538d3da5ba8d4e733ceae}
+      \strng{namehash}{fa36beb59a43118ff1a2cf3176a41076}
       \strng{fullhash}{fa36beb59a43118ff1a2cf3176a41076}
       \field{labelalpha}{Pis+19}
       \field{sortinit}{2}
@@ -6754,7 +6825,7 @@
            given={Mihalis\bibnamedelima M.},
            given_i={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
-      \strng{namehash}{759ace033519b913a053a9ca6407470f}
+      \strng{namehash}{927fb9a4903a406bbaf46b3484790c07}
       \strng{fullhash}{927fb9a4903a406bbaf46b3484790c07}
       \field{labelalpha}{Sim+19}
       \field{sortinit}{2}
@@ -6819,7 +6890,7 @@
            given={A.\bibnamedelimi Paulo},
            given_i={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
-      \strng{namehash}{94db1859f41a8b53d7263dff10dc975c}
+      \strng{namehash}{e572e2dfaa9455073cf519b2d75e581d}
       \strng{fullhash}{e572e2dfaa9455073cf519b2d75e581d}
       \field{labelalpha}{Sob+19}
       \field{sortinit}{2}
@@ -6841,6 +6912,72 @@
       \verb{url}
       \verb http://link.springer.com/10.1007/s10846-017-0765-5
       \endverb
+    \endentry
+    \entry{8739423}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=87ad3b6ab215e6c089217399b010fba2}{%
+           family={Megalou},
+           family_i={M\bibinitperiod},
+           given={Spyros},
+           given_i={S\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=49b1b913082bf56687596f50d53dc828}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=8e71b31e0cc3bd0f4f63dfae7ae98477}{%
+           family={Kehagias},
+           family_i={K\bibinitperiod},
+           given={Athanasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e903fc063196836a0b0039b475b3089}
+      \strng{fullhash}{1e903fc063196836a0b0039b475b3089}
+      \field{labelalpha}{Tzi+19}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 13th European Conference on Antennas and Propagation (EuCAP)}
+      \field{title}{Phase ReLock - Localization of RFID Tags by a Moving Robot}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
     \endentry
     \entry{Vasconez2019}{article}{}
       \name{author}{3}{}{%
@@ -6920,7 +7057,7 @@
            given={G.},
            given_i={G\bibinitperiod}}}%
       }
-      \strng{namehash}{2fc56c5166e0f81010c10bd467c2d737}
+      \strng{namehash}{3a6e655a60c05b587e592211c2d732b0}
       \strng{fullhash}{3a6e655a60c05b587e592211c2d732b0}
       \field{labelalpha}{Wan+19}
       \field{sortinit}{2}
@@ -7089,12 +7226,64 @@
            given={Loukas},
            given_i={L\bibinitperiod}}}%
       }
-      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{namehash}{415a9d21574cd79b7ddeecd43639e777}
       \strng{fullhash}{415a9d21574cd79b7ddeecd43639e777}
       \field{labelalpha}{Fil+20}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{12}
+      \field{number}{3-4}
+      \field{title}{{Pose Selection and Feedback Methods in Tandem Combinations of Particle Filters with Scan-Matching for 2D Mobile Robot Localisation}}
+      \field{volume}{100}
+      \field{year}{2020}
+      \field{pages}{925\bibrangedash 944}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s10846-020-01253-6
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10846-020-01253-6
+      \endverb
+    \endentry
+    \entry{Filotheou2020cA}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{415a9d21574cd79b7ddeecd43639e777}
+      \strng{fullhash}{415a9d21574cd79b7ddeecd43639e777}
+      \field{labelalpha}{Fil+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0921-0296}
@@ -7141,12 +7330,64 @@
            given={Loukas},
            given_i={L\bibinitperiod}}}%
       }
-      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{namehash}{415a9d21574cd79b7ddeecd43639e777}
       \strng{fullhash}{415a9d21574cd79b7ddeecd43639e777}
       \field{labelalpha}{Fil+20}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
-      \field{extraalpha}{2}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{06}
+      \field{number}{3-4}
+      \field{title}{{Quantitative and Qualitative Evaluation of ROS-Enabled Local and Global Planners in 2D Static Environments}}
+      \field{volume}{98}
+      \field{year}{2020}
+      \field{pages}{567\bibrangedash 601}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/s10846-019-01086-y
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/s10846-019-01086-y
+      \endverb
+    \endentry
+    \entry{Filotheou2020bA}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{415a9d21574cd79b7ddeecd43639e777}
+      \strng{fullhash}{415a9d21574cd79b7ddeecd43639e777}
+      \field{labelalpha}{Fil+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0921-0296}
@@ -7234,7 +7475,7 @@
            given={Kichun},
            given_i={K\bibinitperiod}}}%
       }
-      \strng{namehash}{588b31f4ac435dccdf912ced79472fb9}
+      \strng{namehash}{14004bcc6913c3f3c9ce73a40eebaea3}
       \strng{fullhash}{14004bcc6913c3f3c9ce73a40eebaea3}
       \field{labelalpha}{Lee+20}
       \field{sortinit}{2}
@@ -7330,7 +7571,7 @@
            given={Yingpin},
            given_i={Y\bibinitperiod}}}%
       }
-      \strng{namehash}{ef79c8101888eb4df61b06f17bb4fe10}
+      \strng{namehash}{683c4b91c45193946cd421926e300900}
       \strng{fullhash}{683c4b91c45193946cd421926e300900}
       \field{labelalpha}{Qi+20}
       \field{sortinit}{2}
@@ -7392,6 +7633,146 @@
       \verb https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2758472
       \endverb
     \endentry
+    \entry{Tzitzis2020a}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=87ad3b6ab215e6c089217399b010fba2}{%
+           family={Megalou},
+           family_i={M\bibinitperiod},
+           given={Spyros},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b53de7fee58cfaf9691c2f47ce4e12bb}{%
+           family={Bletsas},
+           family_i={B\bibinitperiod},
+           given={Aggelos},
+           given_i={A\bibinitperiod}}}%
+        {{hash=79ac9d0cca2c1baa73deb40e78abf219}{%
+           family={Panayiotou},
+           family_i={P\bibinitperiod},
+           given={Konstantinos},
+           given_i={K\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=49b1b913082bf56687596f50d53dc828}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d2262674078bb011fdce19eac1faa1ab}
+      \strng{fullhash}{d2262674078bb011fdce19eac1faa1ab}
+      \field{labelalpha}{Tzi+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE International Conference on RFID (RFID)}
+      \field{isbn}{978-1-7281-5576-0}
+      \field{month}{09}
+      \field{title}{{Real-time 3D localization of RFID-tagged products by ground robots and drones with commercial off-the-shelf RFID equipment: Challenges and Solutions}}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/RFID49298.2020.9244904
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9244904/
+      \endverb
+    \endentry
+    \entry{Tzitzis2020}{article}{}
+      \name{author}{7}{}{%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=87ad3b6ab215e6c089217399b010fba2}{%
+           family={Megalou},
+           family_i={M\bibinitperiod},
+           given={Spyros},
+           given_i={S\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=93721333f6d79f818f80916aae7b5b7b}{%
+           family={Emmanouil},
+           family_i={E\bibinitperiod},
+           given={Tsardoulias\bibnamedelima G.},
+           given_i={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=b80b6c4ddde7371c0051003de3deafea}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos\bibnamedelima V.},
+           given_i={T\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d8826da62d2277b78dd6ad894621537}
+      \strng{fullhash}{4d8826da62d2277b78dd6ad894621537}
+      \field{labelalpha}{Tzi+20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-7281}
+      \field{journaltitle}{IEEE Journal of Radio Frequency Identification}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{{Trajectory Planning of a Moving Robot Empowers 3D Localization of RFID Tags With a Single Antenna}}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{283\bibrangedash 299}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1109/JRFID.2020.3000332
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9109328/
+      \endverb
+    \endentry
     \entry{bernreiter2021phaser}{article}{}
       \name{author}{5}{}{%
         {{hash=145ba6752bdeff853575063c31f7d7bf}{%
@@ -7423,7 +7804,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{f54a58ac6cedaf7adab5846fe8fbe93e}
+      \strng{namehash}{c020f1aaf8ad4021e3abe538f03c5883}
       \strng{fullhash}{c020f1aaf8ad4021e3abe538f03c5883}
       \field{labelalpha}{Ber+21}
       \field{sortinit}{2}
@@ -7498,7 +7879,7 @@
            given={Rongzu},
            given_i={R\bibinitperiod}}}%
       }
-      \strng{namehash}{6d357aff345017efe6e8db21b221a4ce}
+      \strng{namehash}{3024b2f95db4a561c6f9f8e76f7d88b2}
       \strng{fullhash}{3024b2f95db4a561c6f9f8e76f7d88b2}
       \field{labelalpha}{Che+21}
       \field{sortinit}{2}
@@ -7616,11 +7997,130 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{a4f106364794e858f5829655a2187ea1}
+      \strng{namehash}{8c2a633f420b59005a11eb6587d29d1e}
       \strng{fullhash}{8c2a633f420b59005a11eb6587d29d1e}
       \field{labelalpha}{Dim+21}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 6th International Conference on Smart and Sustainable Technologies (SpliTech)}
+      \field{isbn}{978-953-290-112-2}
+      \field{month}{09}
+      \field{title}{{Autonomous Robots, Drones and Repeaters for Fast, Reliable, Low-Cost RFID Inventorying {\&} Localization}}
+      \field{year}{2021}
+      \field{pages}{01\bibrangedash 06}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.23919/SpliTech52315.2021.9566425
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9566425/
+      \endverb
+    \endentry
+    \entry{Dimitriou2021a}{inproceedings}{}
+      \name{author}{18}{}{%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=87ad3b6ab215e6c089217399b010fba2}{%
+           family={Megalou},
+           family_i={M\bibinitperiod},
+           given={Spyros},
+           given_i={S\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b2fccd3c45e2a353277f651943170154}{%
+           family={Chatzistefanou},
+           family_i={C\bibinitperiod},
+           given={Aristidis\bibnamedelima R.},
+           given_i={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0ad1d5d9738e76ea8c586f746f168553}{%
+           family={Malama},
+           family_i={M\bibinitperiod},
+           given={Andreana},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=79ac9d0cca2c1baa73deb40e78abf219}{%
+           family={Panayiotou},
+           family_i={P\bibinitperiod},
+           given={Konstantinos},
+           given_i={K\bibinitperiod}}}%
+        {{hash=303b4efbed33cc2d1d66b8c0357f39d3}{%
+           family={Giannelos},
+           family_i={G\bibinitperiod},
+           given={Evaggelos},
+           given_i={E\bibinitperiod}}}%
+        {{hash=f9d0b61ed49cd94f111f0e97c72b7562}{%
+           family={Vasiliadis},
+           family_i={V\bibinitperiod},
+           given={Thodoris},
+           given_i={T\bibinitperiod}}}%
+        {{hash=7301b2b886fd2cd4d3dab45e8df23141}{%
+           family={Mouroutsos},
+           family_i={M\bibinitperiod},
+           given={Ioannis},
+           given_i={I\bibinitperiod}}}%
+        {{hash=b5c2dbfee870b6c2f0e55975e88db778}{%
+           family={Karanikas},
+           family_i={K\bibinitperiod},
+           given={Ioannis},
+           given_i={I\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=c924253288923e3b0760c5e6a424823e}{%
+           family={Sahalos},
+           family_i={S\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+        {{hash=49b1b913082bf56687596f50d53dc828}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b53de7fee58cfaf9691c2f47ce4e12bb}{%
+           family={Bletsas},
+           family_i={B\bibinitperiod},
+           given={Aggelos},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8c2a633f420b59005a11eb6587d29d1e}
+      \strng{fullhash}{8c2a633f420b59005a11eb6587d29d1e}
+      \field{labelalpha}{Dim+21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2021 6th International Conference on Smart and Sustainable Technologies (SpliTech)}
@@ -7663,7 +8163,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{cadbf88200aa2873edac6814b1035989}
+      \strng{namehash}{5eebd9bc010218c9e09627eefcc874b1}
       \strng{fullhash}{5eebd9bc010218c9e09627eefcc874b1}
       \field{labelalpha}{Koi+21}
       \field{sortinit}{2}
@@ -7682,6 +8182,63 @@
       \endverb
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/9560835/
+      \endverb
+    \endentry
+    \entry{Mylonopoulos2021}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=dc9de656af0b0f3d44f058577adb0461}{%
+           family={Mylonopoulos},
+           family_i={M\bibinitperiod},
+           given={George},
+           given_i={G\bibinitperiod}}}%
+        {{hash=fd61ba9b064778b80379b79db13fa20d}{%
+           family={Chatzistefanou},
+           family_i={C\bibinitperiod},
+           given={Aristidis\bibnamedelima Raptopoulos},
+           given_i={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=2f724fb5adaf88826f5acbc2c65fd6b6}{%
+           family={Siachalou},
+           family_i={S\bibinitperiod},
+           given={Stavroula},
+           given_i={S\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{296c903fc6c31cd2d305fe9fe11a7032}
+      \strng{fullhash}{296c903fc6c31cd2d305fe9fe11a7032}
+      \field{labelalpha}{Myl+21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2021 IEEE International Conference on RFID Technology and Applications (RFID-TA)}
+      \field{isbn}{978-1-6654-2657-2}
+      \field{month}{10}
+      \field{title}{{Localization, Tracking and Following a Moving Target by an RFID Equipped Robot}}
+      \field{year}{2021}
+      \field{pages}{32\bibrangedash 35}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/RFID-TA53372.2021.9617436
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9617436/
       \endverb
     \endentry
     \entry{Panigrahi2021}{article}{}
@@ -7742,7 +8299,7 @@
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{5e8d6b7d45dc1938a06a776a1f8ec799}
+      \strng{namehash}{01eb12991cd72e1ec915c6927151dd80}
       \strng{fullhash}{01eb12991cd72e1ec915c6927151dd80}
       \field{labelalpha}{Pha+21}
       \field{sortinit}{2}
@@ -7844,7 +8401,7 @@
            given={Shaoming},
            given_i={S\bibinitperiod}}}%
       }
-      \strng{namehash}{fcf97c2e7a4da4f988c1aeeb6068c553}
+      \strng{namehash}{9b44f1774d8bfd725f826753f292573b}
       \strng{fullhash}{9b44f1774d8bfd725f826753f292573b}
       \field{labelalpha}{Wan+21}
       \field{sortinit}{2}
@@ -7961,6 +8518,43 @@
       \field{labelalpha}{FSD22}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
+      \field{month}{10}
+      \field{title}{FSM: Correspondenceless scan-matching of panoramic 2D range scans}
+      \field{year}{2022}
+      \field{pages}{6968\bibrangedash 6975}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IROS47612.2022.9981228
+      \endverb
+    \endentry
+    \entry{Filotheou2022iA}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cdc6ac75a5278441313b31dd8f3a4f77}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={Georgios\bibnamedelima D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7f066535bd17d9701c82ef4f703223c}
+      \strng{fullhash}{d7f066535bd17d9701c82ef4f703223c}
+      \field{labelalpha}{FSD22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}
@@ -8011,11 +8605,74 @@
            given={Loukas},
            given_i={L\bibinitperiod}}}%
       }
-      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{namehash}{fbc9b41831f6920f83f41f2677a07c34}
       \strng{fullhash}{fbc9b41831f6920f83f41f2677a07c34}
       \field{labelalpha}{Fil+22}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0921-0296}
+      \field{journaltitle}{Journal of Intelligent {\&} Robotic Systems}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{Passive Global Localisation of Mobile Robot via 2D Fourier-Mellin Invariant Matching}}
+      \field{volume}{104}
+      \field{year}{2022}
+      \field{pages}{26}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s10846-021-01535-7
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s10846-021-01535-7
+      \endverb
+    \endentry
+    \entry{Filotheou2022eA}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=eb08a8004adcaace5a6d3c79a3c7d4f2}{%
+           family={Tsardoulias},
+           family_i={T\bibinitperiod},
+           given={Emmanouil},
+           given_i={E\bibinitperiod}}}%
+        {{hash=cbbc3163f21c2f02023a86848946b237}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=f0637b8a6cccec25bfa724719017c1a5}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ec31f59f041f30c77205eb2bf5fcd3d8}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={George},
+           given_i={G\bibinitperiod}}}%
+        {{hash=d6cce24836223027a9985dfccbad035b}{%
+           family={Petrou},
+           family_i={P\bibinitperiod},
+           given={Loukas},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{fbc9b41831f6920f83f41f2677a07c34}
+      \strng{fullhash}{fbc9b41831f6920f83f41f2677a07c34}
+      \field{labelalpha}{Fil+22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0921-0296}
@@ -8074,11 +8731,12 @@
            given={Antonis\bibnamedelima G.},
            given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{68610b923df4d6f7c57749b40f1542c4}
+      \strng{namehash}{5324fed1af77817351316ad7f7fa8cde}
       \strng{fullhash}{5324fed1af77817351316ad7f7fa8cde}
       \field{labelalpha}{Fil+23}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{1}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{25900056}
@@ -8094,6 +8752,100 @@
       \endverb
       \verb{url}
       \verb https://linkinghub.elsevier.com/retrieve/pii/S2590005623000139
+      \endverb
+    \endentry
+    \entry{Filotheou2023A}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=1d5d14c93d0ae2e2c6c2fc7369cc886e}{%
+           family={Symeonidis},
+           family_i={S\bibinitperiod},
+           given={Andreas\bibnamedelima L.},
+           given_i={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=cdc6ac75a5278441313b31dd8f3a4f77}{%
+           family={Sergiadis},
+           family_i={S\bibinitperiod},
+           given={Georgios\bibnamedelima D.},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5324fed1af77817351316ad7f7fa8cde}
+      \strng{fullhash}{5324fed1af77817351316ad7f7fa8cde}
+      \field{labelalpha}{Fil+23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{25900056}
+      \field{journaltitle}{Array}
+      \field{month}{07}
+      \field{title}{{Correspondenceless scan-to-map-scan matching of 2D panoramic range scans}}
+      \field{volume}{18}
+      \field{year}{2023}
+      \field{pages}{100288}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.array.2023.100288
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2590005623000139
+      \endverb
+    \endentry
+    \entry{Tzitzis2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cf82f037be65d275bdee924dc3070e84}{%
+           family={Tzitzis},
+           family_i={T\bibinitperiod},
+           given={Anastasios},
+           given_i={A\bibinitperiod}}}%
+        {{hash=6318c21a509fd6bf32b6f0b5e88a8e16}{%
+           family={Filotheou},
+           family_i={F\bibinitperiod},
+           given={Alexandros},
+           given_i={A\bibinitperiod}}}%
+        {{hash=fd61ba9b064778b80379b79db13fa20d}{%
+           family={Chatzistefanou},
+           family_i={C\bibinitperiod},
+           given={Aristidis\bibnamedelima Raptopoulos},
+           given_i={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=49b1b913082bf56687596f50d53dc828}{%
+           family={Yioultsis},
+           family_i={Y\bibinitperiod},
+           given={Traianos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=8517344a421738017952a06385041c62}{%
+           family={Dimitriou},
+           family_i={D\bibinitperiod},
+           given={Antonis\bibnamedelima G.},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{55eb984437256f371ed06318a1542e0f}
+      \strng{fullhash}{55eb984437256f371ed06318a1542e0f}
+      \field{labelalpha}{Tzi+23}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-7281}
+      \field{journaltitle}{IEEE Journal of Radio Frequency Identification}
+      \field{title}{{Real-Time Global Localization of a Mobile Robot by Exploiting RFID Technology}}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1109/JRFID.2023.3288982
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10160120/
       \endverb
     \endentry
     \entry{csm_manual1}{url}{}

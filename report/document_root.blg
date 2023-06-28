@@ -1,15 +1,25 @@
-[1] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:340> INFO - This is Biber 2.4
 [1] Config.pm:343> INFO - Logfile is 'document_root.blg'
-[71] biber:287> INFO - === Fri May 26, 2023, 23:09:10
-[220] Biber.pm:348> INFO - Reading 'document_root.bcf'
-[484] Biber.pm:742> INFO - Found 215 citekeys in bib section 0
-[494] Biber.pm:3151> INFO - Processing section 0
-[539] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
-[1150] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1670] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
-[8777] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[8777] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[8777] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[8778] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[9604] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
-[11237] bbl.pm:615> INFO - Output to document_root.bbl
+[84] biber:287> INFO - === Wed Jun 28, 2023, 19:32:57
+[226] Biber.pm:348> INFO - Reading 'document_root.bcf'
+[473] Biber.pm:742> INFO - Found 227 citekeys in bib section 0
+[482] Biber.pm:3151> INFO - Processing section 0
+[527] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
+[1112] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[1615] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
+[4486] Biber.pm:3308> INFO - Looking for bibtex format file 'papers_during_phd.bib' for section 0
+[4539] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[4581] bibtex.pm:974> INFO - Found BibTeX data source 'papers_during_phd.bib'
+[4781] Utils.pm:147> WARN - The field 'doi' in entry '8739423' cannot be null, deleting it
+[4781] Utils.pm:147> WARN - The field 'number' in entry '8739423' cannot be null, deleting it
+[4781] Utils.pm:147> WARN - The field 'volume' in entry '8739423' cannot be null, deleting it
+[4782] Utils.pm:147> WARN - The field 'doi' in entry '8739486' cannot be null, deleting it
+[4782] Utils.pm:147> WARN - The field 'number' in entry '8739486' cannot be null, deleting it
+[4782] Utils.pm:147> WARN - The field 'volume' in entry '8739486' cannot be null, deleting it
+[8355] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[8355] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[8356] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[8356] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[9197] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
+[10698] bbl.pm:615> INFO - Output to document_root.bbl
+[10698] Biber.pm:109> INFO - WARNINGS: 6
