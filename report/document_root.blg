@@ -1,25 +1,25 @@
 [0] Config.pm:340> INFO - This is Biber 2.4
 [0] Config.pm:343> INFO - Logfile is 'document_root.blg'
-[63] biber:287> INFO - === Wed Apr  3, 2024, 20:25:37
-[203] Biber.pm:348> INFO - Reading 'document_root.bcf'
-[439] Biber.pm:742> INFO - Found 227 citekeys in bib section 0
-[449] Biber.pm:3151> INFO - Processing section 0
-[498] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
+[62] biber:287> INFO - === Sat Apr 20, 2024, 13:47:07
+[204] Biber.pm:348> INFO - Reading 'document_root.bcf'
+[455] Biber.pm:742> INFO - Found 227 citekeys in bib section 0
+[465] Biber.pm:3151> INFO - Processing section 0
+[513] Biber.pm:3308> INFO - Looking for bibtex format file './parts/bibliography/bibliography.bib' for section 0
 [1084] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[1576] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
-[4416] Biber.pm:3308> INFO - Looking for bibtex format file 'papers_during_phd.bib' for section 0
-[4482] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
-[4541] bibtex.pm:974> INFO - Found BibTeX data source 'papers_during_phd.bib'
-[4757] Utils.pm:147> WARN - The field 'doi' in entry '8739423' cannot be null, deleting it
-[4757] Utils.pm:147> WARN - The field 'number' in entry '8739423' cannot be null, deleting it
-[4758] Utils.pm:147> WARN - The field 'volume' in entry '8739423' cannot be null, deleting it
-[4758] Utils.pm:147> WARN - The field 'doi' in entry '8739486' cannot be null, deleting it
-[4758] Utils.pm:147> WARN - The field 'number' in entry '8739486' cannot be null, deleting it
-[4758] Utils.pm:147> WARN - The field 'volume' in entry '8739486' cannot be null, deleting it
-[8254] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[8255] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[8255] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[8255] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
-[9106] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
-[10534] bbl.pm:615> INFO - Output to document_root.bbl
-[10534] Biber.pm:109> INFO - WARNINGS: 6
+[1579] bibtex.pm:974> INFO - Found BibTeX data source './parts/bibliography/bibliography.bib'
+[4321] Biber.pm:3308> INFO - Looking for bibtex format file 'papers_during_phd.bib' for section 0
+[4370] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[4412] bibtex.pm:974> INFO - Found BibTeX data source 'papers_during_phd.bib'
+[4629] Utils.pm:147> WARN - The field 'doi' in entry '8739423' cannot be null, deleting it
+[4629] Utils.pm:147> WARN - The field 'number' in entry '8739423' cannot be null, deleting it
+[4630] Utils.pm:147> WARN - The field 'volume' in entry '8739423' cannot be null, deleting it
+[4630] Utils.pm:147> WARN - The field 'doi' in entry '8739486' cannot be null, deleting it
+[4630] Utils.pm:147> WARN - The field 'number' in entry '8739486' cannot be null, deleting it
+[4630] Utils.pm:147> WARN - The field 'volume' in entry '8739486' cannot be null, deleting it
+[8256] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[8257] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[8257] Biber.pm:3028> INFO - Sorting list 'ynt/global' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[8257] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[9109] bbl.pm:519> INFO - Writing 'document_root.bbl' with encoding 'UTF-8'
+[10592] bbl.pm:615> INFO - Output to document_root.bbl
+[10593] Biber.pm:109> INFO - WARNINGS: 6
